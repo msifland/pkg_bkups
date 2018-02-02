@@ -3,18 +3,18 @@
 # See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
 # newer versions of the distribution.
 deb http://us.archive.ubuntu.com/ubuntu/ artful main restricted
-# deb-src http://us.archive.ubuntu.com/ubuntu/ xenial main restricted
+deb-src http://us.archive.ubuntu.com/ubuntu/ xenial main restricted
 
 ## Major bug fix updates produced after the final release of the
 ## distribution.
 deb http://us.archive.ubuntu.com/ubuntu/ artful-updates main restricted
-# deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-updates main restricted
+deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-updates main restricted
 
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
 ## team. Also, please note that software in universe WILL NOT receive any
 ## review or updates from the Ubuntu security team.
 deb http://us.archive.ubuntu.com/ubuntu/ artful universe
-# deb-src http://us.archive.ubuntu.com/ubuntu/ xenial universe
+deb-src http://us.archive.ubuntu.com/ubuntu/ xenial universe
 deb http://us.archive.ubuntu.com/ubuntu/ artful-updates universe
 deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-updates universe
 
@@ -24,7 +24,7 @@ deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-updates universe
 ## multiverse WILL NOT receive any review or updates from the Ubuntu
 ## security team.
 deb http://us.archive.ubuntu.com/ubuntu/ artful multiverse
-# deb-src http://us.archive.ubuntu.com/ubuntu/ xenial multiverse
+deb-src http://us.archive.ubuntu.com/ubuntu/ xenial multiverse
 deb http://us.archive.ubuntu.com/ubuntu/ artful-updates multiverse
 deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-updates multiverse
 
@@ -34,7 +34,7 @@ deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-updates multiverse
 ## Also, please note that software in backports WILL NOT receive any review
 ## or updates from the Ubuntu security team.
 deb http://us.archive.ubuntu.com/ubuntu/ artful-backports main restricted universe multiverse
-# deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-backports main restricted universe multiverse
+deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-backports main restricted universe multiverse
 
 ## Uncomment the following two lines to add software from Canonical's
 ## 'partner' repository.
@@ -48,4 +48,4 @@ deb-src http://security.ubuntu.com/ubuntu xenial-security main restricted
 deb http://security.ubuntu.com/ubuntu artful-security universe
 deb-src http://security.ubuntu.com/ubuntu xenial-security universe
 deb http://security.ubuntu.com/ubuntu artful-security multiverse
-deb-src http://security.ubuntu.com/ubuntu xenial-security multiverse
+# deb-src http://security.ubuntu.com/ubuntu xenial-security multiverse
