@@ -778,7 +778,6 @@ liba11y-profile-manager-data
 liba52-0.7.4:amd64
 libaa1:amd64
 libaacs0:amd64
-libabw-0.1-1:amd64
 libaccount-plugin-1.0-0:amd64
 libaccount-plugin-generic-oauth
 libaccount-plugin-google
@@ -1920,7 +1919,6 @@ liborbit-2-0:amd64
 liborbit2:amd64
 liborc-0.4-0:amd64
 liborcus-0.10-0v5:amd64
-liborcus-0.12-0:amd64
 libosgi-annotation-java
 libosgi-compendium-java
 libosgi-core-java
@@ -2149,24 +2147,6 @@ libreadline6:amd64
 libreadline7:amd64
 librecode0:amd64
 libreflectasm-java
-libreoffice-avmedia-backend-gstreamer
-libreoffice-base-core
-libreoffice-calc
-libreoffice-common
-libreoffice-core
-libreoffice-draw
-libreoffice-gnome
-libreoffice-gtk
-libreoffice-gtk2
-libreoffice-gtk3
-libreoffice-help-en-us
-libreoffice-impress
-libreoffice-ogltrans
-libreoffice-pdfimport
-libreoffice-style-galaxy
-libreoffice-style-human
-libreoffice-style-tango
-libreoffice-writer
 libresid-builder0c2a
 librest-0.7-0:amd64
 librevenge-0.0-0:amd64
@@ -2609,8 +2589,6 @@ libxml-twig-perl
 libxml-xpathengine-perl
 libxml2:amd64
 libxml2-utils
-libxmlsec1:amd64
-libxmlsec1-nss:amd64
 libxmu6:amd64
 libxmuu1:amd64
 libxnvctrl0
@@ -3384,7 +3362,6 @@ ubuntu-mate-artwork
 ubuntu-mate-core
 ubuntu-mate-default-settings
 ubuntu-mate-icon-themes
-ubuntu-mate-libreoffice-draw-icons
 ubuntu-mate-lightdm-theme
 ubuntu-mate-themes
 ubuntu-mate-wallpapers
