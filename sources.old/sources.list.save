@@ -26,7 +26,7 @@ deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-updates universe
 deb http://us.archive.ubuntu.com/ubuntu/ artful multiverse
 deb-src http://us.archive.ubuntu.com/ubuntu/ xenial multiverse
 deb http://us.archive.ubuntu.com/ubuntu/ artful-updates multiverse
-deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-updates multiverse
+deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-updates multiverse #xenial-updates-multi
 
 ## N.B. software from this repository may not have been tested as
 ## extensively as that contained in the main release, although it includes
@@ -34,7 +34,7 @@ deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-updates multiverse
 ## Also, please note that software in backports WILL NOT receive any review
 ## or updates from the Ubuntu security team.
 deb http://us.archive.ubuntu.com/ubuntu/ artful-backports main restricted universe multiverse
-deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-backports main restricted universe multiverse
+deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-backports main restricted universe multiverse #xenial-backports
 
 ## Uncomment the following two lines to add software from Canonical's
 ## 'partner' repository.
@@ -44,8 +44,8 @@ deb http://archive.canonical.com/ubuntu artful partner
 deb-src http://archive.canonical.com/ubuntu artful partner
 
 deb http://security.ubuntu.com/ubuntu artful-security main restricted
-deb-src http://security.ubuntu.com/ubuntu xenial-security main restricted
+deb-src http://security.ubuntu.com/ubuntu xenial-security main restricted #xenial-security-main-rest
 deb http://security.ubuntu.com/ubuntu artful-security universe
-deb-src http://security.ubuntu.com/ubuntu xenial-security universe
+deb-src http://security.ubuntu.com/ubuntu xenial-security universe #xenial-secuity-universe
 deb http://security.ubuntu.com/ubuntu artful-security multiverse
-deb-src http://security.ubuntu.com/ubuntu xenial-security multiverse
+deb-src http://security.ubuntu.com/ubuntu xenial-security multiverse #xenial-scurity-multiverse
