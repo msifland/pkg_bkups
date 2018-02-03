@@ -1,2 +1,2 @@
-deb http://ppa.launchpad.net/webupd8team/sublime-text-2/ubuntu artful main # disabled on upgrade to artful
-deb-src http://ppa.launchpad.net/webupd8team/sublime-text-2/ubuntu artful main # disabled on upgrade to artful
+deb http://ppa.launchpad.net/webupd8team/sublime-text-2/ubuntu xenial main # disabled on upgrade to artful
+deb-src http://ppa.launchpad.net/webupd8team/sublime-text-2/ubuntu xenial main # disabled on upgrade to artful
