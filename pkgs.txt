@@ -70,6 +70,7 @@ aptitude-common
 apturl
 apturl-common
 archdetect-deb
+aria2
 aspectj
 aspell
 aspell-en
@@ -2703,10 +2704,13 @@ linux-headers-4.13.0-31
 linux-headers-4.13.0-31-generic
 linux-headers-4.13.0-32
 linux-headers-4.13.0-32-generic
+linux-headers-4.15.1-041501
+linux-headers-4.15.1-041501-generic
 linux-headers-generic
 linux-headers-generic-hwe-16.04
 linux-image-4.13.0-31-generic
 linux-image-4.13.0-32-generic
+linux-image-4.15.1-041501-generic
 linux-image-extra-4.13.0-31-generic
 linux-image-extra-4.13.0-32-generic
 linux-image-generic
@@ -3426,6 +3430,7 @@ ucf
 udev
 udisks2
 ufw
+ukuu
 unattended-upgrades
 unity-asset-pool
 unity-gtk-module-common
