@@ -46,6 +46,7 @@ android-sdk-platform-tools-common
 ant
 ant-optional
 antlr
+anydesk
 apache2
 apache2-bin
 apache2-data
