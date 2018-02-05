@@ -147,6 +147,9 @@ cheese
 cheese-common
 chromium-codecs-ffmpeg-extra
 cifs-utils
+clamav
+clamav-base
+clamav-freshclam
 cli-common
 cmake
 cmake-data
@@ -997,6 +1000,7 @@ libchromaprint0:amd64
 libchromaprint1:amd64
 libcilkrts5:amd64
 libck-connector0:amd64
+libclamav7:amd64
 libclang1-3.7:amd64
 libclass-accessor-perl
 libclassworlds-java
@@ -1689,6 +1693,7 @@ liblivemedia50:amd64
 liblivemedia58:amd64
 libllvm3.7:amd64
 libllvm3.8:amd64
+libllvm3.9:amd64
 libllvm4.0:amd64
 libllvm5.0:amd64
 libllvm5.0:i386
@@ -2325,6 +2330,7 @@ libtext-charwidth-perl
 libtext-iconv-perl
 libtext-levenshtein-perl
 libtext-wrapi18n-perl
+libtfm1:amd64
 libthai-data
 libthai0:amd64
 libthai0:i386
