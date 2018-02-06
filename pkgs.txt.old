@@ -146,7 +146,6 @@ cdrdao
 cgmanager
 cheese
 cheese-common
-chrome-remote-desktop
 chromium-codecs-ffmpeg-extra
 cifs-utils
 clamav
@@ -3086,7 +3085,6 @@ python-pil:amd64
 python-piston-mini-client
 python-pkg-resources
 python-protobuf
-python-psutil
 python-psycopg2
 python-ptyprocess
 python-pyasn1
@@ -3531,7 +3529,6 @@ x11proto-xf86vidmode-dev
 x11proto-xinerama-dev
 xauth
 xaw3dg:amd64
-xbase-clients
 xbitmaps
 xbrlapi
 xcursor-themes
