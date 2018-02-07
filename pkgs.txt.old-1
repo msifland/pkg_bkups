@@ -6,7 +6,6 @@ accountsservice
 acl
 acpi-support
 acpid
-adb
 add-apt-key
 adduser
 adobe-flash-properties-gtk
@@ -18,12 +17,6 @@ aircrack-ng
 alsa-base
 alsa-utils
 anacron
-android-libadb
-android-libbase
-android-libcutils
-android-liblog
-android-sdk-platform-tools-common
-android-tools-adb
 ant
 ant-optional
 antlr
@@ -2714,6 +2707,8 @@ ltrace
 lupin-casper
 lupin-support
 lvm2
+lynx
+lynx-common
 lzip
 lzop
 m4
