@@ -1,5 +1,4 @@
 a11y-profile-manager-indicator
-aapt
 account-plugin-facebook
 account-plugin-flickr
 account-plugin-google
@@ -7,7 +6,6 @@ accountsservice
 acl
 acpi-support
 acpid
-adb
 add-apt-key
 adduser
 adobe-flash-properties-gtk
@@ -15,34 +13,10 @@ adobe-flashplugin
 adwaita-icon-theme
 adwaita-icon-theme-full
 aglfn
-aidl
 aircrack-ng
 alsa-base
 alsa-utils
 anacron
-android-libaapt
-android-libadb
-android-libandroidfw
-android-libbacktrace
-android-libbase
-android-libcutils
-android-libdex
-android-libetc1
-android-libext4-utils
-android-libf2fs-utils
-android-liblog
-android-libselinux
-android-libsparse
-android-libunwind
-android-libutils
-android-libziparchive
-android-platform-tools-base
-android-sdk
-android-sdk-build-tools
-android-sdk-build-tools-common
-android-sdk-common
-android-sdk-platform-tools
-android-sdk-platform-tools-common
 ant
 ant-optional
 antlr
@@ -108,7 +82,6 @@ bluez
 bluez-cups
 bluez-obexd
 bluez-tools
-bnd
 brasero
 brasero-cdrkit:amd64
 brasero-common
@@ -214,7 +187,6 @@ debconf
 debconf-i18n
 debhelper
 debianutils
-default-jdk-headless
 default-jre
 default-jre-headless
 deja-dup
@@ -224,7 +196,6 @@ deja-dup-backend-s3
 deja-dup-caja
 desktop-base
 desktop-file-utils
-dexdump
 dh-autoreconf
 dh-python
 dh-strip-nondeterminism
@@ -273,10 +244,10 @@ engrampa
 engrampa-common
 eom
 eom-common
+esound-common
 espeak
 espeak-data:amd64
 espeak-ng-data:amd64
-etc1tool
 ethtool
 evolution-data-server
 evolution-data-server-common
@@ -284,7 +255,6 @@ exfat-fuse
 exfat-utils
 exo-utils
 fakeroot
-fastboot
 fdisk
 festival
 festlex-cmu
@@ -498,6 +468,7 @@ gir1.2-wnck-1.0
 gir1.2-wnck-3.0:amd64
 gist
 git
+git-core
 git-man
 gkbd-capplet
 gksu
@@ -545,7 +516,6 @@ gparted
 gperf
 gpgv
 gpsd
-gradle
 graphviz
 grep
 greybird-gtk-theme
@@ -709,7 +679,6 @@ ivy
 iw
 jade
 java-common
-java-wrappers
 javascript-common
 jfsutils
 jshon
@@ -760,11 +729,19 @@ lib32gomp1
 lib32itm1
 lib32mpx0
 lib32mpx2
+lib32ncurses5
+lib32ncurses5-dev
 lib32quadmath0
+lib32readline-dev
+lib32readline7
 lib32stdc++-5-dev
 lib32stdc++-7-dev
 lib32stdc++6
+lib32tinfo-dev
+lib32tinfo5
 lib32ubsan0
+lib32z1
+lib32z1-dev
 liba11y-profile-manager-0.1-0:amd64
 liba11y-profile-manager-data
 liba52-0.7.4:amd64
@@ -781,10 +758,7 @@ libaec0:amd64
 libamd2:amd64
 libamd2.4.1:amd64
 libandroid-23-java
-libandroid-ddms-java
 libandroid-dex-java
-libandroid-tools-annotations-java
-libandroid-tools-common-java
 libantlr-java
 libao-common
 libao4:amd64
@@ -820,6 +794,7 @@ libasn1-8-heimdal:i386
 libasound2:amd64
 libasound2:i386
 libasound2-data
+libasound2-dev:amd64
 libasound2-plugins:amd64
 libasound2-plugins:i386
 libaspectj-java
@@ -852,6 +827,8 @@ libatspi2.0-0:amd64
 libatspi2.0-dev:amd64
 libattr1:amd64
 libaudio2:amd64
+libaudiofile-dev:amd64
+libaudiofile1:amd64
 libaudit-common
 libaudit1:amd64
 libauthen-sasl-perl
@@ -887,7 +864,6 @@ libbcpg-java
 libbcprov-java
 libbdplus0:amd64
 libbind9-140:amd64
-libbindex-java
 libbinutils:amd64
 libbison-dev:amd64
 libblas-common
@@ -933,6 +909,7 @@ libbsf-java
 libbsh-java
 libburn4:amd64
 libbz2-1.0:amd64
+libbz2-1.0:i386
 libbz2-dev:amd64
 libc++1:amd64
 libc++abi1:amd64
@@ -948,6 +925,7 @@ libc6-dev-i386
 libc6-dev-x32
 libc6-i386
 libc6-x32
+libcaca-dev
 libcaca0:amd64
 libcairo-gobject2:amd64
 libcairo-perl
@@ -1154,6 +1132,8 @@ libepoxy0:amd64
 libepsilon1:amd64
 libept1.5.0:amd64
 liberror-perl
+libesd0:amd64
+libesd0-dev
 libespeak-ng1:amd64
 libespeak1:amd64
 libestools2.4:amd64
@@ -1185,7 +1165,6 @@ libfastutil-java
 libfbclient2:amd64
 libfcgi-perl
 libfdisk1:amd64
-libfelix-osgi-obr-java
 libffi-dev:amd64
 libffi6:amd64
 libffi6:i386
@@ -1199,7 +1178,6 @@ libfile-fcntllock-perl
 libfile-listing-perl
 libfile-mimeinfo-perl
 libfile-stripnondeterminism-perl
-libfindbugs-java
 libfl-dev:amd64
 libflac8:amd64
 libflac8:i386
@@ -1296,6 +1274,7 @@ libgif7:amd64
 libgimp2.0
 libgirepository-1.0-1:amd64
 libgksu2-0
+libgl1-mesa-dev:amd64
 libgl1-mesa-dri:amd64
 libgl1-mesa-dri:i386
 libgl1-mesa-glx:amd64
@@ -1321,6 +1300,7 @@ libglibmm-2.4-1v5:amd64
 libglibmm-2.4-1v5:i386
 libglu1-mesa:amd64
 libglu1-mesa:i386
+libglu1-mesa-dev:amd64
 libgme0:amd64
 libgmime-2.6-0:amd64
 libgmime-3.0-0:amd64
@@ -1355,7 +1335,6 @@ libgoa-1.0-0b:amd64
 libgoa-1.0-common
 libgoa-backend-1.0-1:amd64
 libgomp1:amd64
-libgoogle-gson-java
 libgpars-groovy-java
 libgpg-error0:amd64
 libgpg-error0:i386
@@ -1369,8 +1348,6 @@ libgpm2:i386
 libgpod-common
 libgpod4:amd64
 libgps22:amd64
-libgradle-core-java
-libgradle-plugins-java
 libgraphite2-3:amd64
 libgraphite2-3:i386
 libgraphite2-dev
@@ -1523,9 +1500,7 @@ libjack-jackd2-0:i386
 libjansi-java
 libjansi-native-java
 libjansson4:amd64
-libjarjar-java
 libjasper1:amd64
-libjatl-java
 libjavascriptcoregtk-1.0-0:amd64
 libjavascriptcoregtk-3.0-0:amd64
 libjavascriptcoregtk-4.0-18:amd64
@@ -1534,20 +1509,14 @@ libjaxp1.3-java
 libjbig0:amd64
 libjbig0:i386
 libjbig2dec0:amd64
-libjcifs-java
-libjcip-annotations-java
 libjcommander-java
 libjcsp-java
 libjdom1-java
 libjdom2-java
 libjetty-java
-libjetty9-extra-java
 libjetty9-java
-libjformatstring-java
 libjline-java
 libjline2-java
-libjna-java
-libjna-jni
 libjpeg-turbo-progs
 libjpeg-turbo8:amd64
 libjpeg-turbo8:i386
@@ -1665,7 +1634,6 @@ libkrb5-3:amd64
 libkrb5-3:i386
 libkrb5support0:amd64
 libkrb5support0:i386
-libkryo-java
 libksba8:amd64
 libkscreenlocker5:amd64
 libkwalletbackend5-5:amd64
@@ -1773,7 +1741,6 @@ libmhash2:amd64
 libmimic0:amd64
 libminiupnpc10:amd64
 libminizip1:amd64
-libminlog-java
 libmirclient-dev:amd64
 libmirclient9:amd64
 libmircommon-dev:amd64
@@ -1830,8 +1797,6 @@ libmultiverse-core-java
 libmwaw-0.3-3:amd64
 libmysqlclient20:amd64
 libmythes-1.2-0:amd64
-libnative-platform-java
-libnative-platform-jni
 libnatpmp1:amd64
 libnautilus-extension1a:amd64
 libncurses5:amd64
@@ -1839,7 +1804,6 @@ libncurses5:i386
 libncurses5-dev:amd64
 libncursesw5:amd64
 libndp0:amd64
-libnekohtml-java
 libnemo-extension1:amd64
 libneon27-gnutls:amd64
 libnet-dbus-perl
@@ -2050,7 +2014,6 @@ libpolkit-backend-1-0:amd64
 libpolkit-gobject-1-0:amd64
 libpolkit-gtk-mate-1-0:amd64
 libpolkit-qt5-1-1:amd64
-libpolyglot-maven-java
 libpoppler-glib8:amd64
 libpoppler58:amd64
 libpoppler68:amd64
@@ -2082,6 +2045,7 @@ libpsl5:amd64
 libpsm-infinipath1
 libptexenc1:amd64
 libpthread-stubs0-dev:amd64
+libpulse-dev:amd64
 libpulse-mainloop-glib0:amd64
 libpulse0:amd64
 libpulse0:i386
@@ -2172,7 +2136,6 @@ libreadline5:amd64
 libreadline6:amd64
 libreadline7:amd64
 librecode0:amd64
-libreflectasm-java
 libresid-builder0c2a
 librest-0.7-0:amd64
 librevenge-0.0-0:amd64
@@ -2205,6 +2168,7 @@ libsasl2-modules-db:i386
 libsbc1:amd64
 libschroedinger-1.0-0:amd64
 libsdl-image1.2:amd64
+libsdl1.2-dev
 libsdl1.2debian:amd64
 libseccomp2:amd64
 libsecret-1-0:amd64
@@ -2231,10 +2195,10 @@ libsignon-glib1:amd64
 libsignon-plugins-common1:amd64
 libsignon-qt5-1:amd64
 libsigsegv2:amd64
-libsimple-http-java
 libsisu-inject-java
 libsisu-plexus-java
 libslang2:amd64
+libslang2-dev:amd64
 libslf4j-java
 libsm-dev:amd64
 libsm6:amd64
@@ -2283,6 +2247,8 @@ libsrtp0
 libss2:amd64
 libssh-gcrypt-4:amd64
 libssh2-1:amd64
+libssl-dev:amd64
+libssl-doc
 libssl1.0.0:amd64
 libssl1.0.0:i386
 libstartup-notification0:amd64
@@ -2311,8 +2277,6 @@ libsz2:amd64
 libtag1v5:amd64
 libtag1v5-vanilla:amd64
 libtagc0:amd64
-libtaglibs-standard-impl-java
-libtaglibs-standard-spec-java
 libtalloc2:amd64
 libtasn1-6:amd64
 libtasn1-6:i386
@@ -2500,7 +2464,9 @@ libwsutil8:amd64
 libwww-perl
 libwww-robotrules-perl
 libwxbase3.0-0v5:amd64
+libwxbase3.0-dev
 libwxgtk3.0-0v5:amd64
+libwxgtk3.0-dev
 libx11-6:amd64
 libx11-6:i386
 libx11-data
@@ -2821,6 +2787,7 @@ megasync
 memtest86+
 menu-xdg
 menulibre
+mesa-common-dev:amd64
 mesa-utils
 mesa-vdpau-drivers:amd64
 metacity
@@ -3335,7 +3302,6 @@ spectools
 speech-dispatcher
 speech-dispatcher-audio-plugins:amd64
 speech-dispatcher-espeak-ng
-split-select
 sqlite3
 squashfs-tools
 ssh-askpass-gnome
@@ -3506,6 +3472,8 @@ wmctrl
 wodim
 wpasupplicant
 wps-office
+wx-common
+wx3.0-headers
 x11-apps
 x11-common
 x11-session-utils
@@ -3626,13 +3594,13 @@ xvfb
 xxd
 xz-utils
 xzoom
+yasm
 yelp
 yelp-xsl
 zeitgeist-core
 zenity
 zenity-common
 zip
-zipalign
 zlib1g:amd64
 zlib1g:i386
 zlib1g-dev:amd64
