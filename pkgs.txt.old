@@ -628,6 +628,7 @@ hyphen-ga
 hyphen-id
 hyphen-it
 hyphen-ru
+icoutils
 icu-devtools
 ideviceinstaller
 ieee-data
@@ -2918,6 +2919,7 @@ pinentry-gnome3
 pinentry-gtk2
 pkg-config
 plank
+playonlinux
 pluma
 pluma-common
 plymouth
@@ -3102,6 +3104,8 @@ python-vte
 python-webencodings
 python-webkit
 python-wnck
+python-wxgtk3.0
+python-wxversion
 python-xapian
 python-xdg
 python-xlib
