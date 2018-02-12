@@ -2670,14 +2670,14 @@ linux-base
 linux-firmware
 linux-generic
 linux-generic-hwe-16.04
-linux-headers-4.10.0-38
-linux-headers-4.10.0-38-generic
 linux-headers-4.13.0-26
 linux-headers-4.13.0-26-generic
 linux-headers-4.13.0-31
 linux-headers-4.13.0-31-generic
 linux-headers-4.13.0-32
 linux-headers-4.13.0-32-generic
+linux-headers-4.14.18-041418
+linux-headers-4.14.18-041418-generic
 linux-headers-4.15.0-041500
 linux-headers-4.15.0-041500-generic
 linux-headers-4.15.1-041501
@@ -2689,7 +2689,7 @@ linux-headers-4.15.3-041503-generic
 linux-headers-generic
 linux-headers-generic-hwe-16.04
 linux-image-4.13.0-32-generic
-linux-image-4.15.1-041501-generic
+linux-image-4.14.18-041418-generic
 linux-image-4.15.2-041502-generic
 linux-image-4.15.3-041503-generic
 linux-image-extra-4.13.0-32-generic
