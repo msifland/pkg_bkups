@@ -718,6 +718,7 @@ language-pack-gnome-en-base
 language-selector-common
 language-selector-gnome
 laptop-detect
+launchpad-getkeys
 less
 lib32asan2
 lib32asan4
@@ -2967,6 +2968,7 @@ pulseaudio-utils
 pv
 pyrit
 python
+python-appindicator
 python-apt
 python-apt-common
 python-aptdaemon
@@ -3502,6 +3504,7 @@ xauth
 xaw3dg:amd64
 xbitmaps
 xbrlapi
+xclip
 xcursor-themes
 xdg-user-dirs
 xdg-user-dirs-gtk
@@ -3597,6 +3600,8 @@ xvfb
 xxd
 xz-utils
 xzoom
+y-ppa-manager
+yad
 yasm
 yelp
 yelp-xsl
