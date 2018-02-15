@@ -2,7 +2,7 @@
 
 # See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
 # newer versions of the distribution.
-deb http://us.archive.ubuntu.com/ubuntu/ artful main restricted
+deb http://us.archive.ubuntu.com/ubuntu/ artful restricted main
 deb-src http://us.archive.ubuntu.com/ubuntu/ artful multiverse main restricted universe #Added by software-properties
 deb-src http://us.archive.ubuntu.com/ubuntu/ xenial main restricted
 
@@ -44,7 +44,6 @@ deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-backports main restricted un
 ## This software is not part of Ubuntu, but is offered by Canonical and the
 ## respective vendors as a service to Ubuntu users.
 deb http://archive.canonical.com/ubuntu artful partner
-deb-src http://archive.canonical.com/ubuntu artful partner
 
 deb http://security.ubuntu.com/ubuntu artful-security restricted main
 deb-src http://security.ubuntu.com/ubuntu artful-security multiverse main restricted universe #Added by software-properties
@@ -56,7 +55,7 @@ deb-src http://security.ubuntu.com/ubuntu xenial-security multiverse #xenial-scu
 # deb-src http://security.ubuntu.com/ubuntu artful-security main restricted
 # deb-src http://security.ubuntu.com/ubuntu artful-security universe
 # deb-src http://security.ubuntu.com/ubuntu artful-security multiverse
-# deb-src http://archive.canonical.com/ubuntu artful partner
+deb-src http://archive.canonical.com/ubuntu artful partner
 # deb-src http://us.archive.ubuntu.com/ubuntu/ artful-backports main restricted universe multiverse
 # deb-src http://us.archive.ubuntu.com/ubuntu/ artful multiverse
 # deb-src http://us.archive.ubuntu.com/ubuntu/ artful-updates multiverse
@@ -64,3 +63,4 @@ deb-src http://security.ubuntu.com/ubuntu xenial-security multiverse #xenial-scu
 # deb-src http://us.archive.ubuntu.com/ubuntu/ artful universe
 # deb-src http://us.archive.ubuntu.com/ubuntu/ artful-updates main restricted
 # deb-src http://us.archive.ubuntu.com/ubuntu/ artful-updates main restricted
+# deb-src http://us.archive.ubuntu.com/ubuntu/ artful main restricted

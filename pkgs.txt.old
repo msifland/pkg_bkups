@@ -1657,6 +1657,7 @@ libldb1:amd64
 liblept5
 liblightdm-gobject-1-0:amd64
 liblilv-0-0
+liblinear3:amd64
 liblirc-client0:amd64
 liblircclient0
 liblist-moreutils-perl
@@ -2833,16 +2834,19 @@ nautilus
 nautilus-data
 nautilus-extension-brasero:amd64
 nautilus-sendto
+nbtscan
 ncftp
 ncurses-base
 ncurses-bin
 ncurses-term
+ndiff
 ndiswrapper
 ndiswrapper-dkms
 ndiswrapper-utils-1.9
 net-tools
 netbase
 netcat-openbsd
+netdiscover
 netpbm
 network-manager
 network-manager-gnome
@@ -2850,6 +2854,7 @@ network-manager-openvpn
 network-manager-openvpn-gnome
 network-manager-pptp
 network-manager-pptp-gnome
+nmap
 nplan
 ntfs-3g
 ntp
