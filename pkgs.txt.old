@@ -2676,10 +2676,6 @@ linux-generic
 linux-generic-hwe-16.04
 linux-headers-4.13.0-32
 linux-headers-4.13.0-32-generic
-linux-headers-4.14.18-041418
-linux-headers-4.14.18-041418-generic
-linux-headers-4.15.2-041502
-linux-headers-4.15.2-041502-generic
 linux-headers-4.15.3-041503
 linux-headers-4.15.3-041503-generic
 linux-headers-4.15.4-041504
@@ -2687,8 +2683,6 @@ linux-headers-4.15.4-041504-generic
 linux-headers-generic
 linux-headers-generic-hwe-16.04
 linux-image-4.13.0-32-generic
-linux-image-4.14.18-041418-generic
-linux-image-4.15.2-041502-generic
 linux-image-4.15.3-041503-generic
 linux-image-4.15.4-041504-generic
 linux-image-extra-4.13.0-32-generic
