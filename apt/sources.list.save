@@ -52,15 +52,3 @@ deb http://security.ubuntu.com/ubuntu artful-security universe
 deb-src http://security.ubuntu.com/ubuntu xenial-security universe #xenial-secuity-universe
 deb http://security.ubuntu.com/ubuntu artful-security multiverse
 deb-src http://security.ubuntu.com/ubuntu xenial-security multiverse #xenial-scurity-multiverse
-# deb-src http://security.ubuntu.com/ubuntu artful-security main restricted
-# deb-src http://security.ubuntu.com/ubuntu artful-security universe
-# deb-src http://security.ubuntu.com/ubuntu artful-security multiverse
-deb-src http://archive.canonical.com/ubuntu artful partner
-# deb-src http://us.archive.ubuntu.com/ubuntu/ artful-backports main restricted universe multiverse
-# deb-src http://us.archive.ubuntu.com/ubuntu/ artful multiverse
-# deb-src http://us.archive.ubuntu.com/ubuntu/ artful-updates multiverse
-# deb-src http://us.archive.ubuntu.com/ubuntu/ artful-updates universe
-# deb-src http://us.archive.ubuntu.com/ubuntu/ artful universe
-# deb-src http://us.archive.ubuntu.com/ubuntu/ artful-updates main restricted
-# deb-src http://us.archive.ubuntu.com/ubuntu/ artful-updates main restricted
-# deb-src http://us.archive.ubuntu.com/ubuntu/ artful main restricted
