@@ -38,7 +38,7 @@ APT::NeverAutoRemove
 /* Debug information:
 # dpkg list:
 ii  linux-image-4.13.0-36-generic                 4.13.0-36.40                                amd64        Linux kernel image for version 4.13.0 on 64 bit x86 SMP
-ii  linux-image-4.15.4-041504-generic             4.15.4-041504.201802162207                  amd64        Linux kernel image for version 4.15.4 on 64 bit x86 SMP
+iF  linux-image-4.15.4-041504-generic             4.15.4-041504.201802162207                  amd64        Linux kernel image for version 4.15.4 on 64 bit x86 SMP
 ii  linux-image-4.15.5-041505-generic             4.15.5-041505.201802221031                  amd64        Linux kernel image for version 4.15.5 on 64 bit x86 SMP
 ii  linux-image-extra-4.13.0-36-generic           4.13.0-36.40                                amd64        Linux kernel extra modules for version 4.13.0 on 64 bit x86 SMP
 ii  linux-image-generic                           4.13.0.36.38                                amd64        Generic Linux kernel image
@@ -50,8 +50,8 @@ ii  linux-image-generic                           4.13.0.36.38                  
 4.15.5-041505.201802221031
 4.15.4-041504.201802162207
 4.13.0-36.40
-# Installing kernel:  (4.15.6)
-# Running kernel: 4.15.5-041505.201802221031 (4.15.5-041505-generic)
+# Installing kernel: 4.15.4-041504.201802162207 (4.15.4-041504-generic)
+# Running kernel: ignored (4.15.6)
 # Last kernel: 4.15.5-041505.201802221031
 # Previous kernel: 4.15.4-041504.201802162207
 # Kernel versions list to keep:
