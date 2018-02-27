@@ -46,6 +46,9 @@ apturl
 apturl-common
 archdetect-deb
 aria2
+asciidoc
+asciidoc-base
+asciidoc-common
 aspectj
 aspell
 aspell-en
@@ -74,6 +77,7 @@ bind9-host
 binfmt-support
 binutils
 binutils-common:amd64
+binutils-dev
 binutils-x86-64-linux-gnu
 bison
 blueman
@@ -199,6 +203,7 @@ desktop-file-utils
 dh-autoreconf
 dh-python
 dh-strip-nondeterminism
+dh-systemd
 dialog
 dictionaries-common
 diffstat
@@ -221,8 +226,10 @@ doc-base
 docbook
 docbook-dsssl
 docbook-to-man
+docbook-utils
 docbook-xml
 docbook-xsl
+docutils-common
 dosfstools
 dpkg
 dpkg-dev
@@ -261,6 +268,7 @@ festlex-cmu
 festlex-poslex
 festvox-kallpc16k
 ffmpegthumbnailer
+fig2dev
 file
 findutils
 firebird2.5-common
@@ -283,6 +291,7 @@ fonts-dejavu-extra
 fonts-deva
 fonts-deva-extra
 fonts-droid-fallback
+fonts-font-awesome
 fonts-freefont-ttf
 fonts-gargi
 fonts-gubbi
@@ -680,6 +689,7 @@ iucode-tool
 ivy
 iw
 jade
+jadetex
 java-common
 javascript-common
 jfsutils
@@ -690,6 +700,7 @@ junit4
 kactivities-bin
 kactivitymanagerd
 kbd
+kernel-wedge
 kerneloops
 kerneloops-applet
 keyboard-configuration
@@ -834,6 +845,7 @@ libaudio2:amd64
 libaudiofile-dev:amd64
 libaudiofile1:amd64
 libaudit-common
+libaudit-dev:amd64
 libaudit1:amd64
 libauthen-sasl-perl
 libautodie-perl
@@ -950,6 +962,7 @@ libcanberra-gtk3-0:amd64
 libcanberra-gtk3-module:amd64
 libcanberra-pulse:amd64
 libcanberra0:amd64
+libcap-ng-dev
 libcap-ng0:amd64
 libcap2:amd64
 libcap2:i386
@@ -1101,6 +1114,7 @@ libdvdcss-dev:amd64
 libdvdcss2:amd64
 libdvdnav4:amd64
 libdvdread4:amd64
+libdw-dev:amd64
 libdw1:amd64
 libe-book-0.1-1:amd64
 libeasymock-java
@@ -1125,6 +1139,7 @@ libefivar1:amd64
 libegl1-mesa:amd64
 libegl1-mesa-dev:amd64
 libegl1-mesa-drivers:amd64
+libelf-dev:amd64
 libelf1:amd64
 libelf1:i386
 libemail-valid-perl
@@ -1452,6 +1467,7 @@ libhwloc5:amd64
 libhx509-5-heimdal:amd64
 libhx509-5-heimdal:i386
 libhyphen0:amd64
+libiberty-dev:amd64
 libibus-1.0-5:amd64
 libibverbs1
 libical1a:amd64
@@ -1529,7 +1545,9 @@ libjpeg8:i386
 libjpeg9:amd64
 libjs-jquery
 libjs-mathjax
+libjs-modernizr
 libjs-openlayers
+libjs-sphinxdoc
 libjs-underscore
 libjsch-java
 libjson-c2:amd64
@@ -1701,6 +1719,7 @@ liblwres141:amd64
 liblz4-1:amd64
 liblz4-1:i386
 liblz4-tool
+liblzma-dev:amd64
 liblzma5:amd64
 liblzma5:i386
 liblzo2-2:amd64
@@ -1826,6 +1845,7 @@ libnetpbm10
 libnettle6:amd64
 libnettle6:i386
 libnetty-3.9-java
+libnewt-dev:amd64
 libnewt0.52:amd64
 libnfnetlink0:amd64
 libnghttp2-14:amd64
@@ -1850,6 +1870,7 @@ libnspr4:amd64
 libnss-mdns:amd64
 libnss3:amd64
 libntfs-3g872
+libnuma-dev:amd64
 libnuma1:amd64
 libnux-4.0-common
 liboauth0:amd64
@@ -1961,6 +1982,7 @@ libpathplan4
 libpcap0.8:amd64
 libpcap0.8:i386
 libpcaudio0
+libpci-dev
 libpci3:amd64
 libpciaccess0:amd64
 libpciaccess0:i386
@@ -2059,8 +2081,10 @@ libpurple-bin
 libpurple0
 libpwquality-common
 libpwquality1:amd64
+libpython-dev:amd64
 libpython-stdlib:amd64
 libpython2.7:amd64
+libpython2.7-dev:amd64
 libpython2.7-minimal:amd64
 libpython2.7-stdlib:amd64
 libpython3-dev:amd64
@@ -2190,6 +2214,7 @@ libsepol1:amd64
 libserd-0-0:amd64
 libservlet2.5-java
 libservlet3.1-java
+libsgmls-perl
 libsgutils2-2
 libshine3:amd64
 libshout3:amd64
@@ -2338,6 +2363,7 @@ libtumbler-1-0
 libtwolame0:amd64
 libtxc-dxtn-s2tc:i386
 libubsan0:amd64
+libudev-dev:amd64
 libudev1:amd64
 libudev1:i386
 libudisks2-0:amd64
@@ -2352,7 +2378,9 @@ libunity-protocol-private0:amd64
 libunity-scopes-json-def-desktop
 libunity9:amd64
 libunshield0:amd64
+libunwind-dev
 libunwind8
+libunwind8-dev
 libupnp6
 libupower-glib3:amd64
 liburi-perl
@@ -2713,6 +2741,7 @@ lzop
 m4
 make
 makedev
+makedumpfile
 man-db
 manpages
 manpages-dev
@@ -2944,6 +2973,7 @@ ppp
 pppconfig
 pppoeconf
 pptp-linux
+preview-latex-style
 printer-driver-brlaser
 printer-driver-c2esp
 printer-driver-foo2zjs
@@ -2972,6 +3002,7 @@ pulseaudio-utils
 pv
 pyrit
 python
+python-alabaster
 python-appindicator
 python-apt
 python-apt-common
@@ -2980,6 +3011,8 @@ python-aptdaemon.gtk3widgets
 python-asn1crypto
 python-attr
 python-avahi
+python-babel
+python-babel-localedata
 python-beautifulsoup
 python-blinker
 python-boto
@@ -3006,7 +3039,9 @@ python-debian
 python-debtagshw
 python-decorator
 python-defer
+python-dev
 python-dirspec
+python-docutils
 python-ecdsa
 python-egenix-mxdatetime
 python-egenix-mxtools
@@ -3028,10 +3063,12 @@ python-gtksourceview2
 python-html5lib
 python-httplib2
 python-idna
+python-imagesize
 python-imaging
 python-impacket
 python-incremental
 python-ipaddress
+python-jinja2
 python-jwt
 python-ldb:amd64
 python-libxml2
@@ -3070,6 +3107,7 @@ python-pyatspi2
 python-pycurl
 python-pyexiv2
 python-pyexiv2-doc
+python-pygments
 python-pyinotify
 python-pymssql
 python-pymysql
@@ -3081,6 +3119,7 @@ python-renderpm:amd64
 python-reportlab
 python-reportlab-accel:amd64
 python-requests
+python-roman
 python-samba
 python-scapy
 python-serial
@@ -3089,6 +3128,8 @@ python-setproctitle:amd64
 python-sip
 python-six
 python-smbc
+python-sphinx
+python-sphinx-rtd-theme
 python-sqlalchemy
 python-sqlalchemy-doc
 python-sqlalchemy-ext
@@ -3098,6 +3139,7 @@ python-twisted-bin:amd64
 python-twisted-core
 python-twisted-names
 python-twisted-web
+python-tz
 python-ubuntu-sso-client
 python-urllib3
 python-utidylib
@@ -3114,6 +3156,7 @@ python-xlib
 python-yaml
 python-zope.interface
 python2.7
+python2.7-dev
 python2.7-minimal
 python3
 python3-apport
@@ -3289,7 +3332,9 @@ session-migration
 sessioninstaller
 sgml-base
 sgml-data
+sgmlspl
 shared-mime-info
+sharutils
 shotwell
 shotwell-common
 signon-keyring-extension
@@ -3318,6 +3363,8 @@ spectools
 speech-dispatcher
 speech-dispatcher-audio-plugins:amd64
 speech-dispatcher-espeak-ng
+sphinx-common
+sphinx-rtd-theme-common
 sqlite3
 squashfs-tools
 ssh-askpass-gnome
@@ -3357,8 +3404,16 @@ testng
 tex-common
 texlive-base
 texlive-binaries
+texlive-fonts-recommended
+texlive-formats-extra
+texlive-htmlxml
 texlive-latex-base
 texlive-latex-base-doc
+texlive-latex-extra
+texlive-latex-recommended
+texlive-pictures
+texlive-plain-generic
+texlive-xetex
 thermald
 thin-client-config-agent
 thunar
@@ -3368,6 +3423,7 @@ thunar-media-tags-plugin
 thunar-volman
 tilda
 time
+tipa
 tk
 tk8.6
 tlp
@@ -3378,6 +3434,7 @@ topmenu-gtk-common
 topmenu-gtk2
 topmenu-gtk3
 toshset
+transfig
 transmission-common
 transmission-gtk
 tshark
@@ -3445,6 +3502,7 @@ usbmuxd
 usbutils
 user-setup
 util-linux
+uuid-dev:amd64
 uuid-runtime
 vala-panel-appmenu-common
 variety
@@ -3572,6 +3630,7 @@ xinit
 xinput
 xkb-data
 xml-core
+xmlto
 xorg
 xorg-docs-core
 xorg-sgml-doctools
