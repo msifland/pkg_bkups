@@ -2355,9 +2355,11 @@ libtopmenu-server-gtk2-0
 libtopmenu-server-gtk3-0
 libtotem-plparser-common
 libtotem-plparser18:amd64
+libtpm-unseal1
 libtracker-sparql-1.0-0:amd64
 libtracker-sparql-2.0-0:amd64
 libtsan0:amd64
+libtspi1
 libtumbler-1-0
 libtwolame0:amd64
 libtxc-dxtn-s2tc:i386
@@ -2821,6 +2823,7 @@ menulibre
 mesa-common-dev:amd64
 mesa-utils
 mesa-vdpau-drivers:amd64
+meson
 metacity
 metacity-common
 mime-support
@@ -2883,6 +2886,7 @@ network-manager-openvpn
 network-manager-openvpn-gnome
 network-manager-pptp
 network-manager-pptp-gnome
+ninja-build
 nmap
 nplan
 ntfs-3g
@@ -3435,9 +3439,11 @@ topmenu-gtk-common
 topmenu-gtk2
 topmenu-gtk3
 toshset
+tpm-tools
 transfig
 transmission-common
 transmission-gtk
+trousers
 tshark
 ttf-ancient-fonts-symbola
 ttf-ubuntu-font-family
