@@ -2849,6 +2849,7 @@ mscompress
 mtools
 mtp-tools
 mtr-tiny
+mullvad
 multiarch-support
 myspell-en-au
 myspell-en-gb
@@ -3010,6 +3011,7 @@ pv
 pyrit
 python
 python-alabaster
+python-appdirs
 python-appindicator
 python-apt
 python-apt-common
@@ -3074,6 +3076,7 @@ python-imagesize
 python-imaging
 python-impacket
 python-incremental
+python-ipaddr
 python-ipaddress
 python-jinja2
 python-jwt
@@ -3105,6 +3108,7 @@ python-pip-whl
 python-piston-mini-client
 python-pkg-resources
 python-protobuf
+python-psutil
 python-psycopg2
 python-ptyprocess
 python-pyasn1
