@@ -268,6 +268,7 @@ festival
 festlex-cmu
 festlex-poslex
 festvox-kallpc16k
+ffmpeg
 ffmpegthumbnailer
 fig2dev
 file
@@ -863,6 +864,7 @@ libavc1394-0:amd64
 libavcodec-extra
 libavcodec-extra57:amd64
 libavcodec-ffmpeg-extra56:amd64
+libavdevice57:amd64
 libavfilter-ffmpeg5:amd64
 libavfilter6:amd64
 libavformat-ffmpeg56:amd64
@@ -2202,6 +2204,7 @@ libschroedinger-1.0-0:amd64
 libsdl-image1.2:amd64
 libsdl1.2-dev
 libsdl1.2debian:amd64
+libsdl2-2.0-0:amd64
 libseccomp2:amd64
 libsecret-1-0:amd64
 libsecret-common

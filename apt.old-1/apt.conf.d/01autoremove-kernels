@@ -2,70 +2,57 @@
 APT::NeverAutoRemove
 {
    "^linux-image-4\.15\.10-041510-generic$";
-   "^linux-image-4\.15\.9-msi$";
-   "^linux-image-4\.16\.0-041600rc5-generic$";
+   "^linux-image-4\.15\.11-041511-generic$";
    "^linux-headers-4\.15\.10-041510-generic$";
-   "^linux-headers-4\.15\.9-msi$";
-   "^linux-headers-4\.16\.0-041600rc5-generic$";
+   "^linux-headers-4\.15\.11-041511-generic$";
    "^linux-image-extra-4\.15\.10-041510-generic$";
-   "^linux-image-extra-4\.15\.9-msi$";
-   "^linux-image-extra-4\.16\.0-041600rc5-generic$";
+   "^linux-image-extra-4\.15\.11-041511-generic$";
    "^linux-signed-image-4\.15\.10-041510-generic$";
-   "^linux-signed-image-4\.15\.9-msi$";
-   "^linux-signed-image-4\.16\.0-041600rc5-generic$";
+   "^linux-signed-image-4\.15\.11-041511-generic$";
    "^kfreebsd-image-4\.15\.10-041510-generic$";
-   "^kfreebsd-image-4\.15\.9-msi$";
-   "^kfreebsd-image-4\.16\.0-041600rc5-generic$";
+   "^kfreebsd-image-4\.15\.11-041511-generic$";
    "^kfreebsd-headers-4\.15\.10-041510-generic$";
-   "^kfreebsd-headers-4\.15\.9-msi$";
-   "^kfreebsd-headers-4\.16\.0-041600rc5-generic$";
+   "^kfreebsd-headers-4\.15\.11-041511-generic$";
    "^gnumach-image-4\.15\.10-041510-generic$";
-   "^gnumach-image-4\.15\.9-msi$";
-   "^gnumach-image-4\.16\.0-041600rc5-generic$";
+   "^gnumach-image-4\.15\.11-041511-generic$";
    "^.*-modules-4\.15\.10-041510-generic$";
-   "^.*-modules-4\.15\.9-msi$";
-   "^.*-modules-4\.16\.0-041600rc5-generic$";
+   "^.*-modules-4\.15\.11-041511-generic$";
    "^.*-kernel-4\.15\.10-041510-generic$";
-   "^.*-kernel-4\.15\.9-msi$";
-   "^.*-kernel-4\.16\.0-041600rc5-generic$";
+   "^.*-kernel-4\.15\.11-041511-generic$";
    "^linux-backports-modules-.*-4\.15\.10-041510-generic$";
-   "^linux-backports-modules-.*-4\.15\.9-msi$";
-   "^linux-backports-modules-.*-4\.16\.0-041600rc5-generic$";
+   "^linux-backports-modules-.*-4\.15\.11-041511-generic$";
    "^linux-tools-4\.15\.10-041510-generic$";
-   "^linux-tools-4\.15\.9-msi$";
-   "^linux-tools-4\.16\.0-041600rc5-generic$";
+   "^linux-tools-4\.15\.11-041511-generic$";
 };
 /* Debug information:
 # dpkg list:
 ii  linux-image-4.13.0-37-generic                 4.13.0-37.42                                amd64        Linux kernel image for version 4.13.0 on 64 bit x86 SMP
 ii  linux-image-4.15.10-041510-generic            4.15.10-041510.201803152130                 amd64        Linux kernel image for version 4.15.10 on 64 bit x86 SMP
+iF  linux-image-4.15.11-041511-generic            4.15.11-041511.201803190530                 amd64        Linux kernel image for version 4.15.11 on 64 bit x86 SMP
 ii  linux-image-4.15.8-041508-generic             4.15.8-041508.201803091630                  amd64        Linux kernel image for version 4.15.8 on 64 bit x86 SMP
 ii  linux-image-4.15.9-msi                        4.15.9-msi-1                                amd64        Linux kernel, version 4.15.9-msi
-iF  linux-image-4.16.0-041600rc5-generic          4.16.0-041600rc5.201803112130               amd64        Linux kernel image for version 4.16.0 on 64 bit x86 SMP
 ii  linux-image-extra-4.13.0-37-generic           4.13.0-37.42                                amd64        Linux kernel extra modules for version 4.13.0 on 64 bit x86 SMP
 ii  linux-image-generic                           4.13.0.37.40                                amd64        Generic Linux kernel image
 # list of installed kernel packages:
 4.13.0-37-generic 4.13.0-37.42
 4.15.10-041510-generic 4.15.10-041510.201803152130
+4.15.11-041511-generic 4.15.11-041511.201803190530
 4.15.8-041508-generic 4.15.8-041508.201803091630
 4.15.9-msi 4.15.9-msi-1
-4.16.0-041600rc5-generic 4.16.0-041600rc5.201803112130
 # list of different kernel versions:
-4.16.0-041600rc5.201803112130
+4.15.11-041511.201803190530
 4.15.10-041510.201803152130
 4.15.9-msi-1
 4.15.8-041508.201803091630
 4.13.0-37.42
-# Installing kernel: 4.16.0-041600rc5.201803112130 (4.16.0-041600rc5-generic)
-# Running kernel: 4.15.9-msi-1 (4.15.9-msi)
-# Last kernel: 4.16.0-041600rc5.201803112130
+# Installing kernel: 4.15.11-041511.201803190530 (4.15.11-041511-generic)
+# Running kernel: 4.15.10-041510.201803152130 (4.15.10-041510-generic)
+# Last kernel: 4.15.11-041511.201803190530
 # Previous kernel: 4.15.10-041510.201803152130
 # Kernel versions list to keep:
 4.15.10-041510.201803152130
-4.15.9-msi-1
-4.16.0-041600rc5.201803112130
+4.15.11-041511.201803190530
 # Kernel packages (version part) to protect:
 4\.15\.10-041510-generic
-4\.15\.9-msi
-4\.16\.0-041600rc5-generic
+4\.15\.11-041511-generic
 */
