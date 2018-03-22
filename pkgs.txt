@@ -2715,11 +2715,14 @@ linux-headers-4.15.10-041510
 linux-headers-4.15.10-041510-generic
 linux-headers-4.15.11-041511
 linux-headers-4.15.11-041511-generic
+linux-headers-4.15.12-041512
+linux-headers-4.15.12-041512-generic
 linux-headers-4.15.9-msi
 linux-headers-generic
 linux-image-4.13.0-37-generic
 linux-image-4.15.10-041510-generic
 linux-image-4.15.11-041511-generic
+linux-image-4.15.12-041512-generic
 linux-image-4.15.9-msi
 linux-image-extra-4.13.0-37-generic
 linux-image-generic
