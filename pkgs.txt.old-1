@@ -2715,10 +2715,13 @@ linux-headers-4.15.11-041511
 linux-headers-4.15.11-041511-generic
 linux-headers-4.15.12-041512
 linux-headers-4.15.12-041512-generic
+linux-headers-4.15.13-041513
+linux-headers-4.15.13-041513-generic
 linux-headers-generic
 linux-image-4.13.0-37-generic
 linux-image-4.15.11-041511-generic
 linux-image-4.15.12-041512-generic
+linux-image-4.15.13-041513-generic
 linux-image-extra-4.13.0-37-generic
 linux-image-generic
 linux-libc-dev:amd64
