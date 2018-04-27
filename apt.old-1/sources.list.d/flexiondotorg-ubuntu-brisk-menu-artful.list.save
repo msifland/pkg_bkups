@@ -1,2 +1,2 @@
-deb http://ppa.launchpad.net/flexiondotorg/brisk-menu/ubuntu artful main
-# deb-src http://ppa.launchpad.net/flexiondotorg/brisk-menu/ubuntu artful main
+deb http://ppa.launchpad.net/flexiondotorg/brisk-menu/ubuntu bionic main
+deb-src http://ppa.launchpad.net/flexiondotorg/brisk-menu/ubuntu bionic main

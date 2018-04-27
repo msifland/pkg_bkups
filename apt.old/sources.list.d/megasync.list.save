@@ -1,1 +1,1 @@
-# deb https://mega.nz/linux/MEGAsync/xUbuntu_16.04/ ./ # disabled on upgrade to bionic
+deb https://mega.nz/linux/MEGAsync/xUbuntu_16.04/ ./ # disabled on upgrade to bionic

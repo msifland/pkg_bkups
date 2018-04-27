@@ -1,1 +1,1 @@
-# deb https://download.sublimetext.com/ apt/stable/ # disabled on upgrade to bionic
+deb https://download.sublimetext.com/ apt/stable/ # disabled on upgrade to bionic
