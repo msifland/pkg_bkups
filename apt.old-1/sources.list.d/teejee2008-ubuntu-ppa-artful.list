@@ -1,1 +1,1 @@
-# deb http://ppa.launchpad.net/teejee2008/ppa/ubuntu bionic main # disabled on upgrade to bionic
+deb http://ppa.launchpad.net/teejee2008/ppa/ubuntu bionic main
