@@ -2,22 +2,22 @@
 
 # See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
 # newer versions of the distribution.
-deb http://us.archive.ubuntu.com/ubuntu/ artful restricted main
-deb-src http://us.archive.ubuntu.com/ubuntu/ artful multiverse main restricted universe #Added by software-properties
+deb http://us.archive.ubuntu.com/ubuntu/ bionic restricted main
+deb-src http://us.archive.ubuntu.com/ubuntu/ bionic multiverse main restricted universe #Added by software-properties
 # deb-src http://us.archive.ubuntu.com/ubuntu/ xenial main restricted
 
 ## Major bug fix updates produced after the final release of the
 ## distribution.
-deb http://us.archive.ubuntu.com/ubuntu/ artful-updates restricted main
-deb-src http://us.archive.ubuntu.com/ubuntu/ artful-updates multiverse main restricted universe #Added by software-properties
+deb http://us.archive.ubuntu.com/ubuntu/ bionic-updates restricted main
+deb-src http://us.archive.ubuntu.com/ubuntu/ bionic-updates multiverse main restricted universe #Added by software-properties
 # deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-updates main restricted
 
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
 ## team. Also, please note that software in universe WILL NOT receive any
 ## review or updates from the Ubuntu security team.
-deb http://us.archive.ubuntu.com/ubuntu/ artful universe
+deb http://us.archive.ubuntu.com/ubuntu/ bionic universe
 # deb-src http://us.archive.ubuntu.com/ubuntu/ xenial universe
-deb http://us.archive.ubuntu.com/ubuntu/ artful-updates universe
+deb http://us.archive.ubuntu.com/ubuntu/ bionic-updates universe
 # deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-updates universe
 
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu 
@@ -25,9 +25,9 @@ deb http://us.archive.ubuntu.com/ubuntu/ artful-updates universe
 ## your rights to use the software. Also, please note that software in 
 ## multiverse WILL NOT receive any review or updates from the Ubuntu
 ## security team.
-deb http://us.archive.ubuntu.com/ubuntu/ artful multiverse
+deb http://us.archive.ubuntu.com/ubuntu/ bionic multiverse
 # deb-src http://us.archive.ubuntu.com/ubuntu/ xenial multiverse
-deb http://us.archive.ubuntu.com/ubuntu/ artful-updates multiverse
+deb http://us.archive.ubuntu.com/ubuntu/ bionic-updates multiverse
 # deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-updates multiverse #xenial-updates-multi
 
 ## N.B. software from this repository may not have been tested as
@@ -35,20 +35,20 @@ deb http://us.archive.ubuntu.com/ubuntu/ artful-updates multiverse
 ## newer versions of some applications which may provide useful features.
 ## Also, please note that software in backports WILL NOT receive any review
 ## or updates from the Ubuntu security team.
-deb http://us.archive.ubuntu.com/ubuntu/ artful-backports restricted universe multiverse main
-deb-src http://us.archive.ubuntu.com/ubuntu/ artful-backports main restricted universe multiverse #Added by software-properties
+deb http://us.archive.ubuntu.com/ubuntu/ bionic-backports restricted universe multiverse main
+deb-src http://us.archive.ubuntu.com/ubuntu/ bionic-backports main restricted universe multiverse #Added by software-properties
 # deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-backports main restricted universe multiverse #xenial-backports
 
 ## Uncomment the following two lines to add software from Canonical's
 ## 'partner' repository.
 ## This software is not part of Ubuntu, but is offered by Canonical and the
 ## respective vendors as a service to Ubuntu users.
-deb http://archive.canonical.com/ubuntu artful partner
+deb http://archive.canonical.com/ubuntu bionic partner
 
-deb http://security.ubuntu.com/ubuntu artful-security restricted main
-deb-src http://security.ubuntu.com/ubuntu artful-security multiverse main restricted universe #Added by software-properties
+deb http://security.ubuntu.com/ubuntu bionic-security restricted main
+deb-src http://security.ubuntu.com/ubuntu bionic-security multiverse main restricted universe #Added by software-properties
 # deb-src http://security.ubuntu.com/ubuntu xenial-security main restricted #xenial-security-main-rest
-deb http://security.ubuntu.com/ubuntu artful-security universe
+deb http://security.ubuntu.com/ubuntu bionic-security universe
 # deb-src http://security.ubuntu.com/ubuntu xenial-security universe #xenial-secuity-universe
-deb http://security.ubuntu.com/ubuntu artful-security multiverse
+deb http://security.ubuntu.com/ubuntu bionic-security multiverse
 # deb-src http://security.ubuntu.com/ubuntu xenial-security multiverse #xenial-scurity-multiverse
