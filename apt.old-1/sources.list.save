@@ -52,3 +52,4 @@ deb http://security.ubuntu.com/ubuntu artful-security universe
 # deb-src http://security.ubuntu.com/ubuntu xenial-security universe #xenial-secuity-universe
 deb http://security.ubuntu.com/ubuntu artful-security multiverse
 # deb-src http://security.ubuntu.com/ubuntu xenial-security multiverse #xenial-scurity-multiverse
+deb http://us.archive.ubuntu.com/ubuntu/ artful-proposed multiverse main restricted universe
