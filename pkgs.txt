@@ -3040,6 +3040,7 @@ perl
 perl-base
 perl-modules-5.26
 perl-openssl-defaults:amd64
+perl-tk
 phonon4qt5:amd64
 phonon4qt5-backend-vlc:amd64
 pidgin
