@@ -686,14 +686,6 @@ imagemagick
 imagemagick-6-common
 imagemagick-6.q16
 imagemagick-common
-indicator-application
-indicator-application-gtk2
-indicator-common
-indicator-messages
-indicator-power
-indicator-session
-indicator-sound
-indicator-sound-gtk2
 info
 init
 init-system-helpers
