@@ -2013,7 +2013,7 @@ libosmpbf-java
 libosp5
 libostyle1c2
 libotr5
-libp11-kit-gnome-keyring
+libp11-kit-gnome-keyring:amd64
 libp11-kit0:amd64
 libp11-kit0:i386
 libpackagekit-glib2-16:amd64
