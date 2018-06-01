@@ -1101,6 +1101,7 @@ libcpufreq0
 libcrack2:amd64
 libcroco3:amd64
 libcrypt-passwdmd5-perl
+libcrypto++6
 libcrypto++9v5
 libcryptsetup12:amd64
 libcryptsetup4:amd64
