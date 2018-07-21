@@ -2812,8 +2812,6 @@ linux-image-4.14.0-041400-generic
 linux-image-4.15.0-24-generic
 linux-image-4.15.0-29-generic
 linux-image-generic
-linux-image-unsigned-4.16.4-041604-generic
-linux-image-unsigned-4.16.5-041605-generic
 linux-libc-dev:amd64
 linux-libc-dev:i386
 linux-modules-4.15.0-24-generic
