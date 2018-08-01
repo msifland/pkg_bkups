@@ -2,72 +2,72 @@
 APT::NeverAutoRemove
 {
    "^linux-image-4\.15\.0-29-generic$";
-   "^linux-image-4\.17\.10-msi$";
    "^linux-image-4\.17\.11-041711-generic$";
+   "^linux-image-4\.17\.11-msi$";
    "^linux-headers-4\.15\.0-29-generic$";
-   "^linux-headers-4\.17\.10-msi$";
    "^linux-headers-4\.17\.11-041711-generic$";
+   "^linux-headers-4\.17\.11-msi$";
    "^linux-image-extra-4\.15\.0-29-generic$";
-   "^linux-image-extra-4\.17\.10-msi$";
    "^linux-image-extra-4\.17\.11-041711-generic$";
+   "^linux-image-extra-4\.17\.11-msi$";
    "^linux-modules-4\.15\.0-29-generic$";
-   "^linux-modules-4\.17\.10-msi$";
    "^linux-modules-4\.17\.11-041711-generic$";
+   "^linux-modules-4\.17\.11-msi$";
    "^linux-modules-extra-4\.15\.0-29-generic$";
-   "^linux-modules-extra-4\.17\.10-msi$";
    "^linux-modules-extra-4\.17\.11-041711-generic$";
+   "^linux-modules-extra-4\.17\.11-msi$";
    "^linux-signed-image-4\.15\.0-29-generic$";
-   "^linux-signed-image-4\.17\.10-msi$";
    "^linux-signed-image-4\.17\.11-041711-generic$";
+   "^linux-signed-image-4\.17\.11-msi$";
    "^kfreebsd-image-4\.15\.0-29-generic$";
-   "^kfreebsd-image-4\.17\.10-msi$";
    "^kfreebsd-image-4\.17\.11-041711-generic$";
+   "^kfreebsd-image-4\.17\.11-msi$";
    "^kfreebsd-headers-4\.15\.0-29-generic$";
-   "^kfreebsd-headers-4\.17\.10-msi$";
    "^kfreebsd-headers-4\.17\.11-041711-generic$";
+   "^kfreebsd-headers-4\.17\.11-msi$";
    "^gnumach-image-4\.15\.0-29-generic$";
-   "^gnumach-image-4\.17\.10-msi$";
    "^gnumach-image-4\.17\.11-041711-generic$";
+   "^gnumach-image-4\.17\.11-msi$";
    "^.*-modules-4\.15\.0-29-generic$";
-   "^.*-modules-4\.17\.10-msi$";
    "^.*-modules-4\.17\.11-041711-generic$";
+   "^.*-modules-4\.17\.11-msi$";
    "^.*-kernel-4\.15\.0-29-generic$";
-   "^.*-kernel-4\.17\.10-msi$";
    "^.*-kernel-4\.17\.11-041711-generic$";
+   "^.*-kernel-4\.17\.11-msi$";
    "^linux-backports-modules-.*-4\.15\.0-29-generic$";
-   "^linux-backports-modules-.*-4\.17\.10-msi$";
    "^linux-backports-modules-.*-4\.17\.11-041711-generic$";
+   "^linux-backports-modules-.*-4\.17\.11-msi$";
    "^linux-modules-.*-4\.15\.0-29-generic$";
-   "^linux-modules-.*-4\.17\.10-msi$";
    "^linux-modules-.*-4\.17\.11-041711-generic$";
+   "^linux-modules-.*-4\.17\.11-msi$";
    "^linux-tools-4\.15\.0-29-generic$";
-   "^linux-tools-4\.17\.10-msi$";
    "^linux-tools-4\.17\.11-041711-generic$";
+   "^linux-tools-4\.17\.11-msi$";
    "^linux-cloud-tools-4\.15\.0-29-generic$";
-   "^linux-cloud-tools-4\.17\.10-msi$";
    "^linux-cloud-tools-4\.17\.11-041711-generic$";
+   "^linux-cloud-tools-4\.17\.11-msi$";
 };
 /* Debug information:
 # dpkg list:
 ii  linux-image-4.15.0-29-generic                 4.15.0-29.31                                amd64        Signed kernel image generic
-iF  linux-image-4.17.10-msi                       4.17.10-msi-1                               amd64        Linux kernel, version 4.17.10-msi
+ii  linux-image-4.17.11-msi                       4.17.11-msi-1                               amd64        Linux kernel, version 4.17.11-msi
 ii  linux-image-generic                           4.15.0.29.31                                amd64        Generic Linux kernel image
-ii  linux-image-unsigned-4.17.11-041711-generic   4.17.11-041711.201807280505                 amd64        Linux kernel image for version 4.17.11 on 64 bit x86 SMP
+iF  linux-image-unsigned-4.17.11-041711-generic   4.17.11-041711.201807280505                 amd64        Linux kernel image for version 4.17.11 on 64 bit x86 SMP
 # list of installed kernel packages:
 4.15.0-29-generic 4.15.0-29.31
-4.17.10-msi 4.17.10-msi-1
+4.17.11-msi 4.17.11-msi-1
 # list of different kernel versions:
-4.17.10-msi-1
+4.17.11-msi-1
 4.15.0-29.31
-# Installing kernel: 4.17.10-msi-1 (4.17.10-msi)
-# Running kernel: ignored (4.17.11-041711-generic)
-# Last kernel: 4.17.10-msi-1
+# Installing kernel:  (4.17.11-041711-generic)
+# Running kernel: 4.17.11-msi-1 (4.17.11-msi)
+# Last kernel: 4.17.11-msi-1
 # Previous kernel: 4.15.0-29.31
 # Kernel versions list to keep:
 4.15.0-29.31
-4.17.10-msi-1
+4.17.11-msi-1
 # Kernel packages (version part) to protect:
 4\.15\.0-29-generic
-4\.17\.10-msi
 4\.17\.11-041711-generic
+4\.17\.11-msi
 */
