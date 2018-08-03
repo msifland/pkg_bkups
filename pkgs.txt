@@ -29,6 +29,7 @@ ant
 ant-optional
 antlr
 anydesk
+apache2
 apache2-bin
 apache2-data
 apache2-utils
@@ -204,6 +205,7 @@ debhelper
 debianutils
 default-jre
 default-jre-headless
+default-mysql-server
 deja-dup
 deja-dup-backend-cloudfiles
 deja-dup-backend-gvfs
@@ -806,6 +808,7 @@ libaccounts-qt5-1:amd64
 libaccountsservice0:amd64
 libacl1:amd64
 libactivation-java
+libaio1:amd64
 libamd2:amd64
 libamd2.4.1:amd64
 libandroid-23-java
@@ -1124,6 +1127,7 @@ libdatrie1:amd64
 libdatrie1:i386
 libdb5.3:amd64
 libdb5.3:i386
+libdbi1:amd64
 libdbus-1-3:amd64
 libdbus-1-3:i386
 libdbus-1-dev:amd64
@@ -1231,6 +1235,7 @@ libetonyek-0.1-1:amd64
 libevdev2:amd64
 libevent-2.0-5:amd64
 libevent-2.1-6:amd64
+libevent-core-2.1-6:amd64
 libexempi3:amd64
 libexif12:amd64
 libexif12:i386
@@ -1543,6 +1548,7 @@ libhtml-form-perl
 libhtml-format-perl
 libhtml-parser-perl
 libhtml-tagset-perl
+libhtml-template-perl
 libhtml-tree-perl
 libhttp-cookies-perl
 libhttp-daemon-perl
@@ -2257,6 +2263,7 @@ librpm3
 librpm8
 librpmio3
 librpmio8
+librrd8:amd64
 librsvg2-2:amd64
 librsvg2-bin
 librsvg2-common:amd64
@@ -2807,9 +2814,11 @@ linux-firmware
 linux-generic
 linux-headers-4.15.0-29
 linux-headers-4.15.0-29-generic
+linux-headers-4.17.10-msi
 linux-headers-4.17.11-msi
 linux-headers-generic
 linux-image-4.15.0-29-generic
+linux-image-4.17.10-msi
 linux-image-4.17.11-msi
 linux-image-generic
 linux-libc-dev:amd64
@@ -2961,7 +2970,11 @@ myspell-it
 myspell-pt
 myspell-pt-br
 myspell-pt-pt
+mysql-client-5.7
+mysql-client-core-5.7
 mysql-common
+mysql-server-5.7
+mysql-server-core-5.7
 mythes-en-au
 mythes-en-us
 mythes-fr
@@ -2984,6 +2997,7 @@ net-tools
 netbase
 netcat-openbsd
 netdiscover
+nethogs
 netpbm
 netplan.io
 network-manager
@@ -3055,12 +3069,15 @@ phonon4qt5:amd64
 phonon4qt5-backend-vlc:amd64
 php-cgi
 php-common
+php-pear
+php-xml
 php7.2-cgi
 php7.2-cli
 php7.2-common
 php7.2-json
 php7.2-opcache
 php7.2-readline
+php7.2-xml
 pidgin
 pidgin-data
 pidgin-libnotify
@@ -3434,6 +3451,7 @@ ristretto
 rofi
 rpm-common
 rpm2cpio
+rrdtool
 rsync
 rsyslog
 rtkit
