@@ -2887,8 +2887,6 @@ lighttpd
 lintian
 linux-base
 linux-firmware
-linux-headers-4.17.11-041711
-linux-headers-4.17.11-041711-generic
 linux-headers-4.17.12-msi
 linux-headers-4.17.13-msi
 linux-image-4.17.12-msi
