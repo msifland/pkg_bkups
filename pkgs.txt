@@ -587,7 +587,6 @@ grub-gfxpayload-lists
 grub-pc
 grub-pc-bin
 grub2-common
-grub2-themes-ubuntu-mate
 gsettings-desktop-schemas
 gsettings-ubuntu-schemas
 gsfonts
@@ -769,10 +768,6 @@ ksshaskpass
 kwalletmanager
 kwayland-data
 kwayland-integration:amd64
-kwin
-kwin-common:amd64
-kwin-data
-kwin-x11
 language-pack-en
 language-pack-en-base
 language-pack-gnome-en
@@ -1687,8 +1682,6 @@ libk5crypto3:amd64
 libk5crypto3:i386
 libkaccounts1:amd64
 libkate1:amd64
-libkdecorations2-5v5
-libkdecorations2private5v5
 libkeybinder-3.0-0:amd64
 libkeybinder0
 libkeyutils1:amd64
@@ -1743,9 +1736,6 @@ libkf5kiocore5:amd64
 libkf5kiofilewidgets5:amd64
 libkf5kiontlm5:amd64
 libkf5kiowidgets5:amd64
-libkf5newstuff-data
-libkf5newstuff5:amd64
-libkf5newstuffcore5:amd64
 libkf5notifications-data
 libkf5notifications5:amd64
 libkf5package-data
@@ -1753,7 +1743,6 @@ libkf5package5:amd64
 libkf5parts-data
 libkf5parts-plugins
 libkf5parts5:amd64
-libkf5plasma5:amd64
 libkf5pty-data
 libkf5pty5:amd64
 libkf5purpose-bin:amd64
@@ -1777,7 +1766,6 @@ libkf5wallet-bin
 libkf5wallet-data
 libkf5wallet5:amd64
 libkf5waylandclient5:amd64
-libkf5waylandserver5:amd64
 libkf5widgetsaddons-data
 libkf5widgetsaddons5:amd64
 libkf5windowsystem-data
@@ -1795,12 +1783,7 @@ libkrb5-3:i386
 libkrb5support0:amd64
 libkrb5support0:i386
 libksba8:amd64
-libkscreenlocker5:amd64
 libkwalletbackend5-5:amd64
-libkwin4-effect-builtins1:amd64
-libkwineffects11:amd64
-libkwinglutils11:amd64
-libkwinxrenderutils11:amd64
 libkxml2-java
 liblab-gamut1
 liblangtag-common
@@ -2245,12 +2228,9 @@ libqt4-xml:amd64
 libqt4-xmlpatterns:amd64
 libqt5core5a:amd64
 libqt5dbus5:amd64
-libqt5designer5:amd64
 libqt5gui5:amd64
-libqt5help5:amd64
 libqt5multimedia5:amd64
 libqt5multimedia5-plugins:amd64
-libqt5multimediaquick-p5:amd64
 libqt5multimediawidgets5:amd64
 libqt5network5:amd64
 libqt5opengl5:amd64
@@ -2724,8 +2704,6 @@ libxaw7:amd64
 libxbean-java
 libxbean-reflect-java
 libxcb-composite0:amd64
-libxcb-cursor0:amd64
-libxcb-damage0:amd64
 libxcb-dri2-0:amd64
 libxcb-dri2-0:i386
 libxcb-dri2-0-dev:amd64
@@ -2887,16 +2865,18 @@ lighttpd
 lintian
 linux-base
 linux-firmware
-linux-headers-4.17.12-msi
 linux-headers-4.17.13-msi
-linux-image-4.17.12-msi
+linux-headers-4.17.14-msi
 linux-image-4.17.13-msi
+linux-image-4.17.14-msi
 linux-image-unsigned-4.17.11-041711-generic
+linux-image-unsigned-4.18.0-041800rc8-generic
 linux-libc-dev:amd64
 linux-libc-dev:i386
 linux-modules-4.16.4-041604-generic
 linux-modules-4.16.5-041605-generic
 linux-modules-4.17.11-041711-generic
+linux-modules-4.18.0-041800rc8-generic
 linux-sound-base
 lm-sensors
 lmodern
@@ -2912,7 +2892,6 @@ lshw
 lsof
 ltrace
 lupin-casper
-lupin-support
 lvm2
 lynx
 lynx-common
@@ -3395,7 +3374,6 @@ python3-cryptography
 python3-cups
 python3-cupshelpers
 python3-dbus
-python3-dbus.mainloop.pyqt5
 python3-debconf
 python3-debian
 python3-decorator
@@ -3428,7 +3406,6 @@ python3-oauth
 python3-oauthlib
 python3-olefile
 python3-oneconf
-python3-pam
 python3-pexpect
 python3-pil:amd64
 python3-pip
@@ -3441,9 +3418,6 @@ python3-ptyprocess
 python3-pyasn1
 python3-pyatspi
 python3-pycurl
-python3-pyqt5
-python3-pyqt5.qtsvg
-python3-pyqt5.qtwebkit
 python3-renderpm:amd64
 python3-reportlab
 python3-reportlab-accel:amd64
@@ -3454,7 +3428,6 @@ python3-secretstorage
 python3-setproctitle:amd64
 python3-setuptools
 python3-simplejson
-python3-sip
 python3-six
 python3-software-properties
 python3-speechd
@@ -3481,14 +3454,12 @@ qdbus
 qml-module-org-kde-kquickcontrolsaddons:amd64
 qml-module-org-kde-purpose:amd64
 qml-module-qtgraphicaleffects:amd64
-qml-module-qtmultimedia:amd64
 qml-module-qtquick-controls:amd64
 qml-module-qtquick-controls2:amd64
 qml-module-qtquick-dialogs:amd64
 qml-module-qtquick-layouts:amd64
 qml-module-qtquick-privatewidgets:amd64
 qml-module-qtquick-templates2:amd64
-qml-module-qtquick-virtualkeyboard
 qml-module-qtquick-window2:amd64
 qml-module-qtquick2:amd64
 qml-module-ubuntu-onlineaccounts:amd64
@@ -3506,7 +3477,6 @@ qtdeclarative5-quicklayouts-plugin
 qtdeclarative5-window-plugin:amd64
 qtspeech5-flite-plugin:amd64
 qttranslations5-l10n
-qtvirtualkeyboard-plugin
 qtwayland5:amd64
 radeontool
 rake
@@ -3680,10 +3650,6 @@ ttf-ubuntu-font-family
 tumbler
 tumbler-common
 tzdata
-ubiquity
-ubiquity-casper
-ubiquity-frontend-kde
-ubiquity-ubuntu-artwork
 ubuntu-advantage-tools
 ubuntu-core-launcher
 ubuntu-docs
