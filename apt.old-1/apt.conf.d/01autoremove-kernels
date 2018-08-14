@@ -51,7 +51,6 @@ APT::NeverAutoRemove
 # dpkg list:
 ii  linux-image-4.17.14-msi                       4.17.14-msi-1                               amd64        Linux kernel, version 4.17.14-msi
 ii  linux-image-4.18.0-msi                        4.18.0-msi-1                                amd64        Linux kernel, version 4.18.0-msi
-ii  linux-image-unsigned-4.17.11-041711-generic   4.17.11-041711.201807280505                 amd64        Linux kernel image for version 4.17.11 on 64 bit x86 SMP
 iF  linux-image-unsigned-4.18.0-041800-generic    4.18.0-041800.201808122131                  amd64        Linux kernel image for version 4.18.0 on 64 bit x86 SMP
 # list of installed kernel packages:
 4.17.14-msi 4.17.14-msi-1
