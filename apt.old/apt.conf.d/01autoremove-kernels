@@ -2,57 +2,57 @@
 APT::NeverAutoRemove
 {
    "^linux-image-4\.18\.0-msi$";
-   "^linux-image-4\.18\.1$";
+   "^linux-image-4\.18\.1-msi$";
    "^linux-headers-4\.18\.0-msi$";
-   "^linux-headers-4\.18\.1$";
+   "^linux-headers-4\.18\.1-msi$";
    "^linux-image-extra-4\.18\.0-msi$";
-   "^linux-image-extra-4\.18\.1$";
+   "^linux-image-extra-4\.18\.1-msi$";
    "^linux-modules-4\.18\.0-msi$";
-   "^linux-modules-4\.18\.1$";
+   "^linux-modules-4\.18\.1-msi$";
    "^linux-modules-extra-4\.18\.0-msi$";
-   "^linux-modules-extra-4\.18\.1$";
+   "^linux-modules-extra-4\.18\.1-msi$";
    "^linux-signed-image-4\.18\.0-msi$";
-   "^linux-signed-image-4\.18\.1$";
+   "^linux-signed-image-4\.18\.1-msi$";
    "^kfreebsd-image-4\.18\.0-msi$";
-   "^kfreebsd-image-4\.18\.1$";
+   "^kfreebsd-image-4\.18\.1-msi$";
    "^kfreebsd-headers-4\.18\.0-msi$";
-   "^kfreebsd-headers-4\.18\.1$";
+   "^kfreebsd-headers-4\.18\.1-msi$";
    "^gnumach-image-4\.18\.0-msi$";
-   "^gnumach-image-4\.18\.1$";
+   "^gnumach-image-4\.18\.1-msi$";
    "^.*-modules-4\.18\.0-msi$";
-   "^.*-modules-4\.18\.1$";
+   "^.*-modules-4\.18\.1-msi$";
    "^.*-kernel-4\.18\.0-msi$";
-   "^.*-kernel-4\.18\.1$";
+   "^.*-kernel-4\.18\.1-msi$";
    "^linux-backports-modules-.*-4\.18\.0-msi$";
-   "^linux-backports-modules-.*-4\.18\.1$";
+   "^linux-backports-modules-.*-4\.18\.1-msi$";
    "^linux-modules-.*-4\.18\.0-msi$";
-   "^linux-modules-.*-4\.18\.1$";
+   "^linux-modules-.*-4\.18\.1-msi$";
    "^linux-tools-4\.18\.0-msi$";
-   "^linux-tools-4\.18\.1$";
+   "^linux-tools-4\.18\.1-msi$";
    "^linux-cloud-tools-4\.18\.0-msi$";
-   "^linux-cloud-tools-4\.18\.1$";
+   "^linux-cloud-tools-4\.18\.1-msi$";
 };
 /* Debug information:
 # dpkg list:
 ii  linux-image-4.17.14-msi                       4.17.14-msi-1                               amd64        Linux kernel, version 4.17.14-msi
 ii  linux-image-4.18.0-msi                        4.18.0-msi-1                                amd64        Linux kernel, version 4.18.0-msi
-iF  linux-image-4.18.1                            4.18.1-1                                    amd64        Linux kernel, version 4.18.1
+iF  linux-image-4.18.1-msi                        4.18.1-msi-1                                amd64        Linux kernel, version 4.18.1-msi
 # list of installed kernel packages:
 4.17.14-msi 4.17.14-msi-1
 4.18.0-msi 4.18.0-msi-1
-4.18.1 4.18.1-1
+4.18.1-msi 4.18.1-msi-1
 # list of different kernel versions:
-4.18.1-1
+4.18.1-msi-1
 4.18.0-msi-1
 4.17.14-msi-1
-# Installing kernel: 4.18.1-1 (4.18.1)
+# Installing kernel: 4.18.1-msi-1 (4.18.1-msi)
 # Running kernel: 4.18.0-msi-1 (4.18.0-msi)
-# Last kernel: 4.18.1-1
+# Last kernel: 4.18.1-msi-1
 # Previous kernel: 4.18.0-msi-1
 # Kernel versions list to keep:
 4.18.0-msi-1
-4.18.1-1
+4.18.1-msi-1
 # Kernel packages (version part) to protect:
 4\.18\.0-msi
-4\.18\.1
+4\.18\.1-msi
 */
