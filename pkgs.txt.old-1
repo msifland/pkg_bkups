@@ -2865,12 +2865,10 @@ lighttpd
 lintian
 linux-base
 linux-firmware
-linux-headers-4.17.14-msi
-linux-headers-4.18.0-msi
 linux-headers-4.18.1-msi
-linux-image-4.17.14-msi
-linux-image-4.18.0-msi
+linux-headers-4.18.2-msi
 linux-image-4.18.1-msi
+linux-image-4.18.2-msi
 linux-libc-dev:amd64
 linux-libc-dev:i386
 linux-sound-base
