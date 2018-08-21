@@ -3260,6 +3260,7 @@ python-incremental
 python-ipaddress
 python-jinja2
 python-jwt
+python-kerberos
 python-ldb:amd64
 python-libxml2
 python-lockfile
@@ -3485,6 +3486,7 @@ redshift
 redshift-gtk
 reiserfsprogs
 rename
+repo
 resolvconf
 rfkill
 rhino

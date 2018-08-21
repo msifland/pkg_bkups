@@ -748,6 +748,8 @@ kbd
 kde-cli-tools
 kde-cli-tools-data
 kdeconnect
+kernel-common
+kernel-package
 kernel-wedge
 kerneloops
 kerneloops-applet
@@ -2874,6 +2876,10 @@ linux-image-4.18.3-msi
 linux-libc-dev:amd64
 linux-libc-dev:i386
 linux-sound-base
+linux-tools-4.15.0-32
+linux-tools-4.15.0-32-generic
+linux-tools-common
+linux-tools-generic
 lm-sensors
 lmodern
 localechooser-data
