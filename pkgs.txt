@@ -133,6 +133,7 @@ caja-wallpaper
 casper
 ccache
 cdrdao
+checkinstall
 cheese
 cheese-common
 chromium-browser
@@ -924,6 +925,7 @@ libavutil-ffmpeg54:amd64
 libavutil55:amd64
 libb2-1
 libbabeltrace-ctf1
+libbabeltrace-dev:amd64
 libbabeltrace1:amd64
 libbabl-0.1-0:amd64
 libbamf3-2:amd64
@@ -1507,6 +1509,7 @@ libgtk2.0-0:i386
 libgtk2.0-bin
 libgtk2.0-cil
 libgtk2.0-common
+libgtk2.0-dev
 libgtk3-perl
 libgtkglext1:amd64
 libgtkglextmm-x11-1.2-0v5:amd64
@@ -2104,6 +2107,7 @@ libpcsclite1:amd64
 libpeas-1.0-0:amd64
 libpeas-1.0-python2loader:amd64
 libpeas-common
+libperl-dev
 libperl4-corelibs-perl
 libperl5.26:amd64
 libperlio-gzip-perl
@@ -2867,14 +2871,13 @@ lighttpd
 lintian
 linux-base
 linux-firmware
-linux-headers-4.18.1-msi
 linux-headers-4.18.2-msi
 linux-headers-4.18.3-msi
-linux-image-4.18.1-msi
 linux-image-4.18.2-msi
 linux-image-4.18.3-msi
 linux-libc-dev:amd64
 linux-libc-dev:i386
+linux-perf-4.18.3
 linux-sound-base
 linux-tools-4.15.0-32
 linux-tools-4.15.0-32-generic
@@ -3595,6 +3598,7 @@ system-config-printer-udev
 system-tools-backends
 systemd
 systemd-sysv
+systemtap-sdt-dev
 sysv-rc
 sysvinit-utils
 t1utils

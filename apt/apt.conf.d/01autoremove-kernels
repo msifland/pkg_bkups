@@ -34,17 +34,14 @@ APT::NeverAutoRemove
 };
 /* Debug information:
 # dpkg list:
-ii  linux-image-4.18.1-msi                        4.18.1-msi-1                                amd64        Linux kernel, version 4.18.1-msi
 ii  linux-image-4.18.2-msi                        4.18.2-msi-1                                amd64        Linux kernel, version 4.18.2-msi
 iF  linux-image-4.18.3-msi                        4.18.3-msi-1                                amd64        Linux kernel, version 4.18.3-msi
 # list of installed kernel packages:
-4.18.1-msi 4.18.1-msi-1
 4.18.2-msi 4.18.2-msi-1
 4.18.3-msi 4.18.3-msi-1
 # list of different kernel versions:
 4.18.3-msi-1
 4.18.2-msi-1
-4.18.1-msi-1
 # Installing kernel: 4.18.3-msi-1 (4.18.3-msi)
 # Running kernel: 4.18.3-msi-1 (4.18.3-msi)
 # Last kernel: 4.18.3-msi-1
