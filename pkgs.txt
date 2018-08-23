@@ -2873,11 +2873,13 @@ linux-base
 linux-firmware
 linux-headers-4.18.2-msi
 linux-headers-4.18.3-msi
+linux-headers-4.18.4-msi
 linux-image-4.18.2-msi
 linux-image-4.18.3-msi
+linux-image-4.18.4-msi
 linux-libc-dev:amd64
 linux-libc-dev:i386
-linux-perf-4.18.3
+linux-perf-4.18.4
 linux-sound-base
 linux-tools-4.15.0-32
 linux-tools-4.15.0-32-generic
