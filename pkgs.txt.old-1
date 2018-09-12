@@ -2790,8 +2790,8 @@ linux-libc-dev:amd64
 linux-libc-dev:i386
 linux-perf-4.18.6
 linux-sound-base
-linux-tools-4.15.0-33
-linux-tools-4.15.0-33-generic
+linux-tools-4.15.0-34
+linux-tools-4.15.0-34-generic
 linux-tools-common
 linux-tools-generic
 lm-sensors

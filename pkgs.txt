@@ -1023,7 +1023,6 @@ libcommons-pool-java
 libcompizconfig0:amd64
 libconfig9:amd64
 libconfuse-common
-libconfuse2:amd64
 libcpufreq0
 libcrack2:amd64
 libcroco3:amd64
@@ -2782,10 +2781,8 @@ lighttpd
 lintian
 linux-base
 linux-firmware
-linux-headers-4.18.5-msi
 linux-headers-4.18.6-msi
 linux-headers-4.18.7-msi
-linux-image-4.18.5-msi
 linux-image-4.18.6-msi
 linux-image-4.18.7-msi
 linux-libc-dev:amd64
@@ -3547,7 +3544,6 @@ thunar-archive-plugin
 thunar-data
 thunar-media-tags-plugin
 thunar-volman
-tilda
 time
 tipa
 tk
