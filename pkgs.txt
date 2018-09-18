@@ -2781,13 +2781,13 @@ lighttpd
 lintian
 linux-base
 linux-firmware
-linux-headers-4.18.6-msi
 linux-headers-4.18.7-msi
-linux-image-4.18.6-msi
+linux-headers-4.18.8-msi
 linux-image-4.18.7-msi
+linux-image-4.18.8-msi
 linux-libc-dev:amd64
 linux-libc-dev:i386
-linux-perf-4.18.7
+linux-perf-4.18.8
 linux-sound-base
 linux-tools-4.15.0-34
 linux-tools-4.15.0-34-generic
