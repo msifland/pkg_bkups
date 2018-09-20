@@ -1307,6 +1307,7 @@ libglademm-2.4-1v5
 libglapi-mesa:amd64
 libglapi-mesa:i386
 libgle3:amd64
+libgles1:amd64
 libgles1-mesa
 libgles2:amd64
 libgles2-mesa:amd64
