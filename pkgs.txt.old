@@ -2784,11 +2784,13 @@ linux-base
 linux-firmware
 linux-headers-4.18.7-msi
 linux-headers-4.18.8-msi
+linux-headers-4.18.9-msi
 linux-image-4.18.7-msi
 linux-image-4.18.8-msi
+linux-image-4.18.9-msi
 linux-libc-dev:amd64
 linux-libc-dev:i386
-linux-perf-4.18.8
+linux-perf-4.18.9
 linux-sound-base
 linux-tools-4.15.0-34
 linux-tools-4.15.0-34-generic
@@ -3053,7 +3055,6 @@ pidgin-otr
 pinentry-gnome3
 pinentry-gtk2
 pkg-config
-plank
 playonlinux
 pluma
 pluma-common
