@@ -180,6 +180,7 @@ docutils-common
 dosfstools
 dpkg
 dpkg-dev
+dropbox
 dwz
 e2fsprogs
 eject
@@ -277,6 +278,7 @@ gir1.2-gst-plugins-base-1.0:amd64
 gir1.2-gstreamer-1.0:amd64
 gir1.2-gtk-3.0:amd64
 gir1.2-gtksource-3.0:amd64
+gir1.2-javascriptcoregtk-4.0:amd64
 gir1.2-mate-panel
 gir1.2-matedesktop-2.0:amd64
 gir1.2-matepanelapplet-4.0:amd64
@@ -285,7 +287,9 @@ gir1.2-packagekitglib-1.0
 gir1.2-pango-1.0:amd64
 gir1.2-peas-1.0:amd64
 gir1.2-pluma-1.0
+gir1.2-soup-2.4:amd64
 gir1.2-vte-2.91:amd64
+gir1.2-webkit2-4.0:amd64
 gir1.2-wnck-3.0:amd64
 git
 git-man
@@ -333,6 +337,7 @@ gtk2-engines:amd64
 gtk2-engines-murrine:amd64
 gtk2-engines-pixbuf:amd64
 gtkhash
+gufw
 gvfs:amd64
 gvfs-backends
 gvfs-common
@@ -510,6 +515,7 @@ libbs2b0:amd64
 libbsd0:amd64
 libbsh-java
 libbz2-1.0:amd64
+libc-ares2:amd64
 libc-bin
 libc-dev-bin
 libc-l10n
@@ -566,6 +572,7 @@ libcompizconfig0
 libconfig9:amd64
 libcpufreq0
 libcroco3:amd64
+libcrypto++6
 libcryptsetup12:amd64
 libcryptui0a:amd64
 libcrystalhd3:amd64
@@ -935,6 +942,7 @@ libmateweather1:amd64
 libmatroska6v5:amd64
 libmbim-glib4:amd64
 libmbim-proxy
+libmediainfo0v5:amd64
 libmetacity1:amd64
 libmetis5:amd64
 libmhash2:amd64
@@ -1129,6 +1137,8 @@ libraptor2-0:amd64
 librarian0
 librasqal3:amd64
 libraw1394-11:amd64
+libraw15:amd64
+libraw16:amd64
 libraw19:amd64
 librdf0:amd64
 libre2-4:amd64
@@ -1270,6 +1280,7 @@ libtie-ixhash-perl
 libtiff5:amd64
 libtimedate-perl
 libtinfo6:amd64
+libtinyxml2-6a:amd64
 libtk8.6:amd64
 libtommath1:amd64
 libtool
@@ -1453,6 +1464,7 @@ libyaml-libyaml-perl
 libyaml-tiny-perl
 libyelp0:amd64
 libzbar0:amd64
+libzen0v5:amd64
 libzmf-0.0-0:amd64
 libzmq5:amd64
 libzstd1:amd64
@@ -1553,6 +1565,7 @@ mate-window-menu-applet
 mate-window-title-applet
 materia-gtk-theme
 mawk
+megasync
 menu
 menu-xdg
 mesa-utils
@@ -1571,6 +1584,7 @@ nano
 ncurses-base
 ncurses-bin
 ncurses-term
+net-tools
 netbase
 netcat-traditional
 netpbm
@@ -1833,6 +1847,7 @@ tzdata
 ucf
 udev
 udisks2
+ufw
 uno-libs3
 unzip
 update-inetd
