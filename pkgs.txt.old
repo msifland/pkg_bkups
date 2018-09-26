@@ -1593,6 +1593,7 @@ network-manager-gnome
 node-normalize.css
 notification-daemon
 ntfs-3g
+numlockx
 obex-data-server
 openjade
 openjdk-10-jre:amd64
