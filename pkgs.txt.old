@@ -322,6 +322,7 @@ grub-common
 grub-customizer
 grub-pc
 grub-pc-bin
+grub2
 grub2-common
 gsettings-desktop-schemas
 gsfonts
