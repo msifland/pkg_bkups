@@ -1611,6 +1611,8 @@ p11-kit
 p11-kit-modules:amd64
 p7zip
 p7zip-full
+packagekit
+packagekit-tools
 parted
 passwd
 patch
@@ -1746,6 +1748,7 @@ python3-requests
 python3-roman
 python3-setproctitle:amd64
 python3-six
+python3-software-properties
 python3-speechd
 python3-sphinx
 python3-sphinx-rtd-theme
@@ -1794,6 +1797,7 @@ sgml-base
 sgml-data
 sgmlspl
 shared-mime-info
+software-properties-common
 sound-icons
 sound-theme-freedesktop
 speech-dispatcher
@@ -1850,6 +1854,7 @@ ucf
 udev
 udisks2
 ufw
+unattended-upgrades
 uno-libs3
 unzip
 update-inetd
