@@ -1124,11 +1124,18 @@ libqt4-dbus:amd64
 libqt4-xml:amd64
 libqt5core5a:amd64
 libqt5dbus5:amd64
+libqt5designer5:amd64
 libqt5gui5:amd64
+libqt5help5:amd64
 libqt5network5:amd64
+libqt5printsupport5:amd64
+libqt5sql5:amd64
+libqt5sql5-sqlite:amd64
 libqt5svg5:amd64
+libqt5test5:amd64
 libqt5widgets5:amd64
 libqt5x11extras5:amd64
+libqt5xml5:amd64
 libqtcore4:amd64
 libqtdbus4:amd64
 libqtgui4:amd64
@@ -1579,6 +1586,7 @@ modemmanager
 mount
 mozo
 mscompress
+mtools
 murrine-themes
 mythes-en-us
 nano
@@ -1728,6 +1736,7 @@ python3-louis
 python3-lxml:amd64
 python3-markupsafe
 python3-minimal
+python3-multibootusb
 python3-olefile
 python3-packaging
 python3-pexpect
@@ -1739,7 +1748,9 @@ python3-pyatspi
 python3-pycurl
 python3-pygments
 python3-pyparsing
+python3-pyqt5
 python3-pysimplesoap
+python3-pyudev
 python3-renderpm:amd64
 python3-reportbug
 python3-reportlab
@@ -1747,6 +1758,7 @@ python3-reportlab-accel:amd64
 python3-requests
 python3-roman
 python3-setproctitle:amd64
+python3-sip
 python3-six
 python3-software-properties
 python3-speechd
