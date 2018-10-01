@@ -32,6 +32,7 @@ apt-transport-https
 apt-utils
 aptitude
 aptitude-common
+arch-test
 asciidoc
 asciidoc-base
 asciidoc-common
@@ -148,6 +149,7 @@ debian-archive-keyring
 debian-faq
 debian-mate-default-settings
 debianutils
+debootstrap
 default-jre
 default-jre-headless
 desktop-base
@@ -520,6 +522,7 @@ libbrotli1:amd64
 libbs2b0:amd64
 libbsd0:amd64
 libbsh-java
+libburn4:amd64
 libbz2-1.0:amd64
 libc-ares2:amd64
 libc-bin
@@ -851,6 +854,8 @@ libisc169:amd64
 libisccc160:amd64
 libisccfg160:amd64
 libisl19:amd64
+libisoburn1:amd64
+libisofs6:amd64
 libitext-java
 libitm1:amd64
 libiw30:amd64
@@ -873,6 +878,7 @@ libjson-c3:amd64
 libjson-glib-1.0-0:amd64
 libjson-glib-1.0-common
 libjsoncpp1:amd64
+libjte1
 libjxr-tools
 libjxr0:amd64
 libk5crypto3:amd64
@@ -1509,6 +1515,10 @@ linux-libc-dev:amd64
 linux-perf-4.18.10
 linux-source
 linux-source-4.18
+live-boot-doc
+live-build
+live-config-doc
+live-manual-html
 lmodern
 locales
 login
@@ -1852,10 +1862,13 @@ speech-dispatcher-audio-plugins:amd64
 speech-dispatcher-espeak-ng
 sphinx-common
 sphinx-rtd-theme-common
+squashfs-tools
 ssl-cert
 sublime-text
 sudo
 synaptic
+syslinux
+syslinux-common
 system-tools-backends
 systemd
 systemd-sysv
@@ -1964,6 +1977,7 @@ xml-core
 xmlto
 xorg
 xorg-docs-core
+xorriso
 xserver-common
 xserver-xorg
 xserver-xorg-core

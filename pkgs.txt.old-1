@@ -1384,7 +1384,7 @@ libx11-6:amd64
 libx11-data
 libx11-protocol-perl
 libx11-xcb1:amd64
-libx264-152:amd64
+libx264-155:amd64
 libx265-160:amd64
 libx32asan5
 libx32atomic1
