@@ -401,14 +401,8 @@ file
 fimap
 findmyhash
 findutils
-firebird3.0-common
-firebird3.0-common-doc
-firebird3.0-server-core:amd64
-firebird3.0-utils
 firefox
 firefox-esr
-firejail
-firejail-profiles
 firmware-amd-graphics
 firmware-atheros
 firmware-b43-installer
@@ -675,8 +669,6 @@ httrack
 hunspell-en-us
 hwdata
 hwinfo
-hydra
-hydra-gtk
 hyperion
 hyphen-en-us
 i2c-tools
@@ -1194,7 +1186,6 @@ libfakekey0:amd64
 libfakeroot:amd64
 libfam0:amd64
 libfastjson4:amd64
-libfbclient2:amd64
 libfcgi-perl
 libfdisk1:amd64
 libfdt1:amd64
@@ -1447,7 +1438,6 @@ libhwloc-plugins:amd64
 libhwloc5:amd64
 libhyphen0:amd64
 libi2c0:amd64
-libib-util:amd64
 libiberty-dev:amd64
 libibverbs1:amd64
 libical3:amd64
@@ -2031,7 +2021,6 @@ libreoffice-report-builder-bin
 libreoffice-script-provider-bsh
 libreoffice-script-provider-js
 libreoffice-script-provider-python
-libreoffice-sdbc-firebird
 libreoffice-sdbc-hsqldb
 libreoffice-sdbc-postgresql
 libreoffice-style-colibre
@@ -2559,7 +2548,6 @@ libzxcvbn0:amd64
 libzzip-0-13:amd64
 lightdm
 lightdm-gtk-greeter
-lightdm-parrot
 lightning
 lighttpd
 limesuite-udev
