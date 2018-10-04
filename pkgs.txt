@@ -152,6 +152,7 @@ bsdutils
 btrfs-progs
 btrfs-tools
 btscanner
+bubblewrap
 build-essential
 bulk-extractor
 bully
@@ -186,6 +187,8 @@ cdpsnarf
 cewl
 cgdb
 cgpt
+cheese
+cheese-common
 chirp
 chkrootkit
 chntpw
@@ -573,12 +576,14 @@ glib-networking-common
 glib-networking-services
 glusterfs-common
 gnome-accessibility-themes
+gnome-desktop3-data
 gnome-icon-theme
 gnome-keyring
 gnome-keyring-pkcs11:amd64
 gnome-system-tools
 gnome-themes-extra:amd64
 gnome-themes-extra-data
+gnome-video-effects
 gnupg
 gnupg-l10n
 gnupg-utils
@@ -626,6 +631,7 @@ grub2-common
 gsettings-desktop-schemas
 gsfonts
 gsfonts-x11
+gstreamer1.0-clutter-3.0:amd64
 gstreamer1.0-gl:amd64
 gstreamer1.0-libav:amd64
 gstreamer1.0-plugins-bad:amd64
@@ -1019,6 +1025,8 @@ libcgi-fast-perl
 libcgi-pm-perl
 libcgraph6
 libcharls1:amd64
+libcheese-gtk25:amd64
+libcheese8:amd64
 libcholmod3:amd64
 libchromaprint1:amd64
 libcilkrts5:amd64
@@ -1045,8 +1053,16 @@ libclone-choose-perl
 libclone-perl
 libclucene-contribs1v5:amd64
 libclucene-core1v5:amd64
+libclutter-1.0-0:amd64
+libclutter-1.0-common
+libclutter-gst-3.0-0:amd64
+libclutter-gtk-1.0-0:amd64
 libcmis-0.5-5v5
 libcodec2-0.8.1:amd64
+libcogl-common
+libcogl-pango20:amd64
+libcogl-path20:amd64
+libcogl20:amd64
 libcolamd2:amd64
 libcollectdclient1
 libcolord2:amd64
@@ -1345,6 +1361,7 @@ libgme0:amd64
 libgmp-dev:amd64
 libgmp10:amd64
 libgmpxx4ldbl:amd64
+libgnome-desktop-3-17:amd64
 libgnome-keyring-common
 libgnome-keyring0:amd64
 libgnomecanvas2-0:amd64

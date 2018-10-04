@@ -7,6 +7,7 @@ acl
 acpi-support
 acpi-support-base
 acpid
+adb
 adduser
 adwaita-icon-theme
 afflib-tools
@@ -14,6 +15,7 @@ afl
 afl-clang
 afl-doc
 aglfn
+aidl
 aircrack-ng
 airgeddon
 albatross-gtk-theme
@@ -26,14 +28,28 @@ anacron
 analog
 android-framework-res
 android-libaapt
+android-libadb
 android-libandroidfw
 android-libbacktrace
 android-libbase
 android-libcutils
+android-libdex
+android-libetc1
+android-libext4-utils
+android-libf2fs-utils
 android-liblog
+android-libselinux
+android-libsparse
 android-libunwind
 android-libutils
 android-libziparchive
+android-platform-tools-base
+android-sdk
+android-sdk-build-tools
+android-sdk-build-tools-common
+android-sdk-common
+android-sdk-platform-tools
+android-sdk-platform-tools-common
 anonsurf
 ant
 ant-contrib
@@ -126,6 +142,7 @@ bluez
 bluez-firmware
 bluez-hcidump
 bluez-obexd
+bnd
 braa
 breeze-cursor-theme
 breeze-gtk-theme
@@ -246,6 +263,7 @@ curlftpfs
 cutycapt
 cymothoa
 cython
+dalvik-exchange
 darkstat
 dash
 davtest
@@ -285,6 +303,7 @@ desktop-file-utils
 device-pharmer
 device-tree-compiler
 dex2jar
+dexdump
 dh-autoreconf
 dh-exec
 dh-python
@@ -307,6 +326,7 @@ dmeventd
 dmidecode
 dmitry
 dmsetup
+dmtracedump
 dnmap
 dns-root-data
 dns2tcp
@@ -365,6 +385,7 @@ enumiax
 eom
 eom-common
 espeak-ng-data:amd64
+etc1tool
 etherape
 etherape-data
 etherwake
@@ -388,6 +409,7 @@ eyewitness
 fairymax
 fakeroot
 famfamfam-flag-png
+fastboot
 fastjar
 fcrackzip
 fdisk
@@ -586,12 +608,14 @@ gr-fosphor
 gr-iqbal
 gr-osmosdr
 grabber
+gradle
 graphviz
 greenbone-security-assistant
 greenbone-security-assistant-common
 grep
 greybird-gtk-theme
 groff-base
+groovy
 growisofs
 grub-common
 grub-customizer
@@ -661,6 +685,7 @@ hp-ppd
 hping3
 hplip
 hplip-data
+hprof-conv
 htop
 htshells
 http-tunnel
@@ -793,11 +818,17 @@ libalgorithm-diff-perl
 libalgorithm-diff-xs-perl
 libalgorithm-merge-perl
 libamd2:amd64
+libandroid-23-java
+libandroid-ddms-java
+libandroid-dex-java
+libandroid-tools-annotations-java
+libandroid-tools-common-java
 libantlr-java
 libantlr3-runtime-java
 libao-common
 libao4:amd64
 libaom0:amd64
+libaopalliance-java
 libapache-poi-java
 libapache-pom-java
 libapache2-mod-dnssd
@@ -824,6 +855,7 @@ libarpack2:amd64
 libart-2.0-2:amd64
 libasan4:amd64
 libasan5:amd64
+libasm-java
 libasound2:amd64
 libasound2-data
 libasound2-plugins:amd64
@@ -885,6 +917,7 @@ libbcprov-java
 libbdplus0:amd64
 libbfio1
 libbind9-160:amd64
+libbindex-java
 libbinutils:amd64
 libbison-dev:amd64
 libbladerf1:amd64
@@ -974,6 +1007,7 @@ libcc1-0:amd64
 libccid
 libccolamd2:amd64
 libcddb2
+libcdi-api-java
 libcdio-cdda2:amd64
 libcdio-paranoia2:amd64
 libcdio18:amd64
@@ -1022,8 +1056,10 @@ libcomedi0
 libcommons-cli-java
 libcommons-codec-java
 libcommons-collections3-java
+libcommons-compress-java
 libcommons-dbcp-java
 libcommons-io-java
+libcommons-lang-java
 libcommons-lang3-java
 libcommons-logging-java
 libcommons-parent-java
@@ -1092,6 +1128,7 @@ libdc1394-22:amd64
 libdc1394-utils
 libdca0:amd64
 libdconf1:amd64
+libdd-plist-java
 libde265-0:amd64
 libdebconfclient0:amd64
 libdecoration0
@@ -1181,6 +1218,7 @@ libexporter-tiny-perl
 libext2fs2:amd64
 libexttextcat-2.0-0:amd64
 libexttextcat-data
+libf2fs0:amd64
 libfaad2:amd64
 libfakekey0:amd64
 libfakeroot:amd64
@@ -1189,6 +1227,10 @@ libfastjson4:amd64
 libfcgi-perl
 libfdisk1:amd64
 libfdt1:amd64
+libfelix-framework-java
+libfelix-gogo-runtime-java
+libfelix-osgi-obr-java
+libfelix-resolver-java
 libffi-dev:amd64
 libffi6:amd64
 libffmpegthumbnailer4v5
@@ -1207,6 +1249,7 @@ libfile-mimeinfo-perl
 libfile-sharedir-perl
 libfile-stripnondeterminism-perl
 libfile-which-perl
+libfindbugs-java
 libfindrtp
 libfl-dev:amd64
 libfl2:amd64
@@ -1264,6 +1307,8 @@ libgeoip1:amd64
 libgeos-3.7.0:amd64
 libgeos-c1v5:amd64
 libgeotiff2:amd64
+libgeronimo-annotation-1.3-spec-java
+libgeronimo-interceptor-3.0-spec-java
 libgetopt-java
 libgexiv2-2:amd64
 libgfortran4:amd64
@@ -1340,7 +1385,9 @@ libgoa-1.0-common
 libgomp1:amd64
 libgoocanvas-2.0-9:amd64
 libgoocanvas-2.0-common
+libgoogle-gson-java
 libgoogle-perftools4:amd64
+libgpars-groovy-java
 libgpg-error0:amd64
 libgpgme11:amd64
 libgpgmepp6:amd64
@@ -1349,6 +1396,8 @@ libgphoto2-l10n
 libgphoto2-port12:amd64
 libgpm2:amd64
 libgps23:amd64
+libgradle-core-java
+libgradle-plugins-java
 libgraphene-1.0-0:amd64
 libgraphite2-3:amd64
 libgroupsock8:amd64
@@ -1390,6 +1439,7 @@ libgts-bin
 libguava-java
 libgucharmap-2-90-7:amd64
 libgudev-1.0-0:amd64
+libguice-java
 libgupnp-1.0-4:amd64
 libgupnp-igd-1.0-4:amd64
 libgusb2:amd64
@@ -1406,6 +1456,7 @@ libharfbuzz-icu0:amd64
 libharfbuzz0b:amd64
 libhash-merge-perl
 libhavege1:amd64
+libhawtjni-runtime-java
 libhd21:amd64
 libhdf4-0-alt
 libhdf5-100:amd64
@@ -1432,6 +1483,8 @@ libhttp-dav-perl
 libhttp-message-perl
 libhttp-negotiate-perl
 libhttp-parser2.8:amd64
+libhttpclient-java
+libhttpcore-java
 libhttrack2
 libhunspell-1.6-0:amd64
 libhwloc-plugins:amd64
@@ -1494,18 +1547,32 @@ libitext-java
 libitm1:amd64
 libiw30:amd64
 libjack-jackd2-0:amd64
+libjansi-java
+libjansi-native-java
 libjansson4:amd64
+libjarjar-java
+libjatl-java
+libjavaewah-java
 libjavascriptcoregtk-4.0-18:amd64
 libjaxen-java
 libjaxp1.3-java
 libjbig0:amd64
 libjbig2dec0:amd64
 libjbigi-jni
+libjcifs-java
+libjcip-annotations-java
+libjcommander-java
 libjcommon-java
+libjcsp-java
 libjdom1-java
 libjemalloc1
 libjetty9-java
+libjformatstring-java
+libjgit-java
 libjim0.77:amd64
+libjline2-java
+libjna-java
+libjna-jni
 libjpeg-turbo-progs
 libjpeg62-turbo:amd64
 libjs-jquery
@@ -1524,6 +1591,8 @@ libjson-c3:amd64
 libjson-glib-1.0-0:amd64
 libjson-glib-1.0-common
 libjsoncpp1:amd64
+libjsoup-java
+libjsr166y-java
 libjsr305-java
 libjte1
 libjudydebian1
@@ -1544,7 +1613,9 @@ libkmod2:amd64
 libkpathsea6:amd64
 libkrb5-3:amd64
 libkrb5support0:amd64
+libkryo-java
 libksba8:amd64
+libkxml2-java
 libkyotocabinet16v5:amd64
 liblab-gamut1
 liblangtag-common
@@ -1573,6 +1644,7 @@ liblockfile1:amd64
 liblog4cpp5-dev
 liblog4cpp5v5:amd64
 liblog4j1.2-java
+liblogback-java
 liblogging-stdlog0:amd64
 liblognorm5:amd64
 liblouis-data
@@ -1629,6 +1701,10 @@ libmateweather1:amd64
 libmath-random-isaac-perl
 libmath-random-isaac-xs-perl
 libmatroska6v5:amd64
+libmaven-parent-java
+libmaven-resolver-java
+libmaven-shared-utils-java
+libmaven3-core-java
 libmaxminddb0:amd64
 libmbim-glib4:amd64
 libmbim-proxy
@@ -1644,6 +1720,7 @@ libmicrodns0:amd64
 libmicrohttpd12
 libmime-charset-perl
 libminizip1:amd64
+libminlog-java
 libmirisdr0:amd64
 libmjpegutils-2.1-0
 libmm-glib0:amd64
@@ -1677,6 +1754,7 @@ libmtdev1:amd64
 libmtp-common
 libmtp-runtime
 libmtp9:amd64
+libmultiverse-core-java
 libmwaw-0.3-3:amd64
 libmypaint-1.3-0:amd64
 libmypaint-common
@@ -1684,6 +1762,8 @@ libmysofa0:amd64
 libmythes-1.2-0:amd64
 libnamespace-autoclean-perl
 libnamespace-clean-perl
+libnative-platform-java
+libnative-platform-jni
 libnautilus-extension1a:amd64
 libncurses-dev:amd64
 libncurses5:amd64
@@ -1692,6 +1772,7 @@ libncurses6:amd64
 libncursesw6:amd64
 libndp0:amd64
 libndpi4
+libnekohtml-java
 libneon27-gnutls:amd64
 libnet-cidr-perl
 libnet-dbus-perl
@@ -1720,6 +1801,7 @@ libnetfilter-queue1
 libnetpacket-perl
 libnetpbm10
 libnettle6:amd64
+libnetty-3.9-java
 libnewt-dev:amd64
 libnewt0.52:amd64
 libnfc-bin
@@ -1761,6 +1843,7 @@ libnumbertext-data
 liboauth0:amd64
 libobjc-8-dev:amd64
 libobjc4:amd64
+libobjenesis-java
 libodbc1:amd64
 libodfgen-0.1-1:amd64
 libofa0:amd64
@@ -1789,6 +1872,9 @@ libopts25:amd64
 libopus0:amd64
 liborc-0.4-0:amd64
 liborcus-0.13-0:amd64
+libosgi-annotation-java
+libosgi-compendium-java
+libosgi-core-java
 libosmesa6:amd64
 libosmosdr0:amd64
 libosp5
@@ -1860,6 +1946,15 @@ libpixie-java
 libpixman-1-0:amd64
 libpkcs11-helper1:amd64
 libplacebo5:amd64
+libplexus-cipher-java
+libplexus-classworlds-java
+libplexus-component-annotations-java
+libplexus-container-default-java
+libplexus-container-default1.5-java
+libplexus-interpolation-java
+libplexus-sec-dispatcher-java
+libplexus-utils-java
+libplexus-utils2-java
 libplist3:amd64
 libplymouth4:amd64
 libpng-dev:amd64
@@ -1869,6 +1964,7 @@ libpocl2-common
 libpolkit-agent-1-0:amd64
 libpolkit-backend-1-0:amd64
 libpolkit-gobject-1-0:amd64
+libpolyglot-maven-java
 libpoppler-glib8:amd64
 libpoppler74:amd64
 libpopt0:amd64
@@ -1878,6 +1974,7 @@ libpostproc55:amd64
 libpotrace0:amd64
 libpq5:amd64
 libprocps7:amd64
+libproguard-java
 libproj13:amd64
 libprotobuf-c1:amd64
 libprotobuf-lite10:amd64
@@ -1911,6 +2008,7 @@ libpython3.6-minimal:amd64
 libpython3.6-stdlib:amd64
 libpython3.7-minimal:amd64
 libpython3.7-stdlib:amd64
+libqdox-java
 libqhull7:amd64
 libqmi-glib5:amd64
 libqmi-proxy
@@ -1996,6 +2094,7 @@ libreadonly-perl
 librecode0:amd64
 libref-util-perl
 libref-util-xs-perl
+libreflectasm-java
 libregexp-common-perl
 libregfi1
 libreoffice
@@ -2032,6 +2131,7 @@ libresid-builder0c2a
 librest-0.7-0:amd64
 librevenge-0.0-0:amd64
 librhash0:amd64
+librhino-java
 libriemann-client0:amd64
 librole-tiny-perl
 librpc-xml-perl
@@ -2161,8 +2261,12 @@ libsidplay2
 libsigc++-2.0-0v5:amd64
 libsignal-protocol-c2:amd64
 libsigsegv2:amd64
+libsimple-http-java
+libsisu-inject-java
+libsisu-plexus-java
 libslang2:amd64
 libslang2-dev:amd64
+libslf4j-java
 libsm-dev:amd64
 libsm6:amd64
 libsmali-java
@@ -2353,6 +2457,9 @@ libvulkan1:amd64
 libwacom-bin
 libwacom-common
 libwacom2:amd64
+libwagon-file-java
+libwagon-http-java
+libwagon-provider-api-java
 libwavpack1:amd64
 libwayland-client0:amd64
 libwayland-cursor0:amd64
@@ -2416,6 +2523,7 @@ libxatracker2:amd64
 libxau-dev:amd64
 libxau6:amd64
 libxaw7:amd64
+libxbean-reflect-java
 libxcb-dri2-0:amd64
 libxcb-dri2-0-dev:amd64
 libxcb-dri3-0:amd64
@@ -2512,6 +2620,7 @@ libxshmfence-dev:amd64
 libxshmfence1:amd64
 libxslt1.1:amd64
 libxss1:amd64
+libxstream-java
 libxt-dev:amd64
 libxt6:amd64
 libxtables12:amd64
@@ -2538,6 +2647,7 @@ libzen0v5:amd64
 libzip4:amd64
 libzmf-0.0-0:amd64
 libzmq5:amd64
+libzopfli1
 libzstd1:amd64
 libzulucrypt-exe1.2.0:amd64
 libzulucrypt1.2.0:amd64
@@ -2558,14 +2668,9 @@ linux-base
 linux-compiler-gcc-7-x86
 linux-config-4.18:amd64
 linux-exploit-suggester
-linux-headers-4.18.0-parrot8-amd64
-linux-headers-4.18.0-parrot8-common
 linux-headers-4.18.11-msi
-linux-headers-amd64
 linux-image-4.18.0-2-amd64
-linux-image-4.18.0-parrot8-amd64
 linux-image-4.18.11-msi
-linux-image-amd64
 linux-kbuild-4.18
 linux-libc-dev:amd64
 linux-perf-4.18.11
@@ -2671,6 +2776,7 @@ mate-system-monitor
 mate-system-monitor-common
 mate-terminal
 mate-terminal-common
+mate-terminal-dbgsym
 mate-themes
 mate-tweak
 mate-user-guide
@@ -2932,6 +3038,7 @@ printer-driver-pxljr
 printer-driver-sag-gdi
 printer-driver-splix
 procps
+proguard-cli
 proj-bin
 proj-data
 protos-sip
@@ -3713,6 +3820,7 @@ sphinx-common
 sphinx-rtd-theme-common
 spice-client-glib-usb-acl-helper
 spike
+split-select
 spooftooph
 sqldict
 sqlite3
@@ -3783,6 +3891,7 @@ teamsploit
 telnet
 termineter
 testdisk
+testng
 tex-common
 tex-gyre
 texlive
@@ -4030,6 +4139,7 @@ zenmap
 zerofree
 zile
 zip
+zipalign
 zlib1g:amd64
 zlib1g-dev:amd64
 zsh
