@@ -1708,6 +1708,7 @@ ncurses-term
 net-tools
 netbase
 netcat-traditional
+nethogs
 netpbm
 network-manager
 network-manager-gnome
