@@ -378,6 +378,7 @@ alias apt-list="apt list --installed"
 alias apt-list-s="apt list --installed | grep "$1""
 alias nethogs="sudo nethogs -p"
 #alias android="$HOME/Android/Sdk/tools/bin/sdkmanager"
+alias matrix="cmatrix -a -s"
 
 #############Android stuff#####################
 export PATH="$HOME/rom_scripts:$PATH"
@@ -395,8 +396,11 @@ BLD_TOOLS_KEEP=$(ls -t $HOME/Android/Sdk/build-tools/ | head -n 1)
 find $HOME/Android/Sdk/build-tools/ -mindepth 1 -maxdepth 1 ! -name "$BLD_TOOLS_KEEP" -execdir rm -rf 2>/dev/null {} \+
 #find . -maxdepth 1 ! -name "$BLD_TOOLS_KEEP" -print0 | xargs -0 rm -rf 2>/dev/null
 
+# For android
 export PATH="./prebuilts/sdk/tools:$PATH"
-export JAVA_HOME=/usr/lib/jvm/default-java
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+
+# System configs
 export EDITOR="nano"
 export DIPLAY=:0
 export USE_SDK_WRAPPER=true
@@ -446,7 +450,7 @@ ZSH_THEME_GIT_PROMPT_DIRTY="%{$FG[$num1]%}✗✗✗"
 # Put it all together! (The 'ENTER's' actually create a 'NEWLINE' on prompt
 PROMPT="
 $MSI_CURRENT_TIME_$MSI_CURRENT_RUBY_$MSI_CURRENT_MACH_$MSI_CURRENT_USER_$MSI_PROMPT_CHAR_ $MSI_CURRENT_LOCA_
-%{$FG[$num2]%} └──╼➤➨ "
+%{$FG[$num2]%} └──╼➤ "
 
 ############### End of personalized theme ###########################
 
