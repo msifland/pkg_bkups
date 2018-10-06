@@ -92,6 +92,7 @@ chromium
 chromium-common
 cmake
 cmake-data
+cmatrix
 coinor-libcbc3
 coinor-libcgl1
 coinor-libclp1
@@ -1953,6 +1954,7 @@ sgml-data
 sgmlspl
 shared-mime-info
 simple-cdd
+snap
 software-properties-common
 sound-icons
 sound-theme-freedesktop

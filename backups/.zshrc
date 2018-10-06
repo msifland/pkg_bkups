@@ -446,7 +446,7 @@ ZSH_THEME_GIT_PROMPT_DIRTY="%{$FG[$num1]%}✗✗✗"
 # Put it all together! (The 'ENTER's' actually create a 'NEWLINE' on prompt
 PROMPT="
 $MSI_CURRENT_TIME_$MSI_CURRENT_RUBY_$MSI_CURRENT_MACH_$MSI_CURRENT_USER_$MSI_PROMPT_CHAR_ $MSI_CURRENT_LOCA_
-%{$FG[$num2]%} └──╼>> "
+%{$FG[$num2]%} └──╼➤➨ "
 
 ############### End of personalized theme ###########################
 
