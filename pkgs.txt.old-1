@@ -90,6 +90,9 @@ caja-sendto
 caja-wallpaper
 chromium
 chromium-common
+clamav
+clamav-base
+clamav-freshclam
 cmake
 cmake-data
 cmatrix
@@ -596,6 +599,7 @@ libcgraph6
 libcholmod3:amd64
 libchromaprint1:amd64
 libcilkrts5:amd64
+libclamav7:amd64
 libclass-accessor-perl
 libclass-isa-perl
 libclone-perl
@@ -1035,6 +1039,7 @@ libmpfr6:amd64
 libmpg123-0:amd64
 libmplex2-2.1-0
 libmpx2:amd64
+libmspack0:amd64
 libmspub-0.1-1:amd64
 libmsv-java
 libmtdev1:amd64
@@ -1369,6 +1374,7 @@ libtext-charwidth-perl
 libtext-iconv-perl
 libtext-levenshtein-perl
 libtext-wrapi18n-perl
+libtfm1:amd64
 libthai-data
 libthai0:amd64
 libtheora0:amd64
