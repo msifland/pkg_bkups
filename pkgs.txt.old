@@ -769,6 +769,7 @@ libgdata22:amd64
 libgdbm-compat4:amd64
 libgdbm3:amd64
 libgdbm5:amd64
+libgdbm6:amd64
 libgdk-pixbuf2.0-0:amd64
 libgdk-pixbuf2.0-bin
 libgdk-pixbuf2.0-common
