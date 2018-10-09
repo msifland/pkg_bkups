@@ -357,7 +357,7 @@ echo "     Kernel Version: $(uname -v)"
 echo -e "     Uptime: $(uptime)"
 echo "     Disk use:  Prtitn          Total Used  Rmn   %Us MntPnt"
 df -h | grep /dev/sd | while read line; do echo -e "\t\t$line"; done
-echo "     External IP: $(curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//') / Internal IP: $(ip address | grep "inet 19" | sed '/vmnet/ d' | gawk '{print $2}' | sed 's:/24::g')"
+echo "     External IP: $(curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//') / Internal IP: $(ip address | grep "inet 19" | sed '/vmnet/ d' | awk '{print $2}' | sed 's:/24::g')"
 echo " =========================================================================================="
 echo -e ${restore}
 echo
@@ -380,8 +380,7 @@ alias nethogs="sudo nethogs -p"
 #alias android="$HOME/Android/Sdk/tools/bin/sdkmanager"
 alias matrix="cmatrix -a -s"
 
-#############Android stuff#####################
-export PATH="$HOME/rom_scripts:$PATH"
+############# Paths #####################
 export PATH="$HOME/scripts:$PATH"
 export PATH="$HOME/scripts/kernel_scripts:$PATH"
 export PATH="$HOME/bin:$PATH"
