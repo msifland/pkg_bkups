@@ -88,6 +88,8 @@ caja-rename
 caja-seahorse
 caja-sendto
 caja-wallpaper
+cheese
+cheese-common
 chromium
 chromium-common
 clamav
@@ -328,6 +330,7 @@ gnome-keyring-pkcs11:amd64
 gnome-system-tools
 gnome-themes-extra:amd64
 gnome-themes-extra-data
+gnome-video-effects
 gnupg
 gnupg-agent
 gnupg-l10n
@@ -352,6 +355,7 @@ grub2
 grub2-common
 gsettings-desktop-schemas
 gsfonts
+gstreamer1.0-clutter-3.0:amd64
 gstreamer1.0-gl:amd64
 gstreamer1.0-libav:amd64
 gstreamer1.0-plugins-bad:amd64
@@ -386,6 +390,7 @@ hplip
 hplip-data
 hunspell-en-us
 hwinfo
+hwloc
 hyphen-en-us
 i965-va-driver:amd64
 iamerican
@@ -596,6 +601,8 @@ libcdt5
 libcgi-fast-perl
 libcgi-pm-perl
 libcgraph6
+libcheese-gtk25:amd64
+libcheese8:amd64
 libcholmod3:amd64
 libchromaprint1:amd64
 libcilkrts5:amd64
@@ -605,8 +612,16 @@ libclass-isa-perl
 libclone-perl
 libclucene-contribs1v5:amd64
 libclucene-core1v5:amd64
+libclutter-1.0-0:amd64
+libclutter-1.0-common
+libclutter-gst-3.0-0:amd64
+libclutter-gtk-1.0-0:amd64
 libcmis-0.5-5v5
 libcodec2-0.8.1:amd64
+libcogl-common
+libcogl-pango20:amd64
+libcogl-path20:amd64
+libcogl20:amd64
 libcolamd2:amd64
 libcolord2:amd64
 libcolorhug2:amd64
@@ -870,6 +885,8 @@ libhttp-date-perl
 libhttp-message-perl
 libhttp-negotiate-perl
 libhunspell-1.6-0:amd64
+libhwloc-plugins:amd64
+libhwloc5:amd64
 libhyphen0:amd64
 libib-util:amd64
 libiberty-dev:amd64
@@ -1729,6 +1746,7 @@ notification-daemon
 ntfs-3g
 numlockx
 obex-data-server
+ocl-icd-libopencl1:amd64
 openbios-ppc
 openbios-sparc
 openhackware
