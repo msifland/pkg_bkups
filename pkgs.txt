@@ -1604,8 +1604,15 @@ libxdmcp6:amd64
 libxdmcp6:i386
 libxdot4
 libxen-4.8:amd64
+libxencall1:amd64
+libxendevicemodel1:amd64
+libxenevtchn1:amd64
+libxenforeignmemory1:amd64
+libxengnttab1:amd64
+libxenmisc4.11:amd64
 libxenstore3.0:amd64
 libxentoolcore1:amd64
+libxentoollog1:amd64
 libxerces2-java
 libxext6:amd64
 libxext6:i386
