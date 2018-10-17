@@ -420,7 +420,6 @@ iproute2
 iptables
 iputils-ping
 ipxe-qemu
-irqbalance
 isc-dhcp-client
 isc-dhcp-common
 iso-codes
@@ -1697,14 +1696,12 @@ links
 lintian
 linux-base
 linux-config-4.18:amd64
-linux-headers-4.18.12-msi
 linux-headers-4.18.13-msi
-linux-image-4.18.0-2-amd64
-linux-image-4.18.12-msi
+linux-headers-4.18.14-msi
 linux-image-4.18.13-msi
-linux-image-amd64
+linux-image-4.18.14-msi
 linux-libc-dev:amd64
-linux-perf-4.18.13
+linux-perf-4.18.14
 linux-source
 linux-source-4.18
 live-boot-doc
