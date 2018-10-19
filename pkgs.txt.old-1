@@ -1239,6 +1239,7 @@ libpolkit-backend-1-0:amd64
 libpolkit-gobject-1-0:amd64
 libpoppler-glib8:amd64
 libpoppler74:amd64
+libpoppler80:amd64
 libpopt0:amd64
 libpostproc55:amd64
 libpotrace0:amd64
