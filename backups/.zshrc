@@ -205,7 +205,7 @@ if [[ ! -z $1 ]]; then
 	math=$(echo "scale=7; (("$1"))" | bc)
 	echo $math
 else
-	echo Usage: "math '5*6'" or "math '(5*4)/2'"
+	echo Usage: 'math "5*6" or math "(5*4)/2"'
 	echo
 fi
 }
