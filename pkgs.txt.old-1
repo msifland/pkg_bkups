@@ -109,9 +109,9 @@ colord-data
 compiz
 compiz-core
 compiz-gnome
-compiz-mate
-compiz-plugins
-compiz-plugins-default
+compiz-mate:amd64
+compiz-plugins:amd64
+compiz-plugins-default:amd64
 compizconfig-settings-manager
 compton
 conky
@@ -636,7 +636,7 @@ libcommons-codec-java
 libcommons-collections3-java
 libcommons-logging-java
 libcommons-parent-java
-libcompizconfig0
+libcompizconfig0:amd64
 libconfig9:amd64
 libcpufreq0
 libcroco3:amd64
@@ -673,7 +673,7 @@ libdca0:amd64
 libdconf1:amd64
 libde265-0:amd64
 libdebconfclient0:amd64
-libdecoration0
+libdecoration0:amd64
 libdevmapper1.02.1:amd64
 libdigest-bubblebabble-perl
 libdigest-hmac-perl
@@ -1250,6 +1250,7 @@ libprotobuf-c1:amd64
 libprotobuf-lite10:amd64
 libprotobuf-lite17:amd64
 libprotobuf10:amd64
+libprotobuf17:amd64
 libproxy-tools
 libproxy1v5:amd64
 libpsl5:amd64
@@ -1926,7 +1927,7 @@ python-babel-localedata
 python-cairo:amd64
 python-caja
 python-caja-common
-python-compizconfig
+python-compizconfig:amd64
 python-configobj
 python-dbus
 python-funcsigs
