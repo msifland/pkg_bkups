@@ -1,0 +1,11 @@
+[apt]
+frontend=text
+which=both
+email_address=none
+email_format=text
+confirm=false
+headers=false
+reverse=false
+save_seen=/var/lib/apt/listchanges.db
+no_network=false
+
