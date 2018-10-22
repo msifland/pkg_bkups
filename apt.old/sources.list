@@ -25,8 +25,11 @@ deb-src http://security.debian.org/debian-security oldstable/updates main contri
 # Testing
 deb http://ftp.debian.org/debian/ testing main contrib non-free
 deb-src http://ftp.debian.org/debian/ testing main contrib non-free
+deb http://security.debian.org/debian-security testing/updates main contrib non-free
+deb-src http://security.debian.org/debian-security testing/updates main contrib non-free
 
 # Unstable
 deb http://ftp.debian.org/debian/ unstable main contrib non-free
 deb-src http://ftp.debian.org/debian/ unstable main contrib non-free
-
+deb http://security.debian.org/debian/debian-security unstable main contrib non-free
+deb-src http://security.debian.org/debian/debian-security unstable main contrib non-free
