@@ -91,7 +91,6 @@ caja-wallpaper
 cheese
 cheese-common
 chromium
-chromium-common
 clamav
 clamav-base
 clamav-freshclam
@@ -519,6 +518,7 @@ libavcodec57:amd64
 libavcodec58:amd64
 libavdevice58:amd64
 libavfilter7:amd64
+libavformat57:amd64
 libavformat58:amd64
 libavresample4:amd64
 libavutil55:amd64
@@ -551,6 +551,7 @@ libblockdev-swap2:amd64
 libblockdev-utils2:amd64
 libblockdev2:amd64
 libbluetooth3:amd64
+libbluray1:amd64
 libbluray2:amd64
 libboost-chrono1.62.0:amd64
 libboost-date-time1.62.0:amd64
@@ -732,6 +733,7 @@ libestr0:amd64
 libetonyek-0.1-1:amd64
 libevdev2:amd64
 libevdocument3-4:amd64
+libevent-2.0-5:amd64
 libevent-2.1-6:amd64
 libevview3-3:amd64
 libexempi3:amd64
@@ -930,6 +932,7 @@ libice-dev:amd64
 libice6:amd64
 libicu-le-hb0:amd64
 libicu4j-java
+libicu57:amd64
 libicu60:amd64
 libid3tag0:amd64
 libidn11:amd64
@@ -1260,7 +1263,6 @@ libpulse-mainloop-glib0:amd64
 libpulse0:amd64
 libpulsedsp:amd64
 libpython-stdlib:amd64
-libpython2-stdlib:amd64
 libpython2.7:amd64
 libpython2.7-minimal:amd64
 libpython2.7-stdlib:amd64
@@ -1300,6 +1302,7 @@ libraw15:amd64
 libraw16:amd64
 libraw19:amd64
 librdf0:amd64
+libre2-3:amd64
 libre2-4:amd64
 libreadline7:amd64
 librelaxng-datatype-java
@@ -1507,6 +1510,7 @@ libvolume-key1
 libvorbis0a:amd64
 libvorbisenc2:amd64
 libvorbisfile3:amd64
+libvpx4:amd64
 libvpx5:amd64
 libvte-2.91-0:amd64
 libvte-2.91-common
@@ -1526,6 +1530,7 @@ libwbclient0:amd64
 libwebkit2gtk-4.0-37:amd64
 libwebp6:amd64
 libwebpdemux2:amd64
+libwebpmux2:amd64
 libwebpmux3:amd64
 libwebrtc-audio-processing1:amd64
 libwildmidi-config
@@ -1947,8 +1952,6 @@ python-six
 python-talloc:amd64
 python-xdg
 python-xlib
-python2
-python2-minimal
 python2.7
 python2.7-minimal
 python3
