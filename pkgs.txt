@@ -1703,14 +1703,12 @@ links
 lintian
 linux-base
 linux-config-4.18:amd64
-linux-headers-4.18.13-msi
-linux-headers-4.18.14-msi
 linux-headers-4.18.16-msi
-linux-image-4.18.13-msi
-linux-image-4.18.14-msi
+linux-headers-4.19.0-msi
 linux-image-4.18.16-msi
+linux-image-4.19.0-msi
 linux-libc-dev:amd64
-linux-perf-4.18.16
+linux-perf-4.19
 linux-source
 linux-source-4.18
 live-boot-doc
