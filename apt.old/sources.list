@@ -31,5 +31,3 @@ deb-src http://security.debian.org/debian-security testing/updates main contrib 
 # Unstable
 deb http://ftp.debian.org/debian/ unstable main contrib non-free
 deb-src http://ftp.debian.org/debian/ unstable main contrib non-free
-deb http://security.debian.org/debian-security unstable/updates main contrib non-free
-deb-src http://security.debian.org/debian-security unstable/updates main contrib non-free
