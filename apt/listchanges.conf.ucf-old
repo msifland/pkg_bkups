@@ -1,10 +1,10 @@
 [apt]
-frontend=pager
-which=news
-email_address=root
-email_format=text
+frontend=text
+which=both
+email_address=
+email_format=html
 confirm=false
 headers=false
 reverse=false
 save_seen=/var/lib/apt/listchanges.db
-
+no_network=false
