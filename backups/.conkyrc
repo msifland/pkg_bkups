@@ -81,8 +81,8 @@ ${color}${top_mem name 4}${color2}${alignr}${top_mem pid 4}      ${top_mem cpu 4
 #${color}${font sans:size=9}Load Avg:${color2}${font sans:size=9}${alignr}${loadavg}
 $color2$hr
 ${color}${font sans:bold:size=10}FILE SYSTEM
-${color}/dev/sda${color2}${font sans:size=10}   ${fs_used_perc /}%   ${alignr}${fs_used /}/${fs_size /}
-${color3}${fs_bar /}
+${color}/home${color2}${font sans:size=10}   ${fs_used_perc /home}%   ${alignr}${fs_used /home}/${fs_size /home}
+${color3}${fs_bar /home}
 $color2$hr
 ${color}${font sans:bold:size=10}NETWORK DATA
 ${color}${font sans:size=8}Network Adapter: ${color2}${texeci 36000 echo $(ip link show | grep "state UP" | cut -d':' -f2 | sed 's#:##')}${if_existing .conky_has_wireless}${goto 5}${voffset 13}${color}Wireless Network: ${color2}${wireless_essid  wlo1}${endif} \
