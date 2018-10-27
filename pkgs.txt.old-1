@@ -538,6 +538,7 @@ libbcpkix-java
 libbcprov-java
 libbdplus0:amd64
 libbind9-160:amd64
+libbind9-161:amd64
 libbinutils:amd64
 libbison-dev:amd64
 libblas3:amd64
@@ -683,6 +684,7 @@ libdjvulibre21:amd64
 libdns-export1102
 libdns-export162
 libdns1102:amd64
+libdns1104:amd64
 libdom4j-java
 libdotconf0:amd64
 libdouble-conversion1:amd64
@@ -958,9 +960,12 @@ libipc-system-simple-perl
 libiptc0:amd64
 libisc-export160
 libisc-export169:amd64
+libisc1100:amd64
 libisc169:amd64
 libisccc160:amd64
+libisccc161:amd64
 libisccfg160:amd64
+libisccfg163:amd64
 libisl19:amd64
 libisoburn1:amd64
 libisofs6:amd64
@@ -1038,6 +1043,7 @@ liblua5.2-0:amd64
 liblwp-mediatypes-perl
 liblwp-protocol-https-perl
 liblwres160:amd64
+liblwres161:amd64
 liblz1:amd64
 liblz4-1:amd64
 liblzma-dev:amd64
