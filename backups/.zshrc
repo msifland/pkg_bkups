@@ -128,8 +128,8 @@ cd $P
 export MPWD=$P
 }
 
-fucntion iso-gen(){
-		/$HOME/scripts/gen-iso
+function iso-gen(){
+		$HOME/scripts/gen-iso
 }
 
 function rom-sync(){ ##>Sync specified ROM.
@@ -228,8 +228,8 @@ function edit-virus-clamscan(){ ##>Edit folders to include and exclude for virus
 }
 
 function oh-my-zsh-updater(){ ##>Updates oh-my-zsh.
-	echo "Date & Time: $(date +"%m-%d-%y -- %r")\n" | tee /home/msifland/scripts/oh-my-zsh-update-log.txt
-	upgrade_oh_my_zsh | tee -a /home/msifland/scripts/oh-my-zsh-update-log.txt
+	echo "Date & Time: $(date +"%m-%d-%y -- %r")\n" | tee $HOME/scripts/oh-my-zsh-update-log.txt
+	upgrade_oh_my_zsh | tee -a $HOME/scripts/oh-my-zsh-update-log.txt
 }
 
 function file-open(){ ##>Opens a file by full name in current directory, or opens a file from full directory path, or open a directory by name and shows a list of files in that directory.
@@ -379,6 +379,8 @@ alias apt-list-s="apt list --installed | grep "$1""
 alias nethogs="sudo nethogs -p"
 #alias android="$HOME/Android/Sdk/tools/bin/sdkmanager"
 alias matrix="cmatrix -a -s"
+alias apt-sources="subl /etc/apt/sources.list"
+alias apt-preferences="subl /etc/apt/preferences.d/preferences"
 
 ############# Paths #####################
 export PATH="$HOME/scripts:$PATH"

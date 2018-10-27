@@ -145,20 +145,8 @@ cd $P
 export MPWD=$P
 }
 
-function find-stuff(){ ##>Find items in a specified date rage for specified. directory
-	sleep 1
-	read -p "What directory would you like to find in?[/path/to/dir] " directory
-	sleep 1
-	if [[ -d "$directory" ]]; then
-		read -p "What date range? Start date?[yyyy-mm-dd] " start_date
-		sleep 1
-		read -p "End date?[yyyy-mm-dd] " end_date
-		sleep 1
-		find "$directory" -type f -name "*" -newermt "$start_date" ! -newermt "$end_date"
-	else
-		echo "Not a valid directory, please try again..."
-		find_stuff
-	fi
+function iso-gen(){ ##>Gerate iso file from folder
+		$HOME/scripts/gen-iso
 }
 
 function rom-sync(){ ##>Sync specified ROM.
@@ -234,7 +222,7 @@ if [[ ! -z $1 ]]; then
 	math=$(echo "scale=7; (("$1"))" | bc)
 	echo $math
 else
-	echo Usage: "math '5*6'" or "math '(5*4)/2'"
+	echo Usage: 'math "5*6" or math "(5*4)/2"'
 	echo
 fi
 }
@@ -257,8 +245,8 @@ function edit-virus-clamscan(){ ##>Edit folders to include and exclude for virus
 }
 
 function oh-my-zsh-updater(){ ##>Updates oh-my-zsh.
-	echo "Date & Time: $(date +"%m-%d-%y -- %r")\n" | tee /home/msifland/scripts/oh-my-zsh-update-log.txt
-	upgrade_oh_my_zsh | tee -a /home/msifland/scripts/oh-my-zsh-update-log.txt
+	echo "Date & Time: $(date +"%m-%d-%y -- %r")\n" | tee $HOME/scripts/oh-my-zsh-update-log.txt
+	upgrade_oh_my_zsh | tee -a $HOME/scripts/oh-my-zsh-update-log.txt
 }
 
 function file-open(){ ##>Opens a file by full name in current directory, or opens a file from full directory path, or open a directory by name and shows a list of files in that directory.
@@ -386,7 +374,7 @@ echo "     Kernel Version: $(uname -v)"
 echo -e "     Uptime: $(uptime)"
 echo "     Disk use:  Prtitn          Total Used  Rmn   %Us MntPnt"
 df -h | grep /dev/sd | while read line; do echo -e "\t\t$line"; done
-echo "     External IP: $(curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//') / Internal IP: $(ip address | grep "inet 19" | sed '/vmnet/ d' | gawk '{print $2}' | sed 's:/24::g')"
+echo "     External IP: $(curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//') / Internal IP: $(ip address | grep "inet 19" | sed '/vmnet/ d' | awk '{print $2}' | sed 's:/24::g')"
 echo " =========================================================================================="
 echo -e ${restore}
 echo
@@ -407,15 +395,17 @@ alias apt-list="apt list --installed"
 alias apt-list-s="apt list --installed | grep "$1""
 alias nethogs="sudo nethogs -p"
 #alias android="$HOME/Android/Sdk/tools/bin/sdkmanager"
+alias matrix="cmatrix -a -s"
+alias apt-sources="subl /etc/apt/sources.list"
+alias apt-preferences="subl /etc/apt/preferences.d/preferences"
 
-#############Android stuff#####################
-export PATH="$HOME/rom_scripts:$PATH"
+############# Paths #####################
 export PATH="$HOME/scripts:$PATH"
 export PATH="$HOME/scripts/kernel_scripts:$PATH"
 export PATH="$HOME/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 export ANDROID_HOME="$HOME/Android/Sdk:$ANDROID_HOME"
-export PATH="/usr/lib/jvm/default-java/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/Android/Sdk:$HOME/Android/Sdk/platform-tools:$HOME/Android/Sdk/tools:$HOME/Android/Sdk/build-tools/:$PATH"
+export PATH="/usr/lib/jvm/default-java/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/Android/Sdk:$HOME/Android/Sdk/platform-tools:$HOME/Android/Sdk/tools:$HOME/Android/Sdk/build-tools/:$HOME/Android/android-studio/bin:$PATH"
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:$PATH"
 # This line specifically call the latest build tools number folder(mainly for building opengapps). It also deletes any older folders.
 export PATH="$(find $HOME/Android/Sdk/build-tools/ -mindepth 1 -maxdepth 1 -type d):$PATH"
@@ -424,8 +414,11 @@ BLD_TOOLS_KEEP=$(ls -t $HOME/Android/Sdk/build-tools/ | head -n 1)
 find $HOME/Android/Sdk/build-tools/ -mindepth 1 -maxdepth 1 ! -name "$BLD_TOOLS_KEEP" -execdir rm -rf 2>/dev/null {} \+
 #find . -maxdepth 1 ! -name "$BLD_TOOLS_KEEP" -print0 | xargs -0 rm -rf 2>/dev/null
 
+# For android
 export PATH="./prebuilts/sdk/tools:$PATH"
-export JAVA_HOME=/usr/lib/jvm/default-java
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+
+# System configs
 export EDITOR="nano"
 export DIPLAY=:0
 export USE_SDK_WRAPPER=true
@@ -439,5 +432,3 @@ if [ "$PS1" ]; then
     wget "http://api.icndb.com/jokes/random" -qO- | jshon -e value -e joke -u
 echo
 fi
-
-######################### End of My-Stuff ##########################

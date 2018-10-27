@@ -1470,7 +1470,7 @@ libudev1:amd64
 libudev1:i386
 libudisks2-0:amd64
 libumfpack5:amd64
-libunbound2:amd64
+libunbound8:amd64
 libunicode-linebreak-perl
 libunistring0:amd64
 libunistring2:amd64
