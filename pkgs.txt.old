@@ -1139,6 +1139,7 @@ libnewt-dev:amd64
 libnewt0.52:amd64
 libnfnetlink0:amd64
 libnfs11:amd64
+libnftnl7:amd64
 libnghttp2-14:amd64
 libnice10:amd64
 libnl-3-200:amd64
