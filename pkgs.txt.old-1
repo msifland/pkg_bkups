@@ -1212,7 +1212,7 @@ libparted-fs-resize0:amd64
 libparted2:amd64
 libpathplan4
 libpcap0.8:amd64
-libpcaudio0
+libpcaudio0:amd64
 libpci-dev
 libpci3:amd64
 libpciaccess0:amd64
