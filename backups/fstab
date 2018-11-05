@@ -12,11 +12,5 @@ UUID=6305e131-9501-4745-a496-ba3cb83c845b /               ext4    errors=remount
 # home /dev/sda2
 UUID="d9658a62-3a12-42c8-ae52-f45f1f5e50bf"	/home   ext4   defaults   0   2
 
-# tmp /dev/sda3
-UUID="73131e73-69d8-40e5-b71b-b354611c9081"	/tmp	ext4   defaults   0   0
-
-# var /dev/sda4
-UUID="dac13909-10cf-44aa-96c1-01999e1d0166"	/var	ext4   defaults   0   0
-
 # Swap /swapfile
 /swapfile	none	swap	defaults	0 0
