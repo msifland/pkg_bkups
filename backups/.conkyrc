@@ -86,10 +86,6 @@ ${font sans:bold:size=8}${color}/root  (/dev/sda1)${color2}${font sans:size=8}  
 ${color3}${fs_bar /root}
 ${font sans:bold:size=8}${color}/home(/dev/sda2)${color2}${font sans:size=8}   ${fs_used_perc /home}%   ${alignr}${fs_used /home}/${fs_size /home}
 ${color3}${fs_bar /home}
-${font sans:bold:size=8}${color}/tmp   (/dev/sda3)${color2}${font sans:size=8}   ${fs_used_perc /tmp}%   ${alignr}${fs_used /tmp}/${fs_size /tmp}
-${color3}${fs_bar /tmp}
-${font sans:bold:size=8}${color}/var    (/dev/sda4)${color2}${font sans:size=8}   ${fs_used_perc /var}%   ${alignr}${fs_used /var}/${fs_size /var}
-${color3}${fs_bar /var}
 $color2$hr
 ${color}${font sans:bold:size=10}NETWORK DATA
 ${color}${font sans:size=8}Network Adapter: ${color2}${texeci 36000 echo $(ip link show | grep "state UP" | cut -d':' -f2 | sed 's#:##')}${if_existing .conky_has_wireless}${goto 5}${voffset 13}${color}Wireless Network: ${color2}${wireless_essid  wlo1}${endif} \
