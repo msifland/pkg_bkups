@@ -1233,6 +1233,7 @@ libpeas-common
 libpentaho-reporting-flow-engine-java
 libperl-dev
 libperl5.26:amd64
+libperl5.28:amd64
 libperlio-gzip-perl
 libpgm-5.2-0:amd64
 libpipeline1:amd64
@@ -1886,6 +1887,7 @@ perl
 perl-base
 perl-modules-5.24
 perl-modules-5.26
+perl-modules-5.28
 perl-openssl-defaults:amd64
 pinentry-curses
 pinentry-gnome3
