@@ -22,7 +22,7 @@
 # m h  dom mon dow   command
 
 
-# The jobs with the env DISPLAY=:0 opens the jobs in a terminal
+### The jobs with the env DISPLAY=:0 opens the jobs in a terminal
 
 ########################### Ubuntu Linux #########################
 # Update system daily. Different here because we a calling more than one command. 
