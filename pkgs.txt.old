@@ -1468,8 +1468,10 @@ libtk8.6:amd64
 libtokyocabinet9:amd64
 libtommath1:amd64
 libtool
+libtpm-unseal1
 libtry-tiny-perl
 libtsan0:amd64
+libtspi1
 libtwolame0:amd64
 libu2f-udev
 libubsan0:amd64
@@ -1710,10 +1712,8 @@ lintian
 linux-base
 linux-config-4.18:amd64
 linux-headers-4.18.16-msi
-linux-headers-4.19.0-msi
 linux-headers-4.19.1-msi
 linux-image-4.18.16-msi
-linux-image-4.19.0-msi
 linux-image-4.19.1-msi
 linux-libc-dev:amd64
 linux-perf-4.19.1
@@ -2151,7 +2151,9 @@ tix
 tk
 tk8.6
 tofrodos
+tpm-tools
 traceroute
+trousers
 tzdata
 ucf
 udev
