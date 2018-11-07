@@ -104,7 +104,6 @@ coinor-libclp1
 coinor-libcoinmp1v5:amd64
 coinor-libcoinutils3v5
 coinor-libosi1v5
-colord
 colord-data
 compiz
 compiz-core
@@ -390,7 +389,6 @@ highlight
 highlight-common
 hostname
 hp-ppd
-hplip
 hplip-data
 hunspell-en-us
 hwinfo
@@ -1359,7 +1357,6 @@ libsac-java
 libsamplerate0:amd64
 libsane-common
 libsane-hpaio:amd64
-libsane1:amd64
 libsasl2-2:amd64
 libsasl2-modules:amd64
 libsasl2-modules-db:amd64
@@ -1508,6 +1505,7 @@ libva2:amd64
 libvdeplug2
 libvdpau-va-gl1:amd64
 libvdpau1:amd64
+libvidstab1.1:amd64
 libvisio-0.1-1:amd64
 libvisual-0.4-0:amd64
 libvlc-bin:amd64
@@ -1922,7 +1920,6 @@ printer-driver-hpijs
 printer-driver-m2300w
 printer-driver-min12xxw
 printer-driver-pnm2ppa
-printer-driver-postscript-hp
 printer-driver-ptouch
 printer-driver-pxljr
 printer-driver-sag-gdi
@@ -2080,7 +2077,6 @@ ruby-xmlrpc
 ruby2.5
 rubygems-integration
 samba-libs:amd64
-sane-utils
 screenfetch
 scrot
 seabios
