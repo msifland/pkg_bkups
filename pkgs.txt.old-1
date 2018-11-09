@@ -732,7 +732,6 @@ libestr0:amd64
 libetonyek-0.1-1:amd64
 libevdev2:amd64
 libevdocument3-4:amd64
-libevent-2.0-5:amd64
 libevent-2.1-6:amd64
 libevview3-3:amd64
 libexempi3:amd64
@@ -971,6 +970,7 @@ libisorelax-java
 libitext-java
 libitm1:amd64
 libiw30:amd64
+libixml10:amd64
 libjack-jackd2-0:amd64
 libjansson4:amd64
 libjavascriptcoregtk-4.0-18:amd64
@@ -1484,6 +1484,7 @@ libunistring0:amd64
 libunistring2:amd64
 libunwind-dev:amd64
 libunwind8:amd64
+libupnp13:amd64
 libupnp6:amd64
 libupower-glib3:amd64
 liburi-perl
@@ -1517,7 +1518,6 @@ libvolume-key1
 libvorbis0a:amd64
 libvorbisenc2:amd64
 libvorbisfile3:amd64
-libvpx4:amd64
 libvpx5:amd64
 libvte-2.91-0:amd64
 libvte-2.91-common
