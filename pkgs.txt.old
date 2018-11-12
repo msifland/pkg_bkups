@@ -1442,6 +1442,7 @@ libtbb2:amd64
 libtcl8.6:amd64
 libtdb1:amd64
 libteamdctl0:amd64
+libteckit0:amd64
 libtevent0:amd64
 libtexlua52:amd64
 libtexlua53:amd64
@@ -2124,6 +2125,7 @@ tasksel
 tasksel-data
 tcl
 tcl8.6
+teckit
 telnet
 tex-common
 tex-gyre
