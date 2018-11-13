@@ -698,6 +698,7 @@ libdrm-radeon1:amd64
 libdrm-radeon1:i386
 libdrm2:amd64
 libdrm2:i386
+libdumbnet1:amd64
 libdv4:amd64
 libdvbpsi10:amd64
 libdvdnav4:amd64
@@ -1664,6 +1665,7 @@ libxml2-utils
 libxmlbeans-java
 libxmlsec1:amd64
 libxmlsec1-nss:amd64
+libxmlsec1-openssl:amd64
 libxmu6:amd64
 libxmuu1:amd64
 libxnvctrl0:amd64
@@ -1853,6 +1855,8 @@ nvidia-vulkan-icd:amd64
 nvidia-vulkan-icd:i386
 obex-data-server
 ocl-icd-libopencl1:amd64
+open-vm-tools
+open-vm-tools-desktop
 openbios-ppc
 openbios-sparc
 openhackware
@@ -2248,6 +2252,7 @@ yelp
 yelp-xsl
 zenity
 zenity-common
+zerofree
 zip
 zlib1g:amd64
 zlib1g:i386
