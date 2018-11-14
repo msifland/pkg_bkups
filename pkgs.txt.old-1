@@ -1218,6 +1218,7 @@ libpeas-1.0-0:amd64
 libpeas-1.0-python2loader:amd64
 libpeas-common
 libperl-dev
+libperl5.26:amd64
 libperl5.28:amd64
 libperlio-gzip-perl
 libpgm-5.2-0:amd64
@@ -1578,13 +1579,10 @@ lightdm-gtk-greeter
 lintian
 linux-base
 linux-compiler-gcc-7-x86
-linux-headers-4.18.0-1-amd64
-linux-headers-4.18.0-1-common
 linux-headers-4.18.0-2-amd64
 linux-headers-4.18.0-2-common
 linux-headers-4.19.2-msi
 linux-headers-amd64
-linux-image-4.18.0-1-amd64
 linux-image-4.18.0-2-amd64
 linux-image-4.19.2-msi
 linux-image-4.9.0-7-amd64
@@ -1778,6 +1776,7 @@ patchutils
 pciutils
 perl
 perl-base
+perl-modules-5.26
 perl-modules-5.28
 perl-openssl-defaults:amd64
 pinentry-curses
