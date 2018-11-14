@@ -1237,7 +1237,6 @@ libqtcore4:amd64
 libqtdbus4:amd64
 libqtgui4:amd64
 libquadmath0:amd64
-librarian0
 libraw1394-11:amd64
 libraw19:amd64
 libre2-4:amd64
@@ -1793,7 +1792,6 @@ qtcore4-l10n
 qttranslations5-l10n
 qtwayland5:amd64
 rake
-rarian-compat
 re
 readline-common
 rfkill
