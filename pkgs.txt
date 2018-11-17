@@ -700,6 +700,7 @@ libbluetooth3:amd64
 libbluray2:amd64
 libboost-chrono1.62.0:amd64
 libboost-date-time1.62.0:amd64
+libboost-date-time1.67.0:amd64
 libboost-filesystem1.62.0:amd64
 libboost-iostreams1.62.0:amd64
 libboost-locale1.62.0:amd64
@@ -1001,6 +1002,7 @@ libice6:amd64
 libicu-le-hb0:amd64
 libicu57:amd64
 libicu60:amd64
+libicu63:amd64
 libid3tag0:amd64
 libidn11:amd64
 libidn2-0:amd64
