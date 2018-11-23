@@ -7,10 +7,12 @@
 # <file system> <mount point>   <type>  <options>       <dump>  <pass>
 # / was on /dev/sda1 during installation
 UUID=6305e131-9501-4745-a496-ba3cb83c845b /               ext4    errors=remount-ro 0       1
+
+# CD ROM
 /dev/sr0        /media/cdrom0   udf,iso9660 user,noauto     0       0
 
 # home /dev/sda2
 UUID="d9658a62-3a12-42c8-ae52-f45f1f5e50bf"	/home   ext4   defaults   0   2
 
 # Swap /swapfile
-/swapfile	none	swap	defaults	0 0
+/swapfile	none	swap    defaults	0	0
