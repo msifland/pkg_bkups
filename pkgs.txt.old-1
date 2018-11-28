@@ -1084,7 +1084,7 @@ liblilv-0-0:amd64
 liblirc-client0:amd64
 liblist-moreutils-perl
 liblivemedia64:amd64
-libllvm6.0:amd64
+libllvm7:amd64
 liblmdb0:amd64
 liblocale-gettext-perl
 liblogging-stdlog0:amd64
@@ -1308,6 +1308,9 @@ libpython3.6:amd64
 libpython3.6-dev:amd64
 libpython3.6-minimal:amd64
 libpython3.6-stdlib:amd64
+libpython3.7:amd64
+libpython3.7-minimal:amd64
+libpython3.7-stdlib:amd64
 libqmi-glib5:amd64
 libqmi-proxy
 libqt4-dbus:amd64
