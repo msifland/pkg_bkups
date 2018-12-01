@@ -601,6 +601,7 @@ iw
 jadetex
 java-common
 javascript-common
+jq
 jshon
 kasumi
 kbd
@@ -1066,6 +1067,7 @@ libjbig0:amd64
 libjbig2dec0:amd64
 libjim0.77:amd64
 libjpeg62-turbo:amd64
+libjq1:amd64
 libjs-jquery
 libjs-mathjax
 libjs-modernizr
@@ -1218,6 +1220,7 @@ liboauth0:amd64
 libodbc1:amd64
 libodfgen-0.1-1:amd64
 libogg0:amd64
+libonig5:amd64
 liboobs-1-5:amd64
 libopenal-data
 libopenal1:amd64
