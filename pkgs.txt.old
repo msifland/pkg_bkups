@@ -1090,7 +1090,7 @@ libharfbuzz0b:amd64
 libharfbuzz0b:i386
 libhdate1:amd64
 libheif1:amd64
-libhfstospell9:amd64
+libhfstospell10:amd64
 libhogweed4:amd64
 libhogweed4:i386
 libhtml-form-perl
@@ -2077,6 +2077,7 @@ network-manager-gnome
 nkf
 notification-daemon
 ntfs-3g
+numlockx
 nvidia-alternative
 nvidia-driver-libs:i386
 nvidia-driver-libs-i386:i386
