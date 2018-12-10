@@ -682,6 +682,7 @@ libatk-wrapper-java-jni:amd64
 libatk1.0-0:amd64
 libatk1.0-data
 libatkmm-1.6-1v5:amd64
+libatlas3-base:amd64
 libatomic1:amd64
 libatomic1:i386
 libatrildocument3
@@ -1902,16 +1903,14 @@ linux-base
 linux-compiler-gcc-7-x86
 linux-headers-4.18.0-3-amd64
 linux-headers-4.18.0-3-common
-linux-headers-4.19.6-msi
 linux-headers-4.19.8-msi
 linux-headers-amd64
 linux-image-4.18.0-3-amd64
-linux-image-4.19.6-msi
 linux-image-4.19.8-msi
 linux-image-amd64
 linux-kbuild-4.18
 linux-libc-dev:amd64
-linux-perf-4.19.6
+linux-perf-4.19.8
 live-task-localisation
 live-task-localisation-desktop
 live-task-recommended
