@@ -138,8 +138,6 @@ caja-rename
 caja-seahorse
 caja-sendto
 caja-wallpaper
-chromium
-chromium-common
 clamav
 clamav-base
 clamav-freshclam
@@ -703,12 +701,14 @@ libavahi-common3:i386
 libavahi-core7:amd64
 libavahi-glib1:amd64
 libavc1394-0:amd64
+libavcodec57:amd64
 libavcodec58:amd64
 libavcodec58:i386
 libavfilter7:amd64
 libavformat58:amd64
 libavresample4:amd64
 libavresample4:i386
+libavutil55:amd64
 libavutil56:amd64
 libavutil56:i386
 libayatana-appindicator3-1
@@ -1258,7 +1258,6 @@ libmetis5:amd64
 libmhash2:amd64
 libmicrodns0:amd64
 libmime-charset-perl
-libminizip1:amd64
 libmm-glib0:amd64
 libmng1:amd64
 libmnl0:amd64
@@ -1510,7 +1509,6 @@ librasqal3:amd64
 libraw1394-11:amd64
 libraw19:amd64
 librdf0:amd64
-libre2-4:amd64
 libreadline7:amd64
 librecode0:amd64
 libreoffice-common
@@ -1610,6 +1608,7 @@ libstdc++6:i386
 libsub-name-perl
 libsuitesparseconfig5:amd64
 libsunpinyin3v5:amd64
+libswresample2:amd64
 libswresample3:amd64
 libswresample3:i386
 libswscale5:amd64
@@ -1692,11 +1691,14 @@ libv4l-0:amd64
 libv4l-0:i386
 libv4lconvert0:amd64
 libv4lconvert0:i386
+libva-drm1:amd64
 libva-drm2:amd64
 libva-drm2:i386
 libva-wayland2:amd64
+libva-x11-1:amd64
 libva-x11-2:amd64
 libva-x11-2:i386
+libva1:amd64
 libva2:amd64
 libva2:i386
 libvdpau-va-gl1:amd64
@@ -1716,6 +1718,7 @@ libvorbis0a:i386
 libvorbisenc2:amd64
 libvorbisenc2:i386
 libvorbisfile3:amd64
+libvpx4:amd64
 libvpx5:amd64
 libvpx5:i386
 libvte-2.91-0:amd64
@@ -1738,6 +1741,7 @@ libwebkit2gtk-4.0-37:amd64
 libwebp6:amd64
 libwebp6:i386
 libwebpdemux2:amd64
+libwebpmux2:amd64
 libwebpmux3:amd64
 libwebpmux3:i386
 libwebrtc-audio-processing1:amd64
@@ -1761,10 +1765,12 @@ libx11-dev:amd64
 libx11-protocol-perl
 libx11-xcb1:amd64
 libx11-xcb1:i386
+libx264-148:amd64
 libx264-155:amd64
 libx264-155:i386
 libx265-165:amd64
 libx265-165:i386
+libx265-95:amd64
 libx32asan5
 libx32atomic1
 libx32gcc-8-dev
