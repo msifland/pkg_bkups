@@ -372,6 +372,7 @@ fortunes-it
 fortunes-min
 fortunes-zh
 fuse
+fuseiso
 fxload
 g++
 g++-8
