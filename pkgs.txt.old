@@ -325,6 +325,7 @@ fonts-nanum
 fonts-nanum-coding
 fonts-noto
 fonts-noto-cjk
+fonts-noto-color-emoji
 fonts-noto-hinted
 fonts-noto-mono
 fonts-noto-unhinted
@@ -855,7 +856,7 @@ libdigest-bubblebabble-perl
 libdigest-hmac-perl
 libdjvulibre-text
 libdjvulibre21:amd64
-libdns-export1102
+libdns-export1104
 libdns-export162
 libdns1104:amd64
 libdotconf0:amd64
@@ -1145,8 +1146,8 @@ libip6tc0:amd64
 libipc-run-perl
 libipc-system-simple-perl
 libiptc0:amd64
+libisc-export1100:amd64
 libisc-export160
-libisc-export169:amd64
 libisc1100:amd64
 libisccc161:amd64
 libisccfg163:amd64
@@ -1309,7 +1310,7 @@ libnewt-dev:amd64
 libnewt0.52:amd64
 libnfnetlink0:amd64
 libnfs11:amd64
-libnftnl7:amd64
+libnftnl11:amd64
 libnghttp2-14:amd64
 libnl-3-200:amd64
 libnl-genl-3-200:amd64
@@ -1330,8 +1331,6 @@ libnuma1:i386
 libnumbertext-1.0-0:amd64
 libnumbertext-data
 libnvidia-cfg1:i386
-libnvidia-egl-wayland1:amd64
-libnvidia-egl-wayland1:i386
 libnvidia-eglcore:amd64
 libnvidia-eglcore:i386
 libnvidia-glcore:amd64
@@ -2091,8 +2090,6 @@ nvidia-driver-libs:i386
 nvidia-driver-libs-i386:i386
 nvidia-egl-common
 nvidia-egl-icd:i386
-nvidia-egl-wayland-common
-nvidia-egl-wayland-icd:i386
 nvidia-installer-cleanup
 nvidia-legacy-check
 nvidia-vulkan-common
