@@ -138,9 +138,12 @@ caja-rename
 caja-seahorse
 caja-sendto
 caja-wallpaper
+chromium
 clamav
 clamav-base
+clamav-daemon
 clamav-freshclam
+clamdscan
 cmake
 cmake-data
 compton
@@ -707,6 +710,7 @@ libavcodec57:amd64
 libavcodec58:amd64
 libavcodec58:i386
 libavfilter7:amd64
+libavformat57:amd64
 libavformat58:amd64
 libavresample4:amd64
 libavresample4:i386
@@ -739,6 +743,7 @@ libblockdev-utils2:amd64
 libblockdev2:amd64
 libbluetooth-dev:amd64
 libbluetooth3:amd64
+libbluray1:amd64
 libbluray2:amd64
 libboost-chrono1.62.0:amd64
 libboost-date-time1.62.0:amd64
@@ -904,6 +909,7 @@ liberror-perl
 libespeak-ng1:amd64
 libestr0:amd64
 libevdev2:amd64
+libevent-2.0-5:amd64
 libevent-2.1-6:amd64
 libexempi3:amd64
 libexif12:amd64
@@ -1260,6 +1266,7 @@ libmetis5:amd64
 libmhash2:amd64
 libmicrodns0:amd64
 libmime-charset-perl
+libminizip1:amd64
 libmm-glib0:amd64
 libmng1:amd64
 libmnl0:amd64
@@ -1509,6 +1516,7 @@ librasqal3:amd64
 libraw1394-11:amd64
 libraw19:amd64
 librdf0:amd64
+libre2-3:amd64
 libreadline7:amd64
 librecode0:amd64
 libreoffice-common

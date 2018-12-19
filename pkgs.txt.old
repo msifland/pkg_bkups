@@ -1917,14 +1917,16 @@ linux-base
 linux-compiler-gcc-7-x86
 linux-headers-4.18.0-3-amd64
 linux-headers-4.18.0-3-common
+linux-headers-4.19.10-msi
 linux-headers-4.19.8-msi
 linux-headers-amd64
 linux-image-4.18.0-3-amd64
+linux-image-4.19.10-msi
 linux-image-4.19.8-msi
 linux-image-amd64
 linux-kbuild-4.18
 linux-libc-dev:amd64
-linux-perf-4.19.8
+linux-perf-4.19.10
 live-task-localisation
 live-task-localisation-desktop
 live-task-recommended
