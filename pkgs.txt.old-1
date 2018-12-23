@@ -212,6 +212,7 @@ docutils-common
 dosfstools
 dpkg
 dpkg-dev
+dvipng
 dwz
 e2fslibs:amd64
 e2fsprogs
@@ -1543,6 +1544,8 @@ libsbc1:amd64
 libscim8v5:amd64
 libsdl-image1.2:amd64
 libsdl1.2debian:amd64
+libsdl2-2.0-0:amd64
+libsdl2-2.0-0:i386
 libseccomp2:amd64
 libsecret-1-0:amd64
 libsecret-common
@@ -1710,6 +1713,8 @@ libvdpau1:i386
 libvidstab1.1:amd64
 libvisual-0.4-0:amd64
 libvisual-0.4-0:i386
+libvkd3d1:amd64
+libvkd3d1:i386
 libvlc-bin:amd64
 libvlc5:amd64
 libvlccore9:amd64
@@ -1735,7 +1740,9 @@ libwavpack1:i386
 libwayland-client0:amd64
 libwayland-client0:i386
 libwayland-cursor0:amd64
+libwayland-cursor0:i386
 libwayland-egl1:amd64
+libwayland-egl1:i386
 libwayland-server0:amd64
 libwayland-server0:i386
 libwbclient0:amd64
@@ -1846,6 +1853,7 @@ libxinerama1:amd64
 libxinerama1:i386
 libxkbcommon-x11-0:amd64
 libxkbcommon0:amd64
+libxkbcommon0:i386
 libxkbfile1:amd64
 libxklavier16:amd64
 libxml-libxml-perl
@@ -1912,15 +1920,17 @@ linux-compiler-gcc-7-x86
 linux-headers-4.18.0-3-amd64
 linux-headers-4.18.0-3-common
 linux-headers-4.19.10-msi
+linux-headers-4.19.11-msi
 linux-headers-4.19.8-msi
 linux-headers-amd64
 linux-image-4.18.0-3-amd64
 linux-image-4.19.10-msi
+linux-image-4.19.11-msi
 linux-image-4.19.8-msi
 linux-image-amd64
 linux-kbuild-4.18
 linux-libc-dev:amd64
-linux-perf-4.19.10
+linux-perf-4.19.11
 live-task-localisation
 live-task-localisation-desktop
 live-task-recommended
