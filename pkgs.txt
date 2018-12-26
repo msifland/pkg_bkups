@@ -1553,8 +1553,9 @@ libselinux1:amd64
 libselinux1:i386
 libsemanage-common
 libsemanage1:amd64
-libsensors4:amd64
-libsensors4:i386
+libsensors-config
+libsensors5:amd64
+libsensors5:i386
 libsepol1:amd64
 libserd-0-0:amd64
 libsgmls-perl
