@@ -1330,7 +1330,7 @@ libnss-mdns:amd64
 libnss-myhostname:amd64
 libnss-systemd:amd64
 libnss3:amd64
-libntfs-3g88
+libntfs-3g883
 libnuma-dev:amd64
 libnuma1:amd64
 libnuma1:i386
@@ -1355,8 +1355,6 @@ libopenal1:amd64
 libopenal1:i386
 libopencc2
 libopencc2-data
-libopencv-core3.2:amd64
-libopencv-imgproc3.2:amd64
 libopenexr23:amd64
 libopengl0:i386
 libopenjp2-7:amd64
@@ -1627,7 +1625,6 @@ libtag1v5-vanilla:amd64
 libtalloc2:amd64
 libtasn1-6:amd64
 libtasn1-6:i386
-libtbb2:amd64
 libtcl8.6:amd64
 libtdb1:amd64
 libteamdctl0:amd64

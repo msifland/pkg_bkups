@@ -1315,6 +1315,7 @@ libnewt-dev:amd64
 libnewt0.52:amd64
 libnfnetlink0:amd64
 libnfs11:amd64
+libnftables0:amd64
 libnftnl11:amd64
 libnghttp2-14:amd64
 libnl-3-200:amd64
@@ -2099,6 +2100,7 @@ netcat-traditional
 netpbm
 network-manager
 network-manager-gnome
+nftables
 nkf
 notification-daemon
 ntfs-3g
