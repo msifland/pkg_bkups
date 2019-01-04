@@ -139,6 +139,8 @@ caja-seahorse
 caja-sendto
 caja-wallpaper
 chromium
+chromium-common
+chromium-sandbox
 clamav
 clamav-base
 clamav-daemon
@@ -146,6 +148,8 @@ clamav-freshclam
 clamdscan
 cmake
 cmake-data
+colord
+colord-data
 compton
 conky
 conky-std
@@ -160,6 +164,17 @@ cpufrequtils
 crda
 cron
 culmus
+cups
+cups-browsed
+cups-client
+cups-common
+cups-core-drivers
+cups-daemon
+cups-filters
+cups-filters-core-drivers
+cups-ipp-utils
+cups-ppdc
+cups-server-common
 curl
 dahdi-firmware-nonfree
 dash
@@ -711,7 +726,6 @@ libavcodec57:amd64
 libavcodec58:amd64
 libavcodec58:i386
 libavfilter7:amd64
-libavformat57:amd64
 libavformat58:amd64
 libavresample4:amd64
 libavresample4:i386
@@ -744,7 +758,6 @@ libblockdev-utils2:amd64
 libblockdev2:amd64
 libbluetooth-dev:amd64
 libbluetooth3:amd64
-libbluray1:amd64
 libbluray2:amd64
 libboost-atomic1.67.0:amd64
 libboost-chrono1.67.0:amd64
@@ -816,6 +829,7 @@ libcodec2-0.8.1:amd64
 libcodec2-0.8.1:i386
 libcolamd2:amd64
 libcolord2:amd64
+libcolorhug2:amd64
 libcom-err2:amd64
 libcom-err2:i386
 libcomerr2:amd64
@@ -909,7 +923,6 @@ liberror-perl
 libespeak-ng1:amd64
 libestr0:amd64
 libevdev2:amd64
-libevent-2.0-5:amd64
 libevent-2.1-6:amd64
 libexempi3:amd64
 libexif12:amd64
@@ -956,6 +969,7 @@ libflite1:amd64
 libfont-afm-perl
 libfontconfig1:amd64
 libfontconfig1:i386
+libfontembed1:amd64
 libfontenc1:amd64
 libfreetype6:amd64
 libfreetype6:i386
@@ -1089,6 +1103,9 @@ libgts-0.7-5:amd64
 libgucharmap-2-90-7:amd64
 libgudev-1.0-0:amd64
 libgupnp-1.0-4:amd64
+libgusb2:amd64
+libgutenprint-common
+libgutenprint9
 libgvc6
 libgvpr2
 libgxps2:amd64
@@ -1218,6 +1235,9 @@ liblogging-stdlog0:amd64
 liblognorm5:amd64
 liblouis-data
 liblouis16:amd64
+liblouisutdml-bin
+liblouisutdml-data
+liblouisutdml8:amd64
 liblqr-1-0:amd64
 liblsan0:amd64
 libltdl-dev:amd64
@@ -1471,6 +1491,7 @@ libpython3.7-minimal:amd64
 libpython3.7-stdlib:amd64
 libqmi-glib5:amd64
 libqmi-proxy
+libqpdf21:amd64
 libqt4-dbus:amd64
 libqt4-xml:amd64
 libqt5core5a:amd64
@@ -1509,7 +1530,7 @@ librasqal3:amd64
 libraw1394-11:amd64
 libraw19:amd64
 librdf0:amd64
-libre2-3:amd64
+libre2-4:amd64
 libreadline7:amd64
 librecode0:amd64
 libreoffice-common
@@ -2150,11 +2171,13 @@ pm-utils
 po-debconf
 policykit-1
 poppler-data
+poppler-utils
 powermgmt-base
 powertop
 ppp
 presage
 preview-latex-style
+printer-driver-gutenprint
 procps
 psf-unifont
 psmisc
@@ -2259,6 +2282,7 @@ python3.7-dev
 python3.7-minimal
 qdbus
 qemu
+qpdf
 qt-at-spi:amd64
 qt5-gtk-platformtheme:amd64
 qtchooser
@@ -2310,6 +2334,7 @@ speech-dispatcher-audio-plugins:amd64
 speech-dispatcher-espeak-ng
 sphinx-common
 sphinx-rtd-theme-common
+ssl-cert
 steam:i386
 sublime-text
 sudo
