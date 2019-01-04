@@ -1828,6 +1828,7 @@ libxcb-keysyms1:amd64
 libxcb-present0:amd64
 libxcb-present0:i386
 libxcb-randr0:amd64
+libxcb-randr0:i386
 libxcb-render-util0:amd64
 libxcb-render0:amd64
 libxcb-render0:i386
@@ -2057,6 +2058,7 @@ mesa-va-drivers:amd64
 mesa-va-drivers:i386
 mesa-vdpau-drivers:amd64
 mesa-vdpau-drivers:i386
+mesa-vulkan-drivers:i386
 midisport-firmware
 mime-support
 mlterm
@@ -2336,6 +2338,7 @@ sphinx-common
 sphinx-rtd-theme-common
 ssl-cert
 steam:i386
+steam-devices
 sublime-text
 sudo
 sunpinyin-data:amd64
