@@ -746,6 +746,7 @@ libbind9-161:amd64
 libbinutils:amd64
 libbison-dev:amd64
 libblas3:amd64
+libblkid-dev:amd64
 libblkid1:amd64
 libblkid1:i386
 libblockdev-crypto2:amd64
@@ -950,6 +951,7 @@ libfcitx-qt5-1:amd64
 libfcitx-qt5-data
 libfcitx-utils0:amd64
 libfdisk1:amd64
+libffi-dev:amd64
 libffi6:amd64
 libffi6:i386
 libffmpegthumbnailer4v5
@@ -1234,7 +1236,7 @@ liblocale-gettext-perl
 liblogging-stdlog0:amd64
 liblognorm5:amd64
 liblouis-data
-liblouis16:amd64
+liblouis17:amd64
 liblouisutdml-bin
 liblouisutdml-data
 liblouisutdml8:amd64
@@ -1287,6 +1289,7 @@ libminizip1:amd64
 libmm-glib0:amd64
 libmng1:amd64
 libmnl0:amd64
+libmount-dev:amd64
 libmount1:amd64
 libmount1:i386
 libmp3lame0:amd64
@@ -1570,12 +1573,14 @@ libsecret-1-0:amd64
 libsecret-common
 libselinux1:amd64
 libselinux1:i386
+libselinux1-dev:amd64
 libsemanage-common
 libsemanage1:amd64
 libsensors-config
 libsensors5:amd64
 libsensors5:i386
 libsepol1:amd64
+libsepol1-dev:amd64
 libserd-0-0:amd64
 libsgmls-perl
 libshiboken1.2v5:amd64
@@ -2558,6 +2563,7 @@ usbmuxd
 usbutils
 util-linux
 util-linux-locales
+uuid-dev:amd64
 uuid-runtime
 va-driver-all:amd64
 va-driver-all:i386
