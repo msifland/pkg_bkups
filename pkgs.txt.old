@@ -344,9 +344,14 @@ fonts-nanum
 fonts-nanum-coding
 fonts-noto
 fonts-noto-cjk
+fonts-noto-cjk-extra
 fonts-noto-color-emoji
+fonts-noto-core
+fonts-noto-extra
 fonts-noto-hinted
 fonts-noto-mono
+fonts-noto-ui-core
+fonts-noto-ui-extra
 fonts-noto-unhinted
 fonts-opensymbol
 fonts-roboto-slab
