@@ -250,7 +250,7 @@ function file-open(){ ##>Opens a file by full name in current directory, or open
 	fi
 }
 
-function my-locate(){ ##>Finds files and folders by name in current dir recursively.
+function locate(){ ##>Finds files and folders by name in current dir recursively.
 	if [[ ! -z $1 ]]; then
 		$HOME/scripts/locate-file-names $1
 	else
