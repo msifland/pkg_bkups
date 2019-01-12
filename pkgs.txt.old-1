@@ -854,6 +854,7 @@ libcupsfilters1:amd64
 libcupsimage2:amd64
 libcurl3-gnutls:amd64
 libcurl4:amd64
+libcurl4:i386
 libcwidget3v5:amd64
 libdaemon0:amd64
 libdata-dump-perl
@@ -1270,6 +1271,8 @@ libmagickcore-6.q16-6-extra:amd64
 libmagickwand-6.q16-6:amd64
 libmailtools-perl
 libmarco-private1:amd64
+libmariadb3:amd64
+libmariadb3:i386
 libmate-desktop-2-17:amd64
 libmate-menu2:amd64
 libmate-panel-applet-4-1:amd64
@@ -1345,6 +1348,7 @@ libnfs11:amd64
 libnftables0:amd64
 libnftnl11:amd64
 libnghttp2-14:amd64
+libnghttp2-14:i386
 libnl-3-200:amd64
 libnl-genl-3-200:amd64
 libnm0:amd64
@@ -1465,6 +1469,7 @@ libpolkit-backend-1-0:amd64
 libpolkit-gobject-1-0:amd64
 libpoppler-glib8:amd64
 libpoppler80:amd64
+libpoppler82:amd64
 libpopt0:amd64
 libpostproc55:amd64
 libpotrace0:amd64
@@ -1478,6 +1483,7 @@ libprotobuf17:amd64
 libproxy-tools
 libproxy1v5:amd64
 libpsl5:amd64
+libpsl5:i386
 libptexenc1:amd64
 libpth20:amd64
 libpthread-stubs0-dev:amd64
@@ -1554,6 +1560,7 @@ librsvg2-2:i386
 librsvg2-common:amd64
 librsvg2-common:i386
 librtmp1:amd64
+librtmp1:i386
 librubberband2:amd64
 libruby2.5:amd64
 libsamplerate0:amd64
@@ -1630,6 +1637,7 @@ libsratom-0-0:amd64
 libss2:amd64
 libssh-gcrypt-4:amd64
 libssh2-1:amd64
+libssh2-1:i386
 libssl-dev:amd64
 libssl1.0.0:amd64
 libssl1.0.2:amd64
@@ -2193,6 +2201,7 @@ printer-driver-gutenprint
 procps
 psf-unifont
 psmisc
+publicsuffix
 pulseaudio
 pulseaudio-module-bluetooth
 pulseaudio-utils
