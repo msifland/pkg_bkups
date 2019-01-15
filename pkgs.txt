@@ -931,7 +931,7 @@ libespeak-ng1:amd64
 libestr0:amd64
 libevdev2:amd64
 libevent-2.1-6:amd64
-libexempi3:amd64
+libexempi8:amd64
 libexif12:amd64
 libexif12:i386
 libexiv2-14:amd64

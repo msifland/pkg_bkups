@@ -544,6 +544,7 @@ hunspell-eu
 hunspell-eu-es
 hunspell-fr
 hunspell-fr-classical
+hunspell-gl
 hunspell-gl-es
 hunspell-gu
 hunspell-hi
@@ -1343,7 +1344,7 @@ libnewlib-dev
 libnewt-dev:amd64
 libnewt0.52:amd64
 libnfnetlink0:amd64
-libnfs11:amd64
+libnfs12:amd64
 libnftables0:amd64
 libnftnl11:amd64
 libnghttp2-14:amd64
@@ -1458,7 +1459,7 @@ libpgm-5.2-0:amd64
 libpipeline1:amd64
 libpixman-1-0:amd64
 libpixman-1-0:i386
-libplacebo6:amd64
+libplacebo7:amd64
 libplist3:amd64
 libpng-dev:amd64
 libpng16-16:amd64
@@ -1467,7 +1468,6 @@ libpolkit-agent-1-0:amd64
 libpolkit-backend-1-0:amd64
 libpolkit-gobject-1-0:amd64
 libpoppler-glib8:amd64
-libpoppler80:amd64
 libpoppler82:amd64
 libpopt0:amd64
 libpostproc55:amd64
