@@ -516,6 +516,7 @@ gvfs-common
 gvfs-daemons
 gvfs-libs:amd64
 gzip
+haveged
 hddtemp
 hdmi2usb-fx2-firmware
 hdparm
@@ -1122,6 +1123,7 @@ libhangul1:amd64
 libharfbuzz-icu0:amd64
 libharfbuzz0b:amd64
 libharfbuzz0b:i386
+libhavege1:amd64
 libhdate1:amd64
 libheif1:amd64
 libhfstospell10:amd64
