@@ -782,7 +782,6 @@ libbsd0:i386
 libbtbb-dev:amd64
 libbtbb1:amd64
 libbz2-1.0:amd64
-libbz2-1.0:i386
 libc-bin
 libc-dev-bin
 libc-l10n
@@ -855,7 +854,6 @@ libcupsfilters1:amd64
 libcupsimage2:amd64
 libcurl3-gnutls:amd64
 libcurl4:amd64
-libcurl4:i386
 libcwidget3v5:amd64
 libdaemon0:amd64
 libdata-dump-perl
@@ -1007,10 +1005,8 @@ libgd3:i386
 libgdata-common
 libgdata22:amd64
 libgdbm-compat4:amd64
-libgdbm-compat4:i386
 libgdbm3:amd64
 libgdbm6:amd64
-libgdbm6:i386
 libgdk-pixbuf2.0-0:amd64
 libgdk-pixbuf2.0-0:i386
 libgdk-pixbuf2.0-bin
@@ -1158,7 +1154,6 @@ libidn2-0:amd64
 libidn2-0:i386
 libiec61883-0:amd64
 libieee1284-3:amd64
-libieee1284-3:i386
 libijs-0.35:amd64
 libilmbase23:amd64
 libimlib2:amd64
@@ -1274,7 +1269,6 @@ libmagickwand-6.q16-6:amd64
 libmailtools-perl
 libmarco-private1:amd64
 libmariadb3:amd64
-libmariadb3:i386
 libmate-desktop-2-17:amd64
 libmate-menu2:amd64
 libmate-panel-applet-4-1:amd64
@@ -1350,7 +1344,6 @@ libnfs12:amd64
 libnftables0:amd64
 libnftnl11:amd64
 libnghttp2-14:amd64
-libnghttp2-14:i386
 libnl-3-200:amd64
 libnl-genl-3-200:amd64
 libnm0:amd64
@@ -1437,7 +1430,6 @@ libpcap0.8-dev:amd64
 libpcaudio0:amd64
 libpci-dev
 libpci3:amd64
-libpci3:i386
 libpciaccess0:amd64
 libpciaccess0:i386
 libpcre16-3:amd64
@@ -1455,7 +1447,6 @@ libpeas-common
 libperl-dev
 libperl5.26:amd64
 libperl5.28:amd64
-libperl5.28:i386
 libperlio-gzip-perl
 libpgm-5.2-0:amd64
 libpipeline1:amd64
@@ -1484,7 +1475,6 @@ libprotobuf17:amd64
 libproxy-tools
 libproxy1v5:amd64
 libpsl5:amd64
-libpsl5:i386
 libptexenc1:amd64
 libpth20:amd64
 libpthread-stubs0-dev:amd64
@@ -1545,7 +1535,7 @@ librasqal3:amd64
 libraw1394-11:amd64
 libraw19:amd64
 librdf0:amd64
-libre2-4:amd64
+libre2-5:amd64
 libreadline7:amd64
 librecode0:amd64
 libreoffice-common
@@ -1561,13 +1551,11 @@ librsvg2-2:i386
 librsvg2-common:amd64
 librsvg2-common:i386
 librtmp1:amd64
-librtmp1:i386
 librubberband2:amd64
 libruby2.5:amd64
 libsamplerate0:amd64
 libsamplerate0:i386
 libsane:amd64
-libsane:i386
 libsane-common
 libsasl2-2:amd64
 libsasl2-2:i386
@@ -1591,7 +1579,6 @@ libsemanage-common
 libsemanage1:amd64
 libsensors-config
 libsensors5:amd64
-libsensors5:i386
 libsepol1:amd64
 libsepol1-dev:amd64
 libserd-0-0:amd64
@@ -1618,7 +1605,6 @@ libsndio7.0:amd64
 libsndio7.0:i386
 libsnmp-base
 libsnmp30:amd64
-libsnmp30:i386
 libsodium23:amd64
 libsombok3:amd64
 libsonic0:amd64
@@ -1638,7 +1624,6 @@ libsratom-0-0:amd64
 libss2:amd64
 libssh-gcrypt-4:amd64
 libssh2-1:amd64
-libssh2-1:i386
 libssl-dev:amd64
 libssl1.0.0:amd64
 libssl1.0.2:amd64
