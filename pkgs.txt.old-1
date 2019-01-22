@@ -1156,6 +1156,7 @@ libiec61883-0:amd64
 libieee1284-3:amd64
 libijs-0.35:amd64
 libilmbase23:amd64
+libimagequant0:amd64
 libimlib2:amd64
 libimobiledevice6:amd64
 libindicator3-7:amd64
