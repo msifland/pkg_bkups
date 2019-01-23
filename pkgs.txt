@@ -1579,6 +1579,7 @@ libsemanage-common
 libsemanage1:amd64
 libsensors-config
 libsensors5:amd64
+libsensors5:i386
 libsepol1:amd64
 libsepol1-dev:amd64
 libserd-0-0:amd64
