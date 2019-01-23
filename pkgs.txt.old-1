@@ -1483,7 +1483,6 @@ libpulse-mainloop-glib0:amd64
 libpulse0:amd64
 libpulse0:i386
 libpulsedsp:amd64
-libpyside1.2:amd64
 libpython-stdlib:amd64
 libpython2-stdlib:amd64
 libpython2.7:amd64
@@ -1584,7 +1583,6 @@ libsepol1:amd64
 libsepol1-dev:amd64
 libserd-0-0:amd64
 libsgmls-perl
-libshiboken1.2v5:amd64
 libshine3:amd64
 libshine3:i386
 libshout3:amd64
@@ -2208,8 +2206,6 @@ python-mock
 python-numpy
 python-pbr
 python-pkg-resources
-python-pyside.qtcore
-python-pyside.qtgui
 python-samba
 python-setproctitle:amd64
 python-setuptools
