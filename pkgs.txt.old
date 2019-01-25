@@ -697,6 +697,7 @@ libasound2-plugins:i386
 libaspell15:amd64
 libass9:amd64
 libassuan0:amd64
+libasync-mergepoint-perl
 libasyncns0:amd64
 libasyncns0:i386
 libatasmart4:amd64
@@ -984,6 +985,7 @@ libfribidi0:amd64
 libfribidi0:i386
 libfstrm0:amd64
 libfuse2:amd64
+libfuture-perl
 libgail-3-0:amd64
 libgail-common:amd64
 libgail18:amd64
@@ -1162,6 +1164,7 @@ libimobiledevice6:amd64
 libindicator3-7:amd64
 libinput-bin
 libinput10:amd64
+libio-async-perl
 libio-html-perl
 libio-pty-perl
 libio-socket-ssl-perl
@@ -1583,6 +1586,9 @@ libsensors5:i386
 libsepol1:amd64
 libsepol1-dev:amd64
 libserd-0-0:amd64
+libsereal-decoder-perl
+libsereal-encoder-perl
+libsereal-perl
 libsgmls-perl
 libshine3:amd64
 libshine3:i386
@@ -1634,6 +1640,7 @@ libstdc++-8-dev:amd64
 libstdc++-arm-none-eabi-newlib
 libstdc++6:amd64
 libstdc++6:i386
+libstruct-dumb-perl
 libsub-name-perl
 libsuitesparseconfig5:amd64
 libsunpinyin3v5:amd64
@@ -1653,6 +1660,8 @@ libtcl8.6:amd64
 libtdb1:amd64
 libteamdctl0:amd64
 libteckit0:amd64
+libtest-fatal-perl
+libtest-refcount-perl
 libtevent0:amd64
 libtexlua52:amd64
 libtexlua53:amd64
@@ -1946,14 +1955,15 @@ linux-headers-4.19.0-1-amd64
 linux-headers-4.19.0-1-common
 linux-headers-4.20.0-msi
 linux-headers-4.20.3-msi
+linux-headers-4.20.4-mi
 linux-headers-amd64
 linux-image-4.19.0-1-amd64
 linux-image-4.20.0-msi
 linux-image-4.20.3-msi
+linux-image-4.20.4-mi
 linux-image-amd64
 linux-kbuild-4.19
 linux-libc-dev:amd64
-linux-perf-4.20.3
 live-task-localisation
 live-task-localisation-desktop
 live-task-recommended
