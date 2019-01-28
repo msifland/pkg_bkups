@@ -1537,6 +1537,8 @@ libraptor2-0:amd64
 librasqal3:amd64
 libraw1394-11:amd64
 libraw19:amd64
+librda-common
+librda0:amd64
 librdf0:amd64
 libre2-5:amd64
 libreadline7:amd64
@@ -1955,14 +1957,16 @@ linux-headers-4.19.0-1-amd64
 linux-headers-4.19.0-1-common
 linux-headers-4.20.3-msi
 linux-headers-4.20.4-mi
+linux-headers-4.20.5-msi
 linux-headers-amd64
 linux-image-4.19.0-1-amd64
 linux-image-4.20.3-msi
 linux-image-4.20.4-mi
+linux-image-4.20.5-msi
 linux-image-amd64
 linux-kbuild-4.19
 linux-libc-dev:amd64
-linux-perf-4.20.4
+linux-perf-4.20.5
 live-task-localisation
 live-task-localisation-desktop
 live-task-recommended
@@ -1996,6 +2000,7 @@ manpages-tr
 manpages-zh
 marco
 marco-common
+mariadb-common
 mate-applet-appmenu
 mate-applet-brisk-menu
 mate-applets
@@ -2108,6 +2113,7 @@ myspell-sl
 myspell-sq
 myspell-th
 myspell-uk
+mysql-common
 mythes-cs
 mythes-de
 mythes-de-ch
