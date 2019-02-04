@@ -611,6 +611,8 @@ init-system-helpers
 initramfs-tools
 initramfs-tools-core
 inorwegian
+intel-media-va-driver:amd64
+intel-media-va-driver:i386
 intel-microcode
 intltool
 intltool-debian
@@ -1156,6 +1158,8 @@ libidn2-0:amd64
 libidn2-0:i386
 libiec61883-0:amd64
 libieee1284-3:amd64
+libigdgmm5:amd64
+libigdgmm5:i386
 libijs-0.35:amd64
 libilmbase23:amd64
 libimagequant0:amd64
