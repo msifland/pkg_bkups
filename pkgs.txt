@@ -1217,7 +1217,7 @@ libk5crypto3:i386
 libkate1:amd64
 libkeyutils1:amd64
 libkeyutils1:i386
-libklibc
+libklibc:amd64
 libkmod2:amd64
 libkpathsea6:amd64
 libkrb5-3:amd64
@@ -1957,14 +1957,14 @@ lightdm-gtk-greeter
 lintian
 linux-base
 linux-compiler-gcc-8-x86
-linux-headers-4.19.0-1-amd64
-linux-headers-4.19.0-1-common
+linux-headers-4.19.0-2-amd64
+linux-headers-4.19.0-2-common
 linux-headers-4.20.3-msi
 linux-headers-4.20.4-mi
 linux-headers-4.20.5-msi
 linux-headers-4.20.6-msi
 linux-headers-amd64
-linux-image-4.19.0-1-amd64
+linux-image-4.19.0-2-amd64
 linux-image-4.20.3-msi
 linux-image-4.20.4-mi
 linux-image-4.20.5-msi
