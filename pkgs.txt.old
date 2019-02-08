@@ -21,7 +21,6 @@ appmenu-gtk3-module:amd64
 appmenu-qt
 appmenu-registrar
 apt
-apt-listchanges
 apt-transport-https
 apt-utils
 aptitude
@@ -1959,15 +1958,9 @@ linux-base
 linux-compiler-gcc-8-x86
 linux-headers-4.19.0-2-amd64
 linux-headers-4.19.0-2-common
-linux-headers-4.20.3-msi
-linux-headers-4.20.4-mi
-linux-headers-4.20.5-msi
 linux-headers-4.20.6-msi
 linux-headers-amd64
 linux-image-4.19.0-2-amd64
-linux-image-4.20.3-msi
-linux-image-4.20.4-mi
-linux-image-4.20.5-msi
 linux-image-4.20.6-msi
 linux-image-amd64
 linux-kbuild-4.19
@@ -2254,7 +2247,6 @@ python3-certifi
 python3-chardet
 python3-configobj
 python3-dbus
-python3-debconf
 python3-debian
 python3-dev
 python3-distro
@@ -2289,6 +2281,7 @@ python3-roman
 python3-setproctitle:amd64
 python3-sip
 python3-six
+python3-soupsieve
 python3-speechd
 python3-sphinx
 python3-sphinx-rtd-theme
