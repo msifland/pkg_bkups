@@ -2178,6 +2178,7 @@ perl-base
 perl-modules-5.26
 perl-modules-5.28
 perl-openssl-defaults:amd64
+pigz
 pinentry-curses
 pinentry-gnome3
 pkg-config
