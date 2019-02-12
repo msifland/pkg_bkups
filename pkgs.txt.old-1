@@ -2325,6 +2325,7 @@ ruby-test-unit
 ruby-xmlrpc
 ruby2.5
 rubygems-integration
+runit-helper
 samba-common
 samba-common-bin
 samba-libs:amd64
