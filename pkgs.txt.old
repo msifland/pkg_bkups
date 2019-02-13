@@ -2570,6 +2570,7 @@ upower
 ure
 usb-modeswitch
 usb-modeswitch-data
+usb.ids
 usbmuxd
 usbutils
 util-linux
