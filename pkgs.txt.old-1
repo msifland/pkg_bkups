@@ -1960,14 +1960,16 @@ linux-headers-4.19.0-2-amd64
 linux-headers-4.19.0-2-common
 linux-headers-4.20.6-msi
 linux-headers-4.20.7-msi
+linux-headers-4.20.8-msi
 linux-headers-amd64
 linux-image-4.19.0-2-amd64
 linux-image-4.20.6-msi
 linux-image-4.20.7-msi
+linux-image-4.20.8-msi
 linux-image-amd64
 linux-kbuild-4.19
 linux-libc-dev:amd64
-linux-perf-4.20.7
+linux-perf-4.20.8
 live-task-localisation
 live-task-localisation-desktop
 live-task-recommended
