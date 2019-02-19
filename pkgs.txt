@@ -2303,7 +2303,6 @@ python3.7-dev
 python3.7-minimal
 qdbus
 qemu
-qpdf
 qt-at-spi:amd64
 qt5-gtk-platformtheme:amd64
 qtchooser
