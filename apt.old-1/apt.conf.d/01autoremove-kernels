@@ -2,40 +2,41 @@
 APT::NeverAutoRemove
 {
    "^linux-image-4\.20\.10-msi$";
-   "^linux-image-4\.20\.8-msi$";
+   "^linux-image-4\.20\.11-msi$";
    "^linux-headers-4\.20\.10-msi$";
-   "^linux-headers-4\.20\.8-msi$";
+   "^linux-headers-4\.20\.11-msi$";
    "^linux-image-extra-4\.20\.10-msi$";
-   "^linux-image-extra-4\.20\.8-msi$";
+   "^linux-image-extra-4\.20\.11-msi$";
    "^linux-modules-4\.20\.10-msi$";
-   "^linux-modules-4\.20\.8-msi$";
+   "^linux-modules-4\.20\.11-msi$";
    "^linux-modules-extra-4\.20\.10-msi$";
-   "^linux-modules-extra-4\.20\.8-msi$";
+   "^linux-modules-extra-4\.20\.11-msi$";
    "^linux-signed-image-4\.20\.10-msi$";
-   "^linux-signed-image-4\.20\.8-msi$";
+   "^linux-signed-image-4\.20\.11-msi$";
    "^kfreebsd-image-4\.20\.10-msi$";
-   "^kfreebsd-image-4\.20\.8-msi$";
+   "^kfreebsd-image-4\.20\.11-msi$";
    "^kfreebsd-headers-4\.20\.10-msi$";
-   "^kfreebsd-headers-4\.20\.8-msi$";
+   "^kfreebsd-headers-4\.20\.11-msi$";
    "^gnumach-image-4\.20\.10-msi$";
-   "^gnumach-image-4\.20\.8-msi$";
+   "^gnumach-image-4\.20\.11-msi$";
    "^.*-modules-4\.20\.10-msi$";
-   "^.*-modules-4\.20\.8-msi$";
+   "^.*-modules-4\.20\.11-msi$";
    "^.*-kernel-4\.20\.10-msi$";
-   "^.*-kernel-4\.20\.8-msi$";
+   "^.*-kernel-4\.20\.11-msi$";
    "^linux-backports-modules-.*-4\.20\.10-msi$";
-   "^linux-backports-modules-.*-4\.20\.8-msi$";
+   "^linux-backports-modules-.*-4\.20\.11-msi$";
    "^linux-modules-.*-4\.20\.10-msi$";
-   "^linux-modules-.*-4\.20\.8-msi$";
+   "^linux-modules-.*-4\.20\.11-msi$";
    "^linux-tools-4\.20\.10-msi$";
-   "^linux-tools-4\.20\.8-msi$";
+   "^linux-tools-4\.20\.11-msi$";
    "^linux-cloud-tools-4\.20\.10-msi$";
-   "^linux-cloud-tools-4\.20\.8-msi$";
+   "^linux-cloud-tools-4\.20\.11-msi$";
 };
 /* Debug information:
 # dpkg list:
 ii  linux-image-4.19.0-2-amd64             4.19.16-1                       amd64        Linux 4.19 for 64-bit PCs (signed)
-iF  linux-image-4.20.10-msi                4.20.10-msi-1                   amd64        Linux kernel, version 4.20.10-msi
+ii  linux-image-4.20.10-msi                4.20.10-msi-1                   amd64        Linux kernel, version 4.20.10-msi
+iF  linux-image-4.20.11-msi                4.20.11-msi-1                   amd64        Linux kernel, version 4.20.11-msi
 ii  linux-image-4.20.6-msi                 4.20.6-msi-1                    amd64        Linux kernel, version 4.20.6-msi
 ii  linux-image-4.20.7-msi                 4.20.7-msi-1                    amd64        Linux kernel, version 4.20.7-msi
 ii  linux-image-4.20.8-msi                 4.20.8-msi-1                    amd64        Linux kernel, version 4.20.8-msi
@@ -43,23 +44,25 @@ ii  linux-image-amd64                      4.19+102                        amd64
 # list of installed kernel packages:
 4.19.0-2-amd64 4.19.16-1
 4.20.10-msi 4.20.10-msi-1
+4.20.11-msi 4.20.11-msi-1
 4.20.6-msi 4.20.6-msi-1
 4.20.7-msi 4.20.7-msi-1
 4.20.8-msi 4.20.8-msi-1
 # list of different kernel versions:
+4.20.11-msi-1
 4.20.10-msi-1
 4.20.8-msi-1
 4.20.7-msi-1
 4.20.6-msi-1
 4.19.16-1
-# Installing kernel: 4.20.10-msi-1 (4.20.10-msi)
-# Running kernel: 4.20.8-msi-1 (4.20.8-msi)
-# Last kernel: 4.20.10-msi-1
-# Previous kernel: 4.20.8-msi-1
+# Installing kernel: 4.20.11-msi-1 (4.20.11-msi)
+# Running kernel: 4.20.10-msi-1 (4.20.10-msi)
+# Last kernel: 4.20.11-msi-1
+# Previous kernel: 4.20.10-msi-1
 # Kernel versions list to keep:
 4.20.10-msi-1
-4.20.8-msi-1
+4.20.11-msi-1
 # Kernel packages (version part) to protect:
 4\.20\.10-msi
-4\.20\.8-msi
+4\.20\.11-msi
 */
