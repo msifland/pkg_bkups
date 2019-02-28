@@ -1957,11 +1957,9 @@ linux-base
 linux-compiler-gcc-8-x86
 linux-headers-4.19.0-2-amd64
 linux-headers-4.19.0-2-common
-linux-headers-4.20.11-msi
 linux-headers-4.20.12-msi
 linux-headers-amd64
 linux-image-4.19.0-2-amd64
-linux-image-4.20.11-msi
 linux-image-4.20.12-msi
 linux-image-amd64
 linux-kbuild-4.19
