@@ -821,6 +821,7 @@ libcap2:i386
 libcap2-bin
 libcapi20-3:amd64
 libcapi20-3:i386
+libcapture-tiny-perl
 libcc1-0:amd64
 libccolamd2:amd64
 libcddb2
@@ -1450,6 +1451,7 @@ libpaper1:amd64
 libparse-debianchangelog-perl
 libparted-fs-resize0:amd64
 libparted2:amd64
+libpath-tiny-perl
 libpathplan4
 libpcap-dev:amd64
 libpcap0.8:amd64
@@ -1732,6 +1734,7 @@ libuim8:amd64
 libumfpack5:amd64
 libunbound8:amd64
 libunicode-linebreak-perl
+libunicode-utf8-perl
 libunistring0:amd64
 libunistring2:amd64
 libunistring2:i386
