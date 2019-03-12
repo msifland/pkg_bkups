@@ -399,7 +399,7 @@ find $HOME/Android/Sdk/build-tools/ -mindepth 1 -maxdepth 1 ! -name "$BLD_TOOLS_
 
 # For android
 export PATH="./prebuilts/sdk/tools:$PATH"
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+#export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 
 # System configs
 export EDITOR="nano"
@@ -474,3 +474,4 @@ source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 echo
 echo
+unsetopt correct_all

@@ -1986,11 +1986,13 @@ linux-headers-4.19.0-2-common
 linux-headers-4.20.12-msi
 linux-headers-4.20.13-msi
 linux-headers-5.0.0-msi
+linux-headers-5.0.1-msi
 linux-headers-amd64
 linux-image-4.19.0-2-amd64
 linux-image-4.20.12-msi
 linux-image-4.20.13-msi
 linux-image-5.0.0-msi
+linux-image-5.0.1-msi
 linux-image-amd64
 linux-kbuild-4.19
 linux-libc-dev:amd64
