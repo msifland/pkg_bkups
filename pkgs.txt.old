@@ -195,6 +195,8 @@ debian-reference-common
 debian-reference-es
 debian-reference-it
 debianutils
+default-jre
+default-jre-headless
 desktop-base
 desktop-file-utils
 dh-autoreconf
@@ -783,6 +785,7 @@ libboost-date-time1.67.0:amd64
 libboost-filesystem1.67.0:amd64
 libboost-iostreams1.67.0:amd64
 libboost-locale1.67.0:amd64
+libboost-program-options1.67.0:amd64
 libboost-system1.67.0:amd64
 libboost-thread1.67.0:amd64
 libbrlapi0.6:amd64
@@ -962,6 +965,7 @@ libfaad2:amd64
 libfakekey0:amd64
 libfakeroot:amd64
 libfastjson4:amd64
+libfastutil-java
 libfcgi-perl
 libfcitx-config4:amd64
 libfcitx-core0:amd64
@@ -1210,6 +1214,7 @@ libjack-jackd2-0:amd64
 libjack-jackd2-0:i386
 libjansson4:amd64
 libjavascriptcoregtk-4.0-18:amd64
+libjaxp1.3-java
 libjbig0:amd64
 libjbig0:i386
 libjbig2dec0:amd64
@@ -1391,11 +1396,16 @@ libnuma1:amd64
 libnuma1:i386
 libnumbertext-1.0-0:amd64
 libnumbertext-data
-libnvidia-cfg1:i386
+libnvidia-cbl:amd64
 libnvidia-eglcore:amd64
 libnvidia-eglcore:i386
+libnvidia-fatbinaryloader:amd64
 libnvidia-glcore:amd64
 libnvidia-glcore:i386
+libnvidia-glvkspirv:amd64
+libnvidia-glvkspirv:i386
+libnvidia-ptxjitcompiler1:amd64
+libnvidia-rtcore:amd64
 libnxt
 liboauth0:amd64
 libodbc1:amd64
@@ -1424,6 +1434,7 @@ liborc-0.4-0:i386
 liborcus-0.14-0:amd64
 libosmesa6:amd64
 libosmesa6:i386
+libosmpbf-java
 libosp5
 libostyle1c2
 libotf0:amd64
@@ -1500,6 +1511,7 @@ libpresage1v5:amd64
 libprocps6:amd64
 libprocps7:amd64
 libprotobuf-c1:amd64
+libprotobuf-java
 libprotobuf-lite17:amd64
 libprotobuf17:amd64
 libproxy-tools
@@ -1853,6 +1865,7 @@ libx32quadmath0
 libx32stdc++6
 libx32ubsan1
 libx86-1:amd64
+libxalan2-java
 libxapian30:amd64
 libxatracker2:amd64
 libxau-dev:amd64
@@ -1899,6 +1912,7 @@ libxdmcp-dev:amd64
 libxdmcp6:amd64
 libxdmcp6:i386
 libxdot4
+libxerces2-java
 libxext6:amd64
 libxext6:i386
 libxfce4ui-2-0:amd64
@@ -1920,6 +1934,8 @@ libxkbcommon0:amd64
 libxkbcommon0:i386
 libxkbfile1:amd64
 libxklavier16:amd64
+libxml-commons-external-java
+libxml-commons-resolver1.1-java
 libxml-libxml-perl
 libxml-namespacesupport-perl
 libxml-parser-perl
@@ -1938,6 +1954,7 @@ libxmu6:amd64
 libxmuu1:amd64
 libxpm4:amd64
 libxpm4:i386
+libxpp3-java
 libxpresent1:amd64
 libxrandr2:amd64
 libxrandr2:i386
@@ -1996,7 +2013,7 @@ linux-image-5.0.1-msi
 linux-image-amd64
 linux-kbuild-4.19
 linux-libc-dev:amd64
-linux-perf-5.0
+linux-perf-5.0.1
 live-task-localisation
 live-task-localisation-desktop
 live-task-recommended
@@ -2108,6 +2125,8 @@ mesa-vdpau-drivers:i386
 mesa-vulkan-drivers:i386
 midisport-firmware
 mime-support
+mkgmap
+mkgmap-splitter
 mlterm
 mlterm-common
 mlterm-tools
@@ -2191,11 +2210,21 @@ openjdk-10-jdk:amd64
 openjdk-10-jdk-headless:amd64
 openjdk-10-jre:amd64
 openjdk-10-jre-headless:amd64
+openjdk-11-jdk:amd64
+openjdk-11-jdk-headless:amd64
+openjdk-11-jre:amd64
+openjdk-11-jre-headless:amd64
+openjdk-8-jdk:amd64
+openjdk-8-jdk-headless:amd64
+openjdk-8-jre:amd64
+openjdk-8-jre-headless:amd64
 opensp
 openssh-client
 openssl
 orca
 os-prober
+osmctools
+osmium-tool
 p11-kit
 p11-kit-modules:amd64
 p7zip
