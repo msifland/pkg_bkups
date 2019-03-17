@@ -1235,14 +1235,18 @@ libixml10:amd64
 libjack-jackd2-0:amd64
 libjack-jackd2-0:i386
 libjansson4:amd64
+libjavascriptcoregtk-1.0-0:amd64
 libjavascriptcoregtk-4.0-18:amd64
 libjaxp1.3-java
 libjbig0:amd64
 libjbig0:i386
 libjbig2dec0:amd64
 libjim0.77:amd64
+libjpeg-dev
 libjpeg62-turbo:amd64
 libjpeg62-turbo:i386
+libjpeg62-turbo-dev:amd64
+libjpeg9:amd64
 libjq1:amd64
 libjs-jquery
 libjs-mathjax
@@ -1528,6 +1532,7 @@ libpixman-1-0:i386
 libplacebo7:amd64
 libplist3:amd64
 libpng-dev:amd64
+libpng12-0:amd64
 libpng16-16:amd64
 libpng16-16:i386
 libpolkit-agent-1-0:amd64
@@ -1868,6 +1873,7 @@ libwayland-server0:amd64
 libwayland-server0:i386
 libwbclient0:amd64
 libwebkit2gtk-4.0-37:amd64
+libwebkitgtk-1.0-0:amd64
 libwebp6:amd64
 libwebp6:i386
 libwebpdemux2:amd64
