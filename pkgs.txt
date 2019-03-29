@@ -2514,6 +2514,7 @@ sgml-data
 sgmlspl
 shared-mime-info
 sigrok-firmware-fx2lafw
+smbclient
 sound-icons
 sound-theme-freedesktop
 speech-dispatcher
