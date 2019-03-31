@@ -952,6 +952,8 @@ libeb16:amd64
 libebml4v5:amd64
 libedit2:amd64
 libedit2:i386
+libefiboot1:amd64
+libefivar1:amd64
 libegl-mesa0:amd64
 libegl-mesa0:i386
 libegl-nvidia0:amd64
