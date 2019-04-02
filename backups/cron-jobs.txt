@@ -19,7 +19,7 @@
 # 
 # For more information see the manual pages of crontab(5) and cron(8)
 # 
-# m h  dom mon dow   command
+# m h dom mon dow   command
 
 ### The jobs with the env DISPLAY=:0 opens the jobs in a terminal
 
@@ -42,5 +42,5 @@
 # Update oh-my-zsh once a week
 30 7 * * 2 env DISPLAY=:0 xfce4-terminal -e "zsh -c \"source .zshrc; oh-my-zsh-updater\""
 
-# Build a new OSM for my Garmin on the first day of every month at 1pm
-* 13 1 * * env DISPLAY=:0 xfce4-terminal -e "zsh -c \"source .zshrc; /home/msifland/scripts/map-my-builder\""
+# Build a new OSM map for my Garmin on the first day of every month at 8pm
+30 5 2 * * env DISPLAY=:0 xfce4-terminal --hold -e "zsh -c \"source .zshrc; /home/msifland/scripts/map-my-builder\""
