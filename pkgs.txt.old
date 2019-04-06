@@ -2494,6 +2494,7 @@ rubygems-integration
 runit-helper
 samba-common
 samba-common-bin
+samba-dsdb-modules:amd64
 samba-libs:amd64
 sane-utils
 scim
