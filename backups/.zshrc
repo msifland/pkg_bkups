@@ -64,7 +64,7 @@ export UPDATE_ZSH_DAYS=7
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git adb archlinux asdf colorize common-aliases common-not-found compleat emoji frontend-search git-extras github git-prompt python rand-quote sudo systemd systemadmin textmate themes web-search)
+plugins=(git adb archlinux asdf colorize common-aliases command-not-found compleat emoji frontend-search git-extras github git-prompt python rand-quote sudo systemd systemadmin textmate themes web-search)
 #colored-man-pages
 
 
