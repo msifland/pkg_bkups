@@ -363,6 +363,7 @@ fonts-noto-ui-core
 fonts-noto-ui-extra
 fonts-noto-unhinted
 fonts-opensymbol
+fonts-quicksand
 fonts-roboto-slab
 fonts-sil-abyssinica
 fonts-sil-andika
@@ -1570,6 +1571,7 @@ libpixman-1-0:amd64
 libpixman-1-0:i386
 libplacebo7:amd64
 libplist3:amd64
+libplymouth4:amd64
 libpng-dev:amd64
 libpng12-0:amd64
 libpng16-16:amd64
@@ -2346,6 +2348,8 @@ pkg-config
 playonlinux
 pluma
 pluma-common
+plymouth
+plymouth-label
 pm-utils
 po-debconf
 policykit-1
