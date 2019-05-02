@@ -43,4 +43,4 @@
 30 7 * * 2 env DISPLAY=:0 xfce4-terminal -e "zsh -c \"source .zshrc; oh-my-zsh-updater\""
 
 # Build a new OSM map for my Garmin on the first day of every month at 8pm
-30 5 2 * * env DISPLAY=:0 xfce4-terminal --hold -e "zsh -c \"source .zshrc; /home/msifland/scripts/map-my-builder\""
+00 19 1 * * env DISPLAY=:0 xfce4-terminal --hold -e "zsh -c \"source .zshrc; /home/msifland/scripts/map-my-builder\""
