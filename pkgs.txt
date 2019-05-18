@@ -631,7 +631,6 @@ ipolish
 iportuguese
 iproute2
 iptables
-irqbalance
 irussian
 isc-dhcp-client
 isc-dhcp-common
@@ -2098,16 +2097,18 @@ lightdm-gtk-greeter
 lintian
 linux-base
 linux-compiler-gcc-8-x86
-linux-headers-4.19.0-4-amd64
-linux-headers-4.19.0-4-common
+linux-headers-4.19.0-5-amd64
+linux-headers-4.19.0-5-common
 linux-headers-5.1.0-msi
 linux-headers-5.1.1-msi
 linux-headers-5.1.2-msi
+linux-headers-5.1.3-msi
 linux-headers-amd64
-linux-image-4.19.0-4-amd64
+linux-image-4.19.0-5-amd64
 linux-image-5.1.0-msi
 linux-image-5.1.1-msi
 linux-image-5.1.2-msi
+linux-image-5.1.3-msi
 linux-image-amd64
 linux-kbuild-4.19
 linux-libc-dev:amd64
@@ -2481,7 +2482,6 @@ ruby-test-unit
 ruby-xmlrpc
 ruby2.5
 rubygems-integration
-runit-helper
 samba-common
 samba-common-bin
 samba-dsdb-modules:amd64
