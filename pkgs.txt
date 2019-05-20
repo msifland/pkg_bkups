@@ -459,6 +459,7 @@ gir1.2-notify-0.7:amd64
 gir1.2-pango-1.0:amd64
 gir1.2-peas-1.0:amd64
 gir1.2-pluma-1.0
+gir1.2-secret-1:amd64
 gir1.2-soup-2.4:amd64
 gir1.2-vte-2.91:amd64
 gir1.2-webkit2-4.0:amd64
@@ -473,6 +474,7 @@ glx-alternative-nvidia
 glx-diversions
 gnome-accessibility-themes
 gnome-desktop3-data
+gnome-gmail
 gnome-icon-theme
 gnome-keyring
 gnome-keyring-pkcs11:amd64
