@@ -806,6 +806,7 @@ libbsd0:i386
 libbtbb-dev:amd64
 libbtbb1:amd64
 libbz2-1.0:amd64
+libbz2-1.0:i386
 libc-bin
 libc-dev-bin
 libc-l10n
@@ -2779,6 +2780,7 @@ wnorwegian
 wpasupplicant
 wpolish
 wportuguese
+wps-office:i386
 wspanish
 wswedish
 x11-apps
