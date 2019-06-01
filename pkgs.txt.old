@@ -13,6 +13,7 @@ anacron
 analog
 anthy
 anthy-common
+anydesk
 apache2-bin
 apparmor
 appmenu-gtk-module-common
@@ -334,7 +335,6 @@ fonts-kacst-one
 fonts-khmeros
 fonts-lato
 fonts-liberation
-fonts-liberation2
 fonts-lmodern
 fonts-lohit-beng-assamese
 fonts-lohit-beng-bengali
@@ -358,7 +358,6 @@ fonts-noto-mono
 fonts-noto-ui-core
 fonts-noto-ui-extra
 fonts-noto-unhinted
-fonts-opensymbol
 fonts-quicksand
 fonts-roboto-slab
 fonts-sil-abyssinica
@@ -789,15 +788,9 @@ libblockdev2:amd64
 libbluetooth-dev:amd64
 libbluetooth3:amd64
 libbluray2:amd64
-libboost-atomic1.67.0:amd64
-libboost-chrono1.67.0:amd64
-libboost-date-time1.67.0:amd64
-libboost-filesystem1.67.0:amd64
 libboost-iostreams1.67.0:amd64
-libboost-locale1.67.0:amd64
 libboost-program-options1.67.0:amd64
 libboost-system1.67.0:amd64
-libboost-thread1.67.0:amd64
 libbrlapi0.6:amd64
 libbrotli1:amd64
 libbs2b0:amd64
@@ -806,7 +799,6 @@ libbsd0:i386
 libbtbb-dev:amd64
 libbtbb1:amd64
 libbz2-1.0:amd64
-libbz2-1.0:i386
 libc-bin
 libc-dev-bin
 libc-l10n
@@ -860,9 +852,6 @@ libclass-data-inheritable-perl
 libclass-method-modifiers-perl
 libclass-xsaccessor-perl
 libclone-perl
-libclucene-contribs1v5:amd64
-libclucene-core1v5:amd64
-libcmis-0.5-5v5
 libcodec2-0.8.1:amd64
 libcodec2-0.8.1:i386
 libcolamd2:amd64
@@ -968,7 +957,6 @@ libemail-valid-perl
 libenchant-voikko:amd64
 libenchant1c2a:amd64
 libencode-locale-perl
-libeot0:amd64
 libepoxy0:amd64
 libepsilon1:amd64
 libept1.5.0:amd64
@@ -993,8 +981,6 @@ libexpat1:i386
 libexpat1-dev:amd64
 libexporter-tiny-perl
 libext2fs2:amd64
-libexttextcat-2.0-0:amd64
-libexttextcat-data
 libfaad2:amd64
 libfakekey0:amd64
 libfakeroot:amd64
@@ -1129,7 +1115,6 @@ libgpg-error-l10n
 libgpg-error0:amd64
 libgpg-error0:i386
 libgpgme11:amd64
-libgpgmepp6:amd64
 libgphoto2-6:amd64
 libgphoto2-6:i386
 libgphoto2-l10n
@@ -1163,6 +1148,7 @@ libgtk2-perl
 libgtk2.0-0:amd64
 libgtk2.0-bin
 libgtk2.0-common
+libgtkglext1:amd64
 libgtkmm-2.4-1v5:amd64
 libgtkmm-3.0-1v5:amd64
 libgtksourceview-3.0-1:amd64
@@ -1301,8 +1287,6 @@ libkrb5support0:i386
 libksba8:amd64
 libkyotocabinet16v5:amd64
 liblab-gamut1
-liblangtag-common
-liblangtag1:amd64
 liblapack3:amd64
 liblcms2-2:amd64
 liblcms2-2:i386
@@ -1373,7 +1357,6 @@ libmatroska6v5:amd64
 libmbim-glib4:amd64
 libmbim-proxy
 libmetis5:amd64
-libmhash2:amd64
 libmicrodns0:amd64
 libmime-charset-perl
 libmime-lite-perl
@@ -1406,7 +1389,6 @@ libmtp9:amd64
 libmypaint-1.3-0:amd64
 libmypaint-common
 libmysofa0:amd64
-libmythes-1.2-0:amd64
 libnamespace-autoclean-perl
 libnamespace-clean-perl
 libnautilus-extension1a:amd64
@@ -1416,7 +1398,6 @@ libncurses6:i386
 libncursesw5:amd64
 libncursesw6:amd64
 libndp0:amd64
-libneon27-gnutls:amd64
 libnet-dbus-perl
 libnet-dns-perl
 libnet-dns-sec-perl
@@ -1458,8 +1439,6 @@ libntlm0:amd64
 libnuma-dev:amd64
 libnuma1:amd64
 libnuma1:i386
-libnumbertext-1.0-0:amd64
-libnumbertext-data
 libnvidia-cbl:amd64
 libnvidia-eglcore:amd64
 libnvidia-eglcore:i386
@@ -1474,7 +1453,6 @@ libnxt
 liboauth0:amd64
 libodbc1:amd64
 libodbc1:i386
-libodfgen-0.1-1:amd64
 libogdi3.2
 libogg0:amd64
 libogg0:i386
@@ -1498,7 +1476,6 @@ libopus0:amd64
 libopus0:i386
 liborc-0.4-0:amd64
 liborc-0.4-0:i386
-liborcus-0.14-0:amd64
 libosmesa6:amd64
 libosmesa6:i386
 libosmpbf-java
@@ -1521,11 +1498,13 @@ libpam0g:amd64
 libpango-1.0-0:amd64
 libpango-1.0-0:i386
 libpango-perl
+libpango1.0-0:amd64
 libpangocairo-1.0-0:amd64
 libpangocairo-1.0-0:i386
 libpangoft2-1.0-0:amd64
 libpangoft2-1.0-0:i386
 libpangomm-1.4-1v5:amd64
+libpangox-1.0-0:amd64
 libpangoxft-1.0-0:amd64
 libpaper-utils
 libpaper1:amd64
@@ -1654,26 +1633,18 @@ libqtdbus4:amd64
 libqtgui4:amd64
 libquadmath0:amd64
 libquazip5-1:amd64
-libraptor2-0:amd64
-librasqal3:amd64
 libraw1394-11:amd64
 libraw19:amd64
 librda-common
 librda0:amd64
-librdf0:amd64
 libre2-5:amd64
 libreadline7:amd64
 libreadonly-perl
 librecode0:amd64
 libref-util-perl
 libref-util-xs-perl
-libreoffice-common
-libreoffice-core
-libreoffice-style-colibre
-libreoffice-style-tango
 libresid-builder0c2a
 librest-0.7-0:amd64
-librevenge-0.0-0:amd64
 librhash0:amd64
 librole-tiny-perl
 libroutino-slim0
@@ -2051,8 +2022,6 @@ libxml-xpathengine-perl
 libxml2:amd64
 libxml2:i386
 libxml2-utils
-libxmlsec1:amd64
-libxmlsec1-nss:amd64
 libxmu6:amd64
 libxmuu1:amd64
 libxpm4:amd64
@@ -2083,7 +2052,6 @@ libxxf86dga1:amd64
 libxxf86vm1:amd64
 libxxf86vm1:i386
 libxxhash0:amd64
-libyajl2:amd64
 libyaml-0-2:amd64
 libyaml-libyaml-perl
 libyaml-tiny-perl
@@ -2442,7 +2410,6 @@ python3-speechd
 python3-sphinx
 python3-sphinx-rtd-theme
 python3-tz
-python3-uno
 python3-urllib3
 python3-webencodings
 python3-xdg
@@ -2717,12 +2684,10 @@ uim-xim
 uisp
 unicon-imc2
 unifont
-uno-libs3
 unzip
 update-glx
 update-inetd
 upower
-ure
 usb-modeswitch
 usb-modeswitch-data
 usb.ids
@@ -2780,7 +2745,7 @@ wnorwegian
 wpasupplicant
 wpolish
 wportuguese
-wps-office:i386
+wps-office
 wspanish
 wswedish
 x11-apps
