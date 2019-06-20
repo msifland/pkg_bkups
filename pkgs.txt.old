@@ -2142,9 +2142,19 @@ linux-base
 linux-compiler-gcc-8-x86
 linux-headers-4.19.0-5-amd64
 linux-headers-4.19.0-5-common
+<<<<<<< HEAD
 linux-headers-5.1.9-msi
 linux-headers-amd64
 linux-image-4.19.0-5-amd64
+=======
+linux-headers-5.1.7-msi
+linux-headers-5.1.8-msi
+linux-headers-5.1.9-msi
+linux-headers-amd64
+linux-image-4.19.0-5-amd64
+linux-image-5.1.7-msi
+linux-image-5.1.8-msi
+>>>>>>> 83e75c3998e5e904d77346b4081440fc99a71a99
 linux-image-5.1.9-msi
 linux-image-amd64
 linux-kbuild-4.19
