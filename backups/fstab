@@ -10,3 +10,5 @@ UUID=1ce8efb1-daae-4f93-bc5d-62cdbf5628ff /               ext4    errors=remount
 # /home was on /dev/sdc2 during installation
 UUID=6e292f41-98ab-4cd6-89fe-ec05acd11b8c /home           ext4    defaults        0       2
 /dev/sr0        /media/cdrom0   udf,iso9660 user,noauto     0       0
+#Swap /swapfile
+/swapfile        none        swap        defaults        0 0
