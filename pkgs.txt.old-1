@@ -2072,13 +2072,15 @@ linux-compiler-gcc-8-x86
 linux-headers-4.19.0-5-amd64
 linux-headers-4.19.0-5-common
 linux-headers-5.1.7-msi
+linux-headers-5.1.8-msi
 linux-headers-amd64
 linux-image-4.19.0-5-amd64
 linux-image-5.1.7-msi
+linux-image-5.1.8-msi
 linux-image-amd64
 linux-kbuild-4.19
 linux-libc-dev:amd64
-linux-perf-5.1.7
+linux-perf-5.1.8
 live-task-localisation
 live-task-localisation-desktop
 live-task-recommended
