@@ -14,7 +14,11 @@ analog
 anthy
 anthy-common
 anydesk
+apache2
 apache2-bin
+apache2-data
+apache2-doc
+apache2-utils
 apparmor
 appmenu-gtk-module-common
 appmenu-gtk2-module:amd64
@@ -22,6 +26,7 @@ appmenu-gtk3-module:amd64
 appmenu-qt
 appmenu-registrar
 apt
+apt-listchanges
 apt-transport-https
 apt-utils
 aptitude
@@ -97,6 +102,7 @@ bamfdaemon
 base-files
 base-passwd
 bash
+bash-completion
 bc
 bidiv
 bind9-host
@@ -151,6 +157,14 @@ cmake-data
 code
 colord
 colord-data
+compiz
+compiz-core
+compiz-gnome
+compiz-mate
+compiz-plugins
+compiz-plugins-extra
+compiz-plugins-main
+compizconfig-settings-manager
 compton
 conky
 conky-std
@@ -185,6 +199,7 @@ dblatex-doc
 dbus
 dbus-user-session
 dbus-x11
+dc
 dconf-cli
 dconf-editor
 dconf-gsettings-backend:amd64
@@ -193,6 +208,7 @@ debconf
 debconf-i18n
 debhelper
 debian-archive-keyring
+debian-faq
 debian-mate-default-settings
 debian-reference-common
 debian-reference-es
@@ -210,6 +226,8 @@ dictionaries-common
 diffstat
 diffutils
 dirmngr
+discover
+discover-data
 distro-info-data
 dkms
 dmidecode
@@ -217,6 +235,8 @@ dmsetup
 dns-root-data
 dns323-firmware-tools
 dnsmasq-base
+dnsutils
+doc-debian
 docbook
 docbook-dsssl
 docbook-to-man
@@ -246,6 +266,7 @@ evince
 evince-common
 exfat-fuse
 exfat-utils
+exim4
 exim4-base
 exim4-config
 exim4-daemon-light
@@ -282,6 +303,8 @@ fdisk
 ffmpegthumbnailer
 file
 findutils
+firebird3.0-common
+firebird3.0-common-doc
 firefox-esr
 firefox-esr-l10n-ne-np
 firmware-amd-graphics
@@ -335,6 +358,7 @@ fonts-kacst-one
 fonts-khmeros
 fonts-lato
 fonts-liberation
+fonts-linuxlibertine
 fonts-lmodern
 fonts-lohit-beng-assamese
 fonts-lohit-beng-bengali
@@ -395,6 +419,8 @@ fonts-ukij-uyghur
 fonts-unikurdweb
 fonts-vlgothic
 fonts-wine
+foomatic-db-compressed-ppds
+foomatic-db-engine
 fortune-mod
 fortunes-debian-hints
 fortunes-it
@@ -458,6 +484,7 @@ gir1.2-notify-0.7:amd64
 gir1.2-pango-1.0:amd64
 gir1.2-peas-1.0:amd64
 gir1.2-pluma-1.0
+gir1.2-rsvg-2.0:amd64
 gir1.2-secret-1:amd64
 gir1.2-soup-2.4:amd64
 gir1.2-vte-2.91:amd64
@@ -535,7 +562,9 @@ hdparm
 hicolor-icon-theme
 highlight
 highlight-common
+host
 hostname
+hplip
 hplip-data
 hspell
 hspell-gui
@@ -623,6 +652,7 @@ init-system-helpers
 initramfs-tools
 initramfs-tools-core
 inorwegian
+installation-report
 intel-media-va-driver:amd64
 intel-media-va-driver:i386
 intel-microcode
@@ -659,6 +689,7 @@ kmod
 konwert
 konwert-filters
 krb5-locales
+laptop-detect
 less
 lib32asan5
 lib32atomic1
@@ -700,6 +731,7 @@ libaprutil1-ldap:amd64
 libapt-inst2.0:amd64
 libapt-pkg-perl
 libapt-pkg5.0:amd64
+libarchive-cpio-perl
 libarchive-zip-perl
 libarchive13:amd64
 libargon2-1:amd64
@@ -849,6 +881,7 @@ libclass-accessor-perl
 libclass-c3-perl
 libclass-c3-xs-perl
 libclass-data-inheritable-perl
+libclass-isa-perl
 libclass-method-modifiers-perl
 libclass-xsaccessor-perl
 libclone-perl
@@ -860,6 +893,7 @@ libcolorhug2:amd64
 libcom-err2:amd64
 libcom-err2:i386
 libcomerr2:amd64
+libcompizconfig0
 libconfig9:amd64
 libcpufreq0
 libcroco3:amd64
@@ -901,6 +935,7 @@ libdca0:amd64
 libdconf1:amd64
 libde265-0:amd64
 libdebconfclient0:amd64
+libdecoration0
 libdevel-callchecker-perl
 libdevel-caller-perl
 libdevel-globaldestruction-perl
@@ -909,6 +944,7 @@ libdevel-stacktrace-perl
 libdevmapper1.02.1:amd64
 libdigest-bubblebabble-perl
 libdigest-hmac-perl
+libdiscover2
 libdist-checkconflicts-perl
 libdjvulibre-text
 libdjvulibre21:amd64
@@ -949,6 +985,8 @@ libegl-nvidia0:i386
 libegl1:amd64
 libegl1:i386
 libegl1-mesa:amd64
+libegl1-nvidia:amd64
+libegl1-nvidia:i386
 libelf-dev:amd64
 libelf1:amd64
 libelf1:i386
@@ -986,6 +1024,7 @@ libfakekey0:amd64
 libfakeroot:amd64
 libfastjson4:amd64
 libfastutil-java
+libfbclient2:amd64
 libfcgi-perl
 libfcitx-config4:amd64
 libfcitx-core0:amd64
@@ -1049,6 +1088,7 @@ libgdata-common
 libgdata22:amd64
 libgdbm-compat4:amd64
 libgdbm3:amd64
+libgdbm5:amd64
 libgdbm6:amd64
 libgdk-pixbuf2.0-0:amd64
 libgdk-pixbuf2.0-0:i386
@@ -1072,11 +1112,15 @@ libgl1-mesa-dri:amd64
 libgl1-mesa-dri:i386
 libgl1-mesa-glx:amd64
 libgl1-mesa-glx:i386
-libgl1-nvidia-glvnd-glx:i386
+libgl1-nvidia-glx:amd64
+libgl1-nvidia-glx:i386
 libglapi-mesa:amd64
 libglapi-mesa:i386
+libgles-nvidia1:amd64
 libgles-nvidia1:i386
+libgles-nvidia2:amd64
 libgles-nvidia2:i386
+libgles1:amd64
 libgles1:i386
 libgles2:amd64
 libgles2:i386
@@ -1156,6 +1200,7 @@ libgtksourceview-3.0-common
 libgtop-2.0-11:amd64
 libgtop2-common
 libgts-0.7-5:amd64
+libgts-bin
 libgucharmap-2-90-7:amd64
 libgudev-1.0-0:amd64
 libgupnp-1.0-4:amd64
@@ -1178,6 +1223,7 @@ libheif1:amd64
 libhfstospell10:amd64
 libhogweed4:amd64
 libhogweed4:i386
+libhpmud0:amd64
 libhtml-form-perl
 libhtml-format-perl
 libhtml-parser-perl
@@ -1229,6 +1275,7 @@ libipc-run-perl
 libipc-shareable-perl
 libipc-system-simple-perl
 libiptc0:amd64
+libirs161:amd64
 libisc-export1100:amd64
 libisc-export160
 libisc1100:amd64
@@ -1290,6 +1337,7 @@ liblab-gamut1
 liblapack3:amd64
 liblcms2-2:amd64
 liblcms2-2:i386
+liblcms2-utils
 libldap-2.4-2:amd64
 libldap-2.4-2:i386
 libldap-common
@@ -1303,6 +1351,7 @@ libllvm7:amd64
 libllvm7:i386
 liblmdb0:amd64
 liblocale-gettext-perl
+liblockfile-bin
 liblog-dispatch-perl
 liblog-log4perl-perl
 liblogging-stdlog0:amd64
@@ -1428,6 +1477,18 @@ libnm0:amd64
 libnma0:amd64
 libnorm1:amd64
 libnotify4:amd64
+libnppc9.2:amd64
+libnppial9.2:amd64
+libnppicc9.2:amd64
+libnppicom9.2:amd64
+libnppidei9.2:amd64
+libnppif9.2:amd64
+libnppig9.2:amd64
+libnppim9.2:amd64
+libnppist9.2:amd64
+libnppisu9.2:amd64
+libnppitc9.2:amd64
+libnpps9.2:amd64
 libnpth0:amd64
 libnspr4:amd64
 libnss-mdns:amd64
@@ -1440,6 +1501,7 @@ libnuma-dev:amd64
 libnuma1:amd64
 libnuma1:i386
 libnvidia-cbl:amd64
+libnvidia-cfg1:amd64
 libnvidia-eglcore:amd64
 libnvidia-eglcore:i386
 libnvidia-fatbinaryloader:amd64
@@ -1447,6 +1509,10 @@ libnvidia-glcore:amd64
 libnvidia-glcore:i386
 libnvidia-glvkspirv:amd64
 libnvidia-glvkspirv:i386
+libnvidia-legacy-390xx-cfg1:amd64
+libnvidia-legacy-390xx-glcore:amd64
+libnvidia-legacy-390xx-ml1:amd64
+libnvidia-ml1:amd64
 libnvidia-ptxjitcompiler1:amd64
 libnvidia-rtcore:amd64
 libnxt
@@ -1615,6 +1681,7 @@ libqt5quick5:amd64
 libqt5quickwidgets5:amd64
 libqt5sensors5:amd64
 libqt5sql5:amd64
+libqt5sql5-ibase:amd64
 libqt5sql5-sqlite:amd64
 libqt5svg5:amd64
 libqt5test5:amd64
@@ -1660,6 +1727,7 @@ libsamplerate0:amd64
 libsamplerate0:i386
 libsane:amd64
 libsane-common
+libsane-hpaio:amd64
 libsasl2-2:amd64
 libsasl2-2:i386
 libsasl2-modules:amd64
@@ -1752,6 +1820,7 @@ libsub-quote-perl
 libsuitesparseconfig5:amd64
 libsunpinyin3v5:amd64
 libsuperlu5:amd64
+libswitch-perl
 libswresample2:amd64
 libswresample3:amd64
 libswresample3:i386
@@ -1795,6 +1864,7 @@ libtinfo6:amd64
 libtinfo6:i386
 libtinyxml2.6.2v5:amd64
 libtk8.6:amd64
+libtommath1:amd64
 libtool
 libtry-tiny-perl
 libtsan0:amd64
@@ -2024,6 +2094,7 @@ libxml2:i386
 libxml2-utils
 libxmu6:amd64
 libxmuu1:amd64
+libxnvctrl0:amd64
 libxpm4:amd64
 libxpm4:i386
 libxpp3-java
@@ -2071,28 +2142,24 @@ linux-base
 linux-compiler-gcc-8-x86
 linux-headers-4.19.0-5-amd64
 linux-headers-4.19.0-5-common
+<<<<<<< HEAD
+linux-headers-5.1.9-msi
+linux-headers-amd64
+linux-image-4.19.0-5-amd64
+=======
 linux-headers-5.1.7-msi
 linux-headers-5.1.8-msi
-<<<<<<< HEAD
-=======
 linux-headers-5.1.9-msi
->>>>>>> 83e75c3998e5e904d77346b4081440fc99a71a99
 linux-headers-amd64
 linux-image-4.19.0-5-amd64
 linux-image-5.1.7-msi
 linux-image-5.1.8-msi
-<<<<<<< HEAD
-linux-image-amd64
-linux-kbuild-4.19
-linux-libc-dev:amd64
-linux-perf-5.1.8
-=======
+>>>>>>> 83e75c3998e5e904d77346b4081440fc99a71a99
 linux-image-5.1.9-msi
 linux-image-amd64
 linux-kbuild-4.19
 linux-libc-dev:amd64
 linux-perf-5.1.9
->>>>>>> 83e75c3998e5e904d77346b4081440fc99a71a99
 live-task-localisation
 live-task-localisation-desktop
 live-task-recommended
@@ -2216,6 +2283,7 @@ mozc-data
 mozc-server
 mozc-utils-gui
 mozo
+mscompress
 mtools
 mueller7-dict
 multiarch-support
@@ -2259,15 +2327,29 @@ notification-daemon
 ntfs-3g
 numlockx
 nvidia-alternative
-nvidia-driver-libs:i386
-nvidia-driver-libs-i386:i386
+nvidia-driver
+nvidia-driver-bin
+nvidia-driver-libs-nonglvnd:amd64
+nvidia-driver-libs-nonglvnd:i386
+nvidia-driver-libs-nonglvnd-i386:i386
 nvidia-egl-common
 nvidia-egl-icd:i386
 nvidia-installer-cleanup
+nvidia-kernel-common
+nvidia-kernel-dkms
+nvidia-kernel-support
+nvidia-legacy-390xx-alternative
+nvidia-legacy-390xx-kernel-dkms
+nvidia-legacy-390xx-kernel-support
+nvidia-legacy-390xx-vdpau-driver:amd64
 nvidia-legacy-check
-nvidia-vulkan-common
-nvidia-vulkan-icd:amd64
-nvidia-vulkan-icd:i386
+nvidia-modprobe
+nvidia-persistenced
+nvidia-settings
+nvidia-settings-legacy-390xx
+nvidia-support
+nvidia-vdpau-driver:amd64
+nvidia-vdpau-driver:i386
 nxt-firmware
 obex-data-server
 ocl-icd-libopencl1:amd64
@@ -2276,20 +2358,15 @@ odbcinst
 odbcinst1debian2:amd64
 opencc
 openjade
-openjdk-10-jdk:amd64
-openjdk-10-jdk-headless:amd64
-openjdk-10-jre:amd64
-openjdk-10-jre-headless:amd64
 openjdk-11-jdk:amd64
 openjdk-11-jdk-headless:amd64
 openjdk-11-jre:amd64
 openjdk-11-jre-headless:amd64
-openjdk-8-jdk:amd64
-openjdk-8-jdk-headless:amd64
-openjdk-8-jre:amd64
-openjdk-8-jre-headless:amd64
+openprinting-ppds
 opensp
 openssh-client
+openssh-server
+openssh-sftp-server
 openssl
 orca
 os-prober
@@ -2306,6 +2383,7 @@ patchutils
 pciutils
 perl
 perl-base
+perl-modules-5.24
 perl-modules-5.26
 perl-modules-5.28
 perl-openssl-defaults:amd64
@@ -2323,12 +2401,33 @@ po-debconf
 policykit-1
 poppler-data
 poppler-utils
+popularity-contest
 powermgmt-base
 powertop
 ppp
 presage
 preview-latex-style
+printer-driver-all
+printer-driver-brlaser
+printer-driver-c2050
+printer-driver-c2esp
+printer-driver-cjet
+printer-driver-dymo
+printer-driver-escpr
+printer-driver-foo2zjs
+printer-driver-foo2zjs-common
+printer-driver-fujixerox
 printer-driver-gutenprint
+printer-driver-hpcups
+printer-driver-hpijs
+printer-driver-m2300w
+printer-driver-min12xxw
+printer-driver-pnm2ppa
+printer-driver-postscript-hp
+printer-driver-ptouch
+printer-driver-pxljr
+printer-driver-sag-gdi
+printer-driver-splix
 procps
 proj-bin
 proj-data
@@ -2343,13 +2442,16 @@ python
 python-apt
 python-apt-common
 python-babel-localedata
+python-cairo:amd64
 python-caja
 python-caja-common
+python-compizconfig
 python-configobj
 python-crypto
 python-dbus
 python-funcsigs
 python-gi
+python-gi-cairo
 python-gobject
 python-gobject-2
 python-ldb
@@ -2385,7 +2487,9 @@ python3-certifi
 python3-chardet
 python3-configobj
 python3-dbus
+python3-debconf
 python3-debian
+python3-debianbts
 python3-dev
 python3-distro
 python3-distutils
@@ -2403,17 +2507,24 @@ python3-louis
 python3-lxml:amd64
 python3-markupsafe
 python3-minimal
-python3-multibootusb
 python3-olefile
 python3-packaging
+python3-pexpect
 python3-pil:amd64
 python3-pkg-resources
 python3-psutil
+python3-ptyprocess
 python3-pyatspi
+python3-pycurl
 python3-pygments
 python3-pyparsing
 python3-pyqt5
+python3-pysimplesoap
 python3-pyudev
+python3-renderpm:amd64
+python3-reportbug
+python3-reportlab
+python3-reportlab-accel:amd64
 python3-requests
 python3-roman
 python3-setproctitle:amd64
@@ -2444,6 +2555,7 @@ quilt
 rake
 re
 readline-common
+reportbug
 rfkill
 routino
 routino-common
@@ -2470,6 +2582,7 @@ scim
 scim-gtk-immodule:amd64
 scim-im-agent
 scim-modules-socket:amd64
+screenfetch
 scrot
 seahorse
 seahorse-daemon
@@ -2623,6 +2736,7 @@ task-slovenian-desktop
 task-south-african-english-desktop
 task-spanish
 task-spanish-desktop
+task-ssh-server
 task-swedish
 task-swedish-desktop
 task-tagalog
@@ -2638,6 +2752,7 @@ task-ukrainian
 task-ukrainian-desktop
 task-uyghur-desktop
 task-vietnamese-desktop
+task-web-server
 task-welsh
 task-welsh-desktop
 task-xhosa-desktop
@@ -2647,6 +2762,7 @@ tcl
 tcl8.6
 teckit
 tegaki-zinnia-japanese
+telnet
 tex-common
 tex-gyre
 texlive
@@ -2672,6 +2788,7 @@ tk
 tk8.6
 tk8.6-blt2.5
 tmispell-voikko
+traceroute
 ttf-mscorefonts-installer
 ttf-unifont
 tzdata
@@ -2737,6 +2854,7 @@ vlc-plugin-video-output:amd64
 vlc-plugin-video-splitter:amd64
 vlc-plugin-visualization:amd64
 voikko-fi
+w3m
 wamerican
 wbrazilian
 wbulgarian
@@ -2759,7 +2877,6 @@ wnorwegian
 wpasupplicant
 wpolish
 wportuguese
-wps-office
 wspanish
 wswedish
 x11-apps
@@ -2813,6 +2930,8 @@ xserver-xorg-video-ati
 xserver-xorg-video-fbdev
 xserver-xorg-video-intel
 xserver-xorg-video-nouveau
+xserver-xorg-video-nvidia
+xserver-xorg-video-nvidia-legacy-390xx
 xserver-xorg-video-qxl
 xserver-xorg-video-radeon
 xserver-xorg-video-vesa

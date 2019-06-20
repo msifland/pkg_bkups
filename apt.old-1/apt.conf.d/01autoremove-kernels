@@ -2,42 +2,59 @@
 APT::NeverAutoRemove
 {
 <<<<<<< HEAD
-   "^linux-image-5\.1\.7-msi$";
-   "^linux-image-5\.1\.8-msi$";
-   "^linux-headers-5\.1\.7-msi$";
-   "^linux-headers-5\.1\.8-msi$";
-   "^linux-image-extra-5\.1\.7-msi$";
-   "^linux-image-extra-5\.1\.8-msi$";
-   "^linux-modules-5\.1\.7-msi$";
-   "^linux-modules-5\.1\.8-msi$";
-   "^linux-modules-extra-5\.1\.7-msi$";
-   "^linux-modules-extra-5\.1\.8-msi$";
-   "^linux-signed-image-5\.1\.7-msi$";
-   "^linux-signed-image-5\.1\.8-msi$";
-   "^linux-image-unsigned-5\.1\.7-msi$";
-   "^linux-image-unsigned-5\.1\.8-msi$";
-   "^kfreebsd-image-5\.1\.7-msi$";
-   "^kfreebsd-image-5\.1\.8-msi$";
-   "^kfreebsd-headers-5\.1\.7-msi$";
-   "^kfreebsd-headers-5\.1\.8-msi$";
-   "^gnumach-image-5\.1\.7-msi$";
-   "^gnumach-image-5\.1\.8-msi$";
-   "^.*-modules-5\.1\.7-msi$";
-   "^.*-modules-5\.1\.8-msi$";
-   "^.*-kernel-5\.1\.7-msi$";
-   "^.*-kernel-5\.1\.8-msi$";
-   "^linux-backports-modules-.*-5\.1\.7-msi$";
-   "^linux-backports-modules-.*-5\.1\.8-msi$";
-   "^linux-modules-.*-5\.1\.7-msi$";
-   "^linux-modules-.*-5\.1\.8-msi$";
-   "^linux-tools-5\.1\.7-msi$";
-   "^linux-tools-5\.1\.8-msi$";
-   "^linux-cloud-tools-5\.1\.7-msi$";
-   "^linux-cloud-tools-5\.1\.8-msi$";
-   "^linux-buildinfo-5\.1\.7-msi$";
-   "^linux-buildinfo-5\.1\.8-msi$";
-   "^linux-source-5\.1\.7-msi$";
-   "^linux-source-5\.1\.8-msi$";
+   "^linux-image-4\.19\.0-5-amd64$";
+   "^linux-image-4\.9\.0-9-amd64$";
+   "^linux-image-5\.1\.9-msi$";
+   "^linux-headers-4\.19\.0-5-amd64$";
+   "^linux-headers-4\.9\.0-9-amd64$";
+   "^linux-headers-5\.1\.9-msi$";
+   "^linux-image-extra-4\.19\.0-5-amd64$";
+   "^linux-image-extra-4\.9\.0-9-amd64$";
+   "^linux-image-extra-5\.1\.9-msi$";
+   "^linux-modules-4\.19\.0-5-amd64$";
+   "^linux-modules-4\.9\.0-9-amd64$";
+   "^linux-modules-5\.1\.9-msi$";
+   "^linux-modules-extra-4\.19\.0-5-amd64$";
+   "^linux-modules-extra-4\.9\.0-9-amd64$";
+   "^linux-modules-extra-5\.1\.9-msi$";
+   "^linux-signed-image-4\.19\.0-5-amd64$";
+   "^linux-signed-image-4\.9\.0-9-amd64$";
+   "^linux-signed-image-5\.1\.9-msi$";
+   "^linux-image-unsigned-4\.19\.0-5-amd64$";
+   "^linux-image-unsigned-4\.9\.0-9-amd64$";
+   "^linux-image-unsigned-5\.1\.9-msi$";
+   "^kfreebsd-image-4\.19\.0-5-amd64$";
+   "^kfreebsd-image-4\.9\.0-9-amd64$";
+   "^kfreebsd-image-5\.1\.9-msi$";
+   "^kfreebsd-headers-4\.19\.0-5-amd64$";
+   "^kfreebsd-headers-4\.9\.0-9-amd64$";
+   "^kfreebsd-headers-5\.1\.9-msi$";
+   "^gnumach-image-4\.19\.0-5-amd64$";
+   "^gnumach-image-4\.9\.0-9-amd64$";
+   "^gnumach-image-5\.1\.9-msi$";
+   "^.*-modules-4\.19\.0-5-amd64$";
+   "^.*-modules-4\.9\.0-9-amd64$";
+   "^.*-modules-5\.1\.9-msi$";
+   "^.*-kernel-4\.19\.0-5-amd64$";
+   "^.*-kernel-4\.9\.0-9-amd64$";
+   "^.*-kernel-5\.1\.9-msi$";
+   "^linux-backports-modules-.*-4\.19\.0-5-amd64$";
+   "^linux-backports-modules-.*-4\.9\.0-9-amd64$";
+   "^linux-backports-modules-.*-5\.1\.9-msi$";
+   "^linux-modules-.*-4\.19\.0-5-amd64$";
+   "^linux-modules-.*-4\.9\.0-9-amd64$";
+   "^linux-modules-.*-5\.1\.9-msi$";
+   "^linux-tools-4\.19\.0-5-amd64$";
+   "^linux-tools-4\.9\.0-9-amd64$";
+   "^linux-tools-5\.1\.9-msi$";
+   "^linux-cloud-tools-4\.19\.0-5-amd64$";
+   "^linux-cloud-tools-4\.9\.0-9-amd64$";
+   "^linux-cloud-tools-5\.1\.9-msi$";
+   "^linux-buildinfo-4\.19\.0-5-amd64$";
+   "^linux-buildinfo-4\.9\.0-9-amd64$";
+   "^linux-buildinfo-5\.1\.9-msi$";
+   "^linux-source-4\.19\.0-5-amd64$";
+   "^linux-source-4\.9\.0-9-amd64$";
 =======
    "^linux-image-5\.1\.8-msi$";
    "^linux-image-5\.1\.9-msi$";
@@ -74,40 +91,40 @@ APT::NeverAutoRemove
    "^linux-buildinfo-5\.1\.8-msi$";
    "^linux-buildinfo-5\.1\.9-msi$";
    "^linux-source-5\.1\.8-msi$";
-   "^linux-source-5\.1\.9-msi$";
 >>>>>>> 83e75c3998e5e904d77346b4081440fc99a71a99
+   "^linux-source-5\.1\.9-msi$";
 };
 /* Debug information:
 # dpkg list:
 ii  linux-image-4.19.0-5-amd64             4.19.37-3                       amd64        Linux 4.19 for 64-bit PCs (signed)
-ii  linux-image-5.1.7-msi                  5.1.7-msi-1                     amd64        Linux kernel, version 5.1.7-msi
 <<<<<<< HEAD
-iF  linux-image-5.1.8-msi                  5.1.8-msi-1                     amd64        Linux kernel, version 5.1.8-msi
+rc  linux-image-4.9.0-9-amd64              4.9.168-1+deb9u3                amd64        Linux 4.9 for 64-bit PCs
 =======
+ii  linux-image-5.1.7-msi                  5.1.7-msi-1                     amd64        Linux kernel, version 5.1.7-msi
 ii  linux-image-5.1.8-msi                  5.1.8-msi-1                     amd64        Linux kernel, version 5.1.8-msi
-iF  linux-image-5.1.9-msi                  5.1.9-msi-1                     amd64        Linux kernel, version 5.1.9-msi
 >>>>>>> 83e75c3998e5e904d77346b4081440fc99a71a99
+iF  linux-image-5.1.9-msi                  5.1.9-msi-1                     amd64        Linux kernel, version 5.1.9-msi
 ii  linux-image-amd64                      4.19+105                        amd64        Linux for 64-bit PCs (meta-package)
 # list of installed kernel packages:
 4.19.0-5-amd64 4.19.37-3
+<<<<<<< HEAD
+5.1.9-msi 5.1.9-msi-1
+# list of different kernel versions:
+5.1.9-msi-1
+4.19.37-3
+# Installing kernel: 5.1.9-msi-1 (5.1.9-msi)
+# Running kernel: ignored (4.9.0-9-amd64)
+# Last kernel: 5.1.9-msi-1
+# Previous kernel: 4.19.37-3
+# Kernel versions list to keep:
+4.19.37-3
+5.1.9-msi-1
+# Kernel packages (version part) to protect:
+4\.19\.0-5-amd64
+4\.9\.0-9-amd64
+=======
 5.1.7-msi 5.1.7-msi-1
 5.1.8-msi 5.1.8-msi-1
-<<<<<<< HEAD
-# list of different kernel versions:
-5.1.8-msi-1
-5.1.7-msi-1
-4.19.37-3
-# Installing kernel: 5.1.8-msi-1 (5.1.8-msi)
-# Running kernel: 5.1.7-msi-1 (5.1.7-msi)
-# Last kernel: 5.1.8-msi-1
-# Previous kernel: 5.1.7-msi-1
-# Kernel versions list to keep:
-5.1.7-msi-1
-5.1.8-msi-1
-# Kernel packages (version part) to protect:
-5\.1\.7-msi
-5\.1\.8-msi
-=======
 5.1.9-msi 5.1.9-msi-1
 # list of different kernel versions:
 5.1.9-msi-1
@@ -123,6 +140,6 @@ ii  linux-image-amd64                      4.19+105                        amd64
 5.1.9-msi-1
 # Kernel packages (version part) to protect:
 5\.1\.8-msi
-5\.1\.9-msi
 >>>>>>> 83e75c3998e5e904d77346b4081440fc99a71a99
+5\.1\.9-msi
 */
