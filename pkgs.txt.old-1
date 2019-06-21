@@ -222,6 +222,7 @@ dh-autoreconf
 dh-exec
 dh-python
 dh-strip-nondeterminism
+dialog
 dictionaries-common
 diffstat
 diffutils
