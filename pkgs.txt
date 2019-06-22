@@ -2875,6 +2875,7 @@ wnorwegian
 wpasupplicant
 wpolish
 wportuguese
+wps-office
 wspanish
 wswedish
 x11-apps
