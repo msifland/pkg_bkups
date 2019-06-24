@@ -59,9 +59,9 @@ $color2$stippled_hr
 ${color}${font sans:bold:size=10}RAM:${color2}${font sans:size=10} $memperc%  ${alignr}$mem/$memmax
 ${color3}$membar
 ${color2}${memgraph 0 28, 255 black black}
-$color2$stippled_hr
-${color}${font sans:bold:size=10}SWAP: ${color2}${font sans:size=10}$swapperc% ${alignr}$swap/$swapmax
-${color3}${swapbar}
+#$color2$stippled_hr
+#${color}${font sans:bold:size=10}SWAP: ${color2}${font sans:size=10}$swapperc% ${alignr}$swap/$swapmax
+#${color3}${swapbar}
 $color2$hr
 ${color}${font sans:bold:size=10}TOP PROCESSES
 ${font sans:bold:size=8}By cpu                        pid\#   cpu%  ram%
