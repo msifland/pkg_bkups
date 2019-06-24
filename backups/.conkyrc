@@ -59,9 +59,9 @@ $color2$stippled_hr
 ${color}${font sans:bold:size=10}RAM:${color2}${font sans:size=10} $memperc%  ${alignr}$mem/$memmax
 ${color3}$membar
 ${color2}${memgraph 0 28, 255 black black}
-$color2$stippled_hr
-${color}${font sans:bold:size=10}SWAP: ${color2}${font sans:size=10}$swapperc% ${alignr}$swap/$swapmax
-${color3}${swapbar}
+#$color2$stippled_hr
+#${color}${font sans:bold:size=10}SWAP: ${color2}${font sans:size=10}$swapperc% ${alignr}$swap/$swapmax
+#${color3}${swapbar}
 $color2$hr
 ${color}${font sans:bold:size=10}TOP PROCESSES
 ${font sans:bold:size=8}By cpu                        pid\#   cpu%  ram%
@@ -87,11 +87,11 @@ ${font sans:bold:size=8}${color}/home(/dev/sda2)${color2}${font sans:size=8}   $
 ${color3}${fs_bar /home}
 $color2$hr
 ${color}${font sans:bold:size=10}NETWORK DATA
-${color}${font sans:bold:size=8}Interal IP: ${color2}${addr  wlo1}
+${color}${font sans:bold:size=8}Interal IP: ${color2}${addr  wlp3s0}
 ${color}External IP: ${color2}${execi 3600 curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//'}
-${color}${font sans:size=8}Network Adapter: ${color2}${texeci 36000 echo $(ip link show | grep "state UP" | cut -d':' -f2 | sed 's#:##')}${if_existing .conky_has_wireless}${goto 5}${voffset 13}${color}Wireless Network: ${color2}${wireless_essid  wlo1}${endif} \
-${if_existing .conky_has_wireless}${goto 5}${voffset 13}${color}WiFi Signal Strength: ${color2}${wireless_link_qual_perc  wlo1}%${endif} \
-${goto 5}${voffset 13}${color}Dnload Speed: ${color2}${downspeed  wlo1}/s
-${color2}${downspeedgraph  wlo1 28,255 ${color2} ${color3}}
-${color}Upload Speed: ${color2}${upspeed  wlo1}/s${color2}
-${upspeedgraph  wlo1 28,255 ${color2} ${color3}}
+${color}${font sans:size=8}Network Adapter: ${color2}${texeci 36000 echo $(ip link show | grep "state UP" | cut -d':' -f2 | sed 's#:##')}${if_existing .conky_has_wireless}${goto 5}${voffset 13}${color}Wireless Network: ${color2}${wireless_essid  wlp3s0}${endif} \
+${if_existing .conky_has_wireless}${goto 5}${voffset 13}${color}WiFi Signal Strength: ${color2}${wireless_link_qual_perc  wlp3s0}%${endif} \
+${goto 5}${voffset 13}${color}Dnload Speed: ${color2}${downspeed  wlp3s0}/s
+${color2}${downspeedgraph  wlp3s0 28,255 ${color2} ${color3}}
+${color}Upload Speed: ${color2}${upspeed  wlp3s0}/s${color2}
+${upspeedgraph  wlp3s0 28,255 ${color2} ${color3}}

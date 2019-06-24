@@ -1,29 +1,5 @@
-# 
-
-# deb cdrom:[Debian GNU/Linux testing _Buster_ - Official Snapshot amd64 NETINST 20180917-04:19]/ buster contrib main non-free
-
-# deb cdrom:[Debian GNU/Linux testing _Buster_ - Official Snapshot amd64 NETINST 20180917-04:19]/ buster contrib main non-free
-
-deb http://deb.debian.org/debian/ buster main non-free contrib
-deb-src http://deb.debian.org/debian/ buster main non-free contrib
-
-deb http://security.debian.org/debian-security buster/updates main contrib non-free
-deb-src http://security.debian.org/debian-security buster/updates main contrib non-free
-
-# This system was installed using small removable media
-# (e.g. netinst, live or single CD). The matching "deb cdrom"
-# entries were disabled at the end of the installation process.
-# For information about how to configure apt package sources,
-# see the sources.list(5) manual.
-
-#Added manually
-deb http://ftp.us.debian.org/debian/ testing main contrib non-free
-deb-src http://ftp.us.debian.org/debian/ testing main contrib non-free
-
-#Added manually
-deb http://ftp.us.debian.org/debian/ sid main contrib non-free
-deb-src http://ftp.us.debian.org/debian/ sid main contrib non-free
-
-#Added manually
-deb http://ftp.us.debian.org/debian/ unstable main contrib non-free
-deb-src http://ftp.us.debian.org/debian/ unstable main contrib non-free
+deb http://us.archive.ubuntu.com/ubuntu/ disco main universe restricted multiverse
+deb-src http://us.archive.ubuntu.com/ubuntu/ disco main universe restricted multiverse #Added by software-properties
+deb http://security.ubuntu.com/ubuntu/ disco-security main multiverse restricted universe
+deb http://us.archive.ubuntu.com/ubuntu/ disco-updates main multiverse restricted universe
+deb http://us.archive.ubuntu.com/ubuntu/ disco-backports main multiverse restricted universe
