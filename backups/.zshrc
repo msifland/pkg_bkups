@@ -396,7 +396,8 @@ export PATH="$(find $HOME/Android/Sdk/build-tools/ -mindepth 1 -maxdepth 1 -type
 BLD_TOOLS_KEEP=$(ls -t $HOME/Android/Sdk/build-tools/ | head -n 1)
 find $HOME/Android/Sdk/build-tools/ -mindepth 1 -maxdepth 1 ! -name "$BLD_TOOLS_KEEP" -execdir rm -rf 2>/dev/null {} \+
 #find . -maxdepth 1 ! -name "$BLD_TOOLS_KEEP" -print0 | xargs -0 rm -rf 2>/dev/null
-
+alias android-studio="detach /home/msifland/Android/android-studio/bin/studio.sh
+"
 # For android
 export PATH="./prebuilts/sdk/tools:$PATH"
 #export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64

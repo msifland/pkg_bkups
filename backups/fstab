@@ -8,6 +8,7 @@
 # / was on /dev/sdc2 during installation
 UUID=1bf34853-3d79-4a8c-9554-23c98a3b555e /               ext4    errors=remount-ro 0       1
 # /boot/efi was on /dev/sdc1 during installation
-UUID=16E6-62F0  /boot/efi       vfat    umask=0077      0       1
+#UUID=16E6-62F0  /boot/efi       vfat    umask=0077      0       1
 # /home was on /dev/sdc3 during installation
 UUID=8b8156a0-54e4-4589-8c57-3352e64fd330 /home           ext4    defaults        0       2
+UUID=16E6-62F0	/boot/efi	vfat	defaults	0	1
