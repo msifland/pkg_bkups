@@ -1,7 +1,6 @@
 accountsservice
 acl
 acpi-support
-acpi-support-base
 acpid
 adduser
 adwaita-icon-theme
@@ -120,7 +119,6 @@ bluebird-gtk-theme
 blueman
 bluetooth
 bluez
-bluez-firmware
 bluez-obexd
 bsdmainutils
 bsdutils
@@ -132,21 +130,6 @@ bzip2
 ca-certificates
 ca-certificates-java
 cabextract
-caja
-caja-admin
-caja-common
-caja-eiciel
-caja-extensions-common
-caja-gtkhash
-caja-image-converter
-caja-open-terminal
-caja-rename
-caja-seahorse
-caja-sendto
-caja-wallpaper
-chromium
-chromium-common
-chromium-sandbox
 clamav
 clamav-base
 clamav-daemon
@@ -304,6 +287,8 @@ fdisk
 ffmpegthumbnailer
 file
 findutils
+<<<<<<< HEAD
+=======
 firebird3.0-common
 firebird3.0-common-doc
 firefox-esr
@@ -333,6 +318,7 @@ firmware-samsung
 firmware-siano
 firmware-ti-connectivity
 firmware-zd1211
+>>>>>>> 996a0d846d414f9f9d01ff7cae903fe81c72a967
 flex
 fontconfig
 fontconfig-config
@@ -496,9 +482,6 @@ git-man
 glib-networking:amd64
 glib-networking-common
 glib-networking-services
-glx-alternative-mesa
-glx-alternative-nvidia
-glx-diversions
 gnome-accessibility-themes
 gnome-desktop3-data
 gnome-gmail
@@ -632,7 +615,6 @@ ibus
 ibus-hangul
 ibus-m17n
 icatalan
-iceweasel
 icoutils
 idanish
 idutch
@@ -781,14 +763,12 @@ libavahi-common3:i386
 libavahi-core7:amd64
 libavahi-glib1:amd64
 libavc1394-0:amd64
-libavcodec57:amd64
 libavcodec58:amd64
 libavcodec58:i386
 libavfilter7:amd64
 libavformat58:amd64
 libavresample4:amd64
 libavresample4:i386
-libavutil55:amd64
 libavutil56:amd64
 libavutil56:i386
 libayatana-appindicator3-1
@@ -834,7 +814,6 @@ libbtbb1:amd64
 libbz2-1.0:amd64
 libc-bin
 libc-dev-bin
-libc-l10n
 libc6:amd64
 libc6:i386
 libc6-dev:amd64
@@ -877,7 +856,6 @@ libcharls2:amd64
 libcholmod3:amd64
 libchromaprint1:amd64
 libcilkrts5:amd64
-libclamav9:amd64
 libclass-accessor-perl
 libclass-c3-perl
 libclass-c3-xs-perl
@@ -900,7 +878,6 @@ libcpufreq0
 libcroco3:amd64
 libcroco3:i386
 libcryptsetup12:amd64
-libcryptsetup4:amd64
 libcryptui0a:amd64
 libcrystalhd3:amd64
 libcrystalhd3:i386
@@ -950,7 +927,6 @@ libdist-checkconflicts-perl
 libdjvulibre-text
 libdjvulibre21:amd64
 libdns-export1104
-libdns-export162
 libdns1104:amd64
 libdotconf0:amd64
 libdouble-conversion1:amd64
@@ -981,8 +957,6 @@ libefiboot1:amd64
 libefivar1:amd64
 libegl-mesa0:amd64
 libegl-mesa0:i386
-libegl-nvidia0:amd64
-libegl-nvidia0:i386
 libegl1:amd64
 libegl1:i386
 libegl1-mesa:amd64
@@ -1086,8 +1060,11 @@ libgdal20
 libgdata-common
 libgdata22:amd64
 libgdbm-compat4:amd64
+<<<<<<< HEAD
+=======
 libgdbm3:amd64
 libgdbm5:amd64
+>>>>>>> 996a0d846d414f9f9d01ff7cae903fe81c72a967
 libgdbm6:amd64
 libgdk-pixbuf2.0-0:amd64
 libgdk-pixbuf2.0-0:i386
@@ -1111,6 +1088,10 @@ libgl1-mesa-dri:amd64
 libgl1-mesa-dri:i386
 libgl1-mesa-glx:amd64
 libgl1-mesa-glx:i386
+<<<<<<< HEAD
+libglapi-mesa:amd64
+libglapi-mesa:i386
+=======
 libgl1-nvidia-glvnd-glx:amd64
 libgl1-nvidia-glvnd-glx:i386
 libglapi-mesa:amd64
@@ -1120,6 +1101,7 @@ libgles-nvidia1:i386
 libgles-nvidia2:amd64
 libgles-nvidia2:i386
 libgles1:amd64
+>>>>>>> 996a0d846d414f9f9d01ff7cae903fe81c72a967
 libgles1:i386
 libgles2:amd64
 libgles2:i386
@@ -1138,8 +1120,6 @@ libglvnd0:amd64
 libglvnd0:i386
 libglx-mesa0:amd64
 libglx-mesa0:i386
-libglx-nvidia0:amd64
-libglx-nvidia0:i386
 libglx0:amd64
 libglx0:i386
 libgme0:amd64
@@ -1243,7 +1223,6 @@ libical3:amd64
 libice-dev:amd64
 libice6:amd64
 libice6:i386
-libicu57:amd64
 libicu63:amd64
 libicu63:i386
 libid3tag0:amd64
@@ -1276,7 +1255,6 @@ libipc-system-simple-perl
 libiptc0:amd64
 libirs161:amd64
 libisc-export1100:amd64
-libisc-export160
 libisc1100:amd64
 libisccc161:amd64
 libisccfg163:amd64
@@ -1288,17 +1266,12 @@ libixml10:amd64
 libjack-jackd2-0:amd64
 libjack-jackd2-0:i386
 libjansson4:amd64
-libjavascriptcoregtk-1.0-0:amd64
-libjavascriptcoregtk-4.0-18:amd64
 libjaxp1.3-java
 libjbig0:amd64
 libjbig0:i386
 libjbig2dec0:amd64
 libjim0.77:amd64
 libjpeg-dev
-libjpeg62-turbo:amd64
-libjpeg62-turbo:i386
-libjpeg62-turbo-dev:amd64
 libjpeg9:amd64
 libjq1:amd64
 libjs-jquery
@@ -1411,7 +1384,6 @@ libmime-lite-perl
 libmime-types-perl
 libminizip1:amd64
 libmm-glib0:amd64
-libmng1:amd64
 libmnl0:amd64
 libmodule-implementation-perl
 libmodule-runtime-perl
@@ -1499,6 +1471,8 @@ libntlm0:amd64
 libnuma-dev:amd64
 libnuma1:amd64
 libnuma1:i386
+<<<<<<< HEAD
+=======
 libnvidia-cbl:amd64
 libnvidia-cfg1:amd64
 libnvidia-eglcore:amd64
@@ -1514,6 +1488,7 @@ libnvidia-legacy-390xx-ml1:amd64
 libnvidia-ml1:amd64
 libnvidia-ptxjitcompiler1:amd64
 libnvidia-rtcore:amd64
+>>>>>>> 996a0d846d414f9f9d01ff7cae903fe81c72a967
 libnxt
 liboauth0:amd64
 libodbc1:amd64
@@ -1604,7 +1579,6 @@ libpeas-1.0-0:amd64
 libpeas-1.0-python2loader:amd64
 libpeas-common
 libperl-dev
-libperl5.26:amd64
 libperl5.28:amd64
 libperlio-gzip-perl
 libpgm-5.2-0:amd64
@@ -1615,21 +1589,18 @@ libplacebo7:amd64
 libplist3:amd64
 libplymouth4:amd64
 libpng-dev:amd64
-libpng12-0:amd64
 libpng16-16:amd64
 libpng16-16:i386
 libpolkit-agent-1-0:amd64
 libpolkit-backend-1-0:amd64
 libpolkit-gobject-1-0:amd64
 libpoppler-glib8:amd64
-libpoppler82:amd64
 libpopt0:amd64
 libpostproc55:amd64
 libpotrace0:amd64
 libpq5:amd64
 libpresage-data
 libpresage1v5:amd64
-libprocps6:amd64
 libprocps7:amd64
 libproj13:amd64
 libprotobuf-c1:amd64
@@ -1705,7 +1676,6 @@ libraw19:amd64
 librda-common
 librda0:amd64
 libre2-5:amd64
-libreadline7:amd64
 libreadonly-perl
 librecode0:amd64
 libref-util-perl
@@ -1801,8 +1771,6 @@ libss2:amd64
 libssh-gcrypt-4:amd64
 libssh2-1:amd64
 libssl-dev:amd64
-libssl1.0.0:amd64
-libssl1.0.2:amd64
 libssl1.1:amd64
 libssl1.1:i386
 libstartup-notification0:amd64
@@ -1820,8 +1788,11 @@ libsub-quote-perl
 libsuitesparseconfig5:amd64
 libsunpinyin3v5:amd64
 libsuperlu5:amd64
+<<<<<<< HEAD
+=======
 libswitch-perl
 libswresample2:amd64
+>>>>>>> 996a0d846d414f9f9d01ff7cae903fe81c72a967
 libswresample3:amd64
 libswresample3:i386
 libswscale5:amd64
@@ -1887,7 +1858,6 @@ libumfpack5:amd64
 libunbound8:amd64
 libunicode-linebreak-perl
 libunicode-utf8-perl
-libunistring0:amd64
 libunistring2:amd64
 libunistring2:i386
 libunwind-dev:amd64
@@ -1912,14 +1882,11 @@ libv4l-0:amd64
 libv4l-0:i386
 libv4lconvert0:amd64
 libv4lconvert0:i386
-libva-drm1:amd64
 libva-drm2:amd64
 libva-drm2:i386
 libva-wayland2:amd64
-libva-x11-1:amd64
 libva-x11-2:amd64
 libva-x11-2:i386
-libva1:amd64
 libva2:amd64
 libva2:i386
 libvariable-magic-perl
@@ -1942,7 +1909,6 @@ libvorbis0a:i386
 libvorbisenc2:amd64
 libvorbisenc2:i386
 libvorbisfile3:amd64
-libvpx4:amd64
 libvpx5:amd64
 libvpx5:i386
 libvte-2.91-0:amd64
@@ -1964,11 +1930,9 @@ libwayland-server0:amd64
 libwayland-server0:i386
 libwbclient0:amd64
 libwebkit2gtk-4.0-37:amd64
-libwebkitgtk-1.0-0:amd64
 libwebp6:amd64
 libwebp6:i386
 libwebpdemux2:amd64
-libwebpmux2:amd64
 libwebpmux3:amd64
 libwebpmux3:i386
 libwebrtc-audio-processing1:amd64
@@ -1992,12 +1956,10 @@ libx11-dev:amd64
 libx11-protocol-perl
 libx11-xcb1:amd64
 libx11-xcb1:i386
-libx264-148:amd64
 libx264-155:amd64
 libx264-155:i386
 libx265-165:amd64
 libx265-165:i386
-libx265-95:amd64
 libx32asan5
 libx32atomic1
 libx32gcc-8-dev
@@ -2036,7 +1998,6 @@ libxcb-shm0:amd64
 libxcb-shm0:i386
 libxcb-sync1:amd64
 libxcb-sync1:i386
-libxcb-util0:amd64
 libxcb-xfixes0:amd64
 libxcb-xfixes0:i386
 libxcb-xinerama0:amd64
@@ -2064,7 +2025,6 @@ libxfce4ui-common
 libxfce4util-bin
 libxfce4util-common
 libxfce4util7:amd64
-libxfconf-0-2
 libxfixes3:amd64
 libxfixes3:i386
 libxfont2:amd64
@@ -2127,7 +2087,6 @@ libyaml-0-2:amd64
 libyaml-libyaml-perl
 libyaml-tiny-perl
 libyelp0:amd64
-libzinnia0
 libzmq5:amd64
 libzstd1:amd64
 libzstd1:i386
@@ -2139,6 +2098,8 @@ lightdm
 lightdm-gtk-greeter
 lintian
 linux-base
+<<<<<<< HEAD
+=======
 linux-compiler-gcc-8-x86
 linux-headers-4.19.0-5-amd64
 linux-headers-4.19.0-5-common
@@ -2155,6 +2116,7 @@ linux-perf-5.1.12
 live-task-localisation
 live-task-localisation-desktop
 live-task-recommended
+>>>>>>> 996a0d846d414f9f9d01ff7cae903fe81c72a967
 lmodern
 locales
 login
@@ -2186,71 +2148,6 @@ manpages-pl-dev
 manpages-pt
 manpages-tr
 manpages-zh
-marco
-marco-common
-mariadb-common
-mate-applet-appmenu
-mate-applet-brisk-menu
-mate-applets
-mate-applets-common
-mate-backgrounds
-mate-calc
-mate-calc-common
-mate-common
-mate-control-center
-mate-control-center-common
-mate-core
-mate-desktop
-mate-desktop-common
-mate-desktop-environment
-mate-desktop-environment-core
-mate-desktop-environment-extra
-mate-desktop-environment-extras
-mate-dock-applet
-mate-icon-theme
-mate-icon-theme-faenza
-mate-indicator-applet
-mate-indicator-applet-common
-mate-media
-mate-media-common
-mate-menu
-mate-menus
-mate-netbook
-mate-netbook-common
-mate-notification-daemon
-mate-notification-daemon-common
-mate-optimus
-mate-panel
-mate-panel-common
-mate-polkit:amd64
-mate-polkit-bin
-mate-polkit-common
-mate-power-manager
-mate-power-manager-common
-mate-screensaver
-mate-screensaver-common
-mate-sensors-applet
-mate-sensors-applet-common
-mate-session-manager
-mate-settings-daemon
-mate-settings-daemon-common
-mate-settings-daemon-dev
-mate-sntray-plugin
-mate-system-monitor
-mate-system-monitor-common
-mate-terminal
-mate-terminal-common
-mate-themes
-mate-tweak
-mate-user-guide
-mate-user-share
-mate-user-share-common
-mate-utils
-mate-utils-common
-mate-window-applets-common
-mate-window-buttons-applet
-mate-window-menu-applet
-mate-window-title-applet
 materia-gtk-theme
 mawk
 menu
@@ -2319,6 +2216,8 @@ nkf
 notification-daemon
 ntfs-3g
 numlockx
+<<<<<<< HEAD
+=======
 nvidia-alternative
 nvidia-driver
 nvidia-driver-bin
@@ -2348,6 +2247,7 @@ nvidia-vdpau-driver:i386
 nvidia-vulkan-common
 nvidia-vulkan-icd:amd64
 nvidia-vulkan-icd:i386
+>>>>>>> 996a0d846d414f9f9d01ff7cae903fe81c72a967
 nxt-firmware
 obex-data-server
 ocl-icd-libopencl1:amd64
@@ -2360,7 +2260,10 @@ openjdk-11-jdk:amd64
 openjdk-11-jdk-headless:amd64
 openjdk-11-jre:amd64
 openjdk-11-jre-headless:amd64
+<<<<<<< HEAD
+=======
 openprinting-ppds
+>>>>>>> 996a0d846d414f9f9d01ff7cae903fe81c72a967
 opensp
 openssh-client
 openssh-server
@@ -2452,18 +2355,15 @@ python-gi
 python-gi-cairo
 python-gobject
 python-gobject-2
-python-ldb
 python-mate-menu
 python-minimal
 python-mock
 python-numpy
 python-pbr
 python-pkg-resources
-python-samba
 python-setproctitle:amd64
 python-setuptools
 python-six
-python-talloc:amd64
 python-tdb
 python-tk
 python-wxgtk3.0
@@ -2616,6 +2516,8 @@ t1-cyrillic
 t1-teams
 t1utils
 tar
+<<<<<<< HEAD
+=======
 task-albanian-desktop
 task-amharic
 task-amharic-desktop
@@ -2754,6 +2656,7 @@ task-web-server
 task-welsh
 task-welsh-desktop
 task-xhosa-desktop
+>>>>>>> 996a0d846d414f9f9d01ff7cae903fe81c72a967
 tasksel
 tasksel-data
 tcl
@@ -2814,7 +2717,6 @@ uisp
 unicon-imc2
 unifont
 unzip
-update-glx
 update-inetd
 upower
 usb-modeswitch
