@@ -300,6 +300,7 @@ gir1.2-gdesktopenums-3.0:amd64
 gir1.2-gdkpixbuf-2.0:amd64
 gir1.2-gdm-1.0:amd64
 gir1.2-geoclue-2.0:amd64
+gir1.2-gexiv2-0.10:amd64
 gir1.2-glib-2.0:amd64
 gir1.2-gmenu-3.0:amd64
 gir1.2-gnomebluetooth-1.0:amd64
@@ -435,6 +436,9 @@ ibus-table
 ifupdown
 iio-sensor-proxy
 im-config
+imagemagick
+imagemagick-6-common
+imagemagick-6.q16
 info
 init
 init-system-helpers
@@ -854,6 +858,7 @@ libiec61883-0:amd64
 libieee1284-3:amd64
 libigdgmm5:amd64
 libijs-0.35:amd64
+libilmbase23:amd64
 libimagequant0:amd64
 libimlib2:amd64
 libimobiledevice6:amd64
@@ -916,6 +921,7 @@ liblouis17:amd64
 liblouisutdml-bin
 liblouisutdml-data
 liblouisutdml8:amd64
+liblqr-1-0:amd64
 liblsan0:amd64
 libltdl7:amd64
 liblua5.1-0:amd64
@@ -928,6 +934,9 @@ liblzma5:amd64
 liblzo2-2:amd64
 libmagic-mgc
 libmagic1:amd64
+libmagickcore-6.q16-6:amd64
+libmagickcore-6.q16-6-extra:amd64
+libmagickwand-6.q16-6:amd64
 libmailtools-perl
 libmbim-glib4:amd64
 libmbim-proxy
@@ -1003,6 +1012,7 @@ liboauth0:amd64
 libogg0:amd64
 libopencore-amrnb0:amd64
 libopencore-amrwb0:amd64
+libopenexr23:amd64
 libopenjp2-7:amd64
 libopenmpt0:amd64
 libopus0:amd64
@@ -1576,11 +1586,13 @@ python3-aptdaemon.gtk3widgets
 python3-asn1crypto
 python3-blinker
 python3-brlapi:amd64
+python3-bs4
 python3-cairo:amd64
 python3-certifi
 python3-cffi-backend
 python3-chardet
 python3-commandnotfound
+python3-configobj
 python3-cryptography
 python3-cups
 python3-cupshelpers
@@ -1596,6 +1608,7 @@ python3-entrypoints
 python3-gdbm:amd64
 python3-gi
 python3-gi-cairo
+python3-html5lib
 python3-httplib2
 python3-idna
 python3-jwt
@@ -1604,6 +1617,7 @@ python3-launchpadlib
 python3-lazr.restfulclient
 python3-lazr.uri
 python3-louis
+python3-lxml:amd64
 python3-macaroonbakery
 python3-minimal
 python3-multibootusb
@@ -1632,6 +1646,7 @@ python3-simplejson
 python3-sip
 python3-six
 python3-software-properties
+python3-soupsieve
 python3-speechd
 python3-systemd
 python3-talloc
@@ -1639,6 +1654,7 @@ python3-tz
 python3-update-manager
 python3-urllib3
 python3-wadllib
+python3-webencodings
 python3-xdg
 python3-xkit
 python3-yaml
@@ -1754,6 +1770,7 @@ util-linux
 uuid-dev:amd64
 uuid-runtime
 va-driver-all:amd64
+variety
 vdpau-driver-all:amd64
 vim-common
 vim-tiny
