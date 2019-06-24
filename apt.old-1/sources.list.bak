@@ -1,6 +1,0 @@
-deb http://us.archive.ubuntu.com/ubuntu/ disco main universe restricted multiverse
-deb-src http://us.archive.ubuntu.com/ubuntu/ disco main universe restricted multiverse #Added by software-properties
-deb http://security.ubuntu.com/ubuntu/ disco-security main multiverse restricted universe
-deb http://us.archive.ubuntu.com/ubuntu/ disco-updates main multiverse restricted universe
-deb http://us.archive.ubuntu.com/ubuntu/ disco-backports main multiverse restricted universe
-deb http://us.archive.ubuntu.com/ubuntu/ disco-proposed main multiverse restricted universe
