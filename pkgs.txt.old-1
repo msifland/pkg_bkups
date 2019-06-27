@@ -162,6 +162,9 @@ fdisk
 fig2dev
 file
 file-roller
+filemanager-actions
+filemanager-actions-data
+filemanager-actions-libs:amd64
 findutils
 firefox
 firefox-locale-en
@@ -395,6 +398,7 @@ gnome-user-docs
 gnupg
 gnupg-l10n
 gnupg-utils
+gparted
 gpg
 gpg-agent
 gpg-wks-client
@@ -546,6 +550,7 @@ libatomic1:amd64
 libatomic1:i386
 libatspi2.0-0:amd64
 libattr1:amd64
+libaudio2:amd64
 libaudit-common
 libaudit-dev:amd64
 libaudit1:amd64
@@ -859,6 +864,7 @@ libgtk2.0-bin
 libgtk2.0-common
 libgtk3-perl
 libgtkglext1:amd64
+libgtkmm-2.4-1v5:amd64
 libgtkmm-3.0-1v5:amd64
 libgtksourceview-4-0:amd64
 libgtksourceview-4-common
@@ -1024,6 +1030,7 @@ libnautilus-extension1a:amd64
 libncurses6:amd64
 libncursesw6:amd64
 libndp0:amd64
+libnemo-extension1:amd64
 libnet-dbus-perl
 libnet-dns-perl
 libnet-dns-sec-perl
@@ -1379,6 +1386,8 @@ libwoff1:amd64
 libwrap0:amd64
 libwww-perl
 libwww-robotrules-perl
+libwxbase3.0-0v5:amd64
+libwxgtk3.0-0v5:amd64
 libx11-6:amd64
 libx11-6:i386
 libx11-data
@@ -1543,13 +1552,16 @@ mutter-common
 mysql-common
 nano
 nautilus
+nautilus-actions
 nautilus-admin
 nautilus-data
+nautilus-extension-fma:amd64
 nautilus-extension-gnome-terminal
 nautilus-sendto
 nautilus-share
 ncurses-base
 ncurses-bin
+nemo-extension-fma:amd64
 netbase
 netcat-openbsd
 netpbm
@@ -1819,6 +1831,7 @@ strace
 sublime-text
 sudo
 switcheroo-control
+syslinux
 syslinux-common
 system-config-printer
 system-config-printer-common
@@ -1916,6 +1929,7 @@ whoopsie-preferences
 wireless-regdb
 wireless-tools
 wmctrl
+woeusb
 wpasupplicant
 x11-apps
 x11-common
