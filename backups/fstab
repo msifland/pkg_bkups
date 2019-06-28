@@ -9,3 +9,4 @@
 UUID=3ae528b7-a617-42f2-8fc9-fa531f5d919a /               ext4    errors=remount-ro 0       1
 # /home was on /dev/sda2 during installation
 UUID=f417d30a-7c2a-4971-bfde-78d9f78e9699 /home           ext4    defaults        0       2
+/swapfile                                 none            swap    sw              0       0
