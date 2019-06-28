@@ -145,7 +145,7 @@ cd $P
 export MPWD=$P
 }
 
-function iso-gen(){ ##>Gerate iso file from folder
+function iso-gen(){
 		$HOME/scripts/gen-iso
 }
 
@@ -267,7 +267,7 @@ function file-open(){ ##>Opens a file by full name in current directory, or open
 	fi
 }
 
-function my-locate(){ ##>Finds files and folders by name in current dir recursively.
+function locate(){ ##>Finds files and folders by name in current dir recursively.
 	if [[ ! -z $1 ]]; then
 		$HOME/scripts/locate-file-names $1
 	else
@@ -368,14 +368,14 @@ export ILRESTORE=$ILRESTORE
 echo
 screenfetch -A 'Linux' | pv -qL 2000
 echo
-echo -e ${rand_color} "=========================================================================================="
-echo "     Welcome to your $(uname -rmno) machine, Michael"
-echo "     Kernel Version: $(uname -v)"
-echo -e "     Uptime: $(uptime)"
-echo "     Disk use:  Prtitn          Total Used  Rmn   %Us MntPnt"
+echo -e ${rand_color} "============================================================================"
+echo "  Welcome to your $(uname -rmno) machine, Michael"
+echo "  Kernel Version: $(uname -v)"
+echo -e "  Uptime: $(uptime)"
+echo "  Disk use:  Prtitn          Total Used  Rmn   %Us MntPnt"
 df -h | grep /dev/sd | while read line; do echo -e "\t\t$line"; done
-echo "     External IP: $(curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//') / Internal IP: $(ip address | grep "inet 19" | sed '/vmnet/ d' | awk '{print $2}' | sed 's:/24::g')"
-echo " =========================================================================================="
+echo "  External IP: $(curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//') / Internal IP: $(ip address | grep "inet 19" | sed '/vmnet/ d' | awk '{print $2}' | sed 's:/24::g')"
+echo " ============================================================================"
 echo -e ${restore}
 echo
 
@@ -413,10 +413,11 @@ export PATH="$(find $HOME/Android/Sdk/build-tools/ -mindepth 1 -maxdepth 1 -type
 BLD_TOOLS_KEEP=$(ls -t $HOME/Android/Sdk/build-tools/ | head -n 1)
 find $HOME/Android/Sdk/build-tools/ -mindepth 1 -maxdepth 1 ! -name "$BLD_TOOLS_KEEP" -execdir rm -rf 2>/dev/null {} \+
 #find . -maxdepth 1 ! -name "$BLD_TOOLS_KEEP" -print0 | xargs -0 rm -rf 2>/dev/null
-
+alias android-studio="detach /home/msifland/Android/android-studio/bin/studio.sh
+"
 # For android
 export PATH="./prebuilts/sdk/tools:$PATH"
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+#export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 
 # System configs
 export EDITOR="nano"
@@ -432,3 +433,5 @@ if [ "$PS1" ]; then
     wget "http://api.icndb.com/jokes/random" -qO- | jshon -e value -e joke -u
 echo
 fi
+
+######################### End of My-Stuff ##########################

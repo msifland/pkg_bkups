@@ -4,12 +4,12 @@ deb-src http://archive.ubuntu.com/ubuntu disco main restricted #Added by softwar
 # See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
 # newer versions of the distribution.
 deb http://us.archive.ubuntu.com/ubuntu/ disco main restricted
-deb-src http://us.archive.ubuntu.com/ubuntu/ disco universe multiverse main restricted
+deb-src http://us.archive.ubuntu.com/ubuntu/ disco main multiverse restricted universe #Added by software-properties
 
 ## Major bug fix updates produced after the final release of the
 ## distribution.
 deb http://us.archive.ubuntu.com/ubuntu/ disco-updates main restricted
-deb-src http://us.archive.ubuntu.com/ubuntu/ disco-updates universe multiverse main restricted
+deb-src http://us.archive.ubuntu.com/ubuntu/ disco-updates main multiverse restricted universe #Added by software-properties
 
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
 ## team. Also, please note that software in universe WILL NOT receive any
@@ -35,7 +35,7 @@ deb http://us.archive.ubuntu.com/ubuntu/ disco-updates multiverse
 ## Also, please note that software in backports WILL NOT receive any review
 ## or updates from the Ubuntu security team.
 deb http://us.archive.ubuntu.com/ubuntu/ disco-backports main restricted universe multiverse
-deb-src http://us.archive.ubuntu.com/ubuntu/ disco-backports main restricted universe multiverse
+deb-src http://us.archive.ubuntu.com/ubuntu/ disco-backports main restricted universe multiverse #Added by software-properties
 
 ## Uncomment the following two lines to add software from Canonical's
 ## 'partner' repository.
@@ -45,7 +45,7 @@ deb http://archive.canonical.com/ubuntu disco partner
 deb-src http://archive.canonical.com/ubuntu disco partner
 
 deb http://security.ubuntu.com/ubuntu disco-security main restricted
-deb-src http://security.ubuntu.com/ubuntu disco-security universe multiverse main restricted
+deb-src http://security.ubuntu.com/ubuntu disco-security main multiverse restricted universe #Added by software-properties
 deb http://security.ubuntu.com/ubuntu disco-security universe
 # deb-src http://security.ubuntu.com/ubuntu disco-security universe
 deb http://security.ubuntu.com/ubuntu disco-security multiverse
@@ -56,4 +56,5 @@ deb http://security.ubuntu.com/ubuntu disco-security multiverse
 # entries were disabled at the end of the installation process.
 # For information about how to configure apt package sources,
 deb http://us.archive.ubuntu.com/ubuntu/ disco-proposed universe multiverse main restricted
+deb-src http://us.archive.ubuntu.com/ubuntu/ disco-proposed universe multiverse main restricted #Added by software-properties
 # see the sources.list(5) manual.
