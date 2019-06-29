@@ -8,7 +8,6 @@ alsa-base
 alsa-utils
 amd64-microcode
 anacron
-anydesk
 apg
 app-install-data-partner
 apparmor
@@ -77,6 +76,11 @@ colord
 colord-data
 command-not-found
 command-not-found-data
+compiz-core
+compiz-gnome
+compiz-plugins:amd64
+compiz-plugins-default:amd64
+compizconfig-settings-manager
 conky
 conky-std
 console-setup
@@ -143,7 +147,6 @@ docutils-doc
 dosfstools
 dpkg
 dpkg-dev
-dropbox
 dwz
 e2fsprogs
 ed
@@ -157,6 +160,7 @@ evince
 evince-common
 evolution-data-server
 evolution-data-server-common
+exo-utils
 fakeroot
 fdisk
 fig2dev
@@ -388,6 +392,7 @@ gnome-software
 gnome-software-common
 gnome-software-plugin-snap
 gnome-startup-applications
+gnome-system-monitor
 gnome-terminal
 gnome-terminal-data
 gnome-themes-extra:amd64
@@ -646,6 +651,7 @@ libcolord-gtk1:amd64
 libcolord2:amd64
 libcolorhug2:amd64
 libcom-err2:amd64
+libcompizconfig0:amd64
 libcrack2:amd64
 libcroco3:amd64
 libcryptsetup12:amd64
@@ -668,6 +674,7 @@ libdbusmenu-glib4:amd64
 libdbusmenu-gtk3-4:amd64
 libdconf1:amd64
 libdebconfclient0:amd64
+libdecoration0:amd64
 libdee-1.0-4:amd64
 libdevel-callchecker-perl
 libdevel-caller-perl
@@ -736,6 +743,9 @@ libexception-class-perl
 libexempi8:amd64
 libexif12:amd64
 libexiv2-14:amd64
+libexo-2-0:amd64
+libexo-common
+libexo-helpers
 libexpat1:amd64
 libexpat1:i386
 libexpat1-dev:amd64
@@ -1441,6 +1451,12 @@ libxdmcp6:amd64
 libxdmcp6:i386
 libxext6:amd64
 libxext6:i386
+libxfce4ui-2-0:amd64
+libxfce4ui-common
+libxfce4util-bin
+libxfce4util-common
+libxfce4util7:amd64
+libxfconf-0-3
 libxfixes3:amd64
 libxfixes3:i386
 libxfont2:amd64
@@ -1500,15 +1516,12 @@ linux-firmware
 linux-generic
 linux-headers-5.0.0-20
 linux-headers-5.0.0-20-generic
-linux-headers-5.1.15--msi
 linux-headers-generic
 linux-image-5.0.0-20-generic
-linux-image-5.1.15--msi
 linux-image-generic
 linux-libc-dev:amd64
 linux-modules-5.0.0-20-generic
 linux-modules-extra-5.0.0-20-generic
-linux-perf-5.1.15
 linux-signed-generic
 linux-sound-base
 lm-sensors
@@ -1710,6 +1723,7 @@ python3-certifi
 python3-cffi-backend
 python3-chardet
 python3-commandnotfound
+python3-compizconfig:amd64
 python3-configobj
 python3-cryptography
 python3-cups
@@ -1738,7 +1752,6 @@ python3-louis
 python3-lxml:amd64
 python3-macaroonbakery
 python3-minimal
-python3-multibootusb
 python3-nacl
 python3-netifaces
 python3-oauthlib
@@ -1948,6 +1961,8 @@ xdg-desktop-portal-gtk
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
+xfce4-terminal
+xfconf
 xfonts-base
 xfonts-encodings
 xfonts-scalable
