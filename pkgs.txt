@@ -94,6 +94,8 @@ chkrootkit
 chromium-browser
 chromium-browser-l10n
 chromium-codecs-ffmpeg-extra
+cmake
+cmake-data
 colord
 colord-data
 command-not-found
@@ -1136,6 +1138,7 @@ libjs-underscore
 libjson-c3:amd64
 libjson-glib-1.0-0:amd64
 libjson-glib-1.0-common
+libjsoncpp1:amd64
 libk5crypto3:amd64
 libk5crypto3:i386
 libkeyutils1:amd64
@@ -1868,12 +1871,16 @@ linux-firmware
 linux-generic
 linux-headers-5.0.0-20
 linux-headers-5.0.0-20-generic
+linux-headers-5.1.10-msi
+linux-headers-5.1.13-msi
 linux-headers-5.1.15--msi
 linux-headers-generic
 linux-image-5.0.0-20-generic
+linux-image-5.1.10-msi
+linux-image-5.1.13-msi
 linux-image-5.1.15--msi
 linux-image-generic
-linux-libc-dev:amd64
+linux-libc-dev
 linux-modules-5.0.0-20-generic
 linux-modules-extra-5.0.0-20-generic
 linux-signed-generic

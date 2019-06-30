@@ -8,6 +8,7 @@ alsa-base
 alsa-utils
 amd64-microcode
 anacron
+anydesk
 apg
 app-install-data-partner
 apparmor
@@ -147,6 +148,7 @@ docutils-doc
 dosfstools
 dpkg
 dpkg-dev
+dropbox
 dwz
 e2fsprogs
 ed
@@ -440,6 +442,7 @@ gstreamer1.0-x:amd64
 gtk-update-icon-cache
 gtk2-engines-murrine:amd64
 gtk2-engines-pixbuf:amd64
+gufw
 gvfs:amd64
 gvfs-backends
 gvfs-bin
@@ -597,6 +600,7 @@ libbs2b0:amd64
 libbsd0:amd64
 libbsd0:i386
 libbz2-1.0:amd64
+libc-ares2:amd64
 libc-bin
 libc-dev-bin
 libc6:amd64
@@ -654,6 +658,7 @@ libcom-err2:amd64
 libcompizconfig0:amd64
 libcrack2:amd64
 libcroco3:amd64
+libcrypto++6
 libcryptsetup12:amd64
 libcrystalhd3:amd64
 libcue2:amd64
@@ -1009,11 +1014,13 @@ libmail-sendmail-perl
 libmailtools-perl
 libmbim-glib4:amd64
 libmbim-proxy
+libmediainfo0v5:amd64
 libmetacity1:amd64
 libmime-charset-perl
 libmime-lite-perl
 libmime-types-perl
 libmm-glib0:amd64
+libmms0:amd64
 libmnl0:amd64
 libmodule-implementation-perl
 libmodule-runtime-perl
@@ -1205,6 +1212,7 @@ libqt5widgets5:amd64
 libqt5xml5:amd64
 libquadmath0:amd64
 libraw1394-11:amd64
+libraw19:amd64
 libreadline8:amd64
 libreadonly-perl
 libref-util-perl
@@ -1322,6 +1330,7 @@ libtiff5:amd64
 libtimedate-perl
 libtinfo6:amd64
 libtinfo6:i386
+libtinyxml2-6a:amd64
 libtk8.6:amd64
 libtool
 libtotem-plparser-common
@@ -1505,6 +1514,7 @@ libyaml-0-2:amd64
 libyaml-libyaml-perl
 libyaml-tiny-perl
 libyelp0:amd64
+libzen0v5:amd64
 libzmq5:amd64
 libzstd1:amd64
 libzvbi-common
@@ -1516,8 +1526,10 @@ linux-firmware
 linux-generic
 linux-headers-5.0.0-20
 linux-headers-5.0.0-20-generic
+linux-headers-5.1.15--msi
 linux-headers-generic
 linux-image-5.0.0-20-generic
+linux-image-5.1.15--msi
 linux-image-generic
 linux-libc-dev:amd64
 linux-modules-5.0.0-20-generic
@@ -1543,6 +1555,7 @@ man-db
 manpages
 manpages-dev
 mawk
+megasync
 memtest86+
 mesa-va-drivers:amd64
 mesa-vdpau-drivers:amd64
@@ -1570,11 +1583,14 @@ nautilus-admin
 nautilus-data
 nautilus-extension-fma:amd64
 nautilus-extension-gnome-terminal
+nautilus-megasync
 nautilus-sendto
 nautilus-share
 ncurses-base
 ncurses-bin
+ncurses-term
 nemo-extension-fma:amd64
+net-tools
 netbase
 netcat-openbsd
 netpbm
@@ -1604,6 +1620,8 @@ openjdk-13-jre-headless:amd64
 openprinting-ppds
 opensp
 openssh-client
+openssh-server
+openssh-sftp-server
 openssl
 openvpn
 orca
@@ -1752,6 +1770,7 @@ python3-louis
 python3-lxml:amd64
 python3-macaroonbakery
 python3-minimal
+python3-multibootusb
 python3-nacl
 python3-netifaces
 python3-oauthlib
@@ -1839,6 +1858,7 @@ sphinx-common
 sphinx-rtd-theme-common
 spice-vdagent
 squashfs-tools
+ssh-import-id
 ssl-cert
 strace
 sublime-text
@@ -1944,6 +1964,7 @@ wireless-tools
 wmctrl
 woeusb
 wpasupplicant
+wps-office
 x11-apps
 x11-common
 x11-session-utils
