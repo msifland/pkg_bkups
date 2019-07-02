@@ -42,6 +42,8 @@ asciidoc-doc
 aspell
 aspell-en
 at-spi2-core
+audacity
+audacity-data
 autoconf
 automake
 autopoint
@@ -84,6 +86,7 @@ busybox-static
 bzip2
 ca-certificates
 ca-certificates-java
+cabextract
 capstone-tool
 ccrypt
 cewl
@@ -357,6 +360,7 @@ freerdp2-x11
 friendly-recovery
 ftp
 fuse
+fuseiso
 fwupd
 fwupd-signed
 g++
@@ -668,6 +672,7 @@ libarchive-cpio-perl
 libarchive-zip-perl
 libarchive13:amd64
 libargon2-1:amd64
+libaribb24-0:amd64
 libasan5:amd64
 libasn1-8-heimdal:amd64
 libasn1-8-heimdal:i386
@@ -718,6 +723,7 @@ libb-hooks-op-check-perl
 libb-keywords-perl
 libbabeltrace1:amd64
 libbabl-0.1-0:amd64
+libbasicusageenvironment1:amd64
 libbde1:amd64
 libbdplus0:amd64
 libbfio1
@@ -738,6 +744,7 @@ libblockdev2:amd64
 libbluetooth3:amd64
 libbluray2:amd64
 libboost-iostreams1.67.0:amd64
+libboost-program-options1.67.0:amd64
 libboost-system1.67.0:amd64
 libboost-thread1.67.0:amd64
 libbrlapi0.6:amd64
@@ -780,6 +787,7 @@ libcapstone3:amd64
 libcapture-tiny-perl
 libcc1-0:amd64
 libccolamd2:amd64
+libcddb2
 libcdio-cdda2:amd64
 libcdio-paranoia2:amd64
 libcdio18:amd64
@@ -845,6 +853,8 @@ libdbus-1-3:i386
 libdbus-glib-1-2:amd64
 libdbusmenu-glib4:amd64
 libdbusmenu-gtk3-4:amd64
+libdc1394-22:amd64
+libdca0:amd64
 libdconf1:amd64
 libde265-0:amd64
 libdebconfclient0:amd64
@@ -880,6 +890,7 @@ libdrm-radeon1:i386
 libdrm2:amd64
 libdrm2:i386
 libdv4:amd64
+libdvbpsi10:amd64
 libdvdnav4:amd64
 libdvdread4:amd64
 libdw-dev:amd64
@@ -887,6 +898,7 @@ libdw1:amd64
 libdwarf1:amd64
 libdynaloader-functions-perl
 libebackend-1.2-10:amd64
+libebml4v5:amd64
 libebook-1.2-19:amd64
 libebook-contacts-1.2-2:amd64
 libecal-1.2-19:amd64
@@ -933,8 +945,10 @@ libexpat1:i386
 libexpat1-dev:amd64
 libexporter-tiny-perl
 libext2fs2:amd64
+libfaad2:amd64
 libfakeroot:amd64
 libfastjson4:amd64
+libfastutil-java
 libfbclient2:amd64
 libfcgi-perl
 libfcitx-config4:amd64
@@ -959,6 +973,7 @@ libfile-stripnondeterminism-perl
 libfile-which-perl
 libfl-dev:amd64
 libfl2:amd64
+libflac++6v5:amd64
 libflac8:amd64
 libflac8:i386
 libflite1:amd64
@@ -1073,6 +1088,7 @@ libgpm2:i386
 libgraphene-1.0-0:amd64
 libgraphite2-3:amd64
 libgrilo-0.3-0:amd64
+libgroupsock8:amd64
 libgs9:amd64
 libgs9-common
 libgsf-1-114:amd64
@@ -1188,6 +1204,7 @@ libisccfg163:amd64
 libisl19:amd64
 libitm1:amd64
 libiw30:amd64
+libixml10:amd64
 libjack-jackd2-0:amd64
 libjack-jackd2-0:i386
 libjansson4:amd64
@@ -1211,6 +1228,7 @@ libjson-glib-1.0-common
 libjsoncpp1:amd64
 libk5crypto3:amd64
 libk5crypto3:i386
+libkate1:amd64
 libkeyutils1:amd64
 libkeyutils1:i386
 libklibc:amd64
@@ -1235,7 +1253,9 @@ libldb1:amd64
 liblilv-0-0:amd64
 liblinear3:amd64
 liblingua-en-inflect-perl
+liblirc-client0:amd64
 liblist-moreutils-perl
+liblivemedia64:amd64
 libllvm8:amd64
 libllvm8:i386
 liblnk1:amd64
@@ -1267,6 +1287,7 @@ liblzma-dev:amd64
 liblzma5:amd64
 liblzma5:i386
 liblzo2-2:amd64
+libmad0:amd64
 libmagic-dev:amd64
 libmagic-mgc
 libmagic1:amd64
@@ -1275,6 +1296,7 @@ libmagickcore-6.q16-6-extra:amd64
 libmagickwand-6.q16-6:amd64
 libmail-sendmail-perl
 libmailtools-perl
+libmatroska6v5:amd64
 libmaxminddb0:amd64
 libmbedcrypto3:amd64
 libmbim-glib4:amd64
@@ -1284,6 +1306,7 @@ libmediainfo0v5:amd64
 libmetacity1:amd64
 libmetis5:amd64
 libmhash2:amd64
+libmicrodns0:amd64
 libmime-charset-perl
 libmime-lite-perl
 libmime-types-perl
@@ -1299,6 +1322,7 @@ libmount1:i386
 libmozjs-60-0:amd64
 libmp3lame0:amd64
 libmpc3:amd64
+libmpcdec6:amd64
 libmpdec2:amd64
 libmpeg2-4:amd64
 libmpfr6:amd64
@@ -1388,6 +1412,7 @@ libopencore-amrnb0:amd64
 libopencore-amrwb0:amd64
 libopenexr23:amd64
 libopenjp2-7:amd64
+libopenmpt-modplug1:amd64
 libopenmpt0:amd64
 libopus0:amd64
 libopus0:i386
@@ -1395,6 +1420,7 @@ liborc-0.4-0:amd64
 liborc-0.4-0:i386
 libosmesa6:amd64
 libosmesa6:i386
+libosmpbf-java
 libosp5
 libostyle1c2
 libout123-0:amd64
@@ -1456,6 +1482,7 @@ libpipeline1:amd64
 libpixman-1-0:amd64
 libpixman-1-0:i386
 libpkcs11-helper1:amd64
+libplacebo7:amd64
 libplist3:amd64
 libplymouth4:amd64
 libpng-dev:amd64
@@ -1470,6 +1497,7 @@ libpoppler-glib8:amd64
 libpoppler85:amd64
 libpopt0:amd64
 libportaudio2:amd64
+libportsmf0v5:amd64
 libpostproc55:amd64
 libpotrace0:amd64
 libppi-perl
@@ -1480,7 +1508,10 @@ libpq5:amd64
 libpresage-data
 libpresage1v5:amd64
 libprocps7:amd64
+libprotobuf-java
+libprotobuf-lite17:amd64
 libprotobuf17:amd64
+libproxy-tools
 libproxy1-plugin-gsettings:amd64
 libproxy1-plugin-networkmanager:amd64
 libproxy1v5:amd64
@@ -1534,6 +1565,7 @@ libqt5sql5-sqlite:amd64
 libqt5svg5:amd64
 libqt5test5:amd64
 libqt5widgets5:amd64
+libqt5x11extras5:amd64
 libqt5xml5:amd64
 libqtassistantclient4:amd64
 libqtcore4:amd64
@@ -1551,6 +1583,7 @@ libref-util-perl
 libref-util-xs-perl
 libregf1:amd64
 libregfi1
+libresid-builder0c2a
 librest-0.7-0:amd64
 librhash0:amd64
 libroken18-heimdal:amd64
@@ -1574,6 +1607,7 @@ libsasl2-modules-db:amd64
 libsasl2-modules-db:i386
 libsbc1:amd64
 libscca1:amd64
+libsdl-image1.2:amd64
 libsdl1.2debian:amd64
 libsdl2-2.0-0:amd64
 libsdl2-2.0-0:i386
@@ -1599,6 +1633,7 @@ libsgutils2-2
 libshine3:amd64
 libshout3:amd64
 libsidplay1v5:amd64
+libsidplay2
 libsigc++-2.0-0v5:amd64
 libsigscan1:amd64
 libsigsegv2:amd64
@@ -1624,10 +1659,12 @@ libsodium23:amd64
 libsombok3:amd64
 libsonic0:amd64
 libsord-0-0:amd64
+libsoundtouch1:amd64
 libsoup-gnome2.4-1:amd64
 libsoup2.4-1:amd64
 libsoxr0:amd64
 libspandsp2:amd64
+libspatialaudio0:amd64
 libspecio-perl
 libspectre1:amd64
 libspeechd2:amd64
@@ -1656,6 +1693,7 @@ libsub-identify-perl
 libsub-install-perl
 libsub-name-perl
 libsub-quote-perl
+libsuil-0-0:amd64
 libsuitesparseconfig5:amd64
 libsvn1:amd64
 libswresample3:amd64
@@ -1729,8 +1767,10 @@ libunity-scopes-json-def-desktop
 libunity9:amd64
 libunwind-dev:amd64
 libunwind8:amd64
+libupnp13:amd64
 libupower-glib3:amd64
 liburi-perl
+libusageenvironment3:amd64
 libusb-0.1-4:amd64
 libusb-1.0-0:amd64
 libusb-1.0-0:i386
@@ -1749,6 +1789,7 @@ libva-drm2:amd64
 libva-wayland2:amd64
 libva-x11-2:amd64
 libva2:amd64
+libvamp-hostsdk3v5:amd64
 libvariable-magic-perl
 libvdpau1:amd64
 libvhdi1:amd64
@@ -1757,6 +1798,9 @@ libvisual-0.4-0:amd64
 libvisual-0.4-0:i386
 libvkd3d1:amd64
 libvkd3d1:i386
+libvlc-bin:amd64
+libvlc5:amd64
+libvlccore9:amd64
 libvmdk1:amd64
 libvolume-key1
 libvorbis0a:amd64
@@ -1906,6 +1950,7 @@ libxmuu1:amd64
 libxnvctrl0:amd64
 libxpm4:amd64
 libxpm4:i386
+libxpp3-java
 libxrandr2:amd64
 libxrandr2:i386
 libxrender1:amd64
@@ -1998,6 +2043,8 @@ mfcuk
 mfoc
 mime-support
 missidentify
+mkgmap
+mkgmap-splitter
 mlocate
 mobile-broadband-provider-info
 modemmanager
@@ -2080,6 +2127,8 @@ openvpn
 ophcrack-cli
 orca
 os-prober
+osmctools
+osmium-tool
 outguess
 p11-kit
 p11-kit-modules:amd64
@@ -2581,6 +2630,18 @@ vim-common
 vim-runtime
 vim-tiny
 vinetto
+vlc
+vlc-bin
+vlc-data
+vlc-l10n
+vlc-plugin-base:amd64
+vlc-plugin-notify:amd64
+vlc-plugin-qt:amd64
+vlc-plugin-samba:amd64
+vlc-plugin-skins2:amd64
+vlc-plugin-video-output:amd64
+vlc-plugin-video-splitter:amd64
+vlc-plugin-visualization:amd64
 volatility
 volatility-tools
 wamerican
@@ -2595,6 +2656,7 @@ wifite
 wine
 wine32:i386
 wine64
+winetricks
 winregfs
 wipe
 wireless-regdb
