@@ -496,8 +496,6 @@ gnome-shell-extension-shortcuts
 gnome-shell-extension-show-ip
 gnome-shell-extension-suspend-button
 gnome-shell-extension-system-monitor
-gnome-shell-extension-tilix-dropdown
-gnome-shell-extension-tilix-shortcut
 gnome-shell-extension-trash
 gnome-shell-extension-ubuntu-dock
 gnome-shell-extension-weather
@@ -537,8 +535,6 @@ groff-base
 grokevt
 grub-common
 grub-customizer
-grub-efi-amd64-bin
-grub-efi-amd64-signed
 grub-gfxpayload-lists
 grub-pc
 grub-pc-bin
@@ -1103,7 +1099,6 @@ libgtk2.0-0:amd64
 libgtk2.0-bin
 libgtk2.0-common
 libgtk3-perl
-libgtkd-3-0
 libgtkglext1:amd64
 libgtkmm-2.4-1v5:amd64
 libgtkmm-3.0-1v5:amd64
@@ -1455,7 +1450,6 @@ libperl5.28:amd64
 libperlio-gzip-perl
 libpff1
 libpgm-5.2-0:amd64
-libphobos2-ldc-shared82:amd64
 libphonenumber7:amd64
 libpipeline1:amd64
 libpixman-1-0:amd64
@@ -1774,7 +1768,6 @@ libvshadow1:amd64
 libvslvm1:amd64
 libvte-2.91-0:amd64
 libvte-2.91-common
-libvted-3-0
 libvulkan1:amd64
 libvulkan1:i386
 libwacom-bin
@@ -1953,12 +1946,10 @@ linux-firmware
 linux-generic
 linux-headers-5.0.0-20
 linux-headers-5.0.0-20-generic
-linux-headers-5.1.10-msi
 linux-headers-5.1.13-msi
 linux-headers-5.1.15--msi
 linux-headers-generic
 linux-image-5.0.0-20-generic
-linux-image-5.1.10-msi
 linux-image-5.1.13-msi
 linux-image-5.1.15--msi
 linux-image-generic
@@ -2462,7 +2453,6 @@ shared-mime-info
 sharutils
 shed
 shim
-shim-signed
 sleuthkit
 smbmap
 snapd
@@ -2528,8 +2518,6 @@ texlive-plain-generic
 texlive-science
 texlive-xetex
 thermald
-tilix
-tilix-common
 time
 tipa
 tk
@@ -2613,7 +2601,6 @@ wireless-regdb
 wireless-tools
 wireshark-common
 wmctrl
-woeusb
 wpasupplicant
 wps-office
 x11-apps

@@ -369,15 +369,10 @@ alias perms='stat -c "%a %n" *' #Get permissions in numeric form
 alias python="python2"
 alias gmt="$HOME/maps/gmt/gmt"
 alias rec-key="sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys"
-#alias apt-i="sudo apt install"
-#alias apt-r="sudo apt purge"
-#alias apt-s="apt search"
-#alias apti-s="aptitude search"
 alias del-key="sudo apt-key del"
 alias apt-list="apt list --installed"
 alias apt-list-s="apt list --installed | grep "$1""
 alias nethogs="sudo nethogs -p"
-#alias android="$HOME/Android/Sdk/tools/bin/sdkmanager"
 alias matrix="cmatrix -a -s"
 alias apt-sources="subl /etc/apt/sources.list"
 alias apt-preferences="subl /etc/apt/preferences.d/preferences"
@@ -393,12 +388,12 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/
 # This line specifically call the latest build tools number folder(mainly for building opengapps). It also deletes any older folders.
 export PATH="$(find $HOME/Android/Sdk/build-tools/ -mindepth 1 -maxdepth 1 -type d):$PATH"
 
+# For android
 BLD_TOOLS_KEEP=$(ls -t $HOME/Android/Sdk/build-tools/ | head -n 1)
 find $HOME/Android/Sdk/build-tools/ -mindepth 1 -maxdepth 1 ! -name "$BLD_TOOLS_KEEP" -execdir rm -rf 2>/dev/null {} \+
-#find . -maxdepth 1 ! -name "$BLD_TOOLS_KEEP" -print0 | xargs -0 rm -rf 2>/dev/null
-alias android-studio="detach /home/msifland/Android/android-studio/bin/studio.sh
-"
-# For android
+
+alias android-studio="detach /home/msifland/Android/android-studio/bin/studio.sh"
+
 export PATH="./prebuilts/sdk/tools:$PATH"
 #export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 

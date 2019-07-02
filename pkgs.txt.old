@@ -96,7 +96,9 @@ chromium-browser-l10n
 chromium-codecs-ffmpeg-extra
 clamav
 clamav-base
+clamav-daemon
 clamav-freshclam
+clamdscan
 cmake
 cmake-data
 colord
@@ -507,8 +509,6 @@ gnome-software-common
 gnome-software-plugin-snap
 gnome-startup-applications
 gnome-system-monitor
-gnome-terminal
-gnome-terminal-data
 gnome-themes-extra:amd64
 gnome-themes-extra-data
 gnome-tweak-tool
@@ -794,6 +794,7 @@ libcheese8:amd64
 libcholmod3:amd64
 libchromaprint1:amd64
 libclamav7:amd64
+libclamunrar7
 libclass-accessor-perl
 libclass-c3-perl
 libclass-c3-xs-perl
@@ -2019,7 +2020,6 @@ nautilus-actions
 nautilus-admin
 nautilus-data
 nautilus-extension-fma:amd64
-nautilus-extension-gnome-terminal
 nautilus-megasync
 nautilus-sendto
 nautilus-share
