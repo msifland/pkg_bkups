@@ -81,9 +81,9 @@ ${color}${top_mem name 3}${color2}${alignr}${top_mem pid 3}      ${top_mem cpu 3
 #${color}${font sans:size=10}Load Avg:${color2}${font sans:size=10}${alignr}${loadavg}
 $color2$hr
 ${color}${font sans:bold:size=10}FILE SYSTEM
-${font sans:bold:size=10}${color}/root  (/dev/sda1)${color2}${font sans:size=10}   ${fs_used_perc /root}%  ${alignr}${fs_used /root}/${fs_size /root}
+${font sans:bold:size=10}${color}/root(/dev/sda1)${color2}${font sans:size=10}   ${fs_used_perc /root}%  ${alignr}${fs_used /root}/${fs_size /root}
 ${color3}${fs_bar /root}
-${font sans:bold:size=10}${color}/home(/dev/sda2)${color2}${font sans:size=10}   ${fs_used_perc /home}%   ${alignr}${fs_used /home}/${fs_size /home}
+${font sans:bold:size=10}${color}/home(/dev/sda2)${color2}${font sans:size=10} ${fs_used_perc /home}%   ${alignr}${fs_used /home}/${fs_size /home}
 ${color3}${fs_bar /home}
 $color2$hr
 ${color}${font sans:bold:size=10}NETWORK DATA
