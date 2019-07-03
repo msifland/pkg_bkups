@@ -367,7 +367,6 @@ alias cd..="cd .." #Moves up 1 directory
 alias errors="systemctl --failed --all && journalctl -p 3 -xb" #Show system errors
 alias perms='stat -c "%a %n" *' #Get permissions in numeric form
 alias python="python2"
-alias gmt="$HOME/maps/gmt/gmt"
 alias rec-key="sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys"
 alias del-key="sudo apt-key del"
 alias apt-list="apt list --installed"
