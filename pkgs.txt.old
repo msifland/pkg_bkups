@@ -154,6 +154,7 @@ debconf
 debconf-i18n
 debhelper
 debianutils
+default-jdk-headless
 default-jre
 default-jre-headless
 desktop-file-utils
@@ -374,6 +375,7 @@ gcc-8-base:amd64
 gcc-9-base:amd64
 gcc-9-base:i386
 gcr
+gdal-data
 gdb
 gdbserver
 gdisk
@@ -454,6 +456,11 @@ glade2script
 glib-networking:amd64
 glib-networking-common
 glib-networking-services
+gmt
+gmt-common
+gmt-dcw
+gmt-doc
+gmt-gshhg-high
 gnome-accessibility-themes
 gnome-bluetooth
 gnome-control-center
@@ -650,6 +657,7 @@ libaa1:amd64
 libaacs0:amd64
 libaccountsservice0:amd64
 libacl1:amd64
+libaec0:amd64
 libafflib0v5
 libalgorithm-c3-perl
 libalgorithm-diff-perl
@@ -673,6 +681,8 @@ libarchive-zip-perl
 libarchive13:amd64
 libargon2-1:amd64
 libaribb24-0:amd64
+libarmadillo9
+libarpack2:amd64
 libasan5:amd64
 libasn1-8-heimdal:amd64
 libasn1-8-heimdal:i386
@@ -797,6 +807,7 @@ libcdt5
 libcgi-fast-perl
 libcgi-pm-perl
 libcgraph6
+libcharls2:amd64
 libcheese-gtk25:amd64
 libcheese8:amd64
 libcholmod3:amd64
@@ -842,6 +853,8 @@ libcurl3-gnutls:amd64
 libcurl4:amd64
 libcwidget3v5:amd64
 libdaemon0:amd64
+libdap25:amd64
+libdapclient6v5:amd64
 libdata-dump-perl
 libdata-optlist-perl
 libdate-manip-perl
@@ -921,6 +934,7 @@ libemail-valid-perl
 libenchant1c2a:amd64
 libencode-locale-perl
 libepoxy0:amd64
+libepsilon1:amd64
 liberror-perl
 libesedb1:amd64
 libespeak-ng1:amd64
@@ -989,6 +1003,7 @@ libfreerdp-client2-2:amd64
 libfreerdp2-2:amd64
 libfreetype6:amd64
 libfreetype6:i386
+libfreexl1:amd64
 libfribidi0:amd64
 libfsapfs1:amd64
 libfsntfs1:amd64
@@ -998,6 +1013,7 @@ libfvde1:amd64
 libfwnt1:amd64
 libfwsi1:amd64
 libfwupd2:amd64
+libfyba0:amd64
 libgail-common:amd64
 libgail18:amd64
 libgbm1:amd64
@@ -1012,6 +1028,7 @@ libgcrypt20:amd64
 libgcrypt20:i386
 libgd3:amd64
 libgd3:i386
+libgdal20
 libgdata-common
 libgdata22:amd64
 libgdbm-compat4:amd64
@@ -1027,6 +1044,9 @@ libgegl-common
 libgeoclue-2-0:amd64
 libgeocode-glib0:amd64
 libgeoip1:amd64
+libgeos-3.7.1:amd64
+libgeos-c1v5:amd64
+libgeotiff2:amd64
 libgettextpo0:amd64
 libgexiv2-2:amd64
 libgfortran5:amd64
@@ -1061,6 +1081,7 @@ libglx0:i386
 libgme0:amd64
 libgmp10:amd64
 libgmp10:i386
+libgmt5:amd64
 libgnome-autoar-0-0:amd64
 libgnome-bluetooth13:amd64
 libgnome-desktop-3-17:amd64
@@ -1139,6 +1160,8 @@ libharfbuzz0b:amd64
 libhcrypto4-heimdal:amd64
 libhcrypto4-heimdal:i386
 libhd21:amd64
+libhdf4-0-alt
+libhdf5-103:amd64
 libheif1:amd64
 libheimbase1-heimdal:amd64
 libheimbase1-heimdal:i386
@@ -1232,6 +1255,9 @@ libkate1:amd64
 libkeyutils1:amd64
 libkeyutils1:i386
 libklibc:amd64
+libkmlbase1:amd64
+libkmldom1:amd64
+libkmlengine1:amd64
 libkmod2:amd64
 libkpathsea6:amd64
 libkrb5-26-heimdal:amd64
@@ -1310,6 +1336,7 @@ libmicrodns0:amd64
 libmime-charset-perl
 libmime-lite-perl
 libmime-types-perl
+libminizip1:amd64
 libmm-glib0:amd64
 libmms0:amd64
 libmng2:amd64
@@ -1359,6 +1386,7 @@ libnet-libidn-perl
 libnet-smtp-ssl-perl
 libnet-ssleay-perl
 libnet1:amd64
+libnetcdf13:amd64
 libnetfilter-conntrack3:amd64
 libnetpbm10
 libnettle6:amd64
@@ -1402,6 +1430,7 @@ libnvidia-ifr1-418:i386
 liboauth0:amd64
 libodbc1:amd64
 libodbc1:i386
+libogdi3.2
 libogg0:amd64
 libogg0:i386
 libolecf1:amd64
@@ -1508,6 +1537,7 @@ libpq5:amd64
 libpresage-data
 libpresage1v5:amd64
 libprocps7:amd64
+libproj13:amd64
 libprotobuf-java
 libprotobuf-lite17:amd64
 libprotobuf17:amd64
@@ -1537,6 +1567,7 @@ libpython3.7:amd64
 libpython3.7-minimal:amd64
 libpython3.7-stdlib:amd64
 libqcow1:amd64
+libqhull7:amd64
 libqmi-glib5:amd64
 libqmi-proxy
 libqpdf21:amd64
@@ -1665,6 +1696,7 @@ libsoup2.4-1:amd64
 libsoxr0:amd64
 libspandsp2:amd64
 libspatialaudio0:amd64
+libspatialite7:amd64
 libspecio-perl
 libspectre1:amd64
 libspeechd2:amd64
@@ -1695,6 +1727,7 @@ libsub-name-perl
 libsub-quote-perl
 libsuil-0-0:amd64
 libsuitesparseconfig5:amd64
+libsuperlu5:amd64
 libsvn1:amd64
 libswresample3:amd64
 libswscale5:amd64
@@ -1703,6 +1736,7 @@ libsys-hostname-long-perl
 libsysmetrics1:amd64
 libsystemd0:amd64
 libsystemd0:i386
+libsz2:amd64
 libtag1v5:amd64
 libtag1v5-vanilla:amd64
 libtagc0:amd64
@@ -1770,6 +1804,7 @@ libunwind8:amd64
 libupnp13:amd64
 libupower-glib3:amd64
 liburi-perl
+liburiparser1:amd64
 libusageenvironment3:amd64
 libusb-0.1-4:amd64
 libusb-1.0-0:amd64
@@ -1911,6 +1946,7 @@ libxdamage1:i386
 libxdmcp-dev:amd64
 libxdmcp6:amd64
 libxdmcp6:i386
+libxerces-c3.2:amd64
 libxext6:amd64
 libxext6:i386
 libxfce4ui-2-0:amd64
@@ -1994,14 +2030,17 @@ linux-headers-5.0.0-21
 linux-headers-5.0.0-21-generic
 linux-headers-5.1.13-msi
 linux-headers-5.1.15--msi
+linux-headers-5.1.16--msi
 linux-headers-generic
 linux-image-5.0.0-21-generic
 linux-image-5.1.13-msi
 linux-image-5.1.15--msi
+linux-image-5.1.16--msi
 linux-image-generic
 linux-libc-dev
 linux-modules-5.0.0-21-generic
 linux-modules-extra-5.0.0-21-generic
+linux-perf-5.1.16
 linux-signed-generic
 linux-sound-base
 lm-sensors
@@ -2107,10 +2146,13 @@ nvidia-utils-418
 o-saft
 ocl-icd-libopencl1:amd64
 ocl-icd-libopencl1:i386
+odbcinst
+odbcinst1debian2:amd64
 onboard
 onboard-common
 onboard-data
 openjade
+openjdk-11-jdk-headless:amd64
 openjdk-11-jre:amd64
 openjdk-11-jre-headless:amd64
 openjdk-13-jdk:amd64
@@ -2194,6 +2236,8 @@ printer-driver-pxljr
 printer-driver-sag-gdi
 printer-driver-splix
 procps
+proj-bin
+proj-data
 psmisc
 publicsuffix
 pulseaudio

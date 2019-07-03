@@ -154,6 +154,7 @@ debconf
 debconf-i18n
 debhelper
 debianutils
+deborphan
 default-jdk-headless
 default-jre
 default-jre-headless
@@ -935,6 +936,7 @@ libenchant1c2a:amd64
 libencode-locale-perl
 libepoxy0:amd64
 libepsilon1:amd64
+libept1.5.0:amd64
 liberror-perl
 libesedb1:amd64
 libespeak-ng1:amd64
@@ -1133,6 +1135,7 @@ libgstreamer1.0-0:i386
 libgtk-3-0:amd64
 libgtk-3-bin
 libgtk-3-common
+libgtk2-perl
 libgtk2.0-0:amd64
 libgtk2.0-bin
 libgtk2.0-common
@@ -1469,6 +1472,7 @@ libpam-systemd:amd64
 libpam0g:amd64
 libpanel-applet3
 libpango-1.0-0:amd64
+libpango-perl
 libpango1.0-0:amd64
 libpangocairo-1.0-0:amd64
 libpangoft2-1.0-0:amd64
@@ -2028,12 +2032,10 @@ linux-firmware
 linux-generic
 linux-headers-5.0.0-21
 linux-headers-5.0.0-21-generic
-linux-headers-5.1.13-msi
 linux-headers-5.1.15--msi
 linux-headers-5.1.16--msi
 linux-headers-generic
 linux-image-5.0.0-21-generic
-linux-image-5.1.13-msi
 linux-image-5.1.15--msi
 linux-image-5.1.16--msi
 linux-image-generic
@@ -2072,6 +2074,7 @@ medusa
 megasync
 memdump
 memtest86+
+menu
 mesa-va-drivers:amd64
 mesa-vdpau-drivers:amd64
 mesa-vulkan-drivers:amd64
@@ -2258,6 +2261,7 @@ python-babel-localedata
 python-backports.functools-lru-cache
 python-biplist
 python-bs4
+python-cairo:amd64
 python-certifi
 python-cffi-backend
 python-chardet
@@ -2281,6 +2285,8 @@ python-fsapfs
 python-funcsigs
 python-future
 python-gi
+python-gobject-2
+python-gtk2
 python-hachoir-core
 python-hachoir-metadata
 python-hachoir-parser
@@ -2575,6 +2581,7 @@ sublime-text
 sucrack
 sudo
 switcheroo-control
+synaptic
 syslinux
 syslinux-common
 system-config-printer
