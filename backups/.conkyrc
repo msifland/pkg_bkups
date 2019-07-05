@@ -41,6 +41,7 @@ color3 black #403a28
 TEXT
 ${font sans:bold:size=10}${color}${alignc}Ubuntu-$sysname $kernel
 ${font sans:bold:size=10}${color}${alignc}${machine}${color} ${exec whoami}@$nodename
+${font sans:bold:size=10}${color}${alignc}Display Size:${execi 3600 xrandr | grep "*" | sed 's:_.*::g' | sed 's:  ::g'}
 $color2${hr 3}
 ${color}${font sans:bold:size=10}Date: ${color2}${font sans:size=10}${time %A,%d %B}
 ${color}${font sans:bold:size=10}Time: ${color2}${font sans:size=10}${time %r}${alignr}${color} ${font sans:bold:size=10}Uptime: ${color2}${font sans:size=10}$uptime_short
