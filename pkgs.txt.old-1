@@ -32,6 +32,7 @@ aptitude
 aptitude-common
 apturl
 apturl-common
+arc-theme
 arj
 arp-scan
 asciidoc
@@ -2029,6 +2030,7 @@ libzstd1:i386
 libzvbi-common
 libzvbi0:amd64
 libzzip-0-13:amd64
+light-themes
 lintian
 linux-base
 linux-firmware
@@ -2142,6 +2144,10 @@ networkd-dispatcher
 nmap
 nmap-common
 ntfs-3g
+numix-blue-gtk-theme
+numix-gtk-theme
+numix-icon-theme
+numix-icon-theme-circle
 nvidia-compute-utils-418
 nvidia-dkms-418
 nvidia-driver-418
