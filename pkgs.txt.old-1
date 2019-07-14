@@ -486,7 +486,6 @@ gnome-keyring-pkcs11:amd64
 gnome-menus
 gnome-online-accounts
 gnome-power-manager
-gnome-screensaver
 gnome-screenshot
 gnome-session-bin
 gnome-session-canberra
@@ -1085,6 +1084,7 @@ libgl1-mesa-glx:i386
 libglade2-0:amd64
 libglapi-mesa:amd64
 libglapi-mesa:i386
+libgle3:amd64
 libgles2:amd64
 libglib-object-introspection-perl
 libglib-perl
@@ -2788,6 +2788,11 @@ xmount
 xorg
 xorg-docs-core
 xorg-sgml-doctools
+xscreensaver
+xscreensaver-data
+xscreensaver-data-extra
+xscreensaver-gl
+xscreensaver-gl-extra
 xserver-common
 xserver-xephyr
 xserver-xorg
