@@ -194,6 +194,9 @@ dropbox
 dsniff
 dwarfdump
 dwz
+dxvk
+dxvk-wine32-development:i386
+dxvk-wine64-development
 e2fsprogs
 ed
 ed2k-hash
@@ -249,6 +252,8 @@ firefox
 firefox-locale-en
 flac
 flex
+fluid-soundfont-gm
+fluid-soundfont-gs
 folks-common
 fontconfig
 fontconfig-config
@@ -671,6 +676,7 @@ language-selector-gnome
 laptop-detect
 ldap-utils
 less
+lib32gcc1
 liba52-0.7.4:amd64
 libaa1:amd64
 libaacs0:amd64
@@ -1909,6 +1915,8 @@ libwind0-heimdal:amd64
 libwind0-heimdal:i386
 libwine:amd64
 libwine:i386
+libwine-development:amd64
+libwine-development:i386
 libwinpr2-2:amd64
 libwireshark-data
 libwireshark11:amd64
@@ -2086,6 +2094,7 @@ lsb-release
 lshw
 lsof
 ltrace
+lutris
 lynx
 lynx-common
 m4
@@ -2106,6 +2115,7 @@ megasync
 memdump
 memtest86+
 menu
+mesa-utils
 mesa-va-drivers:amd64
 mesa-vdpau-drivers:amd64
 mesa-vulkan-drivers:amd64
@@ -2441,6 +2451,7 @@ python3-distro-info
 python3-distupgrade
 python3-dnspython
 python3-entrypoints
+python3-evdev
 python3-future
 python3-gdbm:amd64
 python3-gi
@@ -2735,6 +2746,8 @@ vlc-plugin-video-splitter:amd64
 vlc-plugin-visualization:amd64
 volatility
 volatility-tools
+vulkan-tools
+vulkan-utils
 wamerican
 wapiti
 wbritish
