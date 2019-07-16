@@ -2074,14 +2074,16 @@ linux-generic
 linux-headers-5.0.0-21
 linux-headers-5.0.0-21-generic
 linux-headers-5.2.0-msi
+linux-headers-5.2.1-msi
 linux-headers-generic
 linux-image-5.0.0-21-generic
 linux-image-5.2.0-msi
+linux-image-5.2.1-msi
 linux-image-generic
 linux-libc-dev
 linux-modules-5.0.0-21-generic
 linux-modules-extra-5.0.0-21-generic
-linux-perf-5.2
+linux-perf-5.2.1
 linux-signed-generic
 linux-sound-base
 lm-sensors
