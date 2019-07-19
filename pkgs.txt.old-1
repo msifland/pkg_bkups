@@ -156,6 +156,7 @@ debconf
 debconf-i18n
 debhelper
 debianutils
+debootstrap
 deborphan
 default-jdk-headless
 default-jre
@@ -2103,6 +2104,7 @@ m4
 mac-robber
 magicrescue
 make
+makedev
 makedumpfile
 man-db
 manpages
