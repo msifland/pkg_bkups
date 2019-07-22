@@ -1,0 +1,19 @@
+[Desktop Entry]
+Type=Action
+Name[en_US]=Copy As Path
+Name[en]=Copy As Path
+Name[C]=Copy As Path
+Icon[en_US]=bqm-add
+Icon[en]=bqm-add
+Icon[C]=bqm-add
+TargetLocation=true
+ToolbarLabel[en_US]=Copy As Path
+ToolbarLabel[en]=Copy As Path
+ToolbarLabel[C]=Copy As Path
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+Name[en_US]=Default profile
+Name[en]=Default profile
+Name[C]=Default profile
+Exec=/home/msifland/scripts/nautilus-copy-path %f
