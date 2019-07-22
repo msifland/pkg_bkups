@@ -2645,6 +2645,8 @@ sysvinit-utils
 t1utils
 tableau-parm
 tar
+tasksel
+tasksel-data
 tcl
 tcl8.6
 tcpdump
