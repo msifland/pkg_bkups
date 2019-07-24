@@ -2072,9 +2072,10 @@ lightdm
 lintian
 linux-base
 linux-firmware
-linux-generic
 linux-headers-5.0.0-21
 linux-headers-5.0.0-21-generic
+linux-headers-5.0.0-22
+linux-headers-5.0.0-22-generic
 linux-headers-5.2.1-msi
 linux-headers-5.2.2-msi
 linux-headers-generic
@@ -2086,7 +2087,6 @@ linux-libc-dev
 linux-modules-5.0.0-21-generic
 linux-modules-extra-5.0.0-21-generic
 linux-perf-5.2.2
-linux-signed-generic
 linux-sound-base
 lm-sensors
 lmodern
