@@ -2004,6 +2004,7 @@ usbutils
 util-linux
 util-linux-locales
 uuid-dev:amd64
+uuid-runtime
 va-driver-all:amd64
 variety
 vdpau-driver-all:amd64
