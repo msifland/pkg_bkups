@@ -39,7 +39,7 @@ color2 black #655d47
 color3 black #403a28
 
 TEXT
-${font sans:bold:size=10}${color}${alignc}Ubuntu-$sysname $kernel
+${font sans:bold:size=10}${color}${alignc}Debian-$sysname $kernel
 ${font sans:bold:size=10}${color}${alignc}${machine}${color} ${exec whoami}@$nodename
 ${font sans:bold:size=9}${color}${alignc}Display Size:${execi 3600 xrandr | grep "*" | sed 's:_.*::g' | sed 's:  ::g'}
 $color2${hr 3}
