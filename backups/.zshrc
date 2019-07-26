@@ -465,7 +465,6 @@ autoload -U compinit && compinit
 
 # This has to be at the end of the file to work properly
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
 echo
 echo
 unsetopt correct_all
