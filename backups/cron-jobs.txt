@@ -12,10 +12,10 @@
 
 ########################### Ubuntu Linux #########################
 # Update system daily. Different here because we a calling more than one command. 
-0 7 * * * env DISPLAY=:0 gnome-terminal -- zsh -c "source .zshrc; /home/msifland/scripts/linux-update; read -s"
+42 9 * * * gnome-terminal -- zsh -c "source .zshrc; /home/msifland/scripts/linux-update; read -s"
 
 # Backups my important files. See script for files that are backed up
-0 1 * * * env DISPLAY=:0 gnome-terminal -- /home/msifland/scripts/my-backup
+32 9 * * * env DISPLAY=:0 gnome-terminal -- /home/msifland/scripts/my-backup
 
 # Scans for viruses once a week
 30 1 * * 1 env DISPLAY=:0 gnome-terminal -- zsh -c "source .zshrc; /home/msifland/scripts/virus-clamscan; read -s"
