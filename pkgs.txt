@@ -208,6 +208,7 @@ fonts-noto-mono
 fonts-quicksand
 fonts-roboto-slab
 fonts-texgyre
+fonts-urw-base35
 fonts-wine
 foomatic-db-compressed-ppds
 foomatic-db-engine
@@ -411,6 +412,7 @@ gnome-weather
 gnupg
 gnupg-l10n
 gnupg-utils
+gparted
 gpg
 gpg-agent
 gpg-wks-client
@@ -423,6 +425,7 @@ grep
 grilo-plugins-0.3:amd64
 groff-base
 grub-common
+grub-customizer
 grub-pc
 grub-pc-bin
 grub2-common
@@ -456,6 +459,7 @@ hplip
 hplip-data
 hunspell-en-us
 hwdata
+hwinfo
 hwloc
 hyphen-en-us
 i965-va-driver:amd64
@@ -907,6 +911,7 @@ libgtk2.0-bin
 libgtk2.0-common
 libgtk3-perl
 libgtkglext1:amd64
+libgtkmm-2.4-1v5:amd64
 libgtkmm-3.0-1v5:amd64
 libgtksourceview-3.0-1:amd64
 libgtksourceview-3.0-common
@@ -933,6 +938,7 @@ libgweather-common
 libgxps2:amd64
 libharfbuzz-icu0:amd64
 libharfbuzz0b:amd64
+libhd21:amd64
 libheif1:amd64
 libhogweed4:amd64
 libhpmud0:amd64
@@ -1062,11 +1068,6 @@ libmagickwand-6.q16-6:amd64
 libmail-sendmail-perl
 libmailtools-perl
 libmariadb3:amd64
-libmate-desktop-2-17:amd64
-libmatekbd-common
-libmatekbd4:amd64
-libmatemixer-common
-libmatemixer0:amd64
 libmbedcrypto3:amd64
 libmbedtls12:amd64
 libmbedx509-0:amd64
@@ -1432,9 +1433,6 @@ libuchardet0:amd64
 libudev-dev:amd64
 libudev1:amd64
 libudisks2-0:amd64
-libukui-menu2:amd64
-libukui-panel-applet-4-1:amd64
-libukwm-1-0:amd64
 libunicode-linebreak-perl
 libunistring2:amd64
 libunwind-dev:amd64
@@ -1510,6 +1508,7 @@ libx32itm1
 libx32quadmath0
 libx32stdc++6
 libx32ubsan1
+libx86emu2:amd64
 libxapp1:amd64
 libxatracker2:amd64
 libxau6:amd64
@@ -1621,16 +1620,9 @@ man-db
 manpages
 manpages-dev
 mariadb-common
-mate-desktop
-mate-desktop-common
-mate-polkit:amd64
-mate-polkit-common
-mate-user-guide
 mawk
 media-player-info
 megasync
-menu
-menu-xdg
 mesa-utils
 mesa-va-drivers:amd64
 mesa-vdpau-drivers:amd64
@@ -1858,7 +1850,6 @@ python3-speechd
 python3-sphinx
 python3-sphinx-rtd-theme
 python3-tz
-python3-ukui-menu
 python3-urllib3
 python3-webencodings
 python3-xdg
@@ -1980,15 +1971,6 @@ tzdata
 ucf
 udev
 udisks2
-ukui-menus
-ukui-panel
-ukui-panel-common
-ukui-session-manager
-ukui-settings-daemon
-ukui-settings-daemon-common
-ukui-window-switch
-ukwm
-ukwm-common
 unattended-upgrades
 uno-libs3
 unzip
@@ -2004,7 +1986,6 @@ usbutils
 util-linux
 util-linux-locales
 uuid-dev:amd64
-uuid-runtime
 va-driver-all:amd64
 variety
 vdpau-driver-all:amd64
