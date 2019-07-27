@@ -175,6 +175,7 @@ evolution-plugin-pstimport
 evolution-plugins
 exfat-fuse
 exfat-utils
+exo-utils
 fakeroot
 fdisk
 file
@@ -765,6 +766,9 @@ libexception-class-perl
 libexempi8:amd64
 libexif12:amd64
 libexiv2-14:amd64
+libexo-2-0:amd64
+libexo-common
+libexo-helpers
 libexpat1:amd64
 libexpat1-dev:amd64
 libext2fs2:amd64
@@ -1540,6 +1544,12 @@ libxdamage1:amd64
 libxdmcp6:amd64
 libxdot4
 libxext6:amd64
+libxfce4ui-2-0:amd64
+libxfce4ui-common
+libxfce4util-bin
+libxfce4util-common
+libxfce4util7:amd64
+libxfconf-0-2
 libxfixes3:amd64
 libxfont2:amd64
 libxft2:amd64
@@ -2021,6 +2031,8 @@ xclip
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
+xfce4-terminal
+xfconf
 xfonts-100dpi
 xfonts-75dpi
 xfonts-base
