@@ -6,27 +6,26 @@
 # 
 # m h  dom mon dow   command
 
-## The jobs with the env DISPLAY=:0 opens the jobs in a terminal
+## The jobs with cron_scripts in the path open the jobs in a terminal
 ## The read -s at the end of some commands caused the terminal to stay open and wait for any key to be pressed to close. This is zsh specific, if using bash to source the use read -n1
 ########################### Ubuntu Linux #########################
 # Update system daily. Different here because we a calling more than one command. 
 0 7 * * * /home/msifland/scripts/cron_scripts/linux-update-run
 
 # Backups my important files. See script for files that are backed up
-0 1 * * * env DISPLAY=:0 gnome-terminal -- /home/msifland/scripts/my-backup
+0 1 * * * /home/msifland/scripts/cron_scripts/my-backup-run
 
 # Scans for viruses once a week
-30 1 * * 1 env DISPLAY=:0 gnome-terminal -- zsh -c "source .zshrc; /home/msifland/scripts/virus-clamscan; read -s"
+30 1 * * 1 /home/msifland/scripts/cron_scripts/virus-clamscan-run
 
 # Restart PC once a week
-0 3 * * 6 env DISPLAY=:0 gnome-terminal -- /home/msifland/scripts/restart
+0 3 * * 6 /home/msifland/scripts/restart
 
 # Run a check for new kernels
-45 6 * * * env DISPLAY=:0 gnome-terminal -- zsh -c "source .zshrc; /home/msifland/scripts/kernel_scripts/kernel-check"
+45 6 * * * /home/msifland/scripts/cron_scripts/kernel-check-run
 
 # Update oh-my-zsh once a week
-30 7 * * 2 env DISPLAY=:0 gnome-terminal -- zsh -c "source .zshrc; oh-my-zsh-updater; read -s"
+30 7 * * 2 /home/msifland/scripts/cron_scripts/oh-my-zsh-updater-run
 
 # Build a new OSM map for my Garmin on the first day of every month at 8pm
-#00 19 1 * * env DISPLAY=:0 gnome-terminal -- zsh -c "source .zshrc; /home/msifland/scripts/map-my-builder; read -s"
-
+#00 19 1 * * /home/msifland/scripts/cron_scripts/map-my-builder-run
