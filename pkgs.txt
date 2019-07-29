@@ -80,6 +80,9 @@ cinnamon-l10n
 cinnamon-session
 cinnamon-session-common
 cinnamon-settings-daemon
+clamav
+clamav-base
+clamav-freshclam
 cmake
 cmake-data
 colord
@@ -656,6 +659,7 @@ libchromaprint1:amd64
 libcinnamon-control-center1:amd64
 libcinnamon-desktop4:amd64
 libcinnamon-menu-3-0
+libclamav9:amd64
 libclass-c3-perl
 libclass-c3-xs-perl
 libclass-data-inheritable-perl
@@ -1106,6 +1110,7 @@ libmpg123-0:amd64
 libmplex2-2.1-0
 libmpx2:amd64
 libmro-compat-perl
+libmspack0:amd64
 libmtdev1:amd64
 libmtp-common
 libmtp-runtime
@@ -1409,6 +1414,7 @@ libtexluajit2:amd64
 libtext-charwidth-perl
 libtext-iconv-perl
 libtext-wrapi18n-perl
+libtfm1:amd64
 libthai-data
 libthai0:amd64
 libtheora0:amd64
@@ -1602,13 +1608,15 @@ linux-compiler-gcc-8-x86
 linux-headers-4.19.0-5-amd64
 linux-headers-4.19.0-5-common
 linux-headers-5.2.3-msi
+linux-headers-5.2.4-msi
 linux-headers-amd64
 linux-image-4.19.0-5-amd64
 linux-image-5.2.3-msi
+linux-image-5.2.4-msi
 linux-image-amd64
 linux-kbuild-4.19
 linux-libc-dev
-linux-perf-5.2.3
+linux-perf-5.2.4
 lm-sensors
 lmodern
 locales
