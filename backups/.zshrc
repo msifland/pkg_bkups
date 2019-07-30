@@ -397,7 +397,6 @@ export PATH="./prebuilts/sdk/tools:$PATH"
 
 # System configs
 export EDITOR="nano"
-export DIPLAY=:0
 export USE_SDK_WRAPPER=true
 
 #This has to go after all $PATH variables.
