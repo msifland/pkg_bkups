@@ -683,7 +683,6 @@ libcrack2:amd64
 libcroco3:amd64
 libcrypto++6
 libcryptsetup12:amd64
-libcrystalhd3:amd64
 libcue2:amd64
 libcups2:amd64
 libcupsfilters1:amd64
@@ -1672,6 +1671,7 @@ ncurses-bin
 ncurses-term
 netbase
 netcat-traditional
+nethogs
 netpbm
 network-manager
 network-manager-gnome
@@ -1932,6 +1932,7 @@ steam-launcher
 sublime-text
 sudo
 switcheroo-control
+system-config-printer
 system-config-printer-common
 system-config-printer-udev
 system-tools-backends
