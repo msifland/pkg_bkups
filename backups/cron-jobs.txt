@@ -11,7 +11,7 @@
 ########################### Ubuntu Linux #########################
 # Update system daily. Different here because we a calling more than one command. 
 0 7 * * * /home/msifland/scripts/cron_scripts/linux-update-run
-*/1 * * * * /home/msifland/scripts/cron_scripts/linux-update-run > /home/msifland/tmp/test.txt
+*/1 * * * * /home/msifland/scripts/cron_scripts/linux-update-run > /home/msifland/tmp/test.txt 2>&1
 # Backups my important files. See script for files that are backed up
 0 1 * * * /home/msifland/scripts/cron_scripts/my-backup-run
 
