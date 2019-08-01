@@ -1479,7 +1479,7 @@ libldb1:amd64
 liblilv-0-0:amd64
 liblirc-client0:amd64
 liblivemedia64:amd64
-libllvm7:amd64
+libllvm8:amd64
 liblmdb0:amd64
 liblocale-gettext-perl
 liblockfile-bin
