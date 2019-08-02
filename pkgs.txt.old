@@ -739,7 +739,6 @@ libcolorhug2:amd64
 libcom-err2:amd64
 libcrack2:amd64
 libcroco3:amd64
-libcrypto++6
 libcryptsetup12:amd64
 libcrystalhd3:amd64
 libcue2:amd64
@@ -1458,7 +1457,6 @@ libmbim-glib4:amd64
 libmbim-proxy
 libmeanwhile1:amd64
 libmediaart-2.0-0:amd64
-libmediainfo0v5:amd64
 libmediastreamer-base10:amd64
 libmediastreamer-voip10:amd64
 libmetacity1:amd64
@@ -1898,7 +1896,6 @@ libtie-ixhash-perl
 libtiff5:amd64
 libtimedate-perl
 libtinfo6:amd64
-libtinyxml2-6a:amd64
 libtk8.6:amd64
 libtomcrypt1:amd64
 libtommath1:amd64
@@ -2101,7 +2098,6 @@ libyaml-tiny-perl
 libyelp0:amd64
 libzbar0:amd64
 libzeitgeist-2.0-0:amd64
-libzen0v5:amd64
 libzip4:amd64
 libzmq5:amd64
 libzstd1:amd64
@@ -2152,7 +2148,6 @@ mariadb-server-core-10.3
 mawk
 mbox-importer
 media-player-info
-megasync
 mesa-common-dev:amd64
 mesa-utils
 mesa-va-drivers:amd64
