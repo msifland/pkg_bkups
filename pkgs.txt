@@ -2112,14 +2112,16 @@ linux-headers-4.19.0-5-amd64
 linux-headers-4.19.0-5-common
 linux-headers-5.2.5-msi
 linux-headers-5.2.6-msi
+linux-headers-5.2.7-msi
 linux-headers-amd64
 linux-image-4.19.0-5-amd64
 linux-image-5.2.5-msi
 linux-image-5.2.6-msi
+linux-image-5.2.7-msi
 linux-image-amd64
 linux-kbuild-4.19
 linux-libc-dev
-linux-perf-5.2.6
+linux-perf-5.2.7
 lm-sensors
 lmodern
 locales
