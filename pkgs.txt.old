@@ -783,7 +783,7 @@ libdns-export1104
 libdns1104:amd64
 libdolphinvcs5:amd64
 libdotconf0:amd64
-libdouble-conversion1:amd64
+libdouble-conversion3:amd64
 libdpkg-perl
 libdrm-amdgpu1:amd64
 libdrm-common
@@ -1427,7 +1427,7 @@ liblouis-data
 liblouis17:amd64
 liblouisutdml-bin
 liblouisutdml-data
-liblouisutdml8:amd64
+liblouisutdml9:amd64
 liblqr-1-0:amd64
 liblsan0:amd64
 libltdl7:amd64
@@ -1610,7 +1610,10 @@ libpci3:amd64
 libpciaccess0:amd64
 libpcre16-3:amd64
 libpcre2-16-0:amd64
+libpcre2-32-0:amd64
 libpcre2-8-0:amd64
+libpcre2-dev:amd64
+libpcre2-posix0:amd64
 libpcre3:amd64
 libpcre3-dev:amd64
 libpcre32-3:amd64
@@ -2593,6 +2596,7 @@ texlive-pictures
 texlive-plain-generic
 texlive-science
 texlive-xetex
+timgm6mb-soundfont
 timidity
 tipa
 tix
