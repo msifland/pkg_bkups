@@ -21,7 +21,6 @@ apt
 apt-config-icons
 apt-listchanges
 apt-utils
-ark
 asciidoc
 asciidoc-base
 asciidoc-common
@@ -463,16 +462,13 @@ klettres
 klettres-data
 klibc-utils
 kmod
-kompare
 konq-plugins
 konqueror
 konsole
 konsole-kpart
 kpackagelauncherqml
 kpackagetool5
-kpart5-kompare
 krb5-locales
-krusader
 ksshaskpass
 ktexteditor-data
 ktexteditor-katepart
@@ -997,12 +993,6 @@ libjte1
 libjxr-tools
 libjxr0:amd64
 libk5crypto3:amd64
-libkasten3controllers3
-libkasten3core3
-libkasten3gui3
-libkasten3okteta1controllers1abi1
-libkasten3okteta1core1
-libkasten3okteta1gui1
 libkate1:amd64
 libkeyutils1:amd64
 libkf5activities5:amd64
@@ -1051,7 +1041,6 @@ libkf5iconthemes-bin
 libkf5iconthemes-data
 libkf5iconthemes5:amd64
 libkf5idletime5:amd64
-libkf5itemmodels5:amd64
 libkf5itemviews-data
 libkf5itemviews5:amd64
 libkf5jobwidgets-data
@@ -1122,8 +1111,6 @@ libkf5xmlgui-data
 libkf5xmlgui5:amd64
 libklibc:amd64
 libkmod2:amd64
-libkomparediff2-5:amd64
-libkompareinterface5:amd64
 libkpathsea6:amd64
 libkrb5-3:amd64
 libkrb5support0:amd64
@@ -1286,8 +1273,6 @@ libobjc4:amd64
 libodbc1:amd64
 libofa0:amd64
 libogg0:amd64
-libokteta2core2
-libokteta2gui2
 libokular5core8
 liboobs-1-5:amd64
 libopenal-data
@@ -1416,7 +1401,6 @@ libqmi-glib5:amd64
 libqmi-proxy
 libqmobipocket2:amd64
 libqpdf21:amd64
-libqt5concurrent5:amd64
 libqt5core5a:amd64
 libqt5dbus5:amd64
 libqt5designer5:amd64
@@ -1913,7 +1897,6 @@ nvidia-vulkan-common
 nvidia-vulkan-icd:amd64
 obex-data-server
 ocl-icd-libopencl1:amd64
-okteta
 okular
 openjade
 openprinting-ppds
