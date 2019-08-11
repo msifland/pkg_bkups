@@ -810,9 +810,7 @@ libgit2-glib-1.0-0:amd64
 libgl1:amd64
 libgl1-mesa-dri:amd64
 libgl1-nvidia-glvnd-glx:amd64
-libglade2-0:amd64
 libglapi-mesa:amd64
-libgle3:amd64
 libgles-nvidia1:amd64
 libgles-nvidia2:amd64
 libgles1:amd64
@@ -978,7 +976,6 @@ libjavascriptcoregtk-4.0-18:amd64
 libjbig0:amd64
 libjbig2dec0:amd64
 libjim0.77:amd64
-libjpeg-turbo-progs
 libjpeg62-turbo:amd64
 libjs-jquery
 libjs-mathjax
@@ -1578,7 +1575,6 @@ libtracker-miner-2.0-0:amd64
 libtracker-sparql-2.0-0:amd64
 libtry-tiny-perl
 libtsan0:amd64
-libturbojpeg0:amd64
 libtwolame0:amd64
 libu2f-udev
 libubsan1:amd64
@@ -2284,11 +2280,7 @@ xml-core
 xmlto
 xorg
 xorg-docs-core
-xscreensaver
 xscreensaver-data
-xscreensaver-data-extra
-xscreensaver-gl
-xscreensaver-gl-extra
 xserver-common
 xserver-xephyr
 xserver-xorg
