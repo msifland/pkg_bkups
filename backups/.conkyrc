@@ -1,7 +1,7 @@
 # Conky configuration
 background yes
 use_xft yes
-xftfont Monospace:size=10
+xftfont Monospace:size=9.5
 xftalpha .8
 out_to_console no
 update_interval 1
@@ -39,29 +39,29 @@ color2 black #655d47
 color3 black #403a28
 
 TEXT
-${font sans:bold:size=10}${color}${alignc}Debian-$sysname $kernel
-${font sans:bold:size=10}${color}${alignc}${machine}${color} ${exec whoami}@$nodename
+${font sans:bold:size=9}${color}${alignc}Debian-$sysname $kernel
+${font sans:bold:size=9}${color}${alignc}${machine}${color} ${exec whoami}@$nodename
 ${font sans:bold:size=9}${color}${alignc}Display Size:${execi 3600 xrandr | grep "*" | sed 's:_.*::g' | sed 's:  ::g'}
 $color2${hr 3}
-${color}${font sans:bold:size=10}Date: ${color2}${font sans:size=10}${time %A,%d %B}
-${color}${font sans:bold:size=10}Time: ${color2}${font sans:size=10}${time %r}${alignr}${color} ${font sans:bold:size=10}Uptime: ${color2}${font sans:size=10}$uptime_short
+${color}${font sans:bold:size=9.5}Date: ${color2}${font sans:size=9.5}${time %A,%d %B}
+${color}${font sans:bold:size=9.5}Time: ${color2}${font sans:size=9.5}${time %r}${alignr}${color} ${font sans:bold:size=9.5}Uptime: ${color2}${font sans:size=9.5}$uptime_short
 $color2$hr
-${color}${font sans:bold:size=10}CPU:  ${color2}${font sans:size=10}${execi 10000 cat /proc/cpuinfo | grep 'model name' | sed -e 's/model name.*: //'| uniq | cut -c 1-26}${if_existing /sys/devices/system/cpu/cpu0}${goto 5}${voffset 18}${color}${font sans:bold:size=10}CPU1:${color2}${font sans:size=10}${cpu cpu1}% ${color3}${cpubar cpu1}${endif} \
-${if_existing /sys/devices/system/cpu/cpu1}${goto 5}${voffset 18}${color}${font sans:bold:size=10}CPU2:${color2}${font sans:size=10}${cpu cpu2}% ${color3}${cpubar cpu2}${endif} \
-${if_existing /sys/devices/system/cpu/cpu2}${goto 5}${voffset 18}${color}${font sans:bold:size=10}CPU3:${color2}${font sans:size=10}${cpu cpu3}% ${color3}${cpubar cpu3}${endif} \
-${if_existing /sys/devices/system/cpu/cpu3}${goto 5}${voffset 18}${color}${font sans:bold:size=10}CPU4:${color2}${font sans:size=10}${cpu cpu4}% ${color3}${cpubar cpu4}${endif} \
-${if_existing /sys/devices/system/cpu/cpu4}${goto 5}${voffset 18}${color}${font sans:bold:size=10}CPU5:${color2}${font sans:size=10}${cpu cpu5}% ${color3}${cpubar cpu5}${endif} \
-${if_existing /sys/devices/system/cpu/cpu5}${goto 5}${voffset 18}${color}${font sans:bold:size=10}CPU6:${color2}${font sans:size=10}${cpu cpu6}% ${color3}${cpubar cpu6}${endif} \
-${if_existing /sys/devices/system/cpu/cpu6}${goto 5}${voffset 18}${color}${font sans:bold:size=10}CPU7:${color2}${font sans:size=10}${cpu cpu7}% ${color3}${cpubar cpu7}${endif} \
-${if_existing /sys/devices/system/cpu/cpu7}${goto 5}${voffset 18}${color}${font sans:bold:size=10}CPU8:${color2}${font sans:size=10}${cpu cpu8}% ${color3}${cpubar cpu8}${endif}
-${voffset 7}${color}${font sans:bold:size=10}Total CPU:${color2}${font sans:size=10}${cpu cpu0}% ${color3}${cpubar cpu0}
+${color}${font sans:bold:size=9.5}CPU:  ${color2}${font sans:size=9.5}${execi 10000 cat /proc/cpuinfo | grep 'model name' | sed -e 's/model name.*: //'| uniq | cut -c 1-26}${if_existing /sys/devices/system/cpu/cpu0}${goto 5}${voffset 18}${color}${font sans:bold:size=9.5}CPU1:${color2}${font sans:size=9.5}${cpu cpu1}% ${color3}${cpubar cpu1}${endif} \
+${if_existing /sys/devices/system/cpu/cpu1}${goto 5}${voffset 18}${color}${font sans:bold:size=9.5}CPU2:${color2}${font sans:size=9.5}${cpu cpu2}% ${color3}${cpubar cpu2}${endif} \
+${if_existing /sys/devices/system/cpu/cpu2}${goto 5}${voffset 18}${color}${font sans:bold:size=9.5}CPU3:${color2}${font sans:size=9.5}${cpu cpu3}% ${color3}${cpubar cpu3}${endif} \
+${if_existing /sys/devices/system/cpu/cpu3}${goto 5}${voffset 18}${color}${font sans:bold:size=9.5}CPU4:${color2}${font sans:size=9.5}${cpu cpu4}% ${color3}${cpubar cpu4}${endif} \
+${if_existing /sys/devices/system/cpu/cpu4}${goto 5}${voffset 18}${color}${font sans:bold:size=9.5}CPU5:${color2}${font sans:size=9.5}${cpu cpu5}% ${color3}${cpubar cpu5}${endif} \
+${if_existing /sys/devices/system/cpu/cpu5}${goto 5}${voffset 18}${color}${font sans:bold:size=9.5}CPU6:${color2}${font sans:size=9.5}${cpu cpu6}% ${color3}${cpubar cpu6}${endif} \
+${if_existing /sys/devices/system/cpu/cpu6}${goto 5}${voffset 18}${color}${font sans:bold:size=9.5}CPU7:${color2}${font sans:size=9.5}${cpu cpu7}% ${color3}${cpubar cpu7}${endif} \
+${if_existing /sys/devices/system/cpu/cpu7}${goto 5}${voffset 18}${color}${font sans:bold:size=9.5}CPU8:${color2}${font sans:size=9.5}${cpu cpu8}% ${color3}${cpubar cpu8}${endif}
+${voffset 7}${color}${font sans:bold:size=9.5}Total CPU:${color2}${font sans:size=9.5}${cpu cpu0}% ${color3}${cpubar cpu0}
 ${color2}${cpugraph 0 28, 255 black black}
 $color2$stippled_hr
-${color}${font sans:bold:size=10}RAM:${color2}${font sans:size=10} $memperc%  ${alignr}$mem/$memmax
+${color}${font sans:bold:size=9.5}RAM:${color2}${font sans:size=9.5} $memperc%  ${alignr}$mem/$memmax
 ${color3}$membar
 ${color2}${memgraph 0 28, 255 black black}
 #$color2$stippled_hr
-#${color}${font sans:bold:size=10}SWAP: ${color2}${font sans:size=10}$swapperc% ${alignr}$swap/$swapmax
+#${color}${font sans:bold:size=9.5}SWAP: ${color2}${font sans:size=9.5}$swapperc% ${alignr}$swap/$swapmax
 #${color3}${swapbar}
 $color2$hr
 ${color}${font sans:bold:size=9}TOP PROCESSES
@@ -83,9 +83,9 @@ ${color}${font sans:bold:size=9}SYSTEM LOAD${font sans:bold:size=7}             
 ${color}${font sans:size=9}Load Avg:${color2}${font sans:size=9}${alignr}${loadavg}
 $color2$hr
 ${color}${font sans:bold:size=9}FILE SYSTEM
-${font sans:bold:size=10}${color}/root(/dev/sda1)${color2}${font sans:size=10}   ${fs_used_perc /root}%  ${alignr}${fs_used /root}/${fs_size /root}
+${font sans:bold:size=9.5}${color}/root(/dev/sda1)${color2}${font sans:size=9.5}   ${fs_used_perc /root}%  ${alignr}${fs_used /root}/${fs_size /root}
 ${color3}${fs_bar /root}
-${font sans:bold:size=10}${color}/home(/dev/sda2)${color2}${font sans:size=10} ${fs_used_perc /home}%   ${alignr}${fs_used /home}/${fs_size /home}
+${font sans:bold:size=9.5}${color}/home(/dev/sda2)${color2}${font sans:size=9.5} ${fs_used_perc /home}%   ${alignr}${fs_used /home}/${fs_size /home}
 ${color3}${fs_bar /home}
 $color2$hr
 ${color}${font sans:bold:size=9}NETWORK DATA

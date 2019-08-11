@@ -94,6 +94,14 @@ cmake
 cmake-data
 colord
 colord-data
+compiz
+compiz-core
+compiz-gnome
+compiz-mate
+compiz-plugins
+compiz-plugins-extra
+compiz-plugins-main
+compizconfig-settings-manager
 compton
 conky
 conky-std
@@ -184,7 +192,6 @@ espeak-ng-data:amd64
 ethtool
 exfat-fuse
 exfat-utils
-exo-utils
 fakeroot
 fdisk
 ffmpegthumbnailer
@@ -319,6 +326,7 @@ gir1.2-peas-1.0:amd64
 gir1.2-pluma-1.0
 gir1.2-polkit-1.0
 gir1.2-rb-3.0:amd64
+gir1.2-rsvg-2.0:amd64
 gir1.2-secret-1:amd64
 gir1.2-soup-2.4:amd64
 gir1.2-vte-2.91:amd64
@@ -651,6 +659,7 @@ libcolord-gtk1:amd64
 libcolord2:amd64
 libcolorhug2:amd64
 libcom-err2:amd64
+libcompizconfig0
 libconfig9:amd64
 libcpufreq0
 libcrack2:amd64
@@ -679,6 +688,7 @@ libdca0:amd64
 libdconf1:amd64
 libde265-0:amd64
 libdebconfclient0:amd64
+libdecoration0
 libdevel-callchecker-perl
 libdevel-caller-perl
 libdevel-globaldestruction-perl
@@ -738,9 +748,6 @@ libexception-class-perl
 libexempi8:amd64
 libexif12:amd64
 libexiv2-14:amd64
-libexo-2-0:amd64
-libexo-common
-libexo-helpers
 libexpat1:amd64
 libexpat1-dev:amd64
 libext2fs2:amd64
@@ -1701,12 +1708,6 @@ libxdamage1:amd64
 libxdmcp6:amd64
 libxdot4
 libxext6:amd64
-libxfce4ui-2-0:amd64
-libxfce4ui-common
-libxfce4util-bin
-libxfce4util-common
-libxfce4util7:amd64
-libxfconf-0-2
 libxfixes3:amd64
 libxfont2:amd64
 libxft2:amd64
@@ -2039,6 +2040,7 @@ python3-cairo:amd64
 python3-certifi
 python3-cffi-backend
 python3-chardet
+python3-compizconfig
 python3-configobj
 python3-cryptography
 python3-cups
@@ -2276,8 +2278,6 @@ xclip
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
-xfce4-terminal
-xfconf
 xfonts-100dpi
 xfonts-75dpi
 xfonts-base
