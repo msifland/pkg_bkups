@@ -398,6 +398,7 @@ export PATH="./prebuilts/sdk/tools:$PATH"
 # System configs
 export EDITOR="nano"
 export USE_SDK_WRAPPER=true
+export DISPLAY=:0
 
 #This has to go after all $PATH variables.
 alias sudo="sudo env PATH=$PATH"
