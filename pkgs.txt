@@ -596,6 +596,7 @@ libbs2b0:amd64
 libbsd0:amd64
 libburn4:amd64
 libbz2-1.0:amd64
+libc-ares2:amd64
 libc-bin
 libc-dev-bin
 libc-l10n
@@ -664,6 +665,7 @@ libconfig9:amd64
 libcpufreq0
 libcrack2:amd64
 libcroco3:amd64
+libcrypto++6
 libcryptsetup12:amd64
 libcryptui0a:amd64
 libcrystalhd3:amd64
@@ -1187,6 +1189,7 @@ libmbedx509-0:amd64
 libmbim-glib4:amd64
 libmbim-proxy
 libmediaart-2.0-0:amd64
+libmediainfo0v5:amd64
 libmetacity1:amd64
 libmetis5:amd64
 libmicrodns0:amd64
@@ -1573,6 +1576,7 @@ libtie-ixhash-perl
 libtiff5:amd64
 libtimedate-perl
 libtinfo6:amd64
+libtinyxml2-6a:amd64
 libtk8.6:amd64
 libtool
 libtotem-plparser-common
@@ -1752,6 +1756,7 @@ libyaml-tiny-perl
 libyelp0:amd64
 libzbar0:amd64
 libzeitgeist-2.0-0:amd64
+libzen0v5:amd64
 libzip4:amd64
 libzmq5:amd64
 libzstd1:amd64
@@ -1846,6 +1851,7 @@ mate-utils
 mate-utils-common
 mawk
 media-player-info
+megasync
 menu
 menu-xdg
 mesa-utils
