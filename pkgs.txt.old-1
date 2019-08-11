@@ -465,8 +465,6 @@ klibc-utils
 kmod
 konq-plugins
 konqueror
-konsole
-konsole-kpart
 kpackagelauncherqml
 kpackagetool5
 krb5-locales
@@ -1068,8 +1066,6 @@ libkf5newstuff5:amd64
 libkf5newstuffcore5:amd64
 libkf5notifications-data
 libkf5notifications5:amd64
-libkf5notifyconfig-data
-libkf5notifyconfig5:amd64
 libkf5package-data
 libkf5package5:amd64
 libkf5parts-data
@@ -1767,13 +1763,15 @@ linux-compiler-gcc-8-x86
 linux-headers-4.19.0-5-amd64
 linux-headers-4.19.0-5-common
 linux-headers-5.2.7-msi
+linux-headers-5.2.8-msi
 linux-headers-amd64
 linux-image-4.19.0-5-amd64
 linux-image-5.2.7-msi
+linux-image-5.2.8-msi
 linux-image-amd64
 linux-kbuild-4.19
 linux-libc-dev
-linux-perf-5.2.7
+linux-perf-5.2.8
 lm-sensors
 lmodern
 locales
