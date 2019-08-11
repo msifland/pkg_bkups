@@ -10,7 +10,7 @@
 ## The read -s at the end of some commands caused the terminal to stay open and wait for any key to be pressed to close. This is zsh specific, if using bash to source the use read -n1
 ########################### Ubuntu Linux #########################
 # Update system daily. Different here because we a calling more than one command. 
-*/1 * * * * /home/msifland/scripts/cron_scripts/linux-update-run
+0 7 * * * /home/msifland/scripts/cron_scripts/linux-update-run
 
 # Backs up my important files. See script for files that are backed up
 0 1 * * * /home/msifland/scripts/cron_scripts/my-backup-run
