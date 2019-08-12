@@ -65,6 +65,7 @@ build-essential
 busybox
 bzip2
 ca-certificates
+ca-certificates-java
 caja
 caja-admin
 caja-common
@@ -142,6 +143,8 @@ debian-archive-keyring
 debian-faq
 debian-mate-default-settings
 debianutils
+default-jre
+default-jre-headless
 desktop-base
 desktop-file-utils
 dh-autoreconf
@@ -440,6 +443,7 @@ iso-codes
 ispell
 iucode-tool
 iw
+java-common
 javascript-common
 jshon
 kbd
@@ -498,6 +502,8 @@ libasyncns0:amd64
 libatasmart4:amd64
 libatk-adaptor:amd64
 libatk-bridge2.0-0:amd64
+libatk-wrapper-java
+libatk-wrapper-java-jni:amd64
 libatk1.0-0:amd64
 libatk1.0-data
 libatkmm-1.6-1v5:amd64
@@ -551,6 +557,7 @@ libblockdev-utils2:amd64
 libblockdev2:amd64
 libbluetooth3:amd64
 libbluray2:amd64
+libboost-program-options1.67.0:amd64
 libbrasero-media3-1:amd64
 libbrlapi0.6:amd64
 libbrotli1:amd64
@@ -710,6 +717,7 @@ libext2fs2:amd64
 libfaad2:amd64
 libfakeroot:amd64
 libfastjson4:amd64
+libfastutil-java
 libfdisk1:amd64
 libffi-dev:amd64
 libffi6:amd64
@@ -1126,6 +1134,7 @@ libopus0:amd64
 liborc-0.4-0:amd64
 libosinfo-1.0-0:amd64
 libosmesa6:amd64
+libosmpbf-java
 libosp5
 libostyle1c2
 libp11-kit0:amd64
@@ -1197,6 +1206,7 @@ libpostproc55:amd64
 libpotrace0:amd64
 libprocps7:amd64
 libprotobuf-c1:amd64
+libprotobuf-java
 libproxy1-plugin-gsettings:amd64
 libproxy1-plugin-networkmanager:amd64
 libproxy1-plugin-webkit:amd64
@@ -1523,6 +1533,7 @@ libxmu6:amd64
 libxmuu1:amd64
 libxnvctrl0:amd64
 libxpm4:amd64
+libxpp3-java
 libxpresent1:amd64
 libxrandr2:amd64
 libxrender1:amd64
@@ -1647,6 +1658,9 @@ mesa-vdpau-drivers:amd64
 metacity
 metacity-common
 mime-support
+mkgmap
+mkgmap-splitter
+mkgmapgui
 modemmanager
 mount
 mousetweaks
@@ -1692,6 +1706,8 @@ nvidia-vulkan-icd:amd64
 obex-data-server
 ocl-icd-libopencl1:amd64
 openjade
+openjdk-11-jre:amd64
+openjdk-11-jre-headless:amd64
 openprinting-ppds
 opensp
 openssh-client
@@ -1701,6 +1717,8 @@ openssl
 orca
 os-prober
 osinfo-db
+osmctools
+osmium-tool
 p11-kit
 p11-kit-modules:amd64
 p7zip
@@ -2070,7 +2088,6 @@ xmlto
 xorg
 xorg-docs-core
 xscreensaver-data
-xscreensaver-gl
 xserver-common
 xserver-xephyr
 xserver-xorg

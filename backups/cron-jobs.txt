@@ -12,6 +12,7 @@
 # Copies the current environment to a file which can be called from
 #### other scripts to open GUI app, like mate-terminal
 0 5 * * * /home/msifland/scripts/cron_scripts/env-export
+
 # Update system daily. Different here because we a calling more than one command. 
 0 7 * * * /home/msifland/scripts/cron_scripts/linux-update-run
 
