@@ -6,9 +6,12 @@
 # 
 # m h  dom mon dow   command
 
-## The jobs with cron_scripts in the path open the jobs in a terminal
-## The read -s at the end of some commands caused the terminal to stay open and wait for any key to be pressed to close. This is zsh specific, if using bash to source the use read -n1
-########################### Ubuntu Linux #########################
+########################### Debian Linux #########################
+# These call scripts located in $HOME/scripts/cron_scripts
+##################################################################
+# Copies the current environment to a file which can be called from
+#### other scripts to open GUI app, like mate-terminal
+0 5 * * * /home/msifland/scripts/cron_scripts/env-export
 # Update system daily. Different here because we a calling more than one command. 
 0 7 * * * /home/msifland/scripts/cron_scripts/linux-update-run
 
