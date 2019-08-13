@@ -17,9 +17,5 @@ deb-src http://deb.debian.org/debian/ unstable main non-free contrib
 deb http://repository.spotify.com stable non-free
 deb-src http://repository.spotify.com stable non-free
 
-###Steam
-deb http://repo.steampowered.com/steam/ precise steam
-deb-src http://repo.steampowered.com/steam/ precise steam
-
 ###Sublime-text
 deb https://download.sublimetext.com/ apt/stable/
