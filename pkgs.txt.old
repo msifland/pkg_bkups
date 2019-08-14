@@ -67,8 +67,11 @@ bzip2
 ca-certificates
 ca-certificates-java
 caja
+caja-actions
+caja-actions-common
 caja-admin
 caja-common
+caja-dropbox
 caja-eiciel
 caja-extensions-common
 caja-gtkhash
@@ -1933,6 +1936,7 @@ python3-distutils
 python3-docutils
 python3-gi
 python3-gi-cairo
+python3-gpg
 python3-gst-1.0
 python3-html5lib
 python3-httplib2
