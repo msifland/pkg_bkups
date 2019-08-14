@@ -1238,7 +1238,6 @@ libplymouth4:amd64
 libpng-dev:amd64
 libpng16-16:amd64
 libpolkit-agent-1-0:amd64
-libpolkit-backend-1-0:amd64
 libpolkit-gobject-1-0:amd64
 libpoppler-glib8:amd64
 libpoppler82:amd64
