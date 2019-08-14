@@ -9,11 +9,7 @@
 ########################### Debian Linux #########################
 # These call scripts located in $HOME/scripts/cron_scripts
 ##################################################################
-# Copies the current environment to a file which can be called from
-#### other scripts to open GUI app, like mate-terminal
-0 5 * * * /home/msifland/scripts/cron_scripts/env-export
-
-# Update system daily. Different here because we a calling more than one command. 
+# Updates linux system every day
 0 7 * * * /home/msifland/scripts/cron_scripts/linux-update-run
 
 # Backs up my important files. See script for files that are backed up
