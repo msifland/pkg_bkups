@@ -10,7 +10,7 @@
 # These call scripts located in $HOME/scripts/cron_scripts
 ##################################################################
 # Updates linux system every day
-*/1 * * * * /home/msifland/scripts/cron_scripts/linux-update-run > /home/msifland/tmp/log.txt 2>&1
+0 7 * * * /home/msifland/scripts/cron_scripts/linux-update-run
 
 # Backs up my important files. See script for files that are backed up
 0 1 * * * /home/msifland/scripts/cron_scripts/my-backup-run
