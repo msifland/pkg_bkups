@@ -1638,14 +1638,16 @@ linux-headers-4.19.0-5-amd64
 linux-headers-4.19.0-5-common
 linux-headers-5.2.7-msi
 linux-headers-5.2.8-msi
+linux-headers-5.2.9-msi
 linux-headers-amd64
 linux-image-4.19.0-5-amd64
 linux-image-5.2.7-msi
 linux-image-5.2.8-msi
+linux-image-5.2.9-msi
 linux-image-amd64
 linux-kbuild-4.19
 linux-libc-dev
-linux-perf-5.2.8
+linux-perf-5.2.9
 lm-sensors
 lmodern
 locales
@@ -2167,7 +2169,6 @@ xml-core
 xmlto
 xorg
 xorg-docs-core
-xscreensaver-data
 xserver-common
 xserver-xephyr
 xserver-xorg
