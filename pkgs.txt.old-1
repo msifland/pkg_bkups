@@ -228,12 +228,15 @@ fonts-noto-cjk-extra
 fonts-noto-color-emoji
 fonts-noto-core
 fonts-noto-extra
+fonts-noto-hinted
 fonts-noto-mono
 fonts-noto-ui-core
 fonts-noto-ui-extra
 fonts-noto-unhinted
 fonts-quicksand
+fonts-roboto-hinted
 fonts-roboto-slab
+fonts-roboto-unhinted
 fonts-texgyre
 fonts-urw-base35
 fonts-vlgothic
@@ -455,6 +458,11 @@ kernel-wedge
 keyboard-configuration
 klibc-utils
 kmod
+kodi
+kodi-bin:amd64
+kodi-data
+kodi-repository-kodi
+kodi-visualization-spectrum:amd64
 krb5-locales
 laptop-detect
 less
@@ -610,6 +618,7 @@ libcdio18:amd64
 libcdparanoia0:amd64
 libcdr-0.1-1:amd64
 libcdt5
+libcec4:amd64
 libcgraph6
 libcheese-gtk25:amd64
 libcheese8:amd64
@@ -640,6 +649,7 @@ libconfig9:amd64
 libcpufreq0
 libcrack2:amd64
 libcroco3:amd64
+libcrossguid0:amd64
 libcrypto++6
 libcryptsetup12:amd64
 libcryptui0a:amd64
@@ -981,6 +991,7 @@ libjbig0:amd64
 libjbig2dec0:amd64
 libjim0.77:amd64
 libjpeg62-turbo:amd64
+libjs-iscroll
 libjs-jquery
 libjs-mathjax
 libjs-modernizr
@@ -1070,6 +1081,7 @@ libmediaart-2.0-0:amd64
 libmediainfo0v5:amd64
 libmetacity1:amd64
 libmetis5:amd64
+libmicrohttpd12
 libmime-charset-perl
 libmime-lite-perl
 libmime-types-perl
@@ -1181,6 +1193,7 @@ libosmpbf-java
 libosp5
 libostyle1c2
 libp11-kit0:amd64
+libp8-platform2:amd64
 libpackage-stash-perl
 libpackage-stash-xs-perl
 libpackagekit-glib2-18:amd64
@@ -1428,6 +1441,7 @@ libtimedate-perl
 libtinfo6:amd64
 libtinfo6:i386
 libtinyxml2-6a:amd64
+libtinyxml2.6.2v5:amd64
 libtk8.6:amd64
 libtool
 libtotem-plparser-common
@@ -1620,6 +1634,7 @@ libxxf86dga1:amd64
 libxxf86vm1:amd64
 libxxf86vm1:i386
 libxxhash0:amd64
+libyajl2:amd64
 libyaml-0-2:amd64
 libyaml-tiny-perl
 libyelp0:amd64
@@ -1782,6 +1797,7 @@ nvidia-vdpau-driver:amd64
 nvidia-vulkan-common
 nvidia-vulkan-icd:amd64
 nvidia-vulkan-icd:i386
+nvidia-xconfig
 obex-data-server
 ocl-icd-libopencl1:amd64
 openjade
@@ -1934,6 +1950,7 @@ python3-debian
 python3-debianbts
 python3-dev
 python3-distro
+python3-distro-info
 python3-distutils
 python3-docutils
 python3-gi
@@ -1978,6 +1995,7 @@ python3-setproctitle:amd64
 python3-sip
 python3-six
 python3-smbc
+python3-software-properties
 python3-soupsieve
 python3-speechd
 python3-sphinx
@@ -2038,6 +2056,7 @@ shared-mime-info
 shotwell
 shotwell-common
 simple-scan
+software-properties-common
 sound-icons
 sound-theme-freedesktop
 speech-dispatcher
@@ -2111,6 +2130,7 @@ udev
 udisks2
 ufw
 unar
+unattended-upgrades
 unzip
 update-glx
 update-inetd
