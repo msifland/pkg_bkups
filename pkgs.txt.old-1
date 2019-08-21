@@ -566,6 +566,7 @@ libbamf3-2:amd64
 libbdplus0:amd64
 libbind9-161:amd64
 libbinutils:amd64
+libbison-dev:amd64
 libblas3:amd64
 libblkid-dev:amd64
 libblkid1:amd64
