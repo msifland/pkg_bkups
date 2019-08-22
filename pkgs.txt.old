@@ -1596,6 +1596,7 @@ libx11-xcb1:amd64
 libx11-xcb1:i386
 libx264-155:amd64
 libx265-165:amd64
+libx265-176:amd64
 libx32asan5
 libx32atomic1
 libx32gcc-8-dev
