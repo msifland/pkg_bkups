@@ -21,6 +21,8 @@ apt
 apt-config-icons
 apt-listchanges
 apt-utils
+aptitude
+aptitude-common
 asciidoc
 asciidoc-base
 asciidoc-common
@@ -584,7 +586,9 @@ libblockdev-utils2:amd64
 libblockdev2:amd64
 libbluetooth3:amd64
 libbluray2:amd64
+libboost-iostreams1.67.0:amd64
 libboost-program-options1.67.0:amd64
+libboost-system1.67.0:amd64
 libbrasero-media3-1:amd64
 libbrlapi0.6:amd64
 libbrotli1:amd64
@@ -635,12 +639,15 @@ libcdparanoia0:amd64
 libcdr-0.1-1:amd64
 libcdt5
 libcec4:amd64
+libcgi-fast-perl
+libcgi-pm-perl
 libcgraph6
 libcheese-gtk25:amd64
 libcheese8:amd64
 libcholmod3:amd64
 libchromaprint1:amd64
 libclamav9:amd64
+libclass-accessor-perl
 libclass-c3-perl
 libclass-c3-xs-perl
 libclass-data-inheritable-perl
@@ -675,6 +682,7 @@ libcupsfilters1:amd64
 libcupsimage2:amd64
 libcurl3-gnutls:amd64
 libcurl4:amd64
+libcwidget3v5:amd64
 libdaemon0:amd64
 libdata-dump-perl
 libdata-optlist-perl
@@ -766,6 +774,7 @@ libfaad2:amd64
 libfakeroot:amd64
 libfastjson4:amd64
 libfastutil-java
+libfcgi-perl
 libfdisk1:amd64
 libffi-dev:amd64
 libffi6:amd64
@@ -845,8 +854,10 @@ libgl1-mesa-dri:i386
 libgl1-mesa-glx:i386
 libgl1-nvidia-glvnd-glx:amd64
 libgl1-nvidia-glvnd-glx:i386
+libglade2-0:amd64
 libglapi-mesa:amd64
 libglapi-mesa:i386
+libgle3:amd64
 libgles-nvidia1:amd64
 libgles-nvidia1:i386
 libgles-nvidia2:amd64
@@ -1002,6 +1013,7 @@ libinput-bin
 libinput10:amd64
 libio-html-perl
 libio-socket-ssl-perl
+libio-string-perl
 libio-stringy-perl
 libip4tc0:amd64
 libip4tc2:amd64
@@ -1026,6 +1038,7 @@ libjavascriptcoregtk-4.0-18:amd64
 libjbig0:amd64
 libjbig2dec0:amd64
 libjim0.77:amd64
+libjpeg-turbo-progs
 libjpeg62-turbo:amd64
 libjs-iscroll
 libjs-jquery
@@ -1255,6 +1268,7 @@ libpaper1:amd64
 libparams-classify-perl
 libparams-util-perl
 libparams-validationcompiler-perl
+libparse-debianchangelog-perl
 libparted-fs-resize0:amd64
 libparted2:amd64
 libpathplan4
@@ -1294,6 +1308,7 @@ libpng-dev:amd64
 libpng16-16:amd64
 libpolkit-agent-1-0:amd64
 libpolkit-gobject-1-0:amd64
+libpoppler-cpp0v5:amd64
 libpoppler-glib8:amd64
 libpoppler82:amd64
 libpopt0:amd64
@@ -1511,6 +1526,7 @@ libtry-tiny-perl
 libtsan0:amd64
 libtss2-esys0
 libtss2-udev
+libturbojpeg0:amd64
 libtwolame0:amd64
 libu2f-udev
 libubsan1:amd64
@@ -1806,8 +1822,6 @@ mate-polkit:amd64
 mate-polkit-common
 mate-power-manager
 mate-power-manager-common
-mate-screensaver
-mate-screensaver-common
 mate-sensors-applet
 mate-sensors-applet-common
 mate-session-manager
@@ -2302,6 +2316,11 @@ xmlto
 xorg
 xorg-docs-core
 xorg-sgml-doctools
+xscreensaver
+xscreensaver-data
+xscreensaver-data-extra
+xscreensaver-gl
+xscreensaver-gl-extra
 xserver-common
 xserver-xephyr
 xserver-xorg
