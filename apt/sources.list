@@ -19,3 +19,5 @@ deb-src http://repository.spotify.com stable non-free
 
 ###Sublime-text
 deb https://download.sublimetext.com/ apt/stable/
+deb https://dl.winehq.org/wine-builds/debian/ bullseye main
+# deb-src https://dl.winehq.org/wine-builds/debian/ bullseye main

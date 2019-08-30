@@ -385,6 +385,7 @@ export PATH="/usr/lib/jvm/default-java/bin:/usr/bin/site_perl:/usr/bin/vendor_pe
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:$PATH"
 # This line specifically call the latest build tools number folder(mainly for building opengapps). It also deletes any older folders.
 export PATH="$(find $HOME/Android/Sdk/build-tools/ -mindepth 1 -maxdepth 1 -type d):$PATH"
+export PATH="/opt/wine-stable/bin:$PATH"
 
 # For android
 BLD_TOOLS_KEEP=$(ls -t $HOME/Android/Sdk/build-tools/ | head -n 1)
