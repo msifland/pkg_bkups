@@ -1762,13 +1762,15 @@ linux-compiler-gcc-8-x86
 linux-headers-5.2.0-2-amd64
 linux-headers-5.2.0-2-common
 linux-headers-5.2.10-msi
+linux-headers-5.2.11-msi
 linux-headers-amd64
 linux-image-5.2.0-2-amd64
 linux-image-5.2.10-msi
+linux-image-5.2.11-msi
 linux-image-amd64
 linux-kbuild-5.2
 linux-libc-dev
-linux-perf-5.2.10
+linux-perf-5.2.11
 lm-sensors
 lmodern
 locales
@@ -1892,6 +1894,7 @@ nvidia-egl-icd:amd64
 nvidia-egl-icd:i386
 nvidia-installer-cleanup
 nvidia-kernel-5.2.10-msi
+nvidia-kernel-5.2.11-msi
 nvidia-kernel-5.2.9-msi
 nvidia-kernel-common
 nvidia-kernel-dkms
