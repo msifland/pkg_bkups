@@ -245,6 +245,7 @@ fonts-quicksand
 fonts-roboto-hinted
 fonts-roboto-slab
 fonts-roboto-unhinted
+fonts-symbola
 fonts-texgyre
 fonts-urw-base35
 fonts-vlgothic
@@ -429,7 +430,6 @@ hddtemp
 hdparm
 hicolor-icon-theme
 hostname
-hp-ppd
 hplip
 hplip-data
 htop
@@ -2369,7 +2369,6 @@ tar
 task-desktop
 task-english
 task-laptop
-task-print-server
 task-ssh-server
 task-web-server
 tasksel

@@ -607,7 +607,6 @@ libbluetooth3:amd64
 libbluray2:amd64
 libboost-iostreams1.67.0:amd64
 libboost-program-options1.67.0:amd64
-libboost-system1.67.0:amd64
 libbrasero-media3-1:amd64
 libbrlapi0.6:amd64
 libbrotli1:amd64
@@ -695,7 +694,7 @@ libcom-err2:amd64
 libcom-err2:i386
 libcompizconfig0
 libconfig9:amd64
-libcpufreq0
+libcpupower2
 libcrack2:amd64
 libcroco3:amd64
 libcroco3:i386
@@ -710,7 +709,7 @@ libcupsfilters1:amd64
 libcupsimage2:amd64
 libcurl3-gnutls:amd64
 libcurl4:amd64
-libcwidget3v5:amd64
+libcwidget4:amd64
 libdaemon0:amd64
 libdata-dump-perl
 libdata-optlist-perl
