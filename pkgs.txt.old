@@ -776,7 +776,6 @@ libegl-mesa0:i386
 libegl-nvidia-legacy-390xx0:amd64
 libegl-nvidia-legacy-390xx0:i386
 libegl-nvidia0:amd64
-libegl-nvidia0:i386
 libegl1:amd64
 libegl1:i386
 libegl1-mesa-dev:amd64
@@ -896,7 +895,6 @@ libgl1-mesa-dri:amd64
 libgl1-mesa-dri:i386
 libgl1-mesa-glx:i386
 libgl1-nvidia-glvnd-glx:amd64
-libgl1-nvidia-glvnd-glx:i386
 libgl1-nvidia-legacy-390xx-glvnd-glx:amd64
 libgl1-nvidia-legacy-390xx-glvnd-glx:i386
 libglade2-0:amd64
@@ -907,8 +905,6 @@ libgles-nvidia-legacy-390xx1:amd64
 libgles-nvidia-legacy-390xx1:i386
 libgles-nvidia-legacy-390xx2:amd64
 libgles-nvidia-legacy-390xx2:i386
-libgles-nvidia1:i386
-libgles-nvidia2:i386
 libgles1:amd64
 libgles1:i386
 libgles2:amd64
@@ -1294,7 +1290,6 @@ libnuma1:i386
 libnvidia-cbl:amd64
 libnvidia-cfg1:amd64
 libnvidia-eglcore:amd64
-libnvidia-eglcore:i386
 libnvidia-fatbinaryloader:amd64
 libnvidia-glcore:amd64
 libnvidia-glcore:i386
@@ -2057,17 +2052,9 @@ notification-daemon
 ntfs-3g
 nvidia-alternative
 nvidia-detect
-nvidia-driver-libs:i386
-nvidia-driver-libs-i386:i386
 nvidia-egl-common
-nvidia-egl-icd:i386
 nvidia-installer-cleanup
-nvidia-kernel-5.2.10-msi
-nvidia-kernel-5.2.11-msi
 nvidia-kernel-common
-nvidia-kernel-dkms
-nvidia-kernel-source
-nvidia-kernel-support
 nvidia-legacy-390xx-alternative
 nvidia-legacy-390xx-driver
 nvidia-legacy-390xx-driver-bin
@@ -2076,7 +2063,9 @@ nvidia-legacy-390xx-driver-libs:i386
 nvidia-legacy-390xx-driver-libs-i386:i386
 nvidia-legacy-390xx-egl-icd:amd64
 nvidia-legacy-390xx-egl-icd:i386
+nvidia-legacy-390xx-kernel-5.2.11-msi
 nvidia-legacy-390xx-kernel-dkms
+nvidia-legacy-390xx-kernel-source
 nvidia-legacy-390xx-kernel-support
 nvidia-legacy-390xx-vdpau-driver:amd64
 nvidia-legacy-390xx-vulkan-icd:amd64
@@ -2531,7 +2520,6 @@ xserver-xorg-video-ati
 xserver-xorg-video-fbdev
 xserver-xorg-video-intel
 xserver-xorg-video-nouveau
-xserver-xorg-video-nvidia
 xserver-xorg-video-nvidia-legacy-390xx
 xserver-xorg-video-qxl
 xserver-xorg-video-radeon
