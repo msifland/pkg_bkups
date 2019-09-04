@@ -775,7 +775,6 @@ libegl-mesa0:amd64
 libegl-mesa0:i386
 libegl-nvidia-legacy-390xx0:amd64
 libegl-nvidia-legacy-390xx0:i386
-libegl-nvidia0:amd64
 libegl1:amd64
 libegl1:i386
 libegl1-mesa-dev:amd64
@@ -894,7 +893,6 @@ libgl1-mesa-dev:amd64
 libgl1-mesa-dri:amd64
 libgl1-mesa-dri:i386
 libgl1-mesa-glx:i386
-libgl1-nvidia-glvnd-glx:amd64
 libgl1-nvidia-legacy-390xx-glvnd-glx:amd64
 libgl1-nvidia-legacy-390xx-glvnd-glx:i386
 libglade2-0:amd64
@@ -929,8 +927,6 @@ libglx-mesa0:amd64
 libglx-mesa0:i386
 libglx-nvidia-legacy-390xx0:amd64
 libglx-nvidia-legacy-390xx0:i386
-libglx-nvidia0:amd64
-libglx-nvidia0:i386
 libglx0:amd64
 libglx0:i386
 libgme0:amd64
@@ -1287,14 +1283,6 @@ libntfs-3g883
 libnuma-dev:amd64
 libnuma1:amd64
 libnuma1:i386
-libnvidia-cbl:amd64
-libnvidia-cfg1:amd64
-libnvidia-eglcore:amd64
-libnvidia-fatbinaryloader:amd64
-libnvidia-glcore:amd64
-libnvidia-glcore:i386
-libnvidia-glvkspirv:amd64
-libnvidia-glvkspirv:i386
 libnvidia-legacy-390xx-cfg1:amd64
 libnvidia-legacy-390xx-cfg1:i386
 libnvidia-legacy-390xx-eglcore:amd64
@@ -1302,8 +1290,6 @@ libnvidia-legacy-390xx-eglcore:i386
 libnvidia-legacy-390xx-glcore:amd64
 libnvidia-legacy-390xx-glcore:i386
 libnvidia-legacy-390xx-ml1:amd64
-libnvidia-ptxjitcompiler1:amd64
-libnvidia-rtcore:amd64
 liboauth0:amd64
 libobjc4:amd64
 libodbc1:amd64
@@ -2050,7 +2036,6 @@ network-manager
 network-manager-gnome
 notification-daemon
 ntfs-3g
-nvidia-alternative
 nvidia-detect
 nvidia-egl-common
 nvidia-installer-cleanup
@@ -2070,15 +2055,11 @@ nvidia-legacy-390xx-kernel-support
 nvidia-legacy-390xx-vdpau-driver:amd64
 nvidia-legacy-390xx-vulkan-icd:amd64
 nvidia-legacy-390xx-vulkan-icd:i386
-nvidia-legacy-check
 nvidia-modprobe
 nvidia-persistenced
 nvidia-settings-legacy-390xx
 nvidia-support
-nvidia-vdpau-driver:amd64
 nvidia-vulkan-common
-nvidia-vulkan-icd:amd64
-nvidia-vulkan-icd:i386
 nvidia-xconfig
 obex-data-server
 ocl-icd-libopencl1:amd64
