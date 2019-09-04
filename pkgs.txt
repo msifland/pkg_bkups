@@ -1869,7 +1869,6 @@ libxml2-utils
 libxmlb1:amd64
 libxmu6:amd64
 libxmuu1:amd64
-libxnvctrl0:amd64
 libxpm4:amd64
 libxpm4:i386
 libxpp3-java
@@ -2057,7 +2056,6 @@ nvidia-egl-icd:i386
 nvidia-installer-cleanup
 nvidia-kernel-5.2.10-msi
 nvidia-kernel-5.2.11-msi
-nvidia-kernel-5.2.9-msi
 nvidia-kernel-common
 nvidia-kernel-dkms
 nvidia-kernel-source
@@ -2065,7 +2063,6 @@ nvidia-kernel-support
 nvidia-legacy-check
 nvidia-modprobe
 nvidia-persistenced
-nvidia-settings
 nvidia-support
 nvidia-vdpau-driver:amd64
 nvidia-vulkan-common
@@ -2187,6 +2184,7 @@ python-pexpect
 python-pickleshare
 python-pil:amd64
 python-pkg-resources
+python-png
 python-prompt-toolkit
 python-ptyprocess
 python-pyglet
@@ -2218,7 +2216,7 @@ python3-cairo:amd64
 python3-certifi
 python3-cffi-backend
 python3-chardet
-python3-compizconfig
+python3-compizconfig:amd64
 python3-configobj
 python3-cryptography
 python3-cups
