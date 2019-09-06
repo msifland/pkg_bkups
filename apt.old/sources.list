@@ -8,7 +8,6 @@ deb-src http://deb.debian.org/debian/ testing-updates main contrib non-free
 deb http://security.debian.org testing-security main contrib non-free
 deb-src http://security.debian.org testing-security main contrib non-free
 
-
 ###Unstable for app not available in testing branch.
 deb http://deb.debian.org/debian/ unstable main non-free contrib
 deb-src http://deb.debian.org/debian/ unstable main non-free contrib
@@ -19,5 +18,7 @@ deb-src http://repository.spotify.com stable non-free
 
 ###Sublime-text
 deb https://download.sublimetext.com/ apt/stable/
+
+###Wine
 deb https://dl.winehq.org/wine-builds/debian/ bullseye main
-# deb-src https://dl.winehq.org/wine-builds/debian/ bullseye main
+deb-src https://dl.winehq.org/wine-builds/debian/ bullseye main
