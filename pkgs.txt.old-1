@@ -1285,11 +1285,18 @@ libnuma1:amd64
 libnuma1:i386
 libnvidia-legacy-390xx-cfg1:amd64
 libnvidia-legacy-390xx-cfg1:i386
+libnvidia-legacy-390xx-cuda1:amd64
+libnvidia-legacy-390xx-cuda1:i386
+libnvidia-legacy-390xx-cuda1-i386:i386
 libnvidia-legacy-390xx-eglcore:amd64
 libnvidia-legacy-390xx-eglcore:i386
+libnvidia-legacy-390xx-fatbinaryloader:amd64
+libnvidia-legacy-390xx-fatbinaryloader:i386
 libnvidia-legacy-390xx-glcore:amd64
 libnvidia-legacy-390xx-glcore:i386
 libnvidia-legacy-390xx-ml1:amd64
+libnvidia-legacy-390xx-ptxjitcompiler1:amd64
+libnvidia-legacy-390xx-ptxjitcompiler1:i386
 liboauth0:amd64
 libobjc4:amd64
 libodbc1:amd64
@@ -2036,6 +2043,7 @@ network-manager
 network-manager-gnome
 notification-daemon
 ntfs-3g
+nvidia-cuda-mps
 nvidia-detect
 nvidia-egl-common
 nvidia-installer-cleanup
@@ -2052,6 +2060,7 @@ nvidia-legacy-390xx-kernel-5.2.11-msi
 nvidia-legacy-390xx-kernel-dkms
 nvidia-legacy-390xx-kernel-source
 nvidia-legacy-390xx-kernel-support
+nvidia-legacy-390xx-smi
 nvidia-legacy-390xx-vdpau-driver:amd64
 nvidia-legacy-390xx-vulkan-icd:amd64
 nvidia-legacy-390xx-vulkan-icd:i386
