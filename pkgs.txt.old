@@ -1922,13 +1922,15 @@ linux-compiler-gcc-8-x86
 linux-headers-5.2.0-2-amd64
 linux-headers-5.2.0-2-common
 linux-headers-5.2.11-msi
+linux-headers-5.2.13-msi
 linux-headers-amd64
 linux-image-5.2.0-2-amd64
 linux-image-5.2.11-msi
+linux-image-5.2.13-msi
 linux-image-amd64
 linux-kbuild-5.2
 linux-libc-dev
-linux-perf-5.2.11
+linux-perf-5.2.13
 lm-sensors
 lmodern
 locales
@@ -1937,6 +1939,7 @@ logrotate
 logsave
 lsb-base
 lsb-release
+lshw
 lsof
 lua-bitop:amd64
 lua-expat:amd64
@@ -2057,6 +2060,7 @@ nvidia-legacy-390xx-driver-libs-i386:i386
 nvidia-legacy-390xx-egl-icd:amd64
 nvidia-legacy-390xx-egl-icd:i386
 nvidia-legacy-390xx-kernel-5.2.11-msi
+nvidia-legacy-390xx-kernel-5.2.13-msi
 nvidia-legacy-390xx-kernel-dkms
 nvidia-legacy-390xx-kernel-source
 nvidia-legacy-390xx-kernel-support
