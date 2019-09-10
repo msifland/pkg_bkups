@@ -1052,6 +1052,7 @@ libigdgmm9:amd64
 libigdgmm9:i386
 libijs-0.35:amd64
 libilmbase23:amd64
+libilmbase24:amd64
 libimage-magick-perl
 libimage-magick-q16-perl
 libimagequant0:amd64
@@ -1298,6 +1299,7 @@ libopencore-amrwb0:amd64
 libopencsd-dev:amd64
 libopencsd0:amd64
 libopenexr23:amd64
+libopenexr24:amd64
 libopengl0:amd64
 libopengl0:i386
 libopenjp2-7:amd64
