@@ -99,6 +99,14 @@ cmake
 cmake-data
 colord
 colord-data
+compiz
+compiz-core
+compiz-gnome
+compiz-mate
+compiz-plugins
+compiz-plugins-extra
+compiz-plugins-main
+compizconfig-settings-manager
 compton
 conky
 conky-std
@@ -571,7 +579,7 @@ libayatana-ido3-0.4-0:amd64
 libayatana-indicator3-7:amd64
 libb-hooks-endofscope-perl
 libb-hooks-op-check-perl
-libb2-1
+libb2-1:amd64
 libbabeltrace-dev:amd64
 libbabeltrace1:amd64
 libbabl-0.1-0:amd64
@@ -681,6 +689,7 @@ libcolord2:amd64
 libcolorhug2:amd64
 libcom-err2:amd64
 libcom-err2:i386
+libcompizconfig0
 libconfig9:amd64
 libcpupower2
 libcrack2:amd64
@@ -716,6 +725,7 @@ libdca0:amd64
 libdconf1:amd64
 libde265-0:amd64
 libdebconfclient0:amd64
+libdecoration0
 libdevel-callchecker-perl
 libdevel-caller-perl
 libdevel-globaldestruction-perl
@@ -1878,12 +1888,8 @@ libzvbi0:i386
 libzzip-0-13:amd64
 lightning
 linux-base
-linux-headers-5.2.11-msi
-linux-headers-5.2.13-msi
 linux-headers-5.2.14-msi
 linux-image-5.2.0-2-amd64
-linux-image-5.2.11-msi
-linux-image-5.2.13-msi
 linux-image-5.2.14-msi
 linux-image-amd64
 linux-libc-dev
@@ -2153,6 +2159,7 @@ python3-cairo:amd64
 python3-certifi
 python3-cffi-backend
 python3-chardet
+python3-compizconfig:amd64
 python3-configobj
 python3-cryptography
 python3-cups
