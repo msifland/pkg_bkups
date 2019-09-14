@@ -1880,12 +1880,14 @@ lightning
 linux-base
 linux-headers-5.2.11-msi
 linux-headers-5.2.13-msi
+linux-headers-5.2.14-msi
 linux-image-5.2.0-2-amd64
 linux-image-5.2.11-msi
 linux-image-5.2.13-msi
+linux-image-5.2.14-msi
 linux-image-amd64
 linux-libc-dev
-linux-perf-5.2.13
+linux-perf-5.2.14
 lm-sensors
 lmodern
 locales
