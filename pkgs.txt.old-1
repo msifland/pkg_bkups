@@ -327,6 +327,7 @@ gir1.2-gst-plugins-base-1.0:amd64
 gir1.2-gstreamer-1.0:amd64
 gir1.2-gtk-3.0:amd64
 gir1.2-gtksource-3.0:amd64
+gir1.2-gtksource-4:amd64
 gir1.2-gucharmap-2.90:amd64
 gir1.2-harfbuzz-0.0:amd64
 gir1.2-javascriptcoregtk-4.0:amd64
@@ -979,6 +980,8 @@ libgtkmm-2.4-1v5:amd64
 libgtkmm-3.0-1v5:amd64
 libgtksourceview-3.0-1:amd64
 libgtksourceview-3.0-common
+libgtksourceview-4-0:amd64
+libgtksourceview-4-common
 libgtkspell0:amd64
 libgtop-2.0-11:amd64
 libgtop2-common
@@ -1069,7 +1072,7 @@ libisc-export1100:amd64
 libisc1100:amd64
 libisccc161:amd64
 libisccfg163:amd64
-libisl19:amd64
+libisl21:amd64
 libisofs6:amd64
 libitm1:amd64
 libiw30:amd64
