@@ -726,6 +726,7 @@ libdca0:amd64
 libdconf1:amd64
 libde265-0:amd64
 libdebconfclient0:amd64
+libdebhelper-perl
 libdecoration0
 libdevel-callchecker-perl
 libdevel-caller-perl
