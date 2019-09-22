@@ -1896,12 +1896,14 @@ lightning
 linux-base
 linux-headers-5.2.14-msi
 linux-headers-5.3.0-msi
+linux-headers-5.3.1--msi
 linux-image-5.2.0-2-amd64
 linux-image-5.2.14-msi
 linux-image-5.3.0-msi
+linux-image-5.3.1--msi
 linux-image-amd64
 linux-libc-dev:amd64
-linux-perf-5.3
+linux-perf-5.3.1
 lm-sensors
 lmodern
 locales
@@ -1984,6 +1986,7 @@ mesa-va-drivers:amd64
 mesa-va-drivers:i386
 mesa-vdpau-drivers:amd64
 mesa-vdpau-drivers:i386
+mesa-vulkan-drivers:amd64
 mesa-vulkan-drivers:i386
 metacity
 metacity-common
