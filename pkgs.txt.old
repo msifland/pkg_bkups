@@ -184,6 +184,7 @@ dpkg
 dpkg-dev
 dropbox
 dvipng
+dvisvgm
 dwz
 e2fsprogs
 eject
@@ -1877,7 +1878,6 @@ libxxf86dga1:amd64
 libxxf86vm-dev:amd64
 libxxf86vm1:amd64
 libxxf86vm1:i386
-libxxhash0:amd64
 libyajl2:amd64
 libyaml-0-2:amd64
 libyaml-tiny-perl
@@ -1894,12 +1894,8 @@ libzvbi0:i386
 libzzip-0-13:amd64
 lightning
 linux-base
-linux-headers-5.2.14-msi
-linux-headers-5.3.0-msi
 linux-headers-5.3.1--msi
 linux-image-5.2.0-2-amd64
-linux-image-5.2.14-msi
-linux-image-5.3.0-msi
 linux-image-5.3.1--msi
 linux-image-amd64
 linux-libc-dev:amd64
