@@ -1139,7 +1139,7 @@ liblog-dispatch-perl
 liblog-log4perl-perl
 liblognorm5:amd64
 liblouis-data
-liblouis17:amd64
+liblouis19:amd64
 liblouisutdml-bin
 liblouisutdml-data
 liblouisutdml9:amd64

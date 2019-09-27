@@ -1419,7 +1419,7 @@ libpython3.7-minimal:amd64
 libpython3.7-stdlib:amd64
 libqmi-glib5:amd64
 libqmi-proxy
-libqpdf21:amd64
+libqpdf26:amd64
 libqt5core5a:amd64
 libqt5dbus5:amd64
 libqt5designer5:amd64
