@@ -920,6 +920,7 @@ libgmp10:amd64
 libgmp10:i386
 libgnome-bluetooth13:amd64
 libgnome-desktop-3-17:amd64
+libgnome-desktop-3-18:amd64
 libgnomekbd-common
 libgnomekbd8:amd64
 libgnustep-base1.26
