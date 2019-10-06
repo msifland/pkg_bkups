@@ -1049,7 +1049,6 @@ libieee1284-3:i386
 libigdgmm9:amd64
 libigdgmm9:i386
 libijs-0.35:amd64
-libilmbase23:amd64
 libilmbase24:amd64
 libimage-magick-perl
 libimage-magick-q16-perl
@@ -1289,7 +1288,6 @@ libopencore-amrnb0:amd64
 libopencore-amrwb0:amd64
 libopencsd-dev:amd64
 libopencsd0:amd64
-libopenexr23:amd64
 libopenexr24:amd64
 libopengl0:amd64
 libopenjp2-7:amd64
@@ -1555,6 +1553,7 @@ libspice-client-glib-2.0-8:amd64
 libspice-client-gtk-3.0-5:amd64
 libsqlite3-0:amd64
 libsratom-0-0:amd64
+libsrt1:amd64
 libsrtp2-1:amd64
 libss2:amd64
 libssh-gcrypt-4:amd64
@@ -1650,6 +1649,7 @@ libusb-1.0-0:i386
 libusbmuxd4:amd64
 libusbredirhost1:amd64
 libusbredirparser1:amd64
+libusrsctp1:amd64
 libutempter0:amd64
 libuuid1:amd64
 libuuid1:i386
@@ -1738,7 +1738,6 @@ libx11-xcb1:amd64
 libx11-xcb1:i386
 libx264-155:amd64
 libx264-155:i386
-libx265-165:amd64
 libx265-176:amd64
 libx265-176:i386
 libx32asan5
@@ -1894,12 +1893,12 @@ libzvbi0:i386
 libzzip-0-13:amd64
 lightning
 linux-base
-linux-headers-5.3.1--msi
+linux-headers-5.3.2-msi
 linux-image-5.2.0-3-amd64
-linux-image-5.3.1--msi
+linux-image-5.3.2-msi
 linux-image-amd64
 linux-libc-dev:amd64
-linux-perf-5.3.1
+linux-perf-5.3.2
 lm-sensors
 lmodern
 locales
