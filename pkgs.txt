@@ -2423,6 +2423,7 @@ xauth
 xbitmaps
 xbrlapi
 xclip
+xdg-dbus-proxy
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
