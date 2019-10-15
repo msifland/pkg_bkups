@@ -1131,7 +1131,8 @@ libldb2:amd64
 liblilv-0-0:amd64
 liblirc-client0:amd64
 libllvm8:amd64
-libllvm8:i386
+libllvm9:amd64
+libllvm9:i386
 liblmdb0:amd64
 liblocale-gettext-perl
 liblockfile-bin
