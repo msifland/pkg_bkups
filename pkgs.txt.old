@@ -292,6 +292,7 @@ gedit-plugin-find-in-files
 gedit-plugin-git
 gedit-plugin-join-lines
 gedit-plugin-multi-edit
+gedit-plugin-session-saver
 gedit-plugin-smart-spaces
 gedit-plugin-synctex
 gedit-plugin-terminal
@@ -607,7 +608,7 @@ libbluray2:amd64
 libboost-iostreams1.67.0:amd64
 libboost-program-options1.67.0:amd64
 libbrasero-media3-1:amd64
-libbrlapi0.6:amd64
+libbrlapi0.7:amd64
 libbrotli1:amd64
 libbs2b0:amd64
 libbsd0:amd64
