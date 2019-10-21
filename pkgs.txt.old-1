@@ -1004,7 +1004,7 @@ libgutenprint9
 libgvc6
 libgvnc-1.0-0:amd64
 libgvpr2:amd64
-libgweather-3-15:amd64
+libgweather-3-16:amd64
 libgweather-common
 libgxps2:amd64
 libharfbuzz-dev:amd64
@@ -1048,8 +1048,8 @@ libidn2-0:i386
 libiec61883-0:amd64
 libieee1284-3:amd64
 libieee1284-3:i386
-libigdgmm9:amd64
-libigdgmm9:i386
+libigdgmm11:amd64
+libigdgmm11:i386
 libijs-0.35:amd64
 libilmbase24:amd64
 libimage-magick-perl
