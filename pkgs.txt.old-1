@@ -832,6 +832,7 @@ libfontembed1:amd64
 libfontenc1:amd64
 libfreerdp-client2-2:amd64
 libfreerdp2-2:amd64
+libfreetype-dev:amd64
 libfreetype6:amd64
 libfreetype6:i386
 libfreetype6-dev:amd64
