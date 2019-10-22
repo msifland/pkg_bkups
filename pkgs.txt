@@ -1895,12 +1895,8 @@ libzvbi0:i386
 libzzip-0-13:amd64
 lightning
 linux-base
-linux-headers-5.3.5-msi
-linux-headers-5.3.6-msi
 linux-headers-5.3.7-msi
 linux-image-5.2.0-3-amd64
-linux-image-5.3.5-msi
-linux-image-5.3.6-msi
 linux-image-5.3.7-msi
 linux-image-amd64
 linux-libc-dev:amd64
