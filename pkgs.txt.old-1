@@ -1365,7 +1365,7 @@ libpcsclite1:amd64
 libpeas-1.0-0:amd64
 libpeas-1.0-python2loader:amd64
 libpeas-common
-libperl-dev
+libperl-dev:amd64
 libperl4-corelibs-perl
 libperl5.26:amd64
 libperl5.30:amd64
@@ -1534,8 +1534,8 @@ libsndfile1:i386
 libsndio7.0:amd64
 libsndio7.0:i386
 libsnmp-base
-libsnmp30:amd64
-libsnmp30:i386
+libsnmp35:amd64
+libsnmp35:i386
 libsodium23:amd64
 libsombok3:amd64
 libsonic0:amd64
