@@ -334,7 +334,6 @@ gir1.2-gucharmap-2.90:amd64
 gir1.2-harfbuzz-0.0:amd64
 gir1.2-javascriptcoregtk-4.0:amd64
 gir1.2-json-1.0:amd64
-gir1.2-mate-panel
 gir1.2-matedesktop-2.0:amd64
 gir1.2-matemenu-2.0:amd64
 gir1.2-matepanelapplet-4.0:amd64
@@ -1017,7 +1016,8 @@ libhavege1:amd64
 libhd21:amd64
 libheif1:amd64
 libhogweed4:amd64
-libhogweed4:i386
+libhogweed5:amd64
+libhogweed5:i386
 libhpmud0:amd64
 libhtml-form-perl
 libhtml-format-perl
@@ -1250,7 +1250,8 @@ libnet-ssleay-perl
 libnetfilter-conntrack3:amd64
 libnetpbm10
 libnettle6:amd64
-libnettle6:i386
+libnettle7:amd64
+libnettle7:i386
 libnewt-dev:amd64
 libnewt0.52:amd64
 libnfnetlink0:amd64
