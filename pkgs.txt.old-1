@@ -420,7 +420,6 @@ gvfs:amd64
 gvfs-backends
 gvfs-common
 gvfs-daemons
-gvfs-fuse
 gvfs-libs:amd64
 gzip
 haveged
@@ -840,7 +839,6 @@ libfribidi0:amd64
 libfribidi0:i386
 libfstrm0:amd64
 libfuse2:amd64
-libfuse3-3:amd64
 libfwupd2:amd64
 libgail-3-0:amd64
 libgail-common:amd64
