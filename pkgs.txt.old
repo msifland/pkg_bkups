@@ -1685,7 +1685,6 @@ libvorbis0a:i386
 libvorbisenc2:amd64
 libvorbisenc2:i386
 libvorbisfile3:amd64
-libvpx5:amd64
 libvpx6:amd64
 libvpx6:i386
 libvte-2.91-0:amd64
