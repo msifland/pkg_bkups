@@ -1795,6 +1795,7 @@ libxcb-xfixes0:amd64
 libxcb-xfixes0:i386
 libxcb-xfixes0-dev:amd64
 libxcb-xinerama0:amd64
+libxcb-xinput0:amd64
 libxcb-xkb1:amd64
 libxcb-xv0:amd64
 libxcb1:amd64
