@@ -1010,7 +1010,7 @@ libharfbuzz-gobject0:amd64
 libharfbuzz-icu0:amd64
 libharfbuzz0b:amd64
 libharfbuzz0b:i386
-libhavege1:amd64
+libhavege2:amd64
 libhd21:amd64
 libheif1:amd64
 libhogweed4:amd64
