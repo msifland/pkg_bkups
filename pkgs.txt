@@ -88,6 +88,7 @@ caja-wallpaper
 cargo
 caribou
 cdrdao
+cheese
 cheese-common
 chromium
 chromium-common
@@ -373,6 +374,7 @@ gnome-themes-extra:amd64
 gnome-themes-extra-data
 gnome-user-docs
 gnome-user-share
+gnome-video-effects
 gnupg
 gnupg-l10n
 gnupg-utils
@@ -1901,7 +1903,7 @@ linux-image-5.3.10-msi
 linux-image-5.3.9-msi
 linux-image-amd64
 linux-libc-dev:amd64
-linux-perf-5.3.9
+linux-perf-5.3.10
 lm-sensors
 lmodern
 locales
@@ -2291,6 +2293,7 @@ shared-mime-info
 shotwell
 shotwell-common
 simple-scan
+skypeforlinux
 software-properties-common
 sound-icons
 sound-theme-freedesktop
