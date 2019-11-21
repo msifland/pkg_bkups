@@ -789,6 +789,7 @@ libestr0:amd64
 libeval-closure-perl
 libevdev2:amd64
 libevent-2.1-6:amd64
+libevent-2.1-7:amd64
 libexception-class-perl
 libexempi8:amd64
 libexif12:amd64
@@ -883,7 +884,7 @@ libgfortran5:amd64
 libgif7:amd64
 libgimp2.0
 libgirepository-1.0-1:amd64
-libgit2-27:amd64
+libgit2-28:amd64
 libgit2-glib-1.0-0:amd64
 libgl1:amd64
 libgl1:i386
@@ -2052,6 +2053,7 @@ parted
 passwd
 patch
 patchutils
+pci.ids
 pciutils
 perl
 perl-base
