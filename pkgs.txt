@@ -1885,6 +1885,8 @@ libyajl2:amd64
 libyaml-0-2:amd64
 libyaml-tiny-perl
 libyelp0:amd64
+libz3-4:amd64
+libz3-4:i386
 libzbar0:amd64
 libzeitgeist-2.0-0:amd64
 libzen0v5:amd64
