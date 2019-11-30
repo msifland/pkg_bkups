@@ -1033,7 +1033,7 @@ libhttp-negotiate-perl
 libhttp-parser2.9:amd64
 libhunspell-1.7-0:amd64
 libhwloc-plugins:amd64
-libhwloc5:amd64
+libhwloc15:amd64
 libhyphen0:amd64
 libiberty-dev:amd64
 libibus-1.0-5:amd64
