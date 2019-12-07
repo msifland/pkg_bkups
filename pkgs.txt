@@ -250,6 +250,7 @@ fonts-symbola
 fonts-texgyre
 fonts-urw-base35
 fonts-vlgothic
+fonts-wine
 foomatic-db-compressed-ppds
 foomatic-db-engine
 freepats
@@ -357,6 +358,7 @@ git
 git-man
 gkbd-capplet
 glib-networking:amd64
+glib-networking:i386
 glib-networking-common
 glib-networking-services
 gnome-accessibility-themes
@@ -409,9 +411,11 @@ gstreamer1.0-plugins-bad:amd64
 gstreamer1.0-plugins-base:amd64
 gstreamer1.0-plugins-base:i386
 gstreamer1.0-plugins-good:amd64
+gstreamer1.0-plugins-good:i386
 gstreamer1.0-plugins-ugly:amd64
 gstreamer1.0-pulseaudio:amd64
 gstreamer1.0-x:amd64
+gstreamer1.0-x:i386
 gtk-update-icon-cache
 gtk2-engines:amd64
 gtk2-engines-murrine:amd64
@@ -499,6 +503,7 @@ lib32stdc++6
 lib32ubsan1
 liba52-0.7.4:amd64
 libaa1:amd64
+libaa1:i386
 libaacs0:amd64
 libaccountsservice0:amd64
 libacl1:amd64
@@ -569,6 +574,7 @@ libavahi-glib1:amd64
 libavahi-gobject0:amd64
 libavahi-ui-gtk3-0:amd64
 libavc1394-0:amd64
+libavc1394-0:i386
 libavcodec58:amd64
 libavcodec58:i386
 libavfilter7:amd64
@@ -610,6 +616,7 @@ libboost-program-options1.67.0:amd64
 libbrasero-media3-1:amd64
 libbrlapi0.7:amd64
 libbrotli1:amd64
+libbrotli1:i386
 libbs2b0:amd64
 libbsd0:amd64
 libbsd0:i386
@@ -628,9 +635,11 @@ libc6-dev-x32
 libc6-i386
 libc6-x32
 libcaca0:amd64
+libcaca0:i386
 libcacard0:amd64
 libcairo-gobject-perl
 libcairo-gobject2:amd64
+libcairo-gobject2:i386
 libcairo-perl
 libcairo-script-interpreter2:amd64
 libcairo2:amd64
@@ -762,6 +771,7 @@ libdrm-radeon1:i386
 libdrm2:amd64
 libdrm2:i386
 libdv4:amd64
+libdv4:i386
 libdvdnav4:amd64
 libdvdread7:amd64
 libdw-dev:amd64
@@ -805,6 +815,8 @@ libfaad2:amd64
 libfakeroot:amd64
 libfastjson4:amd64
 libfastutil-java
+libfaudio0:amd64
+libfaudio0:i386
 libfcgi-perl
 libfdisk1:amd64
 libffi-dev:amd64
@@ -995,6 +1007,7 @@ libgtop2-common
 libgts-0.7-5:amd64
 libgucharmap-2-90-7:amd64
 libgudev-1.0-0:amd64
+libgudev-1.0-0:i386
 libgupnp-1.0-4:amd64
 libgupnp-av-1.0-2
 libgupnp-dlna-2.0-3
@@ -1048,6 +1061,7 @@ libidn11:amd64
 libidn2-0:amd64
 libidn2-0:i386
 libiec61883-0:amd64
+libiec61883-0:i386
 libieee1284-3:amd64
 libieee1284-3:i386
 libigdgmm11:amd64
@@ -1242,6 +1256,7 @@ libnautilus-extension1a:amd64
 libncurses6:amd64
 libncurses6:i386
 libncursesw6:amd64
+libncursesw6:i386
 libndp0:amd64
 libnet-dbus-perl
 libnet-http-perl
@@ -1400,7 +1415,9 @@ libproxy1-plugin-gsettings:amd64
 libproxy1-plugin-networkmanager:amd64
 libproxy1-plugin-webkit:amd64
 libproxy1v5:amd64
+libproxy1v5:i386
 libpsl5:amd64
+libpsl5:i386
 libptexenc1:amd64
 libpthread-stubs0-dev:amd64
 libpulse-mainloop-glib0:amd64
@@ -1445,6 +1462,7 @@ libquadmath0:amd64
 libquvi-0.9-0.9.3:amd64
 libquvi-scripts-0.9
 libraw1394-11:amd64
+libraw1394-11:i386
 libraw19:amd64
 librda-common
 librda0:amd64
@@ -1519,10 +1537,12 @@ libsgutils2-2
 libshine3:amd64
 libshine3:i386
 libshout3:amd64
+libshout3:i386
 libsidplay1v5:amd64
 libsigc++-2.0-0v5:amd64
 libsigsegv2:amd64
 libslang2:amd64
+libslang2:i386
 libslang2-dev:amd64
 libsm-dev:amd64
 libsm6:amd64
@@ -1545,6 +1565,7 @@ libsord-0-0:amd64
 libsoundtouch1:amd64
 libsoup-gnome2.4-1:amd64
 libsoup2.4-1:amd64
+libsoup2.4-1:i386
 libsoxr0:amd64
 libsoxr0:i386
 libspandsp2:amd64
@@ -1557,6 +1578,7 @@ libspeexdsp1:amd64
 libspice-client-glib-2.0-8:amd64
 libspice-client-gtk-3.0-5:amd64
 libsqlite3-0:amd64
+libsqlite3-0:i386
 libsratom-0-0:amd64
 libsrt1:amd64
 libsrtp2-1:amd64
@@ -1567,6 +1589,8 @@ libssl-dev:amd64
 libssl1.1:amd64
 libssl1.1:i386
 libstartup-notification0:amd64
+libstb0:amd64
+libstb0:i386
 libstd-rust-1.37:amd64
 libstd-rust-dev:amd64
 libstdc++-9-dev:amd64
@@ -1589,7 +1613,9 @@ libsys-hostname-long-perl
 libsystemd0:amd64
 libsystemd0:i386
 libtag1v5:amd64
+libtag1v5:i386
 libtag1v5-vanilla:amd64
+libtag1v5-vanilla:i386
 libtagc0:amd64
 libtalloc2:amd64
 libtasn1-6:amd64
@@ -1716,6 +1742,10 @@ libwebpmux3:amd64
 libwebpmux3:i386
 libwebrtc-audio-processing1:amd64
 libwildmidi2:amd64
+libwine:amd64
+libwine:i386
+libwine-development:amd64
+libwine-development:i386
 libwinpr2-2:amd64
 libwmf-bin
 libwmf0.2-7:amd64
@@ -1872,6 +1902,7 @@ libxtables12:amd64
 libxtst-dev:amd64
 libxtst6:amd64
 libxv1:amd64
+libxv1:i386
 libxvidcore4:amd64
 libxvidcore4:i386
 libxvmc1:amd64
@@ -2412,10 +2443,13 @@ wamerican
 wayland-protocols
 wget
 whiptail
-wine-stable
+wine
+wine-development
 wine-stable-amd64
-wine-stable-i386:i386
-winehq-stable
+wine32:i386
+wine32-development:i386
+wine64
+wine64-development
 wireless-regdb
 wireless-tools
 wpasupplicant

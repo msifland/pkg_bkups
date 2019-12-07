@@ -1079,7 +1079,7 @@ libisc-export1100:amd64
 libisc1100:amd64
 libisccc161:amd64
 libisccfg163:amd64
-libisl21:amd64
+libisl22:amd64
 libisofs6:amd64
 libitm1:amd64
 libiw30:amd64
@@ -1792,7 +1792,6 @@ libxcb-sync-dev:amd64
 libxcb-sync1:amd64
 libxcb-sync1:i386
 libxcb-util0:amd64
-libxcb-xf86dri0:amd64
 libxcb-xfixes0:amd64
 libxcb-xfixes0:i386
 libxcb-xfixes0-dev:amd64
@@ -1904,6 +1903,7 @@ linux-headers-5.3.12-msi
 linux-headers-5.3.9-msi
 linux-headers-5.4.0-msi
 linux-headers-5.4.1-msi
+linux-headers-5.4.2-msi
 linux-image-5.3.0-2-amd64
 linux-image-5.3.10-msi
 linux-image-5.3.11-msi
@@ -1911,9 +1911,10 @@ linux-image-5.3.12-msi
 linux-image-5.3.9-msi
 linux-image-5.4.0-msi
 linux-image-5.4.1-msi
+linux-image-5.4.2-msi
 linux-image-amd64
 linux-libc-dev:amd64
-linux-perf-5.4.1
+linux-perf-5.4.2
 lm-sensors
 lmodern
 locales
