@@ -475,6 +475,8 @@ iucode-tool
 iw
 java-common
 javascript-common
+john
+john-data
 jq
 jshon
 kbd
@@ -720,6 +722,7 @@ libcurl3-gnutls:amd64
 libcurl4:amd64
 libcwidget4:amd64
 libdaemon0:amd64
+libdaq2
 libdata-dump-perl
 libdata-optlist-perl
 libdatrie1:amd64
@@ -770,6 +773,7 @@ libdrm-radeon1:amd64
 libdrm-radeon1:i386
 libdrm2:amd64
 libdrm2:i386
+libdumbnet1:amd64
 libdv4:amd64
 libdv4:i386
 libdvdnav4:amd64
@@ -1146,6 +1150,7 @@ libldap-2.4-2:i386
 libldap-common
 libldb2:amd64
 liblilv-0-0:amd64
+liblinear4:amd64
 liblirc-client0:amd64
 libllvm8:amd64
 libllvm9:amd64
@@ -2032,6 +2037,7 @@ mesa-vulkan-drivers:amd64
 mesa-vulkan-drivers:i386
 metacity
 metacity-common
+metasploit-framework
 mime-support
 mkgmap
 mkgmap-splitter
@@ -2056,17 +2062,22 @@ nautilus-sendto
 ncurses-base
 ncurses-bin
 ncurses-term
+net-tools
 netbase
+netcat
 netcat-traditional
 nethogs
 netpbm
 network-manager
 network-manager-gnome
+nmap
+nmap-common
 notification-daemon
 ntfs-3g
 obex-data-server
 ocl-icd-libopencl1:amd64
 ocl-icd-libopencl1:i386
+oinkmaster
 openjade
 openjdk-11-jre:amd64
 openjdk-11-jre-headless:amd64
@@ -2337,6 +2348,10 @@ shotwell
 shotwell-common
 simple-scan
 skypeforlinux
+snort
+snort-common
+snort-common-libraries
+snort-rules-default
 software-properties-common
 sound-icons
 sound-theme-freedesktop
