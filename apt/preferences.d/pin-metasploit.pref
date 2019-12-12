@@ -1,0 +1,3 @@
+Package: metasploit*
+Pin: origin downloads.metasploit.com
+Pin-Priority: 1000
