@@ -27,5 +27,8 @@
 # Update oh-my-zsh once a week
 0 1 * * * /home/msifland/scripts/cron_scripts/oh-my-zsh-updater-run
 
+# Update screenfetch one a week
+20 1 * * 5 /home/msifland/scripts/cron_scripts/screenfetch-update-run
+
 # Build a new OSM map for my Garmin on the first day of every month at 8pm
 #00 19 1 * * /home/msifland/scripts/cron_scripts/map-my-builder-run
