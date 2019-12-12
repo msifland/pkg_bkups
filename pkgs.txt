@@ -1104,7 +1104,7 @@ libjavascriptcoregtk-4.0-18:amd64
 libjbig0:amd64
 libjbig0:i386
 libjbig2dec0:amd64
-libjim0.77:amd64
+libjim0.79:amd64
 libjpeg-turbo-progs
 libjpeg62-turbo:amd64
 libjpeg62-turbo:i386
@@ -1120,7 +1120,7 @@ libjson-c4:amd64
 libjson-glib-1.0-0:amd64
 libjson-glib-1.0-common
 libjsoncpp1:amd64
-libjte2
+libjte2:amd64
 libjxr-tools
 libjxr0:amd64
 libk5crypto3:amd64

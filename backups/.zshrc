@@ -373,7 +373,7 @@ alias apt-list-s="apt list --installed | grep "$1""
 alias nethogs="sudo nethogs -p"
 alias matrix="cmatrix -a -s"
 alias apt-sources="subl /etc/apt/sources.list"
-alias apt-preferences="subl /etc/apt/preferences.d/preferences"
+alias apt-preferences="subl /etc/apt/preferences"
 
 ############# Paths #####################
 export PATH="$HOME/scripts:$PATH"
