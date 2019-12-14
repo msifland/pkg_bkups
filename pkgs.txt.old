@@ -1941,6 +1941,7 @@ linux-headers-5.3.9-msi
 linux-headers-5.4.0-msi
 linux-headers-5.4.1-msi
 linux-headers-5.4.2-msi
+linux-headers-5.4.3-msi
 linux-image-5.3.0-2-amd64
 linux-image-5.3.10-msi
 linux-image-5.3.11-msi
@@ -1949,9 +1950,10 @@ linux-image-5.3.9-msi
 linux-image-5.4.0-msi
 linux-image-5.4.1-msi
 linux-image-5.4.2-msi
+linux-image-5.4.3-msi
 linux-image-amd64
 linux-libc-dev:amd64
-linux-perf-5.4.2
+linux-perf-5.4.3
 lm-sensors
 lmodern
 locales
