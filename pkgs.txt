@@ -840,7 +840,7 @@ libfile-which-perl
 libflac8:amd64
 libflac8:i386
 libflite1:amd64
-libfluidsynth1:amd64
+libfluidsynth2:amd64
 libfont-afm-perl
 libfontconfig1:amd64
 libfontconfig1:i386
