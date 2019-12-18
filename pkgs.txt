@@ -1442,6 +1442,9 @@ libpython3.7:amd64
 libpython3.7-dev:amd64
 libpython3.7-minimal:amd64
 libpython3.7-stdlib:amd64
+libpython3.8:amd64
+libpython3.8-minimal:amd64
+libpython3.8-stdlib:amd64
 libqmi-glib5:amd64
 libqmi-proxy
 libqpdf26:amd64
