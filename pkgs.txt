@@ -153,6 +153,7 @@ debian-archive-keyring
 debian-faq
 debian-mate-default-settings
 debianutils
+debootstrap
 default-jre
 default-jre-headless
 desktop-base
@@ -1939,12 +1940,14 @@ lightning
 linux-base
 linux-headers-5.4.2-msi
 linux-headers-5.4.3-msi
+linux-headers-5.4.4-msi
 linux-image-5.3.0-3-amd64
 linux-image-5.4.2-msi
 linux-image-5.4.3-msi
+linux-image-5.4.4-msi
 linux-image-amd64
 linux-libc-dev:amd64
-linux-perf-5.4.3
+linux-perf-5.4.4
 lm-sensors
 lmodern
 locales
