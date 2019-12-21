@@ -245,7 +245,6 @@ fonts-noto-ui-extra
 fonts-noto-unhinted
 fonts-quicksand
 fonts-roboto-hinted
-fonts-roboto-slab
 fonts-roboto-unhinted
 fonts-symbola
 fonts-texgyre
@@ -1938,14 +1937,8 @@ libzvbi0:i386
 libzzip-0-13:amd64
 lightning
 linux-base
-linux-headers-5.4.2-msi
-linux-headers-5.4.3-msi
-linux-headers-5.4.4-msi
 linux-headers-5.4.5-msi
 linux-image-5.3.0-3-amd64
-linux-image-5.4.2-msi
-linux-image-5.4.3-msi
-linux-image-5.4.4-msi
 linux-image-5.4.5-msi
 linux-image-amd64
 linux-libc-dev:amd64
