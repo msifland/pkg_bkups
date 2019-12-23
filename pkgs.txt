@@ -1319,7 +1319,6 @@ libopengl0:amd64
 libopenjp2-7:amd64
 libopenjp2-7:i386
 libopenmpt0:amd64
-libopenobex2
 libopus0:amd64
 libopus0:i386
 liborc-0.4-0:amd64
@@ -1938,11 +1937,13 @@ libzzip-0-13:amd64
 lightning
 linux-base
 linux-headers-5.4.5-msi
+linux-headers-5.4.6-msi
 linux-image-5.3.0-3-amd64
 linux-image-5.4.5-msi
+linux-image-5.4.6-msi
 linux-image-amd64
 linux-libc-dev:amd64
-linux-perf-5.4.5
+linux-perf-5.4.6
 lm-sensors
 lmodern
 locales
@@ -2066,7 +2067,6 @@ nmap
 nmap-common
 notification-daemon
 ntfs-3g
-obex-data-server
 ocl-icd-libopencl1:amd64
 ocl-icd-libopencl1:i386
 oinkmaster
@@ -2168,8 +2168,6 @@ python-enum34
 python-future
 python-gi
 python-gmpy:amd64
-python-gobject
-python-gobject-2
 python-html5lib
 python-ipython
 python-ipython-genutils
