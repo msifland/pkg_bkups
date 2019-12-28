@@ -1152,7 +1152,6 @@ libldb2:amd64
 liblilv-0-0:amd64
 liblinear4:amd64
 liblirc-client0:amd64
-libllvm8:amd64
 libllvm9:amd64
 libllvm9:i386
 liblmdb0:amd64
@@ -1598,7 +1597,7 @@ libssl1.1:i386
 libstartup-notification0:amd64
 libstb0:amd64
 libstb0:i386
-libstd-rust-1.37:amd64
+libstd-rust-1.39:amd64
 libstd-rust-dev:amd64
 libstdc++-9-dev:amd64
 libstdc++6:amd64
@@ -2448,13 +2447,14 @@ wamerican
 wayland-protocols
 wget
 whiptail
-wine
-wine-development
+wine-stable
 wine-stable-amd64
+wine-stable-i386:i386
 wine32:i386
 wine32-development:i386
 wine64
 wine64-development
+winehq-stable
 wireless-regdb
 wireless-tools
 wpasupplicant
