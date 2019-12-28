@@ -691,8 +691,8 @@ libclutter-1.0-0:amd64
 libclutter-1.0-common
 libclutter-gst-3.0-0:amd64
 libclutter-gtk-1.0-0:amd64
-libcodec2-0.8.1:amd64
-libcodec2-0.8.1:i386
+libcodec2-0.9:amd64
+libcodec2-0.9:i386
 libcogl-common
 libcogl-pango20:amd64
 libcogl-path20:amd64
