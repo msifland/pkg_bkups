@@ -911,7 +911,6 @@ libgl1-mesa-glx:i386
 libglade2-0:amd64
 libglapi-mesa:amd64
 libglapi-mesa:i386
-libgle3:amd64
 libgles1:amd64
 libgles2:amd64
 libglew2.1:amd64
@@ -2498,8 +2497,6 @@ xorg-sgml-doctools
 xscreensaver
 xscreensaver-data
 xscreensaver-data-extra
-xscreensaver-gl
-xscreensaver-gl-extra
 xserver-common
 xserver-xephyr
 xserver-xorg
