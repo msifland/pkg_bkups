@@ -1935,11 +1935,13 @@ libzzip-0-13:amd64
 lightning
 linux-base
 linux-headers-5.4.6-msi
+linux-headers-5.4.7-msi
 linux-image-5.3.0-3-amd64
 linux-image-5.4.6-msi
+linux-image-5.4.7-msi
 linux-image-amd64
 linux-libc-dev:amd64
-linux-perf-5.4.6
+linux-perf-5.4.7
 lm-sensors
 lmodern
 locales
