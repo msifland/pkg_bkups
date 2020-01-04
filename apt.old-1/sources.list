@@ -21,4 +21,3 @@ deb https://download.sublimetext.com/ apt/stable/
 
 ###Wine
 deb https://dl.winehq.org/wine-builds/debian/ sid main
-#deb-src https://dl.winehq.org/wine-builds/debian/ sid main
