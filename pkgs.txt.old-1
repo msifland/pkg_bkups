@@ -1426,6 +1426,7 @@ libpotrace0:amd64
 libprocps7:amd64
 libprotobuf-c1:amd64
 libprotobuf-java
+libprotobuf17:amd64
 libproxy1-plugin-gsettings:amd64
 libproxy1-plugin-networkmanager:amd64
 libproxy1-plugin-webkit:amd64
@@ -1609,7 +1610,7 @@ libssl1.1:i386
 libstartup-notification0:amd64
 libstb0:amd64
 libstb0:i386
-libstd-rust-1.39:amd64
+libstd-rust-1.40:amd64
 libstd-rust-dev:amd64
 libstdc++-9-dev:amd64
 libstdc++6:amd64
@@ -1903,6 +1904,7 @@ libxml2-utils
 libxmlb1:amd64
 libxmu6:amd64
 libxmuu1:amd64
+libxnvctrl0:amd64
 libxpm4:amd64
 libxpm4:i386
 libxpp3-java
