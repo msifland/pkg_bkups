@@ -1866,12 +1866,6 @@ libxdmcp6:i386
 libxext-dev:amd64
 libxext6:amd64
 libxext6:i386
-libxfce4ui-2-0:amd64
-libxfce4ui-common
-libxfce4util-bin
-libxfce4util-common
-libxfce4util7:amd64
-libxfconf-0-3
 libxfixes-dev:amd64
 libxfixes3:amd64
 libxfixes3:i386
@@ -2512,14 +2506,12 @@ xdg-dbus-proxy
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
-xfconf
 xfonts-100dpi
 xfonts-75dpi
 xfonts-base
 xfonts-encodings
 xfonts-scalable
 xfonts-utils
-xfwm4
 xinit
 xkb-data
 xml-core
