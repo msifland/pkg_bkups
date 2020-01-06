@@ -2,8 +2,13 @@
 # ~/.bashrc
 #
 # The follow entry needs to be the first line of this file, it fixes this warning in terminal: ** (mate-session:26823): WARNING **: Couldn't register with accessibility bus: Did not receive a reply.
+
 export NO_AT_BRIDGE=1
 export TERM=xterm-256color
+
+# blesh, bash syntax highlighting.
+[[ $- == *i* ]] &&
+  source "$HOME/.local/share/blesh/ble.sh" --attach=none
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
@@ -475,6 +480,6 @@ function parse_git_dirty {
 }
 
 export PS1="
-\e[$ILCOLOR4\]\h⚡\e[$ILCOLOR3\]\u𒁍𒀖  \e[$ILCOLOR2\]\w\[\e[36m\]\`parse_git_branch\`\[\e[m\]\e[$ILCOLOR1\]
-      └──╼➤\\$\\$\\$\e[$ILRESTORE\]  "
-######################### End of My-Stuff ##########################
+\e[$ILCOLOR4\]\h⚡\e[$ILCOLOR3\]\u𒁍𒀖  \e[$ILCOLOR2\]\w\[\e[36m\]\`parse_git_branch\`\[\e[m\]\e[$ILCOLOR1\]\n      └──╼➤\\$\\$\\$\e[$ILRESTORE\] "
+# blesh, bash syntax highlighting.
+((_ble_bash)) && ble-attach

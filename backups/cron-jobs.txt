@@ -24,9 +24,6 @@
 # Run a check for new kernels
 45 6 * * * /home/msifland/scripts/cron_scripts/kernel-check-run
 
-# Update oh-my-zsh once a week
-0 1 * * * /home/msifland/scripts/cron_scripts/oh-my-zsh-updater-run
-
 # Update screenfetch one a week
 20 1 * * 5 /home/msifland/scripts/cron_scripts/screenfetch-update-run
 
