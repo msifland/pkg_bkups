@@ -7,8 +7,8 @@ export NO_AT_BRIDGE=1
 export TERM=xterm-256color
 
 # blesh, bash syntax highlighting.
-[[ $- == *i* ]] &&
-  source "$HOME/.local/share/blesh/ble.sh" --attach=none
+[[ $- == *i* ]] && source "$HOME/.local/share/blesh/ble.sh" --attach=none
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
