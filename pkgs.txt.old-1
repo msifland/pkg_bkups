@@ -1960,15 +1960,11 @@ linux-compiler-gcc-9-x86
 linux-headers-5.3.0-3-amd64
 linux-headers-5.3.0-3-common
 linux-headers-5.4.6-msi
-linux-headers-5.4.7
 linux-headers-5.4.7-msi
-linux-headers-5.4.8
 linux-headers-5.4.8-msi
 linux-image-5.3.0-3-amd64
 linux-image-5.4.6-msi
-linux-image-5.4.7
 linux-image-5.4.7-msi
-linux-image-5.4.8
 linux-image-5.4.8-msi
 linux-image-amd64
 linux-kbuild-5.3
@@ -2566,6 +2562,3 @@ zip
 zlib1g:amd64
 zlib1g:i386
 zlib1g-dev:amd64
-zsh
-zsh-common
-zsh-syntax-highlighting
