@@ -1699,7 +1699,7 @@ liburi-perl
 libusb-0.1-4:amd64
 libusb-1.0-0:amd64
 libusb-1.0-0:i386
-libusbmuxd4:amd64
+libusbmuxd6:amd64
 libusbredirhost1:amd64
 libusbredirparser1:amd64
 libusrsctp1:amd64

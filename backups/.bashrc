@@ -474,5 +474,6 @@ function parse_git_dirty {
 	fi
 }
 
-export PS1="\e[$ILCOLOR4\]\u@\e[$ILCOLOR3\]\h\e[$ILCOLOR2\]\w\\$\[\e[36m\]\`parse_git_branch\`\[\e[m\]\e[$ILCOLOR1\]--->\e[$ILRESTORE\] "
+export PS1="\e[$ILCOLOR4\]\u@\e[$ILCOLOR3\]\h\e[$ILCOLOR2\]\w\\$\[\e[36m\]\`parse_git_branch\`\[\e[m\]\e[$ILCOLOR1\]
+⫸⟿⮞⮞\e[$ILRESTORE\] "
 ######################### End of My-Stuff ##########################
