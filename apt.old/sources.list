@@ -8,7 +8,11 @@ deb-src http://deb.debian.org/debian/ testing-updates main contrib non-free
 deb http://security.debian.org testing-security main contrib non-free
 deb-src http://security.debian.org testing-security main contrib non-free
 
-###Unstable for app not available in testing branch.
+###Stable for apps not available in testing or unstable
+deb http://deb.debian.org/debian/ stable main non-free contrib
+deb-src http://deb.debian.org/debian/ stable main non-free contrib
+
+###Unstable for apps not available in testing branch.
 deb http://deb.debian.org/debian/ unstable main non-free contrib
 deb-src http://deb.debian.org/debian/ unstable main non-free contrib
 

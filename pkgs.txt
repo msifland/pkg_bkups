@@ -766,7 +766,7 @@ libdist-checkconflicts-perl
 libdjvulibre-text
 libdjvulibre21:amd64
 libdleyna-connector-dbus-1.0-1:amd64
-libdleyna-core-1.0-3:amd64
+libdleyna-core-1.0-5:amd64
 libdmapsharing-3.0-2:amd64
 libdns-export1104
 libdns1104:amd64
@@ -994,7 +994,7 @@ libgspell-1-1:amd64
 libgspell-1-common
 libgssapi-krb5-2:amd64
 libgssapi-krb5-2:i386
-libgssdp-1.0-3:amd64
+libgssdp-1.2-0:amd64
 libgstreamer-gl1.0-0:amd64
 libgstreamer-plugins-bad1.0-0:amd64
 libgstreamer-plugins-base1.0-0:amd64
@@ -1024,7 +1024,7 @@ libgts-0.7-5:amd64
 libgucharmap-2-90-7:amd64
 libgudev-1.0-0:amd64
 libgudev-1.0-0:i386
-libgupnp-1.0-4:amd64
+libgupnp-1.2-0:amd64
 libgupnp-av-1.0-2
 libgupnp-dlna-2.0-3
 libgupnp-igd-1.0-4:amd64
