@@ -285,7 +285,7 @@
 ## The following setting controls the delay of auto-complete after the last
 ## user input. The unit is millisecond.
 
-bleopt complete_auto_delay=600
+#bleopt complete_auto_delay=600
 
 
 ## When there are user inputs while generating completion candidates, the
