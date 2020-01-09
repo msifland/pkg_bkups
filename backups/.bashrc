@@ -323,11 +323,14 @@ function transfer(){ ##>Uploades files to https://transfer.sh
 function timed(){ ##>Times a process
 	START_TIME=$(date +"%s")
 	echo $(date +%m-%d-%Y) $(date +"%r")
+	echo
 	$*
+	END_TIME=$(date +"%s")
 	EXIT_CODE=$?
+	echo
 	echo $(date +%m-%d-%Y) $(date +"%r")
-	DIFF=$(( $END_TIME - $START_TIME ))
-	echo -e "\n⏰ $1 completed in $((($DIFF % 3600) / 60)) minutes $(($DIFF % 60)) seconds, exit code $EXIT_CODE."
+	DIFF=$(($END_TIME - $START_TIME))
+	echo "⏰ $1 completed in $((($DIFF % 3600) / 60)) minutes $(($DIFF % 60)) seconds, exit code $EXIT_CODE."
 }
 
 function goto-instructions(){ ##> Show how to use goto in scripts.
