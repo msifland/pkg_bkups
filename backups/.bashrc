@@ -320,17 +320,18 @@ function transfer(){ ##>Uploades files to https://transfer.sh
 	fi
 }
 
-function timed(){ ##>Times a process
+function timed(){
 	START_TIME=$(date +"%s")
-	echo $(date +%m-%d-%Y) $(date +"%r")
+	echo ${ILCOLOR4}$(date +%m-%d-%Y) $(date +"%r")
 	echo
-	$*
-	END_TIME=$(date +"%s")
-	EXIT_CODE=$?
-	echo
-	echo $(date +%m-%d-%Y) $(date +"%r")
-	DIFF=$(($END_TIME - $START_TIME))
-	echo "⏰ $1 completed in $((($DIFF % 3600) / 60)) minutes $(($DIFF % 60)) seconds, exit code $EXIT_CODE."
+    $*
+    EXIT_CODE=$?
+    END_TIME=$(date +"%s")
+    echo
+    echo ${ILCOLOR4}$(date +%m-%d-%Y) $(date +"%r")
+    DIFF=$(($END_TIME - $START_TIME))
+    result="$1 completed in $((($DIFF % 3600) / 60)) minutes $(($DIFF % 60)) seconds, exit code $EXIT_CODE."
+    echo -e "${ILCOLOR4}⏰  $result${ILRESTORE}"
 }
 
 function goto-instructions(){ ##> Show how to use goto in scripts.
@@ -410,25 +411,17 @@ alias matrix="cmatrix -a -s"
 alias apt-sources="subl /etc/apt/sources.list"
 alias apt-preferences="subl /etc/apt/preferences"
 
+
 ############# Paths #####################
 export PATH="$HOME/scripts:$PATH"
 export PATH="$HOME/scripts/kernel_scripts:$PATH"
 export PATH="$HOME/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 export ANDROID_HOME="$HOME/Android/Sdk:$ANDROID_HOME"
-export PATH="/usr/lib/jvm/default-java/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/Android/Sdk:$HOME/Android/Sdk/platform-tools:$HOME/Android/Sdk/tools:$HOME/Android/Sdk/build-tools/:$HOME/Android/android-studio/bin:$PATH"
+export PATH="/usr/lib/jvm/default-java/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$PATH"
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:$PATH"
-# This line specifically call the latest build tools number folder(mainly for building opengapps). It also deletes any older folders.
-export PATH="$(find $HOME/Android/Sdk/build-tools/ -mindepth 1 -maxdepth 1 -type d):$PATH"
 export PATH="/opt/wine-stable/bin:$PATH"
 
-# For android
-BLD_TOOLS_KEEP=$(ls -t $HOME/Android/Sdk/build-tools/ | head -n 1)
-find $HOME/Android/Sdk/build-tools/ -mindepth 1 -maxdepth 1 ! -name "$BLD_TOOLS_KEEP" -execdir rm -rf 2>/dev/null {} \+
-
-alias android-studio="detach /home/msifland/Android/android-studio/bin/studio.sh"
-
-export PATH="./prebuilts/sdk/tools:$PATH"
 #export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 
 # System configs
@@ -445,6 +438,7 @@ if [ "$PS1" ]; then
     wget "http://api.icndb.com/jokes/random" -qO- | jshon -e value -e joke -u
 echo
 fi
+
 # get current branch in git repo
 function parse_git_branch() {
 	BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
@@ -493,6 +487,6 @@ function parse_git_dirty {
 }
 
 export PS1="
-\e[$ILCOLOR4\]\h ⚡ \e[$ILCOLOR3\]\u𒁍𒀖  \e[$ILCOLOR2\]\w\[\e[36m\]\`parse_git_branch\`\[\e[m\]\e[$ILCOLOR1\]\n      └──╼➤\\$\\$\\$\e[$ILRESTORE\] "
+\e[$ILCOLOR4\]\h ⚡\e[$ILCOLOR3\]\u𒁍𒀖  \e[$ILCOLOR2\]\w\[\e[36m\]\`parse_git_branch\`\[\e[m\]\e[$ILCOLOR1\]\n      └──╼➤\\$\\$\\$\e[$ILRESTORE\] "
 # blesh, bash syntax highlighting.
 ((_ble_bash)) && ble-attach
