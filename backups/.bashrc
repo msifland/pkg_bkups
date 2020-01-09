@@ -320,6 +320,20 @@ function transfer(){ ##>Uploades files to https://transfer.sh
 	fi
 }
 
+function timed(){ ##>Times a process
+	START=$(date +%s.%N)
+	$*
+	EXIT_CODE=$?
+	END=$(date +%s.%N)
+	if ! dpkg --get-selections | grep -wq "bc"; then
+		sudo apt install bc
+	fi
+	DIFF=$(echo "$END - $START" | bc)
+	RES=$(python -c "diff = $DIFF; min = int(diff / 60); print('%s min' % min)")
+	result="$1 completed in $RES, exit code $EXIT_CODE."
+	echo -e "\n⏰  $result"
+}
+
 function goto-instructions(){ ##> Show how to use goto in scripts.
 	echo '
 	# Copy this text to your script
@@ -480,6 +494,6 @@ function parse_git_dirty {
 }
 
 export PS1="
-\e[$ILCOLOR4\]\h⚡\e[$ILCOLOR3\]\u𒁍𒀖  \e[$ILCOLOR2\]\w\[\e[36m\]\`parse_git_branch\`\[\e[m\]\e[$ILCOLOR1\]\n      └──╼➤\\$\\$\\$\e[$ILRESTORE\] "
+\e[$ILCOLOR4\]\h ⚡ \e[$ILCOLOR3\]\u𒁍𒀖  \e[$ILCOLOR2\]\w\[\e[36m\]\`parse_git_branch\`\[\e[m\]\e[$ILCOLOR1\]\n      └──╼➤\\$\\$\\$\e[$ILRESTORE\] "
 # blesh, bash syntax highlighting.
 ((_ble_bash)) && ble-attach
