@@ -321,17 +321,13 @@ function transfer(){ ##>Uploades files to https://transfer.sh
 }
 
 function timed(){ ##>Times a process
-	START=$(date +%s.%N)
+	START_TIME=$(date +"%s")
+	echo $(date +%m-%d-%Y) $(date +"%r")
 	$*
 	EXIT_CODE=$?
-	END=$(date +%s.%N)
-	if ! dpkg --get-selections | grep -wq "bc"; then
-		sudo apt install bc
-	fi
-	DIFF=$(echo "$END - $START" | bc)
-	RES=$(python -c "diff = $DIFF; min = int(diff / 60); print('%s min' % min)")
-	result="$1 completed in $RES, exit code $EXIT_CODE."
-	echo -e "\n⏰  $result"
+	echo $(date +%m-%d-%Y) $(date +"%r")
+	DIFF=$(( $END_TIME - $START_TIME ))
+	echo -e "\n⏰ $1 completed in $((($DIFF % 3600) / 60)) minutes $(($DIFF % 60)) seconds, exit code $EXIT_CODE."
 }
 
 function goto-instructions(){ ##> Show how to use goto in scripts.
