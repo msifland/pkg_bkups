@@ -248,6 +248,11 @@
 ## Settings for completion
 
 
+## Uncomment this to turn off autocomplete
+
+#bleopt complete_auto_complete=
+
+
 ## The following settings turn on/off the corresponding functionalities. When
 ## non-empty strings are set, the functionality is enabled. Otherwise, the
 ## functionality is inactive.
@@ -285,7 +290,7 @@
 ## The following setting controls the delay of auto-complete after the last
 ## user input. The unit is millisecond.
 
-#bleopt complete_auto_delay=600
+bleopt complete_auto_delay=600
 
 
 ## When there are user inputs while generating completion candidates, the
