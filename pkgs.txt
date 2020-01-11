@@ -260,6 +260,7 @@ foomatic-db-engine
 freepats
 freerdp2-x11
 fuse3
+fuseiso
 fwupd
 fwupd-amd64-signed
 g++
@@ -2182,7 +2183,6 @@ pulseaudio
 pulseaudio-module-bluetooth
 pulseaudio-utils
 pv
-pydf
 python
 python-apt
 python-apt-common
@@ -2490,6 +2490,7 @@ wine32-development:i386
 wine64
 wine64-development
 winehq-stable
+winetricks
 wireless-regdb
 wireless-tools
 wpasupplicant
