@@ -2182,6 +2182,7 @@ pulseaudio
 pulseaudio-module-bluetooth
 pulseaudio-utils
 pv
+pydf
 python
 python-apt
 python-apt-common
