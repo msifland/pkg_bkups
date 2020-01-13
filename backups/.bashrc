@@ -410,7 +410,7 @@ alias nethogs="sudo nethogs -p"
 alias matrix="cmatrix -a -s"
 alias apt-sources="subl /etc/apt/sources.list"
 alias apt-preferences="subl /etc/apt/preferences"
-
+alias redo='sudo $(fc -ln -1)'
 
 ############# Paths #####################
 export PATH="$HOME/scripts:$PATH"
