@@ -257,6 +257,8 @@ fonts-vlgothic
 fonts-wine
 foomatic-db-compressed-ppds
 foomatic-db-engine
+fortune-mod
+fortunes-min
 freepats
 freerdp2-x11
 fuse3
@@ -1493,6 +1495,7 @@ librda0:amd64
 libre2-5:amd64
 libreadline8:amd64
 libreadonly-perl
+librecode0:amd64
 libref-util-perl
 libref-util-xs-perl
 librest-0.7-0:amd64
@@ -2195,7 +2198,6 @@ python-babel-localedata
 python-backports-shutil-get-terminal-size
 python-backports.functools-lru-cache
 python-bs4
-python-caja
 python-caja-common
 python-chardet
 python-configparser
@@ -2248,6 +2250,7 @@ python3-babel
 python3-brlapi:amd64
 python3-bs4
 python3-cairo:amd64
+python3-caja
 python3-certifi
 python3-cffi-backend
 python3-chardet
