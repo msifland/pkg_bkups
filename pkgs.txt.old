@@ -1967,6 +1967,7 @@ linux-headers-5.3.0-3-common
 linux-headers-5.4.10-msi
 linux-headers-5.4.11-msi
 linux-headers-5.4.12-msi
+linux-headers-5.4.13-msi
 linux-headers-5.4.6-msi
 linux-headers-5.4.7-msi
 linux-headers-5.4.8-msi
@@ -1975,13 +1976,14 @@ linux-image-5.4.0-2-amd64
 linux-image-5.4.10-msi
 linux-image-5.4.11-msi
 linux-image-5.4.12-msi
+linux-image-5.4.13-msi
 linux-image-5.4.6-msi
 linux-image-5.4.7-msi
 linux-image-5.4.8-msi
 linux-image-amd64
 linux-kbuild-5.3
 linux-libc-dev:amd64
-linux-perf-5.4.12
+linux-perf-5.4.13
 lm-sensors
 lmodern
 locales
