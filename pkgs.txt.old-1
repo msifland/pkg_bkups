@@ -183,6 +183,7 @@ docbook-dsssl
 docbook-utils
 docbook-xml
 docbook-xsl
+docker
 docutils-common
 dosfstools
 dpkg
@@ -2503,6 +2504,7 @@ winehq-stable
 winetricks
 wireless-regdb
 wireless-tools
+wmdocker
 wpasupplicant
 wps-office
 x11-apps
