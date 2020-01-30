@@ -314,7 +314,6 @@ gedit-plugin-word-completion
 gedit-plugin-zeitgeist
 gedit-plugins
 gedit-plugins-common
-geoip-database
 gettext
 gettext-base
 ghostscript
@@ -777,7 +776,8 @@ libdleyna-connector-dbus-1.0-1:amd64
 libdleyna-core-1.0-5:amd64
 libdmapsharing-3.0-2:amd64
 libdns-export1104
-libdns1104:amd64
+libdns-export1107
+libdns1107:amd64
 libdotconf0:amd64
 libdouble-conversion3:amd64
 libdpkg-perl
@@ -917,7 +917,6 @@ libgegl-0.4-0:amd64
 libgegl-common
 libgeoclue-2-0:amd64
 libgeocode-glib0:amd64
-libgeoip1:amd64
 libgexiv2-2:amd64
 libgfortran5:amd64
 libgif7:amd64
@@ -1115,7 +1114,8 @@ libipt2
 libiptc0:amd64
 libiptcdata0
 libisc-export1100:amd64
-libisc1100:amd64
+libisc-export1104:amd64
+libisc1104:amd64
 libisccc161:amd64
 libisccfg163:amd64
 libisl22:amd64
@@ -1226,6 +1226,7 @@ libmatemixer-common
 libmatemixer0:amd64
 libmateweather-common
 libmateweather1:amd64
+libmaxminddb0:amd64
 libmbedcrypto3:amd64
 libmbedtls12:amd64
 libmbedx509-0:amd64
