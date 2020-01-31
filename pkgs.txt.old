@@ -732,6 +732,8 @@ libcrypt1:i386
 libcrypto++6
 libcryptsetup12:amd64
 libcryptui0a:amd64
+libctf-nobfd0:amd64
+libctf0:amd64
 libcue2:amd64
 libcups2:amd64
 libcups2:i386
