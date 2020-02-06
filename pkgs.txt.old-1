@@ -849,6 +849,8 @@ libfdisk1:amd64
 libffi-dev:amd64
 libffi6:amd64
 libffi6:i386
+libffi7:amd64
+libffi7:i386
 libffmpegthumbnailer4v5
 libfftw3-double3:amd64
 libfftw3-single3:amd64
@@ -932,6 +934,7 @@ libgl1:i386
 libgl1-mesa-dev:amd64
 libgl1-mesa-dri:amd64
 libgl1-mesa-dri:i386
+libgl1-mesa-glx:amd64
 libgl1-mesa-glx:i386
 libglade2-0:amd64
 libglapi-mesa:amd64
@@ -1724,6 +1727,7 @@ libv4lconvert0:amd64
 libv4lconvert0:i386
 libva-drm2:amd64
 libva-drm2:i386
+libva-wayland2:amd64
 libva-x11-2:amd64
 libva-x11-2:i386
 libva2:amd64
@@ -2363,6 +2367,7 @@ shotwell-common
 simple-scan
 skypeforlinux
 slick-greeter
+snapd
 snort
 snort-common
 snort-common-libraries
@@ -2457,6 +2462,7 @@ uuid-dev:amd64
 uuid-runtime
 va-driver-all:amd64
 va-driver-all:i386
+vainfo
 variety
 vdpau-driver-all:amd64
 vdpau-driver-all:i386
