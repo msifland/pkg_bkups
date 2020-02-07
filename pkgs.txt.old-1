@@ -394,6 +394,7 @@ gnustep-base-common
 gnustep-base-runtime
 gnustep-common
 gparted
+gparted-common
 gpg
 gpg-agent
 gpg-wks-client
@@ -825,7 +826,6 @@ libespeak-ng1:amd64
 libestr0:amd64
 libeval-closure-perl
 libevdev2:amd64
-libevent-2.1-6:amd64
 libevent-2.1-7:amd64
 libexception-class-perl
 libexempi8:amd64
@@ -939,6 +939,8 @@ libgl1-mesa-glx:i386
 libglade2-0:amd64
 libglapi-mesa:amd64
 libglapi-mesa:i386
+libgles-dev:amd64
+libgles1:amd64
 libgles2:amd64
 libglew2.1:amd64
 libglib-object-introspection-perl
@@ -952,6 +954,7 @@ libglib2.0-dev-bin
 libglibmm-2.4-1v5:amd64
 libglu1-mesa:amd64
 libglu1-mesa:i386
+libglvnd-dev:amd64
 libglvnd0:amd64
 libglvnd0:i386
 libglx-dev:amd64
@@ -1964,12 +1967,14 @@ lightning
 linux-base
 linux-headers-5.4.13-msi
 linux-headers-5.4.14-msi
+linux-headers-5.5.0-msi
 linux-image-5.4.0-3-amd64
 linux-image-5.4.13-msi
 linux-image-5.4.14-msi
+linux-image-5.5.0-msi
 linux-image-amd64
 linux-libc-dev:amd64
-linux-perf-5.4.14
+linux-perf-5.5
 lm-sensors
 lmodern
 locales
