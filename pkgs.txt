@@ -848,7 +848,6 @@ libfcgi-perl
 libfdisk1:amd64
 libffi-dev:amd64
 libffi6:amd64
-libffi6:i386
 libffi7:amd64
 libffi7:i386
 libffmpegthumbnailer4v5
