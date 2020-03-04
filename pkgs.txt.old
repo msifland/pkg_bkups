@@ -682,6 +682,7 @@ libcapi20-3:amd64
 libcapi20-3:i386
 libcaribou-common
 libcaribou0:amd64
+libcbor0:amd64
 libcc1-0:amd64
 libccolamd2:amd64
 libcddb2
@@ -785,7 +786,9 @@ libdleyna-core-1.0-5:amd64
 libdmapsharing-3.0-2:amd64
 libdns-export1104
 libdns-export1107
+libdns-export1109
 libdns1107:amd64
+libdns1109:amd64
 libdotconf0:amd64
 libdouble-conversion3:amd64
 libdpkg-perl
@@ -858,6 +861,7 @@ libffi7:i386
 libffmpegthumbnailer4v5
 libfftw3-double3:amd64
 libfftw3-single3:amd64
+libfido2-1:amd64
 libfile-basedir-perl
 libfile-desktopentry-perl
 libfile-fcntllock-perl
@@ -1130,7 +1134,9 @@ libiptc0:amd64
 libiptcdata0
 libisc-export1100:amd64
 libisc-export1104:amd64
+libisc-export1105:amd64
 libisc1104:amd64
+libisc1105:amd64
 libisccc161:amd64
 libisccfg163:amd64
 libisl22:amd64
