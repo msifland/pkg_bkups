@@ -785,9 +785,7 @@ libdleyna-connector-dbus-1.0-1:amd64
 libdleyna-core-1.0-5:amd64
 libdmapsharing-3.0-2:amd64
 libdns-export1104
-libdns-export1107
 libdns-export1109
-libdns1107:amd64
 libdns1109:amd64
 libdotconf0:amd64
 libdouble-conversion3:amd64
@@ -1133,9 +1131,7 @@ libipt2
 libiptc0:amd64
 libiptcdata0
 libisc-export1100:amd64
-libisc-export1104:amd64
 libisc-export1105:amd64
-libisc1104:amd64
 libisc1105:amd64
 libisccc161:amd64
 libisccfg163:amd64
