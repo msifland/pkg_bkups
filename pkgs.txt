@@ -1977,14 +1977,8 @@ lightdm-gtk-greeter
 lightdm-settings
 lightning
 linux-base
-linux-headers-5.5.2-msi
-linux-headers-5.5.3-msi
-linux-headers-5.5.6-msi
 linux-headers-5.5.7-msi
 linux-image-5.4.0-4-amd64
-linux-image-5.5.2-msi
-linux-image-5.5.3-msi
-linux-image-5.5.6-msi
 linux-image-5.5.7-msi
 linux-image-amd64
 linux-libc-dev:amd64
