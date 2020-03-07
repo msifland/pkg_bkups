@@ -1117,6 +1117,7 @@ libimobiledevice6:amd64
 libindicator3-7:amd64
 libinput-bin
 libinput10:amd64
+libinstpatch-1.0-2:amd64
 libio-html-perl
 libio-socket-ssl-perl
 libio-string-perl
@@ -1978,11 +1979,13 @@ lightdm-settings
 lightning
 linux-base
 linux-headers-5.5.7-msi
+linux-headers-5.5.8-msi
 linux-image-5.4.0-4-amd64
 linux-image-5.5.7-msi
+linux-image-5.5.8-msi
 linux-image-amd64
 linux-libc-dev:amd64
-linux-perf-5.5.7
+linux-perf-5.5.8
 lm-sensors
 lmodern
 locales
