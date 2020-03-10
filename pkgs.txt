@@ -543,6 +543,7 @@ libaprutil1-dbd-sqlite3:amd64
 libaprutil1-ldap:amd64
 libapt-inst2.0:amd64
 libapt-pkg5.0:amd64
+libapt-pkg6.0:amd64
 libarchive-zip-perl
 libarchive13:amd64
 libargon2-1:amd64
