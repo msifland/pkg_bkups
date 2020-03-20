@@ -313,7 +313,6 @@ gedit-plugin-synctex
 gedit-plugin-terminal
 gedit-plugin-translate
 gedit-plugin-word-completion
-gedit-plugin-zeitgeist
 gedit-plugins
 gedit-plugins-common
 gettext
@@ -527,6 +526,8 @@ libalgorithm-diff-perl
 libalgorithm-diff-xs-perl
 libalgorithm-merge-perl
 libamd2:amd64
+libamtk-5-0:amd64
+libamtk-5-common
 libann0
 libao-common
 libao4:amd64
@@ -1458,6 +1459,7 @@ libpopt0:amd64
 libpostproc55:amd64
 libpotrace0:amd64
 libprocps7:amd64
+libprocps8:amd64
 libprotobuf-c1:amd64
 libprotobuf-java
 libprotobuf17:amd64
@@ -1677,6 +1679,7 @@ libtcl8.6:amd64
 libtdb1:amd64
 libteamdctl0:amd64
 libteckit0:amd64
+libtepl-4-0:amd64
 libtest-fatal-perl
 libtevent0:amd64
 libtexlua53:amd64
@@ -1965,7 +1968,6 @@ libyelp0:amd64
 libz3-4:amd64
 libz3-4:i386
 libzbar0:amd64
-libzeitgeist-2.0-0:amd64
 libzen0v5:amd64
 libzmq5:amd64
 libzstd1:amd64
@@ -2306,6 +2308,8 @@ python3-yaml
 python3.7
 python3.7-dev
 python3.7-minimal
+python3.8
+python3.8-minimal
 qml-module-qtquick2:amd64
 qpdfview
 qpdfview-djvu-plugin
