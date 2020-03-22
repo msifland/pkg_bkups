@@ -872,6 +872,7 @@ libfile-stripnondeterminism-perl
 libfile-which-perl
 libflac8:amd64
 libflac8:i386
+libflashrom1:amd64
 libflite1:amd64
 libfluidsynth2:amd64
 libfont-afm-perl
@@ -891,6 +892,7 @@ libfribidi-dev:amd64
 libfribidi0:amd64
 libfribidi0:i386
 libfstrm0:amd64
+libftdi1-2:amd64
 libfuse2:amd64
 libfuse3-3:amd64
 libfwupd2:amd64
@@ -1983,8 +1985,10 @@ lightdm-gtk-greeter
 lightdm-settings
 lightning
 linux-base
+linux-headers-5.5.10-msi
 linux-headers-5.5.9-msi
 linux-image-5.4.0-4-amd64
+linux-image-5.5.10-msi
 linux-image-5.5.9-msi
 linux-image-amd64
 linux-libc-dev:amd64
