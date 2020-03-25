@@ -1296,7 +1296,7 @@ libmtp-runtime
 libmtp9:amd64
 libmuffin0
 libmutter-5-0:amd64
-libmypaint-1.3-0:amd64
+libmypaint-1.5-1:amd64
 libmypaint-common
 libmysofa1:amd64
 libnamespace-autoclean-perl
@@ -1573,7 +1573,6 @@ libsasl2-modules:i386
 libsasl2-modules-db:amd64
 libsasl2-modules-db:i386
 libsbc1:amd64
-libsdl1.2debian:amd64
 libsdl2-2.0-0:amd64
 libsdl2-2.0-0:i386
 libseccomp2:amd64
