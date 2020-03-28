@@ -1465,7 +1465,7 @@ libprocps7:amd64
 libprocps8:amd64
 libprotobuf-c1:amd64
 libprotobuf-java
-libprotobuf17:amd64
+libprotobuf22:amd64
 libproxy1-plugin-gsettings:amd64
 libproxy1-plugin-networkmanager:amd64
 libproxy1-plugin-webkit:amd64
@@ -1985,9 +1985,11 @@ lightdm-settings
 lightning
 linux-base
 linux-headers-5.5.10-msi
+linux-headers-5.5.13-msi
 linux-headers-5.5.9-msi
 linux-image-5.4.0-4-amd64
 linux-image-5.5.10-msi
+linux-image-5.5.13-msi
 linux-image-5.5.9-msi
 linux-image-amd64
 linux-libc-dev:amd64

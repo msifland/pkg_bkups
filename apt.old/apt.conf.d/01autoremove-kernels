@@ -2,38 +2,41 @@
 APT::NeverAutoRemove
 {
    "^linux-.*-5\.5\.10-msi$";
-   "^linux-.*-5\.5\.9-msi$";
+   "^linux-.*-5\.5\.13-msi$";
    "^kfreebsd-.*-5\.5\.10-msi$";
-   "^kfreebsd-.*-5\.5\.9-msi$";
+   "^kfreebsd-.*-5\.5\.13-msi$";
    "^gnumach-.*-5\.5\.10-msi$";
-   "^gnumach-.*-5\.5\.9-msi$";
+   "^gnumach-.*-5\.5\.13-msi$";
    "^.*-modules-5\.5\.10-msi$";
-   "^.*-modules-5\.5\.9-msi$";
+   "^.*-modules-5\.5\.13-msi$";
    "^.*-kernel-5\.5\.10-msi$";
-   "^.*-kernel-5\.5\.9-msi$";
+   "^.*-kernel-5\.5\.13-msi$";
 };
 /* Debug information:
 # dpkg list:
 ii  linux-image-5.4.0-4-amd64                      5.4.19-1                             amd64        Linux 5.4 for 64-bit PCs (signed)
-iF  linux-image-5.5.10-msi                         5.5.10-msi-1                         amd64        Linux kernel, version 5.5.10-msi
+ii  linux-image-5.5.10-msi                         5.5.10-msi-1                         amd64        Linux kernel, version 5.5.10-msi
+iF  linux-image-5.5.13-msi                         5.5.13-msi-1                         amd64        Linux kernel, version 5.5.13-msi
 ii  linux-image-5.5.9-msi                          5.5.9-msi-1                          amd64        Linux kernel, version 5.5.9-msi
 ii  linux-image-amd64                              5.4.19-1                             amd64        Linux for 64-bit PCs (meta-package)
 # list of installed kernel packages:
 5.4.0-4-amd64 5.4.19-1
 5.5.10-msi 5.5.10-msi-1
+5.5.13-msi 5.5.13-msi-1
 5.5.9-msi 5.5.9-msi-1
 # list of different kernel versions:
+5.5.13-msi-1
 5.5.10-msi-1
 5.5.9-msi-1
 5.4.19-1
-# Installing kernel: 5.5.10-msi-1 (5.5.10-msi)
-# Running kernel: 5.5.9-msi-1 (5.5.9-msi)
-# Last kernel: 5.5.10-msi-1
-# Previous kernel: 5.5.9-msi-1
+# Installing kernel: 5.5.13-msi-1 (5.5.13-msi)
+# Running kernel: 5.5.10-msi-1 (5.5.10-msi)
+# Last kernel: 5.5.13-msi-1
+# Previous kernel: 5.5.10-msi-1
 # Kernel versions list to keep:
 5.5.10-msi-1
-5.5.9-msi-1
+5.5.13-msi-1
 # Kernel packages (version part) to protect:
 5\.5\.10-msi
-5\.5\.9-msi
+5\.5\.13-msi
 */
