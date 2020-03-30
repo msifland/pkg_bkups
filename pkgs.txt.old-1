@@ -1489,10 +1489,10 @@ libpython2.7-stdlib:amd64
 libpython3-dev:amd64
 libpython3-stdlib:amd64
 libpython3.7:amd64
-libpython3.7-dev:amd64
 libpython3.7-minimal:amd64
 libpython3.7-stdlib:amd64
 libpython3.8:amd64
+libpython3.8-dev:amd64
 libpython3.8-minimal:amd64
 libpython3.8-stdlib:amd64
 libqmi-glib5:amd64
@@ -1984,13 +1984,9 @@ lightdm-gtk-greeter
 lightdm-settings
 lightning
 linux-base
-linux-headers-5.5.10-msi
 linux-headers-5.5.13-msi
-linux-headers-5.5.9-msi
 linux-image-5.4.0-4-amd64
-linux-image-5.5.10-msi
 linux-image-5.5.13-msi
-linux-image-5.5.9-msi
 linux-image-amd64
 linux-libc-dev:amd64
 linux-perf
@@ -2311,10 +2307,8 @@ python3-xapp
 python3-xdg
 python3-xlib
 python3-yaml
-python3.7
-python3.7-dev
-python3.7-minimal
 python3.8
+python3.8-dev
 python3.8-minimal
 qml-module-qtquick2:amd64
 qpdfview
