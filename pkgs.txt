@@ -252,7 +252,6 @@ fonts-noto-ui-core
 fonts-noto-ui-extra
 fonts-noto-unhinted
 fonts-quicksand
-fonts-roboto-hinted
 fonts-roboto-unhinted
 fonts-symbola
 fonts-texgyre
@@ -496,10 +495,11 @@ keyboard-configuration
 klibc-utils
 kmod
 kodi
-kodi-bin:amd64
+kodi-bin
 kodi-data
 kodi-repository-kodi
 kodi-visualization-spectrum:amd64
+kodi-x11
 krb5-locales
 laptop-detect
 less
@@ -891,6 +891,7 @@ libfreetype6-dev:amd64
 libfribidi-dev:amd64
 libfribidi0:amd64
 libfribidi0:i386
+libfstrcmp0
 libfstrm0:amd64
 libftdi1-2:amd64
 libfuse2:amd64
@@ -1323,7 +1324,6 @@ libnettle7:i386
 libnewt-dev:amd64
 libnewt0.52:amd64
 libnfnetlink0:amd64
-libnfs12:amd64
 libnfs13:amd64
 libnftnl11:amd64
 libnghttp2-14:amd64
@@ -1964,7 +1964,6 @@ libxxf86dga1:amd64
 libxxf86vm1:amd64
 libxxf86vm1:i386
 libxxhash0:amd64
-libyajl2:amd64
 libyaml-0-2:amd64
 libyaml-tiny-perl
 libyelp0:amd64
@@ -2213,8 +2212,6 @@ python-lxml:amd64
 python-minimal
 python-nautilus
 python-numpy
-python-olefile
-python-pil:amd64
 python-pkg-resources
 python-scour
 python-six
@@ -2277,6 +2274,7 @@ python3-pkg-resources
 python3-psutil
 python3-ptyprocess
 python3-pyatspi
+python3-pycryptodome
 python3-pycurl
 python3-pygments
 python3-pyparsing
