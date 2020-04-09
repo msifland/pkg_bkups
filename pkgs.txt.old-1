@@ -733,7 +733,6 @@ libconfig9:amd64
 libcpupower2
 libcrack2:amd64
 libcroco3:amd64
-libcroco3:i386
 libcrossguid0:amd64
 libcrypt-dev:amd64
 libcrypt1:amd64
@@ -1523,7 +1522,7 @@ libraw1394-11:i386
 libraw19:amd64
 librda-common
 librda0:amd64
-libre2-5:amd64
+libre2-6:amd64
 libreadline8:amd64
 libreadonly-perl
 librecode0:amd64
@@ -1984,8 +1983,10 @@ lightdm-settings
 lightning
 linux-base
 linux-headers-5.5.13-msi
+linux-headers-5.6.2-msi
 linux-image-5.4.0-4-amd64
 linux-image-5.5.13-msi
+linux-image-5.6.2-msi
 linux-image-amd64
 linux-libc-dev:amd64
 linux-perf
