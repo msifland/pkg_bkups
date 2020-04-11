@@ -1943,6 +1943,7 @@ libxrender-dev:amd64
 libxrender1:amd64
 libxrender1:i386
 libxres1:amd64
+libxsettings-client0
 libxshmfence1:amd64
 libxshmfence1:i386
 libxslt1.1:amd64
