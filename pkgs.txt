@@ -10,7 +10,6 @@ alsa-utils
 amd64-microcode
 anacron
 analog
-anydesk
 apache2
 apache2-bin
 apache2-data
@@ -190,7 +189,6 @@ docutils-common
 dosfstools
 dpkg
 dpkg-dev
-dropbox
 dvipng
 dvisvgm
 dwz
@@ -222,7 +220,6 @@ firmware-linux
 firmware-linux-free
 firmware-linux-nonfree
 firmware-misc-nonfree
-flashplugin-nonfree
 flex
 fluid-soundfont-gm
 fluid-soundfont-gs
@@ -754,6 +751,7 @@ libdaemon0:amd64
 libdaq2
 libdata-dump-perl
 libdata-optlist-perl
+libdatrie-dev:amd64
 libdatrie1:amd64
 libdatrie1:i386
 libdb5.3:amd64
@@ -1039,7 +1037,6 @@ libgtk2.0-0:amd64
 libgtk2.0-bin
 libgtk2.0-common
 libgtk3-perl
-libgtkglext1:amd64
 libgtkmm-2.4-1v5:amd64
 libgtkmm-3.0-1v5:amd64
 libgtksourceview-3.0-1:amd64
@@ -1391,14 +1388,12 @@ libpam-systemd:amd64
 libpam0g:amd64
 libpango-1.0-0:amd64
 libpango-1.0-0:i386
-libpango1.0-0:amd64
 libpango1.0-dev:amd64
 libpangocairo-1.0-0:amd64
 libpangocairo-1.0-0:i386
 libpangoft2-1.0-0:amd64
 libpangoft2-1.0-0:i386
 libpangomm-1.4-1v5:amd64
-libpangox-1.0-0:amd64
 libpangoxft-1.0-0:amd64
 libpaper-utils
 libpaper1:amd64
@@ -1690,6 +1685,7 @@ libtext-iconv-perl
 libtext-wrapi18n-perl
 libtfm1:amd64
 libthai-data
+libthai-dev:amd64
 libthai0:amd64
 libthai0:i386
 libtheora0:amd64
@@ -2388,6 +2384,7 @@ system-config-printer-udev
 system-tools-backends
 systemd
 systemd-sysv
+systemd-timesyncd
 sysvinit-utils
 t1utils
 tar
