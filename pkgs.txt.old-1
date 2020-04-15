@@ -804,7 +804,7 @@ libdumbnet1:amd64
 libdv4:amd64
 libdv4:i386
 libdvdnav4:amd64
-libdvdread7:amd64
+libdvdread8:amd64
 libdw-dev:amd64
 libdw1:amd64
 libdynaloader-functions-perl
