@@ -1482,9 +1482,6 @@ libpython2.7-minimal:amd64
 libpython2.7-stdlib:amd64
 libpython3-dev:amd64
 libpython3-stdlib:amd64
-libpython3.7:amd64
-libpython3.7-minimal:amd64
-libpython3.7-stdlib:amd64
 libpython3.8:amd64
 libpython3.8-dev:amd64
 libpython3.8-minimal:amd64
@@ -1643,7 +1640,7 @@ libssl1.1:i386
 libstartup-notification0:amd64
 libstb0:amd64
 libstb0:i386
-libstd-rust-1.40:amd64
+libstd-rust-1.42:amd64
 libstd-rust-dev:amd64
 libstdc++-9-dev:amd64
 libstdc++6:amd64
@@ -1980,12 +1977,12 @@ lightdm-settings
 lightning
 linux-base
 linux-headers-5.6.3-msi
-linux-image-5.4.0-4-amd64
+linux-image-5.5.0-1-amd64
 linux-image-5.6.3-msi
 linux-image-amd64
 linux-libc-dev:amd64
 linux-perf
-linux-perf-5.4
+linux-perf-5.5
 lm-sensors
 lmodern
 locales
