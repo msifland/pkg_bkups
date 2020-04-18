@@ -1530,7 +1530,7 @@ librsvg2-common:amd64
 librsvg2-common:i386
 librtmp1:amd64
 librubberband2:amd64
-libruby2.5:amd64
+libruby2.7:amd64
 librust-atk-sys-dev:amd64
 librust-cairo-sys-rs-dev:amd64
 librust-gdk-pixbuf-sys-dev:amd64
@@ -2326,7 +2326,7 @@ ruby-net-telnet
 ruby-power-assert
 ruby-test-unit
 ruby-xmlrpc
-ruby2.5
+ruby2.7
 rubygems-integration
 runit-helper
 rust-gdb
