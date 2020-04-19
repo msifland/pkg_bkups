@@ -976,7 +976,6 @@ libgme0:amd64
 libgmp10:amd64
 libgmp10:i386
 libgnome-bluetooth13:amd64
-libgnome-desktop-3-18:amd64
 libgnome-desktop-3-19:amd64
 libgnomekbd-common
 libgnomekbd8:amd64
@@ -1293,7 +1292,7 @@ libmtp-common
 libmtp-runtime
 libmtp9:amd64
 libmuffin0
-libmutter-5-0:amd64
+libmutter-6-0:amd64
 libmypaint-1.5-1:amd64
 libmypaint-common
 libmysofa1:amd64
@@ -1438,7 +1437,6 @@ libpgm-5.2-0:amd64
 libphodav-2.0-0:amd64
 libphodav-2.0-common
 libpipeline1:amd64
-libpipewire-0.2-1:amd64
 libpixman-1-0:amd64
 libpixman-1-0:i386
 libpixman-1-dev:amd64
