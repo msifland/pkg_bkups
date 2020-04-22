@@ -2485,11 +2485,8 @@ x11-session-utils
 x11-utils
 x11-xkb-utils
 x11-xserver-utils
-x11proto-composite-dev
 x11proto-core-dev
-x11proto-damage-dev
 x11proto-dev
-x11proto-fixes-dev
 x11proto-input-dev
 x11proto-randr-dev
 x11proto-record-dev
