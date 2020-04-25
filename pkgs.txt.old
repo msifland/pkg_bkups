@@ -193,6 +193,7 @@ dvipng
 dvisvgm
 dwz
 e2fsprogs
+ed
 eject
 emacsen-common
 enchant-2
@@ -579,6 +580,7 @@ libaudio2:amd64
 libaudit-common
 libaudit-dev:amd64
 libaudit1:amd64
+libaudqt2:amd64
 libaudtag3:amd64
 libauthen-sasl-perl
 libavahi-client3:amd64
@@ -1492,7 +1494,9 @@ libqt5dbus5:amd64
 libqt5designer5:amd64
 libqt5gui5:amd64
 libqt5help5:amd64
+libqt5multimedia5:amd64
 libqt5network5:amd64
+libqt5opengl5:amd64
 libqt5printsupport5:amd64
 libqt5qml5:amd64
 libqt5quick5:amd64
