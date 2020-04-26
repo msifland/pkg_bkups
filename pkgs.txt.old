@@ -52,6 +52,7 @@ bash
 bash-completion
 bc
 bind9-host
+bind9-libs:amd64
 binutils
 binutils-common:amd64
 binutils-dev
@@ -615,7 +616,6 @@ libbabeltrace1:amd64
 libbabl-0.1-0:amd64
 libbamf3-2:amd64
 libbdplus0:amd64
-libbind9-161:amd64
 libbinutils:amd64
 libbison-dev:amd64
 libblas3:amd64
@@ -728,7 +728,7 @@ libcommons-logging-java
 libcommons-parent-java
 libcompizconfig0
 libconfig9:amd64
-libcpupower2
+libcpupower1
 libcrack2:amd64
 libcroco3:amd64
 libcrossguid0:amd64
@@ -785,8 +785,7 @@ libdleyna-connector-dbus-1.0-1:amd64
 libdleyna-core-1.0-5:amd64
 libdmapsharing-3.0-2:amd64
 libdns-export1104
-libdns-export1109
-libdns1109:amd64
+libdns-export1110
 libdotconf0:amd64
 libdouble-conversion3:amd64
 libdpkg-perl
@@ -1135,9 +1134,6 @@ libiptc0:amd64
 libiptcdata0
 libisc-export1100:amd64
 libisc-export1105:amd64
-libisc1105:amd64
-libisccc161:amd64
-libisccfg163:amd64
 libisl22:amd64
 libisofs6:amd64
 libitm1:amd64
@@ -1216,7 +1212,6 @@ liblua5.2-0:amd64
 liblua5.3-0:amd64
 liblwp-mediatypes-perl
 liblwp-protocol-https-perl
-liblwres161:amd64
 liblz4-1:amd64
 liblz4-1:i386
 liblzma-dev:amd64
@@ -2198,7 +2193,6 @@ python-babel-localedata
 python-backports.functools-lru-cache
 python-bs4
 python-caja-common
-python-chardet
 python-dbus
 python-gi
 python-html5lib

@@ -873,6 +873,7 @@ libflite1:amd64
 libfluidsynth2:amd64
 libfont-afm-perl
 libfontbox-java
+libfontconfig-dev:amd64
 libfontconfig1:amd64
 libfontconfig1:i386
 libfontconfig1-dev:amd64
