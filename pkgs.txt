@@ -673,6 +673,7 @@ libcanberra-gtk3-0:amd64
 libcanberra-gtk3-module:amd64
 libcanberra-pulse:amd64
 libcanberra0:amd64
+libcap-dev:amd64
 libcap-ng-dev
 libcap-ng0:amd64
 libcap2:amd64
@@ -1974,8 +1975,10 @@ lightdm-settings
 lightning
 linux-base
 linux-headers-5.6.3-msi
+linux-headers-5.6.7-msi
 linux-image-5.5.0-2-amd64
 linux-image-5.6.3-msi
+linux-image-5.6.7-msi
 linux-image-amd64
 linux-libc-dev:amd64
 linux-perf
@@ -1998,6 +2001,7 @@ lua-socket:amd64
 lutris
 lynx
 lynx-common
+lz4
 m4
 make
 man-db
