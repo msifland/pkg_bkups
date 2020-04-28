@@ -1325,6 +1325,7 @@ libnl-3-200:amd64
 libnl-genl-3-200:amd64
 libnl-route-3-200:amd64
 libnm0:amd64
+libnma-common
 libnma0:amd64
 libnorm1:amd64
 libnotify4:amd64
