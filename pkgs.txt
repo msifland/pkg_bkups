@@ -2410,6 +2410,7 @@ texlive-lang-greek
 texlive-latex-base
 texlive-latex-extra
 texlive-latex-recommended
+texlive-luatex
 texlive-pictures
 texlive-plain-generic
 texlive-science
