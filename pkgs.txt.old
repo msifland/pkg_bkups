@@ -1040,6 +1040,7 @@ libgtk2.0-0:amd64
 libgtk2.0-bin
 libgtk2.0-common
 libgtk3-perl
+libgtkglext1:amd64
 libgtkmm-3.0-1v5:amd64
 libgtksourceview-3.0-1:amd64
 libgtksourceview-3.0-common
@@ -1393,7 +1394,9 @@ libpangocairo-1.0-0:i386
 libpangoft2-1.0-0:amd64
 libpangoft2-1.0-0:i386
 libpangomm-1.4-1v5:amd64
+libpangox-1.0-0:amd64
 libpangoxft-1.0-0:amd64
+libpangoxft-1.0-0:i386
 libpaper-utils
 libpaper1:amd64
 libparams-classify-perl
@@ -1900,6 +1903,7 @@ libxfixes3:i386
 libxfont2:amd64
 libxft-dev:amd64
 libxft2:amd64
+libxft2:i386
 libxi-dev:amd64
 libxi6:amd64
 libxi6:i386
@@ -2134,7 +2138,7 @@ p7zip
 p7zip-full
 packagekit
 packagekit-tools
-pango1.0-tools
+pango1.0-tools:i386
 papirus-icon-theme
 parted
 passwd
