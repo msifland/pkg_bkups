@@ -2112,6 +2112,7 @@ network-manager
 network-manager-gnome
 nmap
 nmap-common
+node-jquery
 notification-daemon
 ntfs-3g
 numlockx
