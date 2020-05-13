@@ -1836,7 +1836,6 @@ libx32atomic1
 libx32gcc-8-dev
 libx32gcc-9-dev
 libx32gcc-s1
-libx32gcc1
 libx32gomp1
 libx32itm1
 libx32quadmath0
@@ -1983,9 +1982,11 @@ lightdm-gtk-greeter
 lightdm-settings
 lightning
 linux-base
+linux-headers-5.6.12-msi
 linux-headers-5.6.3-msi
 linux-headers-5.6.7-msi
 linux-image-5.6.0-1-amd64
+linux-image-5.6.12-msi
 linux-image-5.6.3-msi
 linux-image-5.6.7-msi
 linux-image-amd64
