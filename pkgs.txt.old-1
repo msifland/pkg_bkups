@@ -1015,7 +1015,7 @@ libgs9-common
 libgsf-1-114:amd64
 libgsf-1-common
 libgsf-bin
-libgsl23:amd64
+libgsl25:amd64
 libgslcblas0:amd64
 libgsm1:amd64
 libgsm1:i386
