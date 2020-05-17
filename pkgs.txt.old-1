@@ -152,6 +152,7 @@ dconf-cli
 dconf-editor
 dconf-gsettings-backend:amd64
 dconf-service
+deb-multimedia-keyring
 debconf
 debconf-i18n
 debhelper
@@ -520,6 +521,7 @@ libaa1:i386
 libaacs0:amd64
 libaccountsservice0:amd64
 libacl1:amd64
+libadplug-2.3.1-0
 libalgorithm-c3-perl
 libalgorithm-diff-perl
 libalgorithm-diff-xs-perl
@@ -547,6 +549,8 @@ libapt-pkg6.0:amd64
 libarchive-zip-perl
 libarchive13:amd64
 libargon2-1:amd64
+libaribb24-0:amd64
+libaribb24-0:i386
 libasan5:amd64
 libasound2:amd64
 libasound2:i386
@@ -582,7 +586,6 @@ libaudio2:amd64
 libaudit-common
 libaudit-dev:amd64
 libaudit1:amd64
-libaudqt2:amd64
 libaudtag3:amd64
 libauthen-sasl-perl
 libavahi-client3:amd64
@@ -616,7 +619,7 @@ libbabeltrace-dev:amd64
 libbabeltrace1:amd64
 libbabl-0.1-0:amd64
 libbamf3-2:amd64
-libbdplus0:amd64
+libbinio1v5:amd64
 libbinutils:amd64
 libbison-dev:amd64
 libblas3:amd64
@@ -691,6 +694,7 @@ libcddb2
 libcdio-cdda2:amd64
 libcdio-paranoia2:amd64
 libcdio18:amd64
+libcdio19:amd64
 libcdparanoia0:amd64
 libcdparanoia0:i386
 libcdr-0.1-1:amd64
@@ -758,6 +762,8 @@ libdata-optlist-perl
 libdatrie-dev:amd64
 libdatrie1:amd64
 libdatrie1:i386
+libdav1d4:amd64
+libdav1d4:i386
 libdb5.3:amd64
 libdb5.3:i386
 libdbus-1-3:amd64
@@ -845,6 +851,7 @@ libexpat1-dev:amd64
 libext2fs2:amd64
 libextutils-depends-perl
 libextutils-pkgconfig-perl
+libfaac0:amd64
 libfaad2:amd64
 libfakeroot:amd64
 libfastjson4:amd64
@@ -853,11 +860,13 @@ libfaudio0:amd64
 libfaudio0:i386
 libfcgi-perl
 libfdisk1:amd64
+libfdk-aac2:amd64
+libfdk-aac2:i386
 libffi-dev:amd64
 libffi6:amd64
 libffi7:amd64
 libffi7:i386
-libffmpegthumbnailer4v5
+libffmpegthumbnailer4v5:amd64
 libfftw3-double3:amd64
 libfftw3-single3:amd64
 libfido2-1:amd64
@@ -1115,6 +1124,8 @@ libieee1284-3:i386
 libigdgmm11:amd64
 libigdgmm11:i386
 libijs-0.35:amd64
+libilbc2:amd64
+libilbc2:i386
 libilmbase24:amd64
 libimage-magick-perl
 libimage-magick-q16-perl
@@ -1183,6 +1194,8 @@ libkrb5-3:i386
 libkrb5support0:amd64
 libkrb5support0:i386
 libksba8:amd64
+libkvazaar6:amd64
+libkvazaar6:i386
 liblab-gamut1:amd64
 liblapack3:amd64
 liblcms2-2:amd64
@@ -1192,6 +1205,9 @@ libldap-2.4-2:amd64
 libldap-2.4-2:i386
 libldap-common
 libldb2:amd64
+liblensfun-data-v1
+liblensfun1:amd64
+liblept5:amd64
 liblightdm-gobject-1-0:amd64
 liblilv-0-0:amd64
 liblinear4:amd64
@@ -1210,6 +1226,7 @@ liblouisutdml-bin
 liblouisutdml-data
 liblouisutdml9:amd64
 liblqr-1-0:amd64
+liblrdf0
 liblsan0:amd64
 libltdl7:amd64
 libltdl7:i386
@@ -1257,6 +1274,7 @@ libmediaart-2.0-0:amd64
 libmediainfo0v5:amd64
 libmetacity1:amd64
 libmetis5:amd64
+libmfx1:amd64
 libmicrohttpd12
 libmime-charset-perl
 libmime-lite-perl
@@ -1356,12 +1374,16 @@ libopenal-data
 libopenal1:amd64
 libopenal1:i386
 libopencore-amrnb0:amd64
+libopencore-amrnb0:i386
 libopencore-amrwb0:amd64
+libopencore-amrwb0:i386
 libopencsd-dev:amd64
 libopencsd0:amd64
 libopenexr24:amd64
 libopengl-dev:amd64
 libopengl0:amd64
+libopenh264-5:amd64
+libopenh264-5:i386
 libopenjp2-7:amd64
 libopenjp2-7:i386
 libopenmpt0:amd64
@@ -1500,9 +1522,7 @@ libqt5dbus5:amd64
 libqt5designer5:amd64
 libqt5gui5:amd64
 libqt5help5:amd64
-libqt5multimedia5:amd64
 libqt5network5:amd64
-libqt5opengl5:amd64
 libqt5printsupport5:amd64
 libqt5qml5:amd64
 libqt5quick5:amd64
@@ -1516,6 +1536,7 @@ libqt5xml5:amd64
 libquadmath0:amd64
 libquvi-0.9-0.9.3:amd64
 libquvi-scripts-0.9
+libraptor2-0:amd64
 libraw1394-11:amd64
 libraw1394-11:i386
 libraw19:amd64
@@ -1639,7 +1660,6 @@ libsratom-0-0:amd64
 libsrt1:amd64
 libsrtp2-1:amd64
 libss2:amd64
-libssh-gcrypt-4:amd64
 libssh2-1:amd64
 libssl-dev:amd64
 libssl1.1:amd64
@@ -1680,6 +1700,7 @@ libtdb1:amd64
 libteamdctl0:amd64
 libteckit0:amd64
 libtepl-4-0:amd64
+libtesseract4:amd64
 libtest-fatal-perl
 libtevent0:amd64
 libtexlua53:amd64
@@ -1736,7 +1757,6 @@ libusb-1.0-0:i386
 libusbmuxd6:amd64
 libusbredirhost1:amd64
 libusbredirparser1:amd64
-libusrsctp1:amd64
 libutempter0:amd64
 libuuid1:amd64
 libuuid1:i386
@@ -1763,8 +1783,10 @@ libvisual-0.4-0:amd64
 libvisual-0.4-0:i386
 libvkd3d1:amd64
 libvkd3d1:i386
+libvmaf0
 libvo-aacenc0:amd64
 libvo-amrwbenc0:amd64
+libvo-amrwbenc0:i386
 libvolume-key1
 libvorbis0a:amd64
 libvorbis0a:i386
@@ -1828,10 +1850,11 @@ libx11-dev:amd64
 libx11-protocol-perl
 libx11-xcb1:amd64
 libx11-xcb1:i386
-libx264-155:amd64
-libx264-155:i386
+libx264-160:amd64
+libx264-160:i386
 libx265-179:amd64
-libx265-179:i386
+libx265-188:amd64
+libx265-188:i386
 libx32asan5
 libx32atomic1
 libx32gcc-8-dev
@@ -1964,6 +1987,7 @@ libxxf86dga1:amd64
 libxxf86vm1:amd64
 libxxf86vm1:i386
 libxxhash0:amd64
+libyajl2:amd64
 libyaml-0-2:amd64
 libyaml-tiny-perl
 libyelp0:amd64
@@ -1971,6 +1995,7 @@ libz3-4:amd64
 libz3-4:i386
 libzbar0:amd64
 libzen0v5:amd64
+libzimg2:amd64
 libzmq5:amd64
 libzstd1:amd64
 libzstd1:i386
