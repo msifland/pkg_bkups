@@ -1865,7 +1865,7 @@ libx32itm1
 libx32quadmath0
 libx32stdc++6
 libx32ubsan1
-libx86emu2:amd64
+libx86emu3:amd64
 libxapian30:amd64
 libxatracker2:amd64
 libxau-dev:amd64
