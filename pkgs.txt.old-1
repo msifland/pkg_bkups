@@ -2238,9 +2238,8 @@ python-caja-common
 python-dbus
 python-gi
 python-minimal
+python-natsort-doc
 python-nautilus
-python-wxgtk3.0
-python-wxversion
 python2
 python2-minimal
 python2.7
@@ -2287,6 +2286,7 @@ python3-mako
 python3-markupsafe
 python3-minimal
 python3-multibootusb
+python3-natsort
 python3-numpy
 python3-olefile
 python3-openssl
@@ -2324,6 +2324,7 @@ python3-talloc:amd64
 python3-tz
 python3-urllib3
 python3-webencodings
+python3-wxgtk4.0
 python3-xapp
 python3-xdg
 python3-xlib
