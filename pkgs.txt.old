@@ -1721,7 +1721,7 @@ libtiff5:i386
 libtimedate-perl
 libtinfo6:amd64
 libtinfo6:i386
-libtinyxml2-6a:amd64
+libtinyxml2-8:amd64
 libtinyxml2.6.2v5:amd64
 libtk8.6:amd64
 libtool
