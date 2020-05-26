@@ -531,8 +531,8 @@ libamtk-5-common
 libann0
 libao-common
 libao4:amd64
-libaom0:amd64
-libaom0:i386
+libaom2:amd64
+libaom2:i386
 libapache-pom-java
 libapache2-mod-dnssd
 libapparmor1:amd64
@@ -1380,8 +1380,8 @@ libopencsd0:amd64
 libopenexr24:amd64
 libopengl-dev:amd64
 libopengl0:amd64
-libopenh264-5:amd64
-libopenh264-5:i386
+libopenh264-6:amd64
+libopenh264-6:i386
 libopenjp2-7:amd64
 libopenjp2-7:i386
 libopenmpt0:amd64

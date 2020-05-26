@@ -508,7 +508,6 @@ lib32atomic1
 lib32gcc-8-dev
 lib32gcc-9-dev
 lib32gcc-s1
-lib32gcc1
 lib32gomp1
 lib32itm1
 lib32mpx2
@@ -917,7 +916,6 @@ libgcc-8-dev:amd64
 libgcc-9-dev:amd64
 libgcc-s1:amd64
 libgcc-s1:i386
-libgcc1
 libgck-1-0:amd64
 libgconf-2-4:amd64
 libgcr-base-3-1:amd64
