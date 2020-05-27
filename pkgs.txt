@@ -699,15 +699,12 @@ libcdparanoia0:i386
 libcdr-0.1-1:amd64
 libcdt5:amd64
 libcec4:amd64
-libcgi-fast-perl
-libcgi-pm-perl
 libcgraph6:amd64
 libcheese-gtk25:amd64
 libcheese8:amd64
 libcholmod3:amd64
 libchromaprint1:amd64
 libclamav9:amd64
-libclass-accessor-perl
 libclass-c3-perl
 libclass-c3-xs-perl
 libclass-data-inheritable-perl
@@ -857,7 +854,6 @@ libfastjson4:amd64
 libfastutil-java
 libfaudio0:amd64
 libfaudio0:i386
-libfcgi-perl
 libfdisk1:amd64
 libfdk-aac2:amd64
 libfdk-aac2:i386
@@ -1136,7 +1132,6 @@ libinput10:amd64
 libinstpatch-1.0-2:amd64
 libio-html-perl
 libio-socket-ssl-perl
-libio-string-perl
 libio-stringy-perl
 libip4tc0:amd64
 libip4tc2:amd64
@@ -1424,7 +1419,6 @@ libpaper1:amd64
 libparams-classify-perl
 libparams-util-perl
 libparams-validationcompiler-perl
-libparse-debianchangelog-perl
 libparted-fs-resize0:amd64
 libparted2:amd64
 libpathplan4:amd64
@@ -1514,6 +1508,8 @@ libpython3.8-stdlib:amd64
 libqmi-glib5:amd64
 libqmi-proxy
 libqpdf28:amd64
+libqscintilla2-qt5-15
+libqscintilla2-qt5-l10n
 libqt5concurrent5:amd64
 libqt5core5a:amd64
 libqt5dbus5:amd64
@@ -2391,6 +2387,7 @@ sphinx-common
 sphinx-rtd-theme-common
 spice-client-glib-usb-acl-helper
 spotify-client
+sqlitebrowser
 squashfs-tools
 ssl-cert
 steam:i386
