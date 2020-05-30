@@ -236,6 +236,7 @@ fonts-droid-fallback
 fonts-font-awesome
 fonts-gfs-baskerville
 fonts-gfs-porson
+fonts-glewlwyd
 fonts-lato
 fonts-liberation
 fonts-lmodern
@@ -497,8 +498,7 @@ kmod
 kodi
 kodi-bin
 kodi-data
-kodi-repository-kodi
-kodi-visualization-spectrum:amd64
+kodi-visualization-spectrum
 kodi-x11
 krb5-locales
 laptop-detect
@@ -699,6 +699,7 @@ libcdparanoia0:i386
 libcdr-0.1-1:amd64
 libcdt5:amd64
 libcec4:amd64
+libcec5:amd64
 libcgraph6:amd64
 libcheese-gtk25:amd64
 libcheese8:amd64
@@ -2228,6 +2229,7 @@ python-gi
 python-minimal
 python-natsort-doc
 python-nautilus
+python-pil:amd64
 python2
 python2-minimal
 python2.7
