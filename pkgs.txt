@@ -1847,6 +1847,7 @@ libx264-160:i386
 libx265-179:amd64
 libx265-188:amd64
 libx265-188:i386
+libx265-192:amd64
 libx32asan5
 libx32atomic1
 libx32gcc-8-dev
