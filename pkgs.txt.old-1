@@ -246,13 +246,11 @@ fonts-noto-cjk-extra
 fonts-noto-color-emoji
 fonts-noto-core
 fonts-noto-extra
-fonts-noto-hinted
 fonts-noto-mono
 fonts-noto-ui-core
 fonts-noto-ui-extra
 fonts-noto-unhinted
 fonts-quicksand
-fonts-roboto-unhinted
 fonts-symbola
 fonts-texgyre
 fonts-urw-base35
@@ -494,10 +492,6 @@ kernel-wedge
 keyboard-configuration
 klibc-utils
 kmod
-kodi
-kodi-bin
-kodi-data
-kodi-x11
 krb5-locales
 laptop-detect
 less
@@ -696,7 +690,6 @@ libcdparanoia0:amd64
 libcdparanoia0:i386
 libcdr-0.1-1:amd64
 libcdt5:amd64
-libcec4:amd64
 libcgraph6:amd64
 libcheese-gtk25:amd64
 libcheese8:amd64
@@ -732,7 +725,6 @@ libconfig9:amd64
 libcpupower1
 libcrack2:amd64
 libcroco3:amd64
-libcrossguid0:amd64
 libcrypt-dev:amd64
 libcrypt1:amd64
 libcrypt1:i386
@@ -893,7 +885,6 @@ libfreetype6-dev:amd64
 libfribidi-dev:amd64
 libfribidi0:amd64
 libfribidi0:i386
-libfstrcmp0
 libfstrm0:amd64
 libftdi1-2:amd64
 libfuse2:amd64
@@ -1158,7 +1149,6 @@ libjpeg-turbo-progs
 libjpeg62-turbo:amd64
 libjpeg62-turbo:i386
 libjq1:amd64
-libjs-iscroll
 libjs-jquery
 libjs-mathjax
 libjs-modernizr
@@ -1266,7 +1256,6 @@ libmediainfo0v5:amd64
 libmetacity1:amd64
 libmetis5:amd64
 libmfx1:amd64
-libmicrohttpd12
 libmime-charset-perl
 libmime-lite-perl
 libmime-types-perl
@@ -1390,7 +1379,6 @@ libosp5
 libostyle1c2
 libp11-kit0:amd64
 libp11-kit0:i386
-libp8-platform2:amd64
 libpackage-stash-perl
 libpackage-stash-xs-perl
 libpackagekit-glib2-18:amd64
@@ -1714,7 +1702,6 @@ libtimedate-perl
 libtinfo6:amd64
 libtinfo6:i386
 libtinyxml2-8:amd64
-libtinyxml2.6.2v5:amd64
 libtk8.6:amd64
 libtool
 libtotem-plparser-common
@@ -2288,7 +2275,6 @@ python3-pkg-resources
 python3-psutil
 python3-ptyprocess
 python3-pyatspi
-python3-pycryptodome
 python3-pycurl
 python3-pygments
 python3-pyparsing
