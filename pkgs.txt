@@ -1095,7 +1095,8 @@ libice-dev:amd64
 libice6:amd64
 libicu-dev:amd64
 libicu63:amd64
-libicu63:i386
+libicu67:amd64
+libicu67:i386
 libid3tag0:amd64
 libidn11:amd64
 libidn2-0:amd64
@@ -2251,7 +2252,6 @@ python3-evdev
 python3-gi
 python3-gi-cairo
 python3-gpg
-python3-gst-1.0
 python3-html5lib
 python3-httplib2
 python3-idna
