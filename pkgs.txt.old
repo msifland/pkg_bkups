@@ -1486,8 +1486,6 @@ libpython2.7-minimal:amd64
 libpython2.7-stdlib:amd64
 libpython3-dev:amd64
 libpython3-stdlib:amd64
-libpython3.7-minimal:amd64
-libpython3.7-stdlib:amd64
 libpython3.8:amd64
 libpython3.8-dev:amd64
 libpython3.8-minimal:amd64
@@ -1833,9 +1831,8 @@ libx11-xcb1:i386
 libx264-160:amd64
 libx264-160:i386
 libx265-179:amd64
-libx265-188:amd64
-libx265-188:i386
 libx265-192:amd64
+libx265-192:i386
 libx32asan5
 libx32atomic1
 libx32gcc-8-dev
@@ -2306,8 +2303,6 @@ python3-xapp
 python3-xdg
 python3-xlib
 python3-yaml
-python3.7
-python3.7-minimal
 python3.8
 python3.8-dev
 python3.8-minimal
