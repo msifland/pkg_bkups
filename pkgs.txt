@@ -976,7 +976,7 @@ libgnome-bluetooth13:amd64
 libgnome-desktop-3-19:amd64
 libgnomekbd-common
 libgnomekbd8:amd64
-libgnustep-base1.26
+libgnustep-base1.27
 libgnutls30:amd64
 libgnutls30:i386
 libgoa-1.0-0b:amd64
