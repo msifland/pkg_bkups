@@ -1990,8 +1990,10 @@ lightdm-settings
 lightning
 linux-base
 linux-headers-5.7.2-msi
+linux-headers-5.7.5-msi
 linux-image-5.6.0-2-amd64
 linux-image-5.7.2-msi
+linux-image-5.7.5-msi
 linux-image-amd64
 linux-libc-dev:amd64
 linux-perf
