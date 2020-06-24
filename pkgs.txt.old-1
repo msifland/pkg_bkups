@@ -1516,6 +1516,7 @@ libqt5xml5:amd64
 libquadmath0:amd64
 libquvi-0.9-0.9.3:amd64
 libquvi-scripts-0.9
+librabbitmq4:amd64
 libraptor2-0:amd64
 libraw1394-11:amd64
 libraw1394-11:i386
@@ -1638,6 +1639,7 @@ libsqlite3-0:amd64
 libsqlite3-0:i386
 libsratom-0-0:amd64
 libsrt1:amd64
+libsrt1-gnutls:amd64
 libsrtp2-1:amd64
 libss2:amd64
 libssh2-1:amd64
