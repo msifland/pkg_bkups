@@ -67,6 +67,7 @@ bluez
 bluez-obexd
 bolt
 brasero-common
+bsdextrautils
 bsdmainutils
 bsdutils
 bubblewrap
@@ -1638,7 +1639,6 @@ libspice-client-gtk-3.0-5:amd64
 libsqlite3-0:amd64
 libsqlite3-0:i386
 libsratom-0-0:amd64
-libsrt1:amd64
 libsrt1-gnutls:amd64
 libsrtp2-1:amd64
 libss2:amd64
@@ -1723,6 +1723,7 @@ libuchardet0:amd64
 libudev-dev:amd64
 libudev1:amd64
 libudev1:i386
+libudfread0
 libudisks2-0:amd64
 libumfpack5:amd64
 libunicode-linebreak-perl
@@ -1991,13 +1992,13 @@ lightning
 linux-base
 linux-headers-5.7.2-msi
 linux-headers-5.7.5-msi
-linux-image-5.6.0-2-amd64
+linux-image-5.7.0-1-amd64
 linux-image-5.7.2-msi
 linux-image-5.7.5-msi
 linux-image-amd64
 linux-libc-dev:amd64
 linux-perf
-linux-perf-5.6
+linux-perf-5.7
 lm-sensors
 lmodern
 locales
