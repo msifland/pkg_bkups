@@ -1513,6 +1513,7 @@ libqt5sql5-sqlite:amd64
 libqt5svg5:amd64
 libqt5test5:amd64
 libqt5widgets5:amd64
+libqt5x11extras5:amd64
 libqt5xml5:amd64
 libquadmath0:amd64
 libquvi-0.9-0.9.3:amd64
@@ -1992,9 +1993,11 @@ lightning
 linux-base
 linux-headers-5.7.2-msi
 linux-headers-5.7.5-msi
+linux-headers-5.7.7-msi
 linux-image-5.7.0-1-amd64
 linux-image-5.7.2-msi
 linux-image-5.7.5-msi
+linux-image-5.7.7-msi
 linux-image-amd64
 linux-libc-dev:amd64
 linux-perf
