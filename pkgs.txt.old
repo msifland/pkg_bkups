@@ -1095,7 +1095,6 @@ libical3:amd64
 libice-dev:amd64
 libice6:amd64
 libicu-dev:amd64
-libicu63:amd64
 libicu67:amd64
 libicu67:i386
 libid3tag0:amd64
@@ -1254,6 +1253,7 @@ libmbedtls12:amd64
 libmbedx509-0:amd64
 libmbim-glib4:amd64
 libmbim-proxy
+libmd4c0:amd64
 libmediaart-2.0-0:amd64
 libmediainfo0v5:amd64
 libmetacity1:amd64
@@ -1506,6 +1506,8 @@ libqt5help5:amd64
 libqt5network5:amd64
 libqt5printsupport5:amd64
 libqt5qml5:amd64
+libqt5qmlmodels5:amd64
+libqt5qmlworkerscript5:amd64
 libqt5quick5:amd64
 libqt5sql5:amd64
 libqt5sql5-mysql:amd64
@@ -1525,7 +1527,7 @@ libraw1394-11:i386
 libraw19:amd64
 librda-common
 librda0:amd64
-libre2-6:amd64
+libre2-7:amd64
 libreadline8:amd64
 libreadonly-perl
 librecode0:amd64
