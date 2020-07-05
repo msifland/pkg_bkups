@@ -617,7 +617,6 @@ libbison-dev:amd64
 libblas3:amd64
 libblkid-dev:amd64
 libblkid1:amd64
-libblkid1:i386
 libblockdev-crypto2:amd64
 libblockdev-fs2:amd64
 libblockdev-loop2:amd64
@@ -1274,7 +1273,6 @@ libmodule-implementation-perl
 libmodule-runtime-perl
 libmount-dev:amd64
 libmount1:amd64
-libmount1:i386
 libmp3lame0:amd64
 libmp3lame0:i386
 libmpc3:amd64
