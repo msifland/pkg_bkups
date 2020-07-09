@@ -631,6 +631,7 @@ libboost-iostreams1.71.0:amd64
 libboost-program-options1.71.0:amd64
 libbrasero-media3-1:amd64
 libbrlapi0.7:amd64
+libbrotli-dev
 libbrotli1:amd64
 libbrotli1:i386
 libbs2b0:amd64
