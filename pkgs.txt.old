@@ -1652,7 +1652,7 @@ libssl1.1:i386
 libstartup-notification0:amd64
 libstb0:amd64
 libstb0:i386
-libstd-rust-1.42:amd64
+libstd-rust-1.43:amd64
 libstd-rust-dev:amd64
 libstdc++-9-dev:amd64
 libstdc++6:amd64
