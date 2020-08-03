@@ -92,6 +92,7 @@ caja-rename
 caja-seahorse
 caja-sendto
 caja-wallpaper
+calendar
 cargo
 caribou
 cdrdao
@@ -473,6 +474,7 @@ intel-media-va-driver:amd64
 intel-media-va-driver:i386
 intel-microcode
 intltool-debian
+ipp-usb
 iproute2
 iptables
 iputils-ping
@@ -513,7 +515,7 @@ libaa1:i386
 libaacs0:amd64
 libaccountsservice0:amd64
 libacl1:amd64
-libadplug-2.3.1-0
+libadplug-2.3.3-0
 libalgorithm-c3-perl
 libalgorithm-diff-perl
 libalgorithm-diff-xs-perl
@@ -617,6 +619,7 @@ libbison-dev:amd64
 libblas3:amd64
 libblkid-dev:amd64
 libblkid1:amd64
+libblkid1:i386
 libblockdev-crypto2:amd64
 libblockdev-fs2:amd64
 libblockdev-loop2:amd64
@@ -631,7 +634,7 @@ libboost-iostreams1.71.0:amd64
 libboost-program-options1.71.0:amd64
 libbrasero-media3-1:amd64
 libbrlapi0.7:amd64
-libbrotli-dev
+libbrotli-dev:amd64
 libbrotli1:amd64
 libbrotli1:i386
 libbs2b0:amd64
@@ -730,7 +733,6 @@ libcrypt-dev:amd64
 libcrypt1:amd64
 libcrypt1:i386
 libcrypto++6
-libcryptsetup-dev:amd64
 libcryptsetup12:amd64
 libcryptui0a:amd64
 libctf-nobfd0:amd64
@@ -1072,8 +1074,8 @@ libhavege2:amd64
 libhd21:amd64
 libheif1:amd64
 libhogweed4:amd64
-libhogweed5:amd64
-libhogweed5:i386
+libhogweed6:amd64
+libhogweed6:i386
 libhpmud0:amd64
 libhtml-form-perl
 libhtml-format-perl
@@ -1275,6 +1277,7 @@ libmodule-implementation-perl
 libmodule-runtime-perl
 libmount-dev:amd64
 libmount1:amd64
+libmount1:i386
 libmp3lame0:amd64
 libmp3lame0:i386
 libmpc3:amd64
@@ -1315,10 +1318,11 @@ libnet-libidn-perl
 libnet-smtp-ssl-perl
 libnet-ssleay-perl
 libnetfilter-conntrack3:amd64
+libnetfilter-queue1
 libnetpbm10
 libnettle6:amd64
-libnettle7:amd64
-libnettle7:i386
+libnettle8:amd64
+libnettle8:i386
 libnewt-dev:amd64
 libnewt0.52:amd64
 libnfnetlink0:amd64
@@ -1465,7 +1469,7 @@ libprocps7:amd64
 libprocps8:amd64
 libprotobuf-c1:amd64
 libprotobuf-java
-libprotobuf22:amd64
+libprotobuf23:amd64
 libproxy1-plugin-gsettings:amd64
 libproxy1-plugin-networkmanager:amd64
 libproxy1-plugin-webkit:amd64
@@ -1527,7 +1531,7 @@ libraw1394-11:i386
 libraw19:amd64
 librda-common
 librda0:amd64
-libre2-7:amd64
+libre2-8:amd64
 libreadline8:amd64
 libreadonly-perl
 librecode0:amd64
@@ -2109,12 +2113,14 @@ mysql-common
 nano
 nautilus-extension-brasero
 nautilus-sendto
+ncal
 ncurses-base
 ncurses-bin
 ncurses-term
 net-tools
 netbase
 netcat
+netcat-openbsd
 netcat-traditional
 nethogs
 netpbm
