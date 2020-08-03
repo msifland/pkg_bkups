@@ -1159,7 +1159,7 @@ libjs-modernizr
 libjs-sphinxdoc
 libjs-underscore
 libjson-c3:amd64
-libjson-c4:amd64
+libjson-c5:amd64
 libjson-glib-1.0-0:amd64
 libjson-glib-1.0-common
 libjsoncpp1:amd64
@@ -1996,9 +1996,11 @@ lightdm-gtk-greeter
 lightdm-settings
 lightning
 linux-base
+linux-headers-5.7.12-msi
 linux-headers-5.7.7-msi
 linux-headers-5.7.8-msi
-linux-image-5.7.0-1-amd64
+linux-image-5.7.0-2-amd64
+linux-image-5.7.12-msi
 linux-image-5.7.7-msi
 linux-image-5.7.8-msi
 linux-image-amd64
