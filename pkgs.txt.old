@@ -124,6 +124,7 @@ console-setup-linux
 coreutils
 cpio
 cpp
+cpp-10
 cpp-8
 cpp-9
 cracklib-runtime
@@ -269,11 +270,13 @@ fuseiso
 fwupd
 fwupd-amd64-signed
 g++
-g++-9
+g++-10
 gawk
 gcc
+gcc-10
 gcc-10-base:amd64
 gcc-10-base:i386
+gcc-10-multilib
 gcc-8
 gcc-8-base:amd64
 gcc-8-multilib
@@ -499,7 +502,9 @@ krb5-locales
 laptop-detect
 less
 lib32asan5
+lib32asan6
 lib32atomic1
+lib32gcc-10-dev
 lib32gcc-8-dev
 lib32gcc-9-dev
 lib32gcc-s1
@@ -546,6 +551,7 @@ libargon2-1:amd64
 libaribb24-0:amd64
 libaribb24-0:i386
 libasan5:amd64
+libasan6:amd64
 libasound2:amd64
 libasound2:i386
 libasound2-data
@@ -899,8 +905,9 @@ libgail-3-0:amd64
 libgail-common:amd64
 libgail18:amd64
 libgbm1:amd64
-libgc1c2:amd64
+libgc1:amd64
 libgcab-1.0-0:amd64
+libgcc-10-dev:amd64
 libgcc-8-dev:amd64
 libgcc-9-dev:amd64
 libgcc-s1:amd64
@@ -1200,7 +1207,6 @@ liblinear4:amd64
 liblirc-client0:amd64
 libllvm10:amd64
 libllvm10:i386
-libllvm9:amd64
 liblmdb0:amd64
 liblocale-gettext-perl
 liblockfile-bin
@@ -1217,7 +1223,6 @@ liblrdf0
 liblsan0:amd64
 libltdl7:amd64
 libltdl7:i386
-liblua5.1-0:amd64
 liblua5.2-0:amd64
 liblua5.3-0:amd64
 liblwp-mediatypes-perl
@@ -1656,9 +1661,9 @@ libssl1.1:i386
 libstartup-notification0:amd64
 libstb0:amd64
 libstb0:i386
-libstd-rust-1.43:amd64
+libstd-rust-1.45:amd64
 libstd-rust-dev:amd64
-libstdc++-9-dev:amd64
+libstdc++-10-dev:amd64
 libstdc++6:amd64
 libstdc++6:i386
 libstemmer0d:amd64
@@ -1844,7 +1849,9 @@ libx264-161:i386
 libx265-192:amd64
 libx265-192:i386
 libx32asan5
+libx32asan6
 libx32atomic1
+libx32gcc-10-dev
 libx32gcc-8-dev
 libx32gcc-9-dev
 libx32gcc-s1
