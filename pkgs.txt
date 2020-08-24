@@ -1533,6 +1533,7 @@ libraptor2-0:amd64
 libraw1394-11:amd64
 libraw1394-11:i386
 libraw19:amd64
+libraw20:amd64
 librda-common
 librda0:amd64
 libre2-8:amd64
@@ -2006,11 +2007,13 @@ linux-headers-5.7.12-msi
 linux-headers-5.7.7-msi
 linux-headers-5.7.8-msi
 linux-headers-5.8.0-msi
+linux-headers-5.8.2-msi
 linux-image-5.7.0-2-amd64
 linux-image-5.7.12-msi
 linux-image-5.7.7-msi
 linux-image-5.7.8-msi
 linux-image-5.8.0-msi
+linux-image-5.8.2-msi
 linux-image-amd64
 linux-libc-dev:amd64
 linux-perf

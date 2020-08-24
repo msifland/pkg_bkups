@@ -694,7 +694,6 @@ libccolamd2:amd64
 libcddb2
 libcdio-cdda2:amd64
 libcdio-paranoia2:amd64
-libcdio18:amd64
 libcdio19:amd64
 libcdparanoia0:amd64
 libcdparanoia0:i386
@@ -1466,7 +1465,7 @@ libpolkit-gobject-1-0:amd64
 libpoppler-cpp0v5:amd64
 libpoppler-glib8:amd64
 libpoppler-qt5-1:amd64
-libpoppler82:amd64
+libpoppler95:amd64
 libpopt0:amd64
 libpostproc55:amd64
 libpotrace0:amd64
