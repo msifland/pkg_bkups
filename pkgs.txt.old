@@ -531,6 +531,7 @@ libamtk-5-common
 libann0
 libao-common
 libao4:amd64
+libaom0:amd64
 libaom2:amd64
 libaom2:i386
 libapache-pom-java
@@ -1119,7 +1120,7 @@ libigdgmm11:i386
 libijs-0.35:amd64
 libilbc2:amd64
 libilbc2:i386
-libilmbase24:amd64
+libilmbase25:amd64
 libimage-magick-perl
 libimage-magick-q16-perl
 libimagequant0:amd64
@@ -1162,7 +1163,6 @@ libjpeg62-turbo:i386
 libjq1:amd64
 libjs-jquery
 libjs-mathjax
-libjs-modernizr
 libjs-sphinxdoc
 libjs-underscore
 libjson-c3:amd64
@@ -1370,7 +1370,7 @@ libopencore-amrwb0:amd64
 libopencore-amrwb0:i386
 libopencsd-dev:amd64
 libopencsd0:amd64
-libopenexr24:amd64
+libopenexr25:amd64
 libopengl-dev:amd64
 libopengl0:amd64
 libopenh264-6:amd64
@@ -1465,7 +1465,7 @@ libpolkit-gobject-1-0:amd64
 libpoppler-cpp0v5:amd64
 libpoppler-glib8:amd64
 libpoppler-qt5-1:amd64
-libpoppler95:amd64
+libpoppler102:amd64
 libpopt0:amd64
 libpostproc55:amd64
 libpotrace0:amd64
@@ -1661,7 +1661,7 @@ libssl1.1:i386
 libstartup-notification0:amd64
 libstb0:amd64
 libstb0:i386
-libstd-rust-1.45:amd64
+libstd-rust-1.46:amd64
 libstd-rust-dev:amd64
 libstdc++-10-dev:amd64
 libstdc++6:amd64
@@ -2008,12 +2008,14 @@ linux-headers-5.7.7-msi
 linux-headers-5.7.8-msi
 linux-headers-5.8.0-msi
 linux-headers-5.8.2-msi
-linux-image-5.7.0-2-amd64
+linux-headers-5.8.3-msi
+linux-image-5.7.0-3-amd64
 linux-image-5.7.12-msi
 linux-image-5.7.7-msi
 linux-image-5.7.8-msi
 linux-image-5.8.0-msi
 linux-image-5.8.2-msi
+linux-image-5.8.3-msi
 linux-image-amd64
 linux-libc-dev:amd64
 linux-perf
@@ -2141,6 +2143,7 @@ network-manager
 network-manager-gnome
 nmap
 nmap-common
+node-html5shiv
 node-jquery
 notification-daemon
 ntfs-3g
@@ -2257,7 +2260,7 @@ python3-chardet
 python3-compizconfig:amd64
 python3-configobj
 python3-cryptography
-python3-cups
+python3-cups:amd64
 python3-cupshelpers
 python3-dbus
 python3-debconf
