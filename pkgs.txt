@@ -738,7 +738,7 @@ libdbus-1-dev:amd64
 libdbus-glib-1-2:amd64
 libdbusmenu-glib4:amd64
 libdbusmenu-gtk3-4:amd64
-libdc1394-22:amd64
+libdc1394-25:amd64
 libdconf1:amd64
 libde265-0:amd64
 libdebconfclient0:amd64
@@ -1558,8 +1558,8 @@ libsndfile1:i386
 libsndio7.0:amd64
 libsndio7.0:i386
 libsnmp-base
-libsnmp35:amd64
-libsnmp35:i386
+libsnmp40:amd64
+libsnmp40:i386
 libsodium23:amd64
 libsombok3:amd64
 libsord-0-0:amd64
@@ -1929,14 +1929,16 @@ linux-headers-5.7.12-msi
 linux-headers-5.7.7-msi
 linux-headers-5.7.8-msi
 linux-headers-5.8.0-msi
+linux-headers-5.8.10-msi
 linux-headers-5.8.2-msi
 linux-headers-5.8.3-msi
 linux-headers-5.8.9-msi
 linux-image-5.7.12-msi
 linux-image-5.7.7-msi
 linux-image-5.7.8-msi
-linux-image-5.8.0-1-amd64
+linux-image-5.8.0-2-amd64
 linux-image-5.8.0-msi
+linux-image-5.8.10-msi
 linux-image-5.8.2-msi
 linux-image-5.8.3-msi
 linux-image-5.8.9-msi
