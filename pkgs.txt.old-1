@@ -1241,7 +1241,7 @@ libmtp-common
 libmtp-runtime
 libmtp9:amd64
 libmuffin0
-libmutter-6-0:amd64
+libmutter-7-0:amd64
 libmypaint-1.5-1:amd64
 libmypaint-common
 libmysofa1:amd64
@@ -2209,6 +2209,7 @@ python3-pycurl
 python3-pygments
 python3-pyparsing
 python3-pyqt5
+python3-pyqt5.sip
 python3-pysimplesoap
 python3-pyudev
 python3-renderpm:amd64
@@ -2267,6 +2268,7 @@ rygel
 rygel-tracker
 samba-libs:amd64
 sane-utils
+screen
 sddm
 sddm-theme-debian-maui
 seahorse
