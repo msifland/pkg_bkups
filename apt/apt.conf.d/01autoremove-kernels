@@ -3,36 +3,46 @@ APT::NeverAutoRemove
 {
    "^linux-.*-5\.8\.12-msi$";
    "^linux-.*-5\.8\.13-msi$";
+   "^linux-.*-5\.8\.14-msi$";
    "^kfreebsd-.*-5\.8\.12-msi$";
    "^kfreebsd-.*-5\.8\.13-msi$";
+   "^kfreebsd-.*-5\.8\.14-msi$";
    "^gnumach-.*-5\.8\.12-msi$";
    "^gnumach-.*-5\.8\.13-msi$";
+   "^gnumach-.*-5\.8\.14-msi$";
    "^.*-modules-5\.8\.12-msi$";
    "^.*-modules-5\.8\.13-msi$";
+   "^.*-modules-5\.8\.14-msi$";
    "^.*-kernel-5\.8\.12-msi$";
    "^.*-kernel-5\.8\.13-msi$";
+   "^.*-kernel-5\.8\.14-msi$";
 };
 /* Debug information:
 # dpkg list:
 ii  linux-image-5.7.7-msi                          5.7.7-msi-1                      amd64        Linux kernel, version 5.7.7-msi
 ii  linux-image-5.8.12-msi                         5.8.12-msi-1                     amd64        Linux kernel, version 5.8.12-msi
-iF  linux-image-5.8.13-msi                         5.8.13-msi-1                     amd64        Linux kernel, version 5.8.13-msi
+ii  linux-image-5.8.13-msi                         5.8.13-msi-1                     amd64        Linux kernel, version 5.8.13-msi
+iF  linux-image-5.8.14-msi                         5.8.14-msi-1                     amd64        Linux kernel, version 5.8.14-msi
 # list of installed kernel packages:
 5.7.7-msi 5.7.7-msi-1
 5.8.12-msi 5.8.12-msi-1
 5.8.13-msi 5.8.13-msi-1
+5.8.14-msi 5.8.14-msi-1
 # list of different kernel versions:
+5.8.14-msi-1
 5.8.13-msi-1
 5.8.12-msi-1
 5.7.7-msi-1
-# Installing kernel: 5.8.13-msi-1 (5.8.13-msi)
+# Installing kernel: 5.8.14-msi-1 (5.8.14-msi)
 # Running kernel: 5.8.12-msi-1 (5.8.12-msi)
-# Last kernel: 5.8.13-msi-1
-# Previous kernel: 5.8.12-msi-1
+# Last kernel: 5.8.14-msi-1
+# Previous kernel: 5.8.13-msi-1
 # Kernel versions list to keep:
 5.8.12-msi-1
 5.8.13-msi-1
+5.8.14-msi-1
 # Kernel packages (version part) to protect:
 5\.8\.12-msi
 5\.8\.13-msi
+5\.8\.14-msi
 */
