@@ -721,6 +721,7 @@ libcupsimage2:amd64
 libcurl3-gnutls:amd64
 libcurl3-gnutls:i386
 libcurl4:amd64
+libcurl4:i386
 libcwidget4:amd64
 libdaemon0:amd64
 libdaq2
@@ -1210,7 +1211,7 @@ libmbim-proxy
 libmd4c0:amd64
 libmediaart-2.0-0:amd64
 libmediainfo0v5:amd64
-libmetacity1:amd64
+libmetacity3:amd64
 libmetis5:amd64
 libmfx1:amd64
 libmime-charset-perl
@@ -1285,9 +1286,15 @@ libnma0:amd64
 libnorm1:amd64
 libnotify4:amd64
 libnpth0:amd64
+libnsl-dev:amd64
+libnsl2:amd64
 libnspr4:amd64
 libnspr4:i386
 libnss-mdns:amd64
+libnss-nis:amd64
+libnss-nis:i386
+libnss-nisplus:amd64
+libnss-nisplus:i386
 libnss-systemd:amd64
 libnss3:amd64
 libnss3:i386
@@ -1388,7 +1395,7 @@ libperl4-corelibs-perl
 libperl5.26:amd64
 libperl5.30:amd64
 libperl5.30:i386
-libpgm-5.2-0:amd64
+libpgm-5.3-0:amd64
 libphodav-2.0-0:amd64
 libphodav-2.0-common
 libpipeline1:amd64
@@ -1443,6 +1450,8 @@ libpython3.8:amd64
 libpython3.8-dev:amd64
 libpython3.8-minimal:amd64
 libpython3.8-stdlib:amd64
+libpython3.9-minimal:amd64
+libpython3.9-stdlib:amd64
 libqmi-glib5:amd64
 libqmi-proxy
 libqpdf28:amd64
@@ -1652,6 +1661,9 @@ libtimedate-perl
 libtinfo6:amd64
 libtinfo6:i386
 libtinyxml2-8:amd64
+libtirpc-common
+libtirpc-dev:amd64
+libtirpc3:amd64
 libtk8.6:amd64
 libtool
 libtotem-plparser-common
@@ -2239,6 +2251,7 @@ python3-setproctitle:amd64
 python3-sip
 python3-six
 python3-smbc
+python3-snowballstemmer
 python3-software-properties
 python3-soupsieve
 python3-sphinx
@@ -2255,6 +2268,8 @@ python3-yaml
 python3.8
 python3.8-dev
 python3.8-minimal
+python3.9
+python3.9-minimal
 qml-module-qtquick2:amd64
 qpdfview
 qpdfview-djvu-plugin
