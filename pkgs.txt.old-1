@@ -868,6 +868,7 @@ libgail-3-0:amd64
 libgail-common:amd64
 libgail18:amd64
 libgbm1:amd64
+libgbm1:i386
 libgc1:amd64
 libgcab-1.0-0:amd64
 libgcc-10-dev:amd64
@@ -1742,6 +1743,7 @@ libwayland-dev:amd64
 libwayland-egl1:amd64
 libwayland-egl1:i386
 libwayland-server0:amd64
+libwayland-server0:i386
 libwbclient0:amd64
 libwebkit2gtk-4.0-37:amd64
 libwebp6:amd64
@@ -1938,9 +1940,11 @@ linux-base
 linux-headers-5.7.7-msi
 linux-headers-5.8.12-msi
 linux-headers-5.8.13-msi
+linux-headers-5.8.14-msi
 linux-image-5.7.7-msi
 linux-image-5.8.12-msi
 linux-image-5.8.13-msi
+linux-image-5.8.14-msi
 linux-libc-dev:amd64
 linux-perf
 linux-perf-5.8
