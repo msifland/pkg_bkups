@@ -315,6 +315,7 @@ gedit-plugins-common
 gettext
 gettext-base
 ghostscript
+giblib1:amd64
 gimp
 gimp-data
 gir1.2-appindicator3-0.1:amd64
@@ -708,7 +709,6 @@ libcroco3:amd64
 libcrypt-dev:amd64
 libcrypt1:amd64
 libcrypt1:i386
-libcrypto++6
 libcryptsetup12:amd64
 libcryptui0a:amd64
 libctf-nobfd0:amd64
@@ -1560,7 +1560,7 @@ libshine3:amd64
 libshine3:i386
 libshout3:i386
 libsidplay1v5:amd64
-libsidplayfp4:amd64
+libsidplayfp5:amd64
 libsigc++-2.0-0v5:amd64
 libsigsegv2:amd64
 libslang2:amd64
@@ -2305,6 +2305,8 @@ rygel-tracker
 samba-libs:amd64
 sane-utils
 screen
+screenfetch
+scrot
 sddm
 sddm-theme-debian-maui
 seahorse
