@@ -745,6 +745,7 @@ libdconf1:amd64
 libde265-0:amd64
 libdebconfclient0:amd64
 libdebhelper-perl
+libdebuginfod1:amd64
 libdecoration0
 libdevel-callchecker-perl
 libdevel-caller-perl
@@ -1954,12 +1955,10 @@ linux-base
 linux-compiler-gcc-10-x86
 linux-headers-5.9.0-1-amd64
 linux-headers-5.9.0-1-common
-linux-headers-5.9.1-msi
-linux-headers-5.9.3-msi
+linux-headers-5.9.6-msi
 linux-headers-amd64
 linux-image-5.9.0-1-amd64
-linux-image-5.9.1-msi
-linux-image-5.9.3-msi
+linux-image-5.9.6-msi
 linux-image-amd64
 linux-kbuild-5.9
 linux-libc-dev:amd64
@@ -2224,6 +2223,7 @@ python3-jinja2
 python3-ldb
 python3-lib2to3
 python3-lxml:amd64
+python3-magic
 python3-markupsafe
 python3-minimal
 python3-multibootusb
