@@ -1395,8 +1395,8 @@ libpeas-common
 libperl-dev:amd64
 libperl4-corelibs-perl
 libperl5.26:amd64
-libperl5.30:amd64
-libperl5.30:i386
+libperl5.32:amd64
+libperl5.32:i386
 libpgm-5.3-0:amd64
 libphodav-2.0-0:amd64
 libphodav-2.0-common
@@ -1452,6 +1452,7 @@ libpython3.8:amd64
 libpython3.8-dev:amd64
 libpython3.8-minimal:amd64
 libpython3.8-stdlib:amd64
+libpython3.9:amd64
 libpython3.9-minimal:amd64
 libpython3.9-stdlib:amd64
 libqmi-glib5:amd64
@@ -1953,12 +1954,12 @@ lightdm-settings
 lightning
 linux-base
 linux-compiler-gcc-10-x86
-linux-headers-5.9.0-1-amd64
-linux-headers-5.9.0-1-common
+linux-headers-5.9.0-2-amd64
+linux-headers-5.9.0-2-common
 linux-headers-5.9.6-msi
 linux-headers-5.9.8-msi
 linux-headers-amd64
-linux-image-5.9.0-1-amd64
+linux-image-5.9.0-2-amd64
 linux-image-5.9.6-msi
 linux-image-5.9.8-msi
 linux-image-amd64
@@ -1986,6 +1987,7 @@ lynx
 lynx-common
 lz4
 m4
+mailcap
 make
 man-db
 manpages
@@ -2039,6 +2041,7 @@ mate-user-share-common
 mate-utils
 mate-utils-common
 mawk
+media-types
 megasync
 menu
 menu-xdg
@@ -2127,7 +2130,7 @@ perl-base
 perl-doc
 perl-modules-5.26
 perl-modules-5.28
-perl-modules-5.30
+perl-modules-5.32
 perl-openssl-defaults:amd64
 pinentry-gnome3
 pinentry-qt

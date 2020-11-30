@@ -617,6 +617,7 @@ libbluetooth3:amd64
 libbluray2:amd64
 libboost-iostreams1.71.0:amd64
 libboost-program-options1.71.0:amd64
+libbotan-2-17:amd64
 libbrasero-media3-1:amd64
 libbrotli-dev:amd64
 libbrotli1:amd64
@@ -644,7 +645,7 @@ libcacard0:amd64
 libcairo-gobject-perl
 libcairo-gobject2:amd64
 libcairo-gobject2:i386
-libcairo-perl
+libcairo-perl:amd64
 libcairo-script-interpreter2:amd64
 libcairo2:amd64
 libcairo2:i386
@@ -731,7 +732,8 @@ libdatrie-dev:amd64
 libdatrie1:amd64
 libdatrie1:i386
 libdav1d4:amd64
-libdav1d4:i386
+libdav1d5:amd64
+libdav1d5:i386
 libdb5.3:amd64
 libdb5.3:i386
 libdbus-1-3:amd64
@@ -893,6 +895,12 @@ libgdbm-compat4:i386
 libgdbm5:amd64
 libgdbm6:amd64
 libgdbm6:i386
+libgdk-pixbuf-2.0-0:amd64
+libgdk-pixbuf-2.0-0:i386
+libgdk-pixbuf-2.0-dev:amd64
+libgdk-pixbuf-xlib-2.0-0:amd64
+libgdk-pixbuf-xlib-2.0-0:i386
+libgdk-pixbuf-xlib-2.0-dev:amd64
 libgdk-pixbuf2.0-0:amd64
 libgdk-pixbuf2.0-0:i386
 libgdk-pixbuf2.0-bin
@@ -906,7 +914,7 @@ libgegl-common
 libgexiv2-2:amd64
 libgfortran5:amd64
 libgif7:amd64
-libgimp2.0
+libgimp2.0:amd64
 libgirepository-1.0-1:amd64
 libgit2-28:amd64
 libgit2-glib-1.0-0:amd64
@@ -1094,7 +1102,7 @@ libiptc0:amd64
 libiptcdata0
 libisc-export1100:amd64
 libisc-export1105:amd64
-libisl22:amd64
+libisl23:amd64
 libisofs6:amd64
 libitm1:amd64
 libiw30:amd64
@@ -1601,7 +1609,6 @@ libspice-client-gtk-3.0-5:amd64
 libsqlite3-0:amd64
 libsqlite3-0:i386
 libsratom-0-0:amd64
-libsrt1-gnutls:amd64
 libss2:amd64
 libssh2-1:amd64
 libssh2-1:i386
@@ -1677,6 +1684,7 @@ libtracker-miner-2.0-0:amd64
 libtracker-sparql-2.0-0:amd64
 libtry-tiny-perl
 libtsan0:amd64
+libtspi1
 libtss2-esys0
 libturbojpeg0:amd64
 libtwolame0:amd64
@@ -1889,7 +1897,7 @@ libxkbfile1:amd64
 libxklavier16:amd64
 libxml-libxml-perl
 libxml-namespacesupport-perl
-libxml-parser-perl
+libxml-parser-perl:amd64
 libxml-sax-base-perl
 libxml-sax-expat-perl
 libxml-sax-perl
@@ -1951,15 +1959,16 @@ libzzip-0-13:amd64
 lightdm
 lightdm-gtk-greeter
 lightdm-settings
-lightning
 linux-base
 linux-compiler-gcc-10-x86
-linux-headers-5.9.0-2-amd64
-linux-headers-5.9.0-2-common
+linux-headers-5.9.0-3-amd64
+linux-headers-5.9.0-3-common
+linux-headers-5.9.10-msi
 linux-headers-5.9.6-msi
 linux-headers-5.9.8-msi
 linux-headers-amd64
-linux-image-5.9.0-2-amd64
+linux-image-5.9.0-3-amd64
+linux-image-5.9.10-msi
 linux-image-5.9.6-msi
 linux-image-5.9.8-msi
 linux-image-amd64
@@ -2200,7 +2209,7 @@ python3-bs4
 python3-cairo:amd64
 python3-caja
 python3-certifi
-python3-cffi-backend
+python3-cffi-backend:amd64
 python3-chardet
 python3-compizconfig:amd64
 python3-configobj
