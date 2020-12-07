@@ -1121,6 +1121,7 @@ libjpeg62-turbo:i386
 libjq1:amd64
 libjs-jquery
 libjs-mathjax
+libjs-sizzle
 libjs-sphinxdoc
 libjs-underscore
 libjson-c3:amd64
@@ -1456,11 +1457,10 @@ libpython2.7-minimal:amd64
 libpython2.7-stdlib:amd64
 libpython3-dev:amd64
 libpython3-stdlib:amd64
-libpython3.8:amd64
-libpython3.8-dev:amd64
 libpython3.8-minimal:amd64
 libpython3.8-stdlib:amd64
 libpython3.9:amd64
+libpython3.9-dev:amd64
 libpython3.9-minimal:amd64
 libpython3.9-stdlib:amd64
 libqmi-glib5:amd64
@@ -1498,7 +1498,7 @@ libraw19:amd64
 libraw20:amd64
 librda-common
 librda0:amd64
-libre2-8:amd64
+libre2-9:amd64
 libreadline8:amd64
 libreadonly-perl
 librecode0:amd64
@@ -1618,7 +1618,7 @@ libssl1.1:i386
 libstartup-notification0:amd64
 libstb0:amd64
 libstb0:i386
-libstd-rust-1.47:amd64
+libstd-rust-1.48:amd64
 libstd-rust-dev:amd64
 libstdc++-10-dev:amd64
 libstdc++6:amd64
@@ -1851,7 +1851,7 @@ libxcb-shm0:i386
 libxcb-shm0-dev:amd64
 libxcb-sync1:amd64
 libxcb-sync1:i386
-libxcb-util0:amd64
+libxcb-util1:amd64
 libxcb-xfixes0:amd64
 libxcb-xfixes0:i386
 libxcb-xinerama0:amd64
@@ -1894,6 +1894,7 @@ libxkbcommon-x11-0:amd64
 libxkbcommon0:amd64
 libxkbcommon0:i386
 libxkbfile1:amd64
+libxkbregistry0:amd64
 libxklavier16:amd64
 libxml-libxml-perl
 libxml-namespacesupport-perl
@@ -1961,14 +1962,16 @@ lightdm-gtk-greeter
 lightdm-settings
 linux-base
 linux-compiler-gcc-10-x86
-linux-headers-5.9.0-3-amd64
-linux-headers-5.9.0-3-common
+linux-headers-5.9.0-4-amd64
+linux-headers-5.9.0-4-common
 linux-headers-5.9.10-msi
+linux-headers-5.9.11-msi
 linux-headers-5.9.6-msi
 linux-headers-5.9.8-msi
 linux-headers-amd64
-linux-image-5.9.0-3-amd64
+linux-image-5.9.0-4-amd64
 linux-image-5.9.10-msi
+linux-image-5.9.11-msi
 linux-image-5.9.6-msi
 linux-image-5.9.8-msi
 linux-image-amd64
@@ -2285,9 +2288,9 @@ python3-xdg
 python3-xlib
 python3-yaml
 python3.8
-python3.8-dev
 python3.8-minimal
 python3.9
+python3.9-dev
 python3.9-minimal
 qml-module-qtquick2:amd64
 qpdfview
