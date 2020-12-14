@@ -308,6 +308,7 @@ gedit-plugin-session-saver
 gedit-plugin-smart-spaces
 gedit-plugin-synctex
 gedit-plugin-terminal
+gedit-plugin-text-size
 gedit-plugin-translate
 gedit-plugin-word-completion
 gedit-plugins
@@ -616,7 +617,9 @@ libblockdev2:amd64
 libbluetooth3:amd64
 libbluray2:amd64
 libboost-iostreams1.71.0:amd64
+libboost-iostreams1.74.0:amd64
 libboost-program-options1.71.0:amd64
+libboost-program-options1.74.0:amd64
 libbotan-2-17:amd64
 libbrasero-media3-1:amd64
 libbrotli-dev:amd64
@@ -916,6 +919,7 @@ libgfortran5:amd64
 libgif7:amd64
 libgimp2.0:amd64
 libgirepository-1.0-1:amd64
+libgit2-1.1:amd64
 libgit2-28:amd64
 libgit2-glib-1.0-0:amd64
 libgl-dev:amd64
@@ -1128,7 +1132,7 @@ libjson-c3:amd64
 libjson-c5:amd64
 libjson-glib-1.0-0:amd64
 libjson-glib-1.0-common
-libjsoncpp1:amd64
+libjsoncpp24:amd64
 libjte2:amd64
 libjxr-tools
 libjxr0:amd64
@@ -1181,6 +1185,8 @@ libltdl7:amd64
 libltdl7:i386
 liblua5.2-0:amd64
 liblua5.3-0:amd64
+libluajit-5.1-2:amd64
+libluajit-5.1-common
 liblwp-mediatypes-perl
 liblwp-protocol-https-perl
 liblz4-1:amd64
@@ -1649,6 +1655,7 @@ libtdb1:amd64
 libteamdctl0:amd64
 libteckit0:amd64
 libtepl-4-0:amd64
+libtepl-5-0:amd64
 libtesseract4:amd64
 libtest-fatal-perl
 libtevent0:amd64
@@ -1738,6 +1745,7 @@ libvisual-0.4-0:i386
 libvkd3d1:amd64
 libvkd3d1:i386
 libvmaf0
+libvmaf1
 libvo-amrwbenc0:amd64
 libvo-amrwbenc0:i386
 libvolume-key1
@@ -2312,6 +2320,7 @@ ruby-asciidoctor
 ruby-minitest
 ruby-net-telnet
 ruby-power-assert
+ruby-rubygems
 ruby-test-unit
 ruby-xmlrpc
 ruby2.7
@@ -2483,6 +2492,8 @@ xauth
 xbitmaps
 xclip
 xdg-dbus-proxy
+xdg-desktop-portal
+xdg-desktop-portal-gtk
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
