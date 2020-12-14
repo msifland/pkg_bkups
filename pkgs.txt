@@ -616,9 +616,7 @@ libblockdev-utils2:amd64
 libblockdev2:amd64
 libbluetooth3:amd64
 libbluray2:amd64
-libboost-iostreams1.71.0:amd64
 libboost-iostreams1.74.0:amd64
-libboost-program-options1.71.0:amd64
 libboost-program-options1.74.0:amd64
 libbotan-2-17:amd64
 libbrasero-media3-1:amd64
@@ -920,7 +918,6 @@ libgif7:amd64
 libgimp2.0:amd64
 libgirepository-1.0-1:amd64
 libgit2-1.1:amd64
-libgit2-28:amd64
 libgit2-glib-1.0-0:amd64
 libgl-dev:amd64
 libgl1:amd64
@@ -1463,8 +1460,6 @@ libpython2.7-minimal:amd64
 libpython2.7-stdlib:amd64
 libpython3-dev:amd64
 libpython3-stdlib:amd64
-libpython3.8-minimal:amd64
-libpython3.8-stdlib:amd64
 libpython3.9:amd64
 libpython3.9-dev:amd64
 libpython3.9-minimal:amd64
@@ -1654,7 +1649,6 @@ libtcl8.6:amd64
 libtdb1:amd64
 libteamdctl0:amd64
 libteckit0:amd64
-libtepl-4-0:amd64
 libtepl-5-0:amd64
 libtesseract4:amd64
 libtest-fatal-perl
@@ -1744,7 +1738,6 @@ libvisio-0.1-1:amd64
 libvisual-0.4-0:i386
 libvkd3d1:amd64
 libvkd3d1:i386
-libvmaf0
 libvmaf1
 libvo-amrwbenc0:amd64
 libvo-amrwbenc0:i386
@@ -2297,8 +2290,6 @@ python3-xapp
 python3-xdg
 python3-xlib
 python3-yaml
-python3.8
-python3.8-minimal
 python3.9
 python3.9-dev
 python3.9-minimal
