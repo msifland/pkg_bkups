@@ -19,7 +19,7 @@
 30 2 * * 1 /home/msifland/scripts/cron_scripts/virus-clamscan-run
 
 # Restart PC once a week
-0 3 * * 6 /home/msifland/scripts/restart
+0 3 * * 0 /home/msifland/scripts/restart
 
 # Run a check for new kernels once a week
 45 6 * * 1 /home/msifland/scripts/cron_scripts/kernel-check-run
