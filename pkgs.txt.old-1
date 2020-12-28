@@ -750,6 +750,8 @@ libdebconfclient0:amd64
 libdebhelper-perl
 libdebuginfod1:amd64
 libdecoration0
+libdeflate0:amd64
+libdeflate0:i386
 libdevel-callchecker-perl
 libdevel-caller-perl
 libdevel-globaldestruction-perl
@@ -1031,7 +1033,7 @@ libgvc6
 libgvnc-1.0-0:amd64
 libgvpr2:amd64
 libgxps2:amd64
-libhandy-0.0-0:amd64
+libhandy-1-0:amd64
 libharfbuzz-dev:amd64
 libharfbuzz-gobject0:amd64
 libharfbuzz-icu0:amd64
@@ -1419,7 +1421,7 @@ libpixman-1-0:amd64
 libpixman-1-0:i386
 libpixman-1-dev:amd64
 libplist3:amd64
-libplymouth4:amd64
+libplymouth5:amd64
 libpng-dev:amd64
 libpng16-16:amd64
 libpng16-16:i386
@@ -2296,6 +2298,7 @@ python3.9-minimal
 qml-module-qtquick2:amd64
 qpdfview
 qpdfview-djvu-plugin
+qpdfview-pdf-poppler-plugin
 qpdfview-ps-plugin
 qpdfview-translations
 quilt
