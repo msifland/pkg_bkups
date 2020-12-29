@@ -2,15 +2,22 @@
 # at 5 a.m every week with:
 # 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
 # 
-# For more information see the manual pages of crontab(5) and cron(8)
-# 
-# m h  dom mon dow   command
+# For details see man 4 crontabs
+
+# Example of job definition:
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+# |  |  |  |  |
+# *  *  *  *  * user-name  command to be executed
 
 ########################### Debian Linux #########################
 # These call scripts located in $HOME/scripts/cron_scripts
 ##################################################################
 # Updates linux system every week
-17 8 * * * /home/msifland/scripts/cron_scripts/linux-update-run
+0 7 * * 1 /home/msifland/scripts/cron_scripts/linux-update-run
 
 # Backs up my important files. See script for files that are backed up
 30 1 * * * /home/msifland/scripts/cron_scripts/my-backup-run
@@ -19,7 +26,7 @@
 30 2 * * 1 /home/msifland/scripts/cron_scripts/virus-clamscan-run
 
 # Restart PC once a week
-0 3 * * 7 /home/msifland/scripts/restart
+0 1 * * 0 /home/msifland/scripts/restart
 
 # Run a check for new kernels once a week
 45 6 * * 1 /home/msifland/scripts/cron_scripts/kernel-check-run
