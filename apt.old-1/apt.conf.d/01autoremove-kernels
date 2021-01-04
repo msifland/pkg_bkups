@@ -2,30 +2,30 @@
 APT::NeverAutoRemove
 {
    "^linux-.*-5\.10\.2-msi$";
-   "^linux-.*-5\.9\.0-5-amd64$";
+   "^linux-.*-5\.10\.3-msi$";
    "^kfreebsd-.*-5\.10\.2-msi$";
-   "^kfreebsd-.*-5\.9\.0-5-amd64$";
+   "^kfreebsd-.*-5\.10\.3-msi$";
    "^gnumach-.*-5\.10\.2-msi$";
-   "^gnumach-.*-5\.9\.0-5-amd64$";
+   "^gnumach-.*-5\.10\.3-msi$";
    "^.*-modules-5\.10\.2-msi$";
-   "^.*-modules-5\.9\.0-5-amd64$";
+   "^.*-modules-5\.10\.3-msi$";
    "^.*-kernel-5\.10\.2-msi$";
-   "^.*-kernel-5\.9\.0-5-amd64$";
+   "^.*-kernel-5\.10\.3-msi$";
 };
 /* Debug information:
 # dpkg list:
 ii  linux-image-5.10.2-msi                         5.10.2-msi-1                     amd64        Linux kernel, version 5.10.2-msi
-ii  linux-image-5.9.0-4-amd64                      5.9.11-1                         amd64        Linux 5.9 for 64-bit PCs (signed)
-iF  linux-image-5.9.0-5-amd64                      5.9.15-1                         amd64        Linux 5.9 for 64-bit PCs (signed)
+iF  linux-image-5.10.3-msi                         5.10.3-msi-1                     amd64        Linux kernel, version 5.10.3-msi
+ii  linux-image-5.9.0-5-amd64                      5.9.15-1                         amd64        Linux 5.9 for 64-bit PCs (signed)
 ii  linux-image-5.9.10-msi                         5.9.10-msi-1                     amd64        Linux kernel, version 5.9.10-msi
 ii  linux-image-5.9.11-msi                         5.9.11-msi-1                     amd64        Linux kernel, version 5.9.11-msi
 ii  linux-image-5.9.12-msi                         5.9.12-msi-1                     amd64        Linux kernel, version 5.9.12-msi
 ii  linux-image-5.9.6-msi                          5.9.6-msi-1                      amd64        Linux kernel, version 5.9.6-msi
 ii  linux-image-5.9.8-msi                          5.9.8-msi-1                      amd64        Linux kernel, version 5.9.8-msi
-iU  linux-image-amd64                              5.9.15-1                         amd64        Linux for 64-bit PCs (meta-package)
+ii  linux-image-amd64                              5.9.15-1                         amd64        Linux for 64-bit PCs (meta-package)
 # list of installed kernel packages:
 5.10.2-msi 5.10.2-msi-1
-5.9.0-4-amd64 5.9.11-1
+5.10.3-msi 5.10.3-msi-1
 5.9.0-5-amd64 5.9.15-1
 5.9.10-msi 5.9.10-msi-1
 5.9.11-msi 5.9.11-msi-1
@@ -33,22 +33,22 @@ iU  linux-image-amd64                              5.9.15-1                     
 5.9.6-msi 5.9.6-msi-1
 5.9.8-msi 5.9.8-msi-1
 # list of different kernel versions:
+5.10.3-msi-1
 5.10.2-msi-1
 5.9.15-1
 5.9.12-msi-1
 5.9.11-msi-1
-5.9.11-1
 5.9.10-msi-1
 5.9.8-msi-1
 5.9.6-msi-1
-# Installing kernel: 5.9.15-1 (5.9.0-5-amd64)
+# Installing kernel: 5.10.3-msi-1 (5.10.3-msi)
 # Running kernel: 5.10.2-msi-1 (5.10.2-msi)
-# Last kernel: 5.10.2-msi-1
-# Previous kernel: 5.9.15-1
+# Last kernel: 5.10.3-msi-1
+# Previous kernel: 5.10.2-msi-1
 # Kernel versions list to keep:
 5.10.2-msi-1
-5.9.15-1
+5.10.3-msi-1
 # Kernel packages (version part) to protect:
 5\.10\.2-msi
-5\.9\.0-5-amd64
+5\.10\.3-msi
 */

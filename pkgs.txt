@@ -623,6 +623,7 @@ libbluray2:amd64
 libboost-iostreams1.74.0:amd64
 libboost-program-options1.74.0:amd64
 libbotan-2-17:amd64
+libbpf0:amd64
 libbrasero-media3-1:amd64
 libbrotli-dev:amd64
 libbrotli1:amd64
@@ -939,7 +940,6 @@ libgl1-mesa-dri:amd64
 libgl1-mesa-dri:i386
 libgl1-mesa-glx:amd64
 libgl1-mesa-glx:i386
-libglade2-0:amd64
 libglapi-mesa:amd64
 libglapi-mesa:i386
 libgles-dev:amd64
