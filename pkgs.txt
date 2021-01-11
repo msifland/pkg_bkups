@@ -2009,9 +2009,11 @@ linux-compiler-gcc-10-x86
 linux-headers-5.10.0-1-amd64
 linux-headers-5.10.0-1-common
 linux-headers-5.10.4-msi
+linux-headers-5.10.6-msi
 linux-headers-amd64
 linux-image-5.10.0-1-amd64
 linux-image-5.10.4-msi
+linux-image-5.10.6-msi
 linux-image-amd64
 linux-kbuild-5.10
 linux-libc-dev:amd64
