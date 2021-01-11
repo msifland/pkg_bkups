@@ -193,6 +193,7 @@ dpkg
 dpkg-dev
 dvipng
 dvisvgm
+dwarves
 dwz
 e2fsprogs
 ed
@@ -637,6 +638,7 @@ libbz2-1.0:i386
 libc-ares2:amd64
 libc-bin
 libc-dev-bin
+libc-devtools
 libc-l10n
 libc6:amd64
 libc6:i386
@@ -1136,7 +1138,6 @@ libjpeg62-turbo:i386
 libjq1:amd64
 libjs-jquery
 libjs-mathjax
-libjs-sizzle
 libjs-sphinxdoc
 libjs-underscore
 libjson-c3:amd64
@@ -2005,17 +2006,17 @@ lightdm-gtk-greeter
 lightdm-settings
 linux-base
 linux-compiler-gcc-10-x86
+linux-headers-5.10.0-1-amd64
+linux-headers-5.10.0-1-common
 linux-headers-5.10.4-msi
-linux-headers-5.9.0-5-amd64
-linux-headers-5.9.0-5-common
 linux-headers-amd64
+linux-image-5.10.0-1-amd64
 linux-image-5.10.4-msi
-linux-image-5.9.0-5-amd64
 linux-image-amd64
-linux-kbuild-5.9
+linux-kbuild-5.10
 linux-libc-dev:amd64
 linux-perf
-linux-perf-5.9
+linux-perf-5.10
 lm-sensors
 lmodern
 locales
@@ -2139,8 +2140,6 @@ network-manager
 network-manager-gnome
 nmap
 nmap-common
-node-html5shiv
-node-jquery
 notification-daemon
 ntfs-3g
 numlockx
