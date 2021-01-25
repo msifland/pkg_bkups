@@ -566,11 +566,11 @@ libatspi2.0-0:amd64
 libatspi2.0-dev:amd64
 libattr1:amd64
 libaudcore5:amd64
-libaudgui5:amd64
 libaudio2:amd64
 libaudit-common
 libaudit-dev:amd64
 libaudit1:amd64
+libaudqt2:amd64
 libaudtag3:amd64
 libauthen-sasl-perl
 libavahi-client3:amd64
@@ -1265,6 +1265,7 @@ libmp3lame0:amd64
 libmp3lame0:i386
 libmpc3:amd64
 libmpcdec6:amd64
+libmpdec3:amd64
 libmpeg2-4:amd64
 libmpeg2encpp-2.1-0:amd64
 libmpfr6:amd64
@@ -1499,7 +1500,9 @@ libqt5dbus5:amd64
 libqt5designer5:amd64
 libqt5gui5:amd64
 libqt5help5:amd64
+libqt5multimedia5:amd64
 libqt5network5:amd64
+libqt5opengl5:amd64
 libqt5printsupport5:amd64
 libqt5qml5:amd64
 libqt5qmlmodels5:amd64
@@ -1638,7 +1641,7 @@ libspice-client-gtk-3.0-5:amd64
 libsqlite3-0:amd64
 libsqlite3-0:i386
 libsratom-0-0:amd64
-libsrt1-gnutls:amd64
+libsrt1.4-gnutls:amd64
 libsrtp2-1:amd64
 libss2:amd64
 libssh2-1:amd64
@@ -2010,10 +2013,12 @@ linux-headers-5.10.0-1-amd64
 linux-headers-5.10.0-1-common
 linux-headers-5.10.4-msi
 linux-headers-5.10.6-msi
+linux-headers-5.10.8-msi
 linux-headers-amd64
 linux-image-5.10.0-1-amd64
 linux-image-5.10.4-msi
 linux-image-5.10.6-msi
+linux-image-5.10.8-msi
 linux-image-amd64
 linux-kbuild-5.10
 linux-libc-dev:amd64
@@ -2309,7 +2314,6 @@ python3-requests
 python3-roman
 python3-scour
 python3-setproctitle:amd64
-python3-sip
 python3-six
 python3-smbc
 python3-snowballstemmer
