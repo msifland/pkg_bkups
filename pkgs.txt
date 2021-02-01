@@ -1734,7 +1734,7 @@ libuchardet0:amd64
 libudev-dev:amd64
 libudev1:amd64
 libudev1:i386
-libudfread0
+libudfread0:amd64
 libudisks2-0:amd64
 libumfpack5:amd64
 libunicode-linebreak-perl
@@ -2009,13 +2009,15 @@ lightdm-gtk-greeter
 lightdm-settings
 linux-base
 linux-compiler-gcc-10-x86
-linux-headers-5.10.0-1-amd64
-linux-headers-5.10.0-1-common
+linux-headers-5.10.0-2-amd64
+linux-headers-5.10.0-2-common
+linux-headers-5.10.10-msi
 linux-headers-5.10.4-msi
 linux-headers-5.10.6-msi
 linux-headers-5.10.8-msi
 linux-headers-amd64
-linux-image-5.10.0-1-amd64
+linux-image-5.10.0-2-amd64
+linux-image-5.10.10-msi
 linux-image-5.10.4-msi
 linux-image-5.10.6-msi
 linux-image-5.10.8-msi
