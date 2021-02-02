@@ -1725,6 +1725,10 @@ libtspi1
 libtss2-esys-3.0.2-0:amd64
 libtss2-mu0:amd64
 libtss2-sys1:amd64
+libtss2-tcti-cmd0:amd64
+libtss2-tcti-device0:amd64
+libtss2-tcti-mssim0:amd64
+libtss2-tcti-swtpm0:amd64
 libturbojpeg0:amd64
 libtwolame0:amd64
 libtwolame0:i386
@@ -2012,12 +2016,14 @@ linux-compiler-gcc-10-x86
 linux-headers-5.10.0-2-amd64
 linux-headers-5.10.0-2-common
 linux-headers-5.10.10-msi
+linux-headers-5.10.12-msi
 linux-headers-5.10.4-msi
 linux-headers-5.10.6-msi
 linux-headers-5.10.8-msi
 linux-headers-amd64
 linux-image-5.10.0-2-amd64
 linux-image-5.10.10-msi
+linux-image-5.10.12-msi
 linux-image-5.10.4-msi
 linux-image-5.10.6-msi
 linux-image-5.10.8-msi
