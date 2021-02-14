@@ -566,6 +566,7 @@ libatspi2.0-0:amd64
 libatspi2.0-dev:amd64
 libattr1:amd64
 libaudcore5:amd64
+libaudgui5:amd64
 libaudio2:amd64
 libaudit-common
 libaudit-dev:amd64
@@ -914,10 +915,8 @@ libgdk-pixbuf-2.0-0:amd64
 libgdk-pixbuf-2.0-0:i386
 libgdk-pixbuf-2.0-dev:amd64
 libgdk-pixbuf-xlib-2.0-0:amd64
-libgdk-pixbuf-xlib-2.0-0:i386
 libgdk-pixbuf-xlib-2.0-dev:amd64
 libgdk-pixbuf2.0-0:amd64
-libgdk-pixbuf2.0-0:i386
 libgdk-pixbuf2.0-bin
 libgdk-pixbuf2.0-common
 libgdk-pixbuf2.0-dev:amd64
@@ -937,7 +936,6 @@ libgit2-glib-1.0-0:amd64
 libgl-dev:amd64
 libgl1:amd64
 libgl1:i386
-libgl1-mesa-dev:amd64
 libgl1-mesa-dri:amd64
 libgl1-mesa-dri:i386
 libgl1-mesa-glx:amd64
@@ -1301,7 +1299,7 @@ libnet-libidn-perl
 libnet-smtp-ssl-perl
 libnet-ssleay-perl
 libnetfilter-conntrack3:amd64
-libnetfilter-queue1
+libnetfilter-queue1:amd64
 libnetpbm10
 libnettle6:amd64
 libnettle8:amd64
@@ -1502,7 +1500,6 @@ libqt5gui5:amd64
 libqt5help5:amd64
 libqt5multimedia5:amd64
 libqt5network5:amd64
-libqt5opengl5:amd64
 libqt5printsupport5:amd64
 libqt5qml5:amd64
 libqt5qmlmodels5:amd64
@@ -2013,20 +2010,12 @@ lightdm-gtk-greeter
 lightdm-settings
 linux-base
 linux-compiler-gcc-10-x86
-linux-headers-5.10.0-2-amd64
-linux-headers-5.10.0-2-common
-linux-headers-5.10.10-msi
+linux-headers-5.10.0-3-amd64
+linux-headers-5.10.0-3-common
 linux-headers-5.10.12-msi
-linux-headers-5.10.4-msi
-linux-headers-5.10.6-msi
-linux-headers-5.10.8-msi
 linux-headers-amd64
-linux-image-5.10.0-2-amd64
-linux-image-5.10.10-msi
+linux-image-5.10.0-3-amd64
 linux-image-5.10.12-msi
-linux-image-5.10.4-msi
-linux-image-5.10.6-msi
-linux-image-5.10.8-msi
 linux-image-amd64
 linux-kbuild-5.10
 linux-libc-dev:amd64
