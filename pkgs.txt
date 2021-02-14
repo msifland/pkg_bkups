@@ -1236,6 +1236,8 @@ libmbedtls12:amd64
 libmbedx509-0:amd64
 libmbim-glib4:amd64
 libmbim-proxy
+libmd0:amd64
+libmd0:i386
 libmd4c0:amd64
 libmediaart-2.0-0:amd64
 libmediainfo0v5:amd64
@@ -2013,9 +2015,11 @@ linux-compiler-gcc-10-x86
 linux-headers-5.10.0-3-amd64
 linux-headers-5.10.0-3-common
 linux-headers-5.10.12-msi
+linux-headers-5.10.14-msi
 linux-headers-amd64
 linux-image-5.10.0-3-amd64
 linux-image-5.10.12-msi
+linux-image-5.10.14-msi
 linux-image-amd64
 linux-kbuild-5.10
 linux-libc-dev:amd64
