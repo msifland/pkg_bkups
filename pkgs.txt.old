@@ -1250,7 +1250,7 @@ libmime-lite-perl
 libmime-types-perl
 libminiupnpc17:amd64
 libminizip1:amd64
-libmjpegutils-2.1-0:amd64
+libmjpegutils-2.2-0:amd64
 libmm-glib0:amd64
 libmms0:amd64
 libmng1:amd64
@@ -1267,11 +1267,11 @@ libmpc3:amd64
 libmpcdec6:amd64
 libmpdec3:amd64
 libmpeg2-4:amd64
-libmpeg2encpp-2.1-0:amd64
+libmpeg2encpp-2.2-0:amd64
 libmpfr6:amd64
 libmpg123-0:amd64
 libmpg123-0:i386
-libmplex2-2.1-0:amd64
+libmplex2-2.2-0:amd64
 libmpx2:amd64
 libmro-compat-perl
 libmspack0:amd64
