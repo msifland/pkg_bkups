@@ -516,8 +516,8 @@ libann0
 libao-common
 libao4:amd64
 libaom0:amd64
-libaom2:amd64
-libaom2:i386
+libaom3:amd64
+libaom3:i386
 libapache-pom-java
 libapache2-mod-dnssd
 libapparmor1:amd64
@@ -2012,8 +2012,8 @@ lightdm-gtk-greeter
 lightdm-settings
 linux-base
 linux-compiler-gcc-10-x86
-linux-headers-5.10.0-4-amd64
-linux-headers-5.10.0-4-common
+linux-headers-5.10.0-5-amd64
+linux-headers-5.10.0-5-common
 linux-headers-5.10.12-msi
 linux-headers-5.10.14-msi
 linux-headers-5.10.16-msi
@@ -2023,7 +2023,7 @@ linux-headers-5.11.4-msi
 linux-headers-5.11.6-msi
 linux-headers-5.11.8-msi
 linux-headers-amd64
-linux-image-5.10.0-4-amd64
+linux-image-5.10.0-5-amd64
 linux-image-5.10.12-msi
 linux-image-5.10.14-msi
 linux-image-5.10.16-msi
