@@ -2021,6 +2021,7 @@ linux-headers-5.11.0-msi
 linux-headers-5.11.2-msi
 linux-headers-5.11.4-msi
 linux-headers-5.11.6-msi
+linux-headers-5.11.8-msi
 linux-headers-amd64
 linux-image-5.10.0-4-amd64
 linux-image-5.10.12-msi
@@ -2030,6 +2031,7 @@ linux-image-5.11.0-msi
 linux-image-5.11.2-msi
 linux-image-5.11.4-msi
 linux-image-5.11.6-msi
+linux-image-5.11.8-msi
 linux-image-amd64
 linux-kbuild-5.10
 linux-libc-dev:amd64
