@@ -1853,7 +1853,8 @@ libx11-xcb1:i386
 libx264-161:amd64
 libx264-161:i386
 libx265-192:amd64
-libx265-192:i386
+libx265-199:amd64
+libx265-199:i386
 libx32asan5
 libx32asan6
 libx32atomic1
@@ -2019,6 +2020,7 @@ linux-headers-5.10.14-msi
 linux-headers-5.10.16-msi
 linux-headers-5.11.0-msi
 linux-headers-5.11.10-msi
+linux-headers-5.11.11-msi
 linux-headers-5.11.2-msi
 linux-headers-5.11.4-msi
 linux-headers-5.11.6-msi
@@ -2030,6 +2032,7 @@ linux-image-5.10.14-msi
 linux-image-5.10.16-msi
 linux-image-5.11.0-msi
 linux-image-5.11.10-msi
+linux-image-5.11.11-msi
 linux-image-5.11.2-msi
 linux-image-5.11.4-msi
 linux-image-5.11.6-msi
