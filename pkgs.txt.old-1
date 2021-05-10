@@ -2019,15 +2019,9 @@ linux-base
 linux-compiler-gcc-10-x86
 linux-headers-5.10.0-6-amd64
 linux-headers-5.10.0-6-common
-linux-headers-5.10.12-msi
-linux-headers-5.10.14-msi
-linux-headers-5.10.16-msi
 linux-headers-5.11.15-msi
 linux-headers-amd64
 linux-image-5.10.0-6-amd64
-linux-image-5.10.12-msi
-linux-image-5.10.14-msi
-linux-image-5.10.16-msi
 linux-image-5.11.15-msi
 linux-image-amd64
 linux-kbuild-5.10
