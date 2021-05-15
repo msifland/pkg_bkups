@@ -1433,7 +1433,6 @@ libpeas-1.0-0:amd64
 libpeas-common
 libperl-dev:amd64
 libperl4-corelibs-perl
-libperl5.26:amd64
 libperl5.32:amd64
 libperl5.32:i386
 libpgm-5.3-0:amd64
@@ -1852,8 +1851,8 @@ libx11-dev:amd64
 libx11-protocol-perl
 libx11-xcb1:amd64
 libx11-xcb1:i386
-libx264-161:amd64
-libx264-161:i386
+libx264-163:amd64
+libx264-163:i386
 libx265-192:amd64
 libx265-199:amd64
 libx265-199:i386
@@ -2021,10 +2020,12 @@ linux-headers-5.10.0-6-amd64
 linux-headers-5.10.0-6-common
 linux-headers-5.11.15-msi
 linux-headers-5.12.0-msi
+linux-headers-5.12.1-msi
 linux-headers-amd64
 linux-image-5.10.0-6-amd64
 linux-image-5.11.15-msi
 linux-image-5.12.0-msi
+linux-image-5.12.1-msi
 linux-image-amd64
 linux-kbuild-5.10
 linux-libc-dev:amd64
@@ -2189,7 +2190,6 @@ pciutils
 perl
 perl-base
 perl-doc
-perl-modules-5.26
 perl-modules-5.28
 perl-modules-5.32
 perl-openssl-defaults:amd64
