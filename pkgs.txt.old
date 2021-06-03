@@ -1217,6 +1217,7 @@ libmagickcore-6.q16-6-extra:amd64
 libmagickwand-6.q16-6:amd64
 libmail-sendmail-perl
 libmailtools-perl
+libmanette-0.2-0:amd64
 libmarco-private2:amd64
 libmariadb3:amd64
 libmate-desktop-2-17:amd64
@@ -2020,10 +2021,12 @@ linux-headers-5.10.0-6-amd64
 linux-headers-5.10.0-6-common
 linux-headers-5.12.2-msi
 linux-headers-5.12.4-msi
+linux-headers-5.12.6-msi
 linux-headers-amd64
 linux-image-5.10.0-6-amd64
 linux-image-5.12.2-msi
 linux-image-5.12.4-msi
+linux-image-5.12.6-msi
 linux-image-amd64
 linux-kbuild-5.10
 linux-libc-dev:amd64
