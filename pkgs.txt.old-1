@@ -690,6 +690,7 @@ libcdt5:amd64
 libcgraph6:amd64
 libcholmod3:amd64
 libchromaprint1:amd64
+libcjson1:amd64
 libclamav9:amd64
 libclass-c3-perl
 libclass-c3-xs-perl
@@ -1172,8 +1173,6 @@ libldap-2.4-2:amd64
 libldap-2.4-2:i386
 libldap-common
 libldb2:amd64
-liblensfun-data-v1
-liblensfun1:amd64
 liblept5:amd64
 liblightdm-gobject-1-0:amd64
 liblilv-0-0:amd64
@@ -1537,6 +1536,7 @@ libref-util-xs-perl
 librest-0.7-0:amd64
 librevenge-0.0-0:amd64
 librhash0:amd64
+librist4
 librole-tiny-perl
 librsvg2-2:amd64
 librsvg2-2:i386
@@ -1667,6 +1667,7 @@ libsub-name-perl
 libsub-override-perl
 libsub-quote-perl
 libsuitesparseconfig5:amd64
+libsvtav1-0:amd64
 libsvthevcenc1:amd64
 libswresample3:amd64
 libswresample3:i386
@@ -2022,11 +2023,13 @@ linux-headers-5.10.0-6-common
 linux-headers-5.12.2-msi
 linux-headers-5.12.4-msi
 linux-headers-5.12.6-msi
+linux-headers-5.12.8-msi
 linux-headers-amd64
 linux-image-5.10.0-6-amd64
 linux-image-5.12.2-msi
 linux-image-5.12.4-msi
 linux-image-5.12.6-msi
+linux-image-5.12.8-msi
 linux-image-amd64
 linux-kbuild-5.10
 linux-libc-dev:amd64
