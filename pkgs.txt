@@ -2018,14 +2018,14 @@ lightdm-gtk-greeter
 lightdm-settings
 linux-base
 linux-compiler-gcc-10-x86
-linux-headers-5.10.0-6-amd64
-linux-headers-5.10.0-6-common
+linux-headers-5.10.0-7-amd64
+linux-headers-5.10.0-7-common
 linux-headers-5.12.2-msi
 linux-headers-5.12.4-msi
 linux-headers-5.12.6-msi
 linux-headers-5.12.8-msi
 linux-headers-amd64
-linux-image-5.10.0-6-amd64
+linux-image-5.10.0-7-amd64
 linux-image-5.12.2-msi
 linux-image-5.12.4-msi
 linux-image-5.12.6-msi
