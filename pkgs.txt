@@ -1536,7 +1536,7 @@ libref-util-xs-perl
 librest-0.7-0:amd64
 librevenge-0.0-0:amd64
 librhash0:amd64
-librist4
+librist4:amd64
 librole-tiny-perl
 librsvg2-2:amd64
 librsvg2-2:i386
@@ -1783,7 +1783,8 @@ libvisual-0.4-0:amd64
 libvisual-0.4-0:i386
 libvkd3d1:amd64
 libvkd3d1:i386
-libvmaf1
+libvmaf1:amd64
+libvmaf1:i386
 libvo-aacenc0:amd64
 libvo-amrwbenc0:amd64
 libvo-amrwbenc0:i386
@@ -2024,12 +2025,14 @@ linux-headers-5.12.2-msi
 linux-headers-5.12.4-msi
 linux-headers-5.12.6-msi
 linux-headers-5.12.8-msi
+linux-headers-5.12.9-msi
 linux-headers-amd64
 linux-image-5.10.0-7-amd64
 linux-image-5.12.2-msi
 linux-image-5.12.4-msi
 linux-image-5.12.6-msi
 linux-image-5.12.8-msi
+linux-image-5.12.9-msi
 linux-image-amd64
 linux-kbuild-5.10
 linux-libc-dev:amd64
