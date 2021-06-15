@@ -390,8 +390,9 @@ echo
 echo -e ${rand_color} "============================================================================"
 echo "  Welcome to your $(uname -rmno) machine, Michael"
 echo "  Kernel Version: $(uname -v)"
-echo "  Disk use:     Partition       Total Used  Rmn   %Us MntPnt"
-df -h | grep /dev/sd | while read line; do echo -e "\t\t$line"; done
+echo "  Disk use:  Partition  Total   Used  Rmning    %Us MntPnt"
+echo "             ---------------------------------------------"
+lsblk -o NAME,FSSIZE,FSUSED,FSAVAIL,FSUSE%,MOUNTPOINT | grep sd | while read line;do echo -e "\t\t$line"; done | awk '{if ($6) print $0;}'
 echo "  External IP: $(curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//') / Internal IP: $(ip address | grep "inet 19" | sed '/vmnet/ d' | awk '{print $2}' | sed 's:/24::g')"
 echo " ============================================================================"
 echo -e ${restore}
