@@ -334,6 +334,22 @@ function timed(){
     echo -e "${ILCOLOR4}⏰  $result${ILRESTORE}"
 }
 
+function rec-key(){
+	if [[ ! -z $1 ]] && [[ ! -z $2 ]]; then
+	sudo gpg --no-default-keyring --keyring /usr/share/keyrings/"$1-archive-keyring.gpg" --keyserver hkp://keys.gnupg.net/ --recv-keys $2
+	sleep 1
+	echo
+	echo "${ILCOLOR4}[signed-by=/usr/share/keyrings/$1-archive-keyring.gpg] \" Add this to /etc/apt/sources, after \"deb\" or after \"deb [arch=amd64, \"${ILRESTORE}"
+	sleep 5
+	caja /etc/apt/
+	else
+		echo 'Imports gpg keys.
+	Usage:  
+	rec-key <program name> <key>
+	rec-key lutris 2F7F0DA5FD5B64B9'
+	fi
+}
+
 function goto-instructions(){ ##> Show how to use goto in scripts.
 	echo '
 	# Copy this text to your script
@@ -403,7 +419,6 @@ alias cd..="cd .." #Moves up 1 directory
 alias errors="systemctl --failed --all && journalctl -p 3 -xb" #Show system errors
 alias perms='stat -c "%a %n" *' #Get permissions in numeric form
 alias python="python2"
-alias rec-key="sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys"
 alias del-key="sudo apt-key del"
 alias apt-list="apt list --installed"
 alias apt-list-s="apt list --installed | grep "$1""
