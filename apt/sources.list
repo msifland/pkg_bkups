@@ -41,17 +41,17 @@ deb http://repo.sinew.in/ stable main
 deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
 
 ###Open Shot
-deb http://ppa.launchpad.net/openshot.developers/ppa/ubuntu bionic main 
+deb http://ppa.launchpad.net/openshot.developers/ppa/ubuntu bionic main
 
-deb-src http://ppa.launchpad.net/openshot.developers/ppa/ubuntu bionic main 
+deb-src http://ppa.launchpad.net/openshot.developers/ppa/ubuntu bionic main
 
 ###Paper GTK Theme
 deb http://ppa.launchpad.net/snwh/pulp/ubuntu bionic main
 deb-src http://ppa.launchpad.net/snwh/pulp/ubuntu bionic main
 
 ###Papirus GTK Theme
-deb http://ppa.launchpad.net/papirus/papirus/ubuntu bionic main 
-deb-src http://ppa.launchpad.net/papirus/papirus/ubuntu bionic main 
+deb http://ppa.launchpad.net/papirus/papirus/ubuntu bionic main
+deb-src http://ppa.launchpad.net/papirus/papirus/ubuntu bionic main
 
 ###Skype
 deb [arch=amd64] https://repo.skype.com/deb stable main
