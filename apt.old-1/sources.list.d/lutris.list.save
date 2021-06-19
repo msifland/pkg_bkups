@@ -1,1 +1,1 @@
-deb http://download.opensuse.org/repositories/home:/strycore/Debian_Testing/ ./
+deb [signed-by=/usr/share/keyrings/lutris-archive-keyring.gpg] http://download.opensuse.org/repositories/home:/strycore/Debian_10/ ./
