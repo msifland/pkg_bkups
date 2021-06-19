@@ -23,16 +23,16 @@
 30 1 * * * /home/msifland/scripts/cron_scripts/my-backup-run
 
 # Scans for viruses once a week
-30 2 * * 1 /home/msifland/scripts/cron_scripts/virus-clamscan-run
+0 2 * * 1 /home/msifland/scripts/cron_scripts/virus-clamscan-run
 
 # Restart PC once a week
 0 1 * * 6 /home/msifland/scripts/restart
 
 # Run a check for new kernels once a week
-45 6 * * 1 /home/msifland/scripts/cron_scripts/kernel-check-run
+0 3 * * 6 /home/msifland/scripts/cron_scripts/kernel-check-run
 
 # Update screenfetch one a week
-20 1 * * 5 /home/msifland/scripts/cron_scripts/screenfetch-update-run
+0 3 * * 5 /home/msifland/scripts/cron_scripts/screenfetch-update-run
 
 # Build a new OSM map for my Garmin on the first day of every month at 8pm
 #00 19 1 * * /home/msifland/scripts/cron_scripts/map-my-builder-run

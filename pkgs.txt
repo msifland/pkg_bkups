@@ -1854,8 +1854,8 @@ libx11-dev:amd64
 libx11-protocol-perl
 libx11-xcb1:amd64
 libx11-xcb1:i386
-libx264-163:amd64
-libx264-163:i386
+libx264-164:amd64
+libx264-164:i386
 libx265-192:amd64
 libx265-199:amd64
 libx265-199:i386
