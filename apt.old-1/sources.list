@@ -54,7 +54,7 @@ deb http://ppa.launchpad.net/papirus/papirus/ubuntu bionic main
 deb-src http://ppa.launchpad.net/papirus/papirus/ubuntu bionic main
 
 ###Skype
-deb [arch=amd64, signed-by=/usr/share/keyrings/skype-archive-keyring.gpg]] https://repo.skype.com/deb stable main
+deb [arch=amd64, signed-by=/usr/share/keyrings/skype-archive-keyring.gpg] https://repo.skype.com/deb stable main
 
 ###Spotify
 deb http://repository.spotify.com stable non-free
