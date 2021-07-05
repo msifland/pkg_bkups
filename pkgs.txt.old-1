@@ -2022,6 +2022,7 @@ linux-compiler-gcc-10-x86
 linux-headers-5.10.0-7-amd64
 linux-headers-5.10.0-7-common
 linux-headers-5.12.10-msi
+linux-headers-5.12.13-msi
 linux-headers-5.12.2-msi
 linux-headers-5.12.4-msi
 linux-headers-5.12.6-msi
@@ -2030,6 +2031,7 @@ linux-headers-5.12.9-msi
 linux-headers-amd64
 linux-image-5.10.0-7-amd64
 linux-image-5.12.10-msi
+linux-image-5.12.13-msi
 linux-image-5.12.2-msi
 linux-image-5.12.4-msi
 linux-image-5.12.6-msi
