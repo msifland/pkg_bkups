@@ -592,7 +592,6 @@ libavdevice58:amd64
 libavfilter7:amd64
 libavformat58:amd64
 libavresample4:amd64
-libavresample4:i386
 libavutil56:amd64
 libavutil56:i386
 libayatana-appindicator3-1
@@ -2030,6 +2029,7 @@ linux-headers-5.12.8-msi
 linux-headers-5.12.9-msi
 linux-headers-5.13.0-msi
 linux-headers-5.13.1-msi
+linux-headers-5.13.2-msi
 linux-headers-amd64
 linux-image-5.10.0-7-amd64
 linux-image-5.12.10-msi
@@ -2041,6 +2041,7 @@ linux-image-5.12.8-msi
 linux-image-5.12.9-msi
 linux-image-5.13.0-msi
 linux-image-5.13.1-msi
+linux-image-5.13.2-msi
 linux-image-amd64
 linux-kbuild-5.10
 linux-libc-dev:amd64
