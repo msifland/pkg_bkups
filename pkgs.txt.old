@@ -2029,6 +2029,7 @@ linux-headers-5.12.8-msi
 linux-headers-5.12.9-msi
 linux-headers-5.13.0-msi
 linux-headers-5.13.1-msi
+linux-headers-5.13.10-msi
 linux-headers-5.13.2-msi
 linux-headers-5.13.4-msi
 linux-headers-5.13.7-msi
@@ -2044,6 +2045,7 @@ linux-image-5.12.8-msi
 linux-image-5.12.9-msi
 linux-image-5.13.0-msi
 linux-image-5.13.1-msi
+linux-image-5.13.10-msi
 linux-image-5.13.2-msi
 linux-image-5.13.4-msi
 linux-image-5.13.7-msi
