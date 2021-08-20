@@ -19,8 +19,8 @@ deb-src http://deb.debian.org/debian/ stable main non-free contrib
 deb http://deb.debian.org/debian/ stable-updates main contrib non-free
 deb-src http://deb.debian.org/debian/ stable-updates main contrib non-free
 
-deb http://security.debian.org/ stable/updates main contrib non-free
-deb-src http://security.debian.org/ stable/updates main contrib non-free
+deb http://security.debian.org/debian-security stable-security main contrib non-free
+deb-src http://security.debian.org/debian-security stable-security main contrib non-free
 
 ###Unstable for apps not available in testing branch.
 deb http://deb.debian.org/debian/ unstable main non-free contrib
