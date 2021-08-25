@@ -68,3 +68,6 @@ deb https://dl.winehq.org/wine-builds/debian/ sid main
 
 ###Sublime Text
 deb https://download.sublimetext.com/ apt/stable/
+
+###Anydesk
+deb http://deb.anydesk.com/ all main
