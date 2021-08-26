@@ -313,6 +313,7 @@ gedit-plugin-translate
 gedit-plugin-word-completion
 gedit-plugins
 gedit-plugins-common
+genisoimage
 gettext
 gettext-base
 ghostscript
@@ -1399,6 +1400,7 @@ libpangocairo-1.0-0:i386
 libpangoft2-1.0-0:amd64
 libpangoft2-1.0-0:i386
 libpangomm-1.4-1v5:amd64
+libpangox-1.0-0:amd64
 libpangoxft-1.0-0:amd64
 libpangoxft-1.0-0:i386
 libpaper-utils
