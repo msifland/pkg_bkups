@@ -272,6 +272,8 @@ gcc-10
 gcc-10-base:amd64
 gcc-10-base:i386
 gcc-10-multilib
+gcc-11-base:amd64
+gcc-11-base:i386
 gcc-8
 gcc-8-base:amd64
 gcc-8-multilib
@@ -1714,7 +1716,7 @@ libtiffxx5:amd64
 libtimedate-perl
 libtinfo6:amd64
 libtinfo6:i386
-libtinyxml2-8:amd64
+libtinyxml2-9:amd64
 libtirpc-common
 libtirpc-dev:amd64
 libtirpc3:amd64
@@ -2028,10 +2030,12 @@ linux-headers-5.10.0-8-amd64
 linux-headers-5.10.0-8-common
 linux-headers-5.13.10-msi
 linux-headers-5.13.12-msi
+linux-headers-5.13.13-msi
 linux-headers-amd64
 linux-image-5.10.0-8-amd64
 linux-image-5.13.10-msi
 linux-image-5.13.12-msi
+linux-image-5.13.13-msi
 linux-image-amd64
 linux-kbuild-5.10
 linux-libc-dev:amd64
@@ -2358,6 +2362,7 @@ rake
 readline-common
 reportbug
 rfkill
+rpcsvc-proto
 rsync
 rsyslog
 rtkit
