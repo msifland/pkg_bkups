@@ -511,8 +511,6 @@ libalgorithm-diff-perl
 libalgorithm-diff-xs-perl
 libalgorithm-merge-perl
 libamd2:amd64
-libamtk-5-0:amd64
-libamtk-5-common
 libann0
 libao-common
 libao4:amd64
@@ -1087,6 +1085,7 @@ libicu67:amd64
 libicu67:i386
 libid3tag0:amd64
 libidn11:amd64
+libidn12:amd64
 libidn2-0:amd64
 libidn2-0:i386
 libiec61883-0:amd64
@@ -1692,7 +1691,6 @@ libtcl8.6:amd64
 libtdb1:amd64
 libteamdctl0:amd64
 libteckit0:amd64
-libtepl-5-0:amd64
 libtesseract4:amd64
 libtest-fatal-perl
 libtevent0:amd64
@@ -1725,9 +1723,7 @@ libtk8.6:amd64
 libtool
 libtotem-plparser-common
 libtotem-plparser18:amd64
-libtracker-control-2.0-0:amd64
-libtracker-miner-2.0-0:amd64
-libtracker-sparql-2.0-0:amd64
+libtracker-sparql-3.0-0:amd64
 libtry-tiny-perl
 libtsan0:amd64
 libtspi1
@@ -2031,11 +2027,13 @@ linux-headers-5.10.0-8-common
 linux-headers-5.13.10-msi
 linux-headers-5.13.12-msi
 linux-headers-5.13.13-msi
+linux-headers-5.14.1-msi
 linux-headers-amd64
 linux-image-5.10.0-8-amd64
 linux-image-5.13.10-msi
 linux-image-5.13.12-msi
 linux-image-5.13.13-msi
+linux-image-5.14.1-msi
 linux-image-amd64
 linux-kbuild-5.10
 linux-libc-dev:amd64
