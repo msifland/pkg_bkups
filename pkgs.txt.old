@@ -739,7 +739,6 @@ libdata-optlist-perl
 libdatrie-dev:amd64
 libdatrie1:amd64
 libdatrie1:i386
-libdav1d4:amd64
 libdav1d5:amd64
 libdav1d5:i386
 libdavs2-16:amd64
@@ -2025,9 +2024,11 @@ linux-compiler-gcc-10-x86
 linux-headers-5.10.0-8-amd64
 linux-headers-5.10.0-8-common
 linux-headers-5.14.1-msi
+linux-headers-5.14.2-msi
 linux-headers-amd64
 linux-image-5.10.0-8-amd64
 linux-image-5.14.1-msi
+linux-image-5.14.2-msi
 linux-image-amd64
 linux-kbuild-5.10
 linux-libc-dev:amd64
