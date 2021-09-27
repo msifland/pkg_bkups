@@ -320,6 +320,26 @@ function transfer(){ ##>Uploades files to https://transfer.sh
 	fi
 }
 
+function force-remove(){ ##>forces unistall of package when apt errors
+	if [[ ! -z $1 ]]; then
+		FILE="$1"
+		echo
+		echo "Force removing packe $1 by running 'sudo dpkg --remove --force-remove-reinstreq' $1"
+		sleep 1
+		read -p "Do you wish to continue? " yn_rmv
+		if [[ "$yn_rmv" =~ ^([yY][eE][sS]|[yY])$ ]]; then
+			sudo dpkg --remove --force-remove-reinstreq "$1"
+		else
+			echo
+			echo "Ok, not removing $1. . ."
+		fi
+
+	else
+		echo 'Usage:  force-remove pulseaudio
+	force-remove gstreamer1.0'
+	fi
+
+}
 function timed(){
 	START_TIME=$(date +"%s")
 	echo ${ILCOLOR4}$(date +%m-%d-%Y) $(date +"%r")
