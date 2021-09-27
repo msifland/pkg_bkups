@@ -16,23 +16,24 @@
 ########################### Debian Linux #########################
 # These call scripts located in $HOME/scripts/cron_scripts
 ##################################################################
-# Updates linux system every week
-0 7 * * 1 /home/msifland/scripts/cron_scripts/linux-update-run
+# Updates linux system every week.
+00 7 * * 1 /home/msifland/scripts/cron_scripts/linux-update-run
 
-# Backs up my important files. See script for files that are backed up
+# Backs up my important files. See script for files that are backed up.
 30 1 * * * /home/msifland/scripts/cron_scripts/my-backup-run
 
-# Scans for viruses once a week
-0 2 * * 1 /home/msifland/scripts/cron_scripts/virus-clamscan-run
+# Scans for viruses once a week. This entry has a corrosponding entry
+# uder 'sudo crontab -e' for updating virus definitions.
+15 2 * * 1 /home/msifland/scripts/cron_scripts/virus-clamscan-run
 
-# Restart PC once a week
-0 1 * * 6 /home/msifland/scripts/restart
+# Restart PC once a week.
+00 1 * * 6 /home/msifland/scripts/restart
 
-# Run a check for new kernels once a week
-0 3 * * 6 /home/msifland/scripts/cron_scripts/kernel-check-run
+# Run a check for new kernels once a week.
+00 3 * * 6 /home/msifland/scripts/cron_scripts/kernel-check-run
 
-# Update screenfetch one a week
-0 3 * * 5 /home/msifland/scripts/cron_scripts/screenfetch-update-run
+# Update screenfetch one a week.
+00 3 * * 5 /home/msifland/scripts/cron_scripts/screenfetch-update-run
 
-# Build a new OSM map for my Garmin on the first day of every month at 8pm
+# Build a new OSM map for my Garmin on the first day of every month.
 #00 19 1 * * /home/msifland/scripts/cron_scripts/map-my-builder-run

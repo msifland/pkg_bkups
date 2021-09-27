@@ -2026,11 +2026,13 @@ linux-headers-5.10.0-8-common
 linux-headers-5.14.1-msi
 linux-headers-5.14.2-msi
 linux-headers-5.14.5-msi
+linux-headers-5.14.7-msi
 linux-headers-amd64
 linux-image-5.10.0-8-amd64
 linux-image-5.14.1-msi
 linux-image-5.14.2-msi
 linux-image-5.14.5-msi
+linux-image-5.14.7-msi
 linux-image-amd64
 linux-kbuild-5.10
 linux-libc-dev:amd64
