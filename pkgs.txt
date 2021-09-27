@@ -405,14 +405,12 @@ gsettings-desktop-schemas
 gsfonts
 gstreamer1.0-gl:amd64
 gstreamer1.0-libav:amd64
-gstreamer1.0-packagekit
 gstreamer1.0-plugins-bad:amd64
 gstreamer1.0-plugins-base:amd64
 gstreamer1.0-plugins-base:i386
 gstreamer1.0-plugins-good:amd64
 gstreamer1.0-plugins-good:i386
 gstreamer1.0-plugins-ugly:amd64
-gstreamer1.0-pulseaudio:amd64
 gstreamer1.0-x:amd64
 gstreamer1.0-x:i386
 gtk-update-icon-cache
@@ -621,7 +619,7 @@ libbluetooth3:amd64
 libbluray2:amd64
 libboost-iostreams1.74.0:amd64
 libboost-program-options1.74.0:amd64
-libbotan-2-17:amd64
+libbotan-2-18:amd64
 libbpf0:amd64
 libbrasero-media3-1:amd64
 libbrotli-dev:amd64
@@ -1199,7 +1197,6 @@ liblrdf0
 liblsan0:amd64
 libltdl7:amd64
 libltdl7:i386
-liblua5.2-0:amd64
 liblua5.3-0:amd64
 libluajit-5.1-2:amd64
 libluajit-5.1-common
@@ -1521,8 +1518,6 @@ libqt5widgets5:amd64
 libqt5x11extras5:amd64
 libqt5xml5:amd64
 libquadmath0:amd64
-libquvi-0.9-0.9.3:amd64
-libquvi-scripts-0.9
 librabbitmq4:amd64
 libraptor2-0:amd64
 libraw1394-11:amd64
@@ -1656,7 +1651,7 @@ libssl1.1:i386
 libstartup-notification0:amd64
 libstb0:amd64
 libstb0:i386
-libstd-rust-1.49:amd64
+libstd-rust-1.50:amd64
 libstd-rust-dev:amd64
 libstdc++-10-dev:amd64
 libstdc++6:amd64
@@ -1796,8 +1791,6 @@ libvorbis0a:i386
 libvorbisenc2:amd64
 libvorbisenc2:i386
 libvorbisfile3:amd64
-libvorbisidec1:amd64
-libvorbisidec1:i386
 libvpx6:amd64
 libvpx6:i386
 libvte-2.91-0:amd64
@@ -1858,7 +1851,6 @@ libx11-xcb1:amd64
 libx11-xcb1:i386
 libx264-164:amd64
 libx264-164:i386
-libx265-192:amd64
 libx265-199:amd64
 libx265-199:i386
 libx32asan5
@@ -2048,11 +2040,7 @@ lsb-base
 lsb-release
 lshw
 lsof
-lua-bitop:amd64
-lua-expat:amd64
-lua-json
 lua-lpeg:amd64
-lua-socket:amd64
 lutris
 lynx
 lynx-common
