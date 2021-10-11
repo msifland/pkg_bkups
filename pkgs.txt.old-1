@@ -348,7 +348,6 @@ gir1.2-json-1.0:amd64
 gir1.2-matedesktop-2.0:amd64
 gir1.2-matemenu-2.0:amd64
 gir1.2-matepanelapplet-4.0:amd64
-gir1.2-nautilus-3.0:amd64
 gir1.2-nm-1.0:amd64
 gir1.2-notify-0.7:amd64
 gir1.2-packagekitglib-1.0
@@ -617,6 +616,7 @@ libblockdev-utils2:amd64
 libblockdev2:amd64
 libbluetooth3:amd64
 libbluray2:amd64
+libboost-filesystem1.74.0:amd64
 libboost-iostreams1.74.0:amd64
 libboost-program-options1.74.0:amd64
 libbotan-2-18:amd64
@@ -843,6 +843,8 @@ libffi-dev:amd64
 libffi6:amd64
 libffi7:amd64
 libffi7:i386
+libffi8:amd64
+libffi8:i386
 libffmpegthumbnailer4v5:amd64
 libfftw3-double3:amd64
 libfftw3-single3:amd64
@@ -919,8 +921,6 @@ libgdk-pixbuf2.0-0:amd64
 libgdk-pixbuf2.0-bin
 libgdk-pixbuf2.0-common
 libgdk-pixbuf2.0-dev:amd64
-libgdl-3-5:amd64
-libgdl-3-common
 libgee-0.8-2:amd64
 libgegl-0.4-0:amd64
 libgegl-common
@@ -944,7 +944,6 @@ libglapi-mesa:i386
 libgles-dev:amd64
 libgles1:amd64
 libgles2:amd64
-libglew2.1:amd64
 libglib-object-introspection-perl
 libglib-perl:amd64
 libglib2.0-0:amd64
@@ -1027,7 +1026,6 @@ libgtksourceview-3.0-1:amd64
 libgtksourceview-3.0-common
 libgtksourceview-4-0:amd64
 libgtksourceview-4-common
-libgtkspell3-3-0:amd64
 libgtop-2.0-11:amd64
 libgtop2-common
 libgts-0.7-5:amd64
@@ -1358,7 +1356,7 @@ libopencore-amrnb0:i386
 libopencore-amrwb0:amd64
 libopencore-amrwb0:i386
 libopencsd-dev:amd64
-libopencsd0:amd64
+libopencsd1:amd64
 libopenexr25:amd64
 libopengl-dev:amd64
 libopengl0:amd64
@@ -1482,7 +1480,6 @@ libpulsedsp:amd64
 libpwquality-common
 libpwquality1:amd64
 libpython2-stdlib:amd64
-libpython2.7:amd64
 libpython2.7-minimal:amd64
 libpython2.7-stdlib:amd64
 libpython3-dev:amd64
@@ -1956,7 +1953,7 @@ libxml-xpathengine-perl
 libxml2:amd64
 libxml2:i386
 libxml2-utils
-libxmlb1:amd64
+libxmlb2:amd64
 libxmu6:amd64
 libxmuu1:amd64
 libxnvctrl0:amd64
@@ -2013,23 +2010,25 @@ lightdm-gtk-greeter
 lightdm-settings
 linux-base
 linux-compiler-gcc-10-x86
-linux-headers-5.10.0-8-amd64
-linux-headers-5.10.0-8-common
+linux-headers-5.14.0-1-amd64
+linux-headers-5.14.0-1-common
 linux-headers-5.14.1-msi
 linux-headers-5.14.2-msi
 linux-headers-5.14.5-msi
 linux-headers-5.14.7-msi
+linux-headers-5.14.9-msi
 linux-headers-amd64
-linux-image-5.10.0-8-amd64
+linux-image-5.14.0-1-amd64
 linux-image-5.14.1-msi
 linux-image-5.14.2-msi
 linux-image-5.14.5-msi
 linux-image-5.14.7-msi
+linux-image-5.14.9-msi
 linux-image-amd64
-linux-kbuild-5.10
+linux-kbuild-5.14
 linux-libc-dev:amd64
 linux-perf
-linux-perf-5.10
+linux-perf-5.14
 lm-sensors
 lmodern
 locales
@@ -2244,9 +2243,7 @@ python-apt-common
 python-babel-localedata
 python-caja-common
 python-dbus
-python-gi
 python-natsort-doc
-python-nautilus
 python2
 python2-minimal
 python2.7
@@ -2518,8 +2515,6 @@ x11-xkb-utils
 x11-xserver-utils
 x11proto-core-dev
 x11proto-dev
-x11proto-input-dev
-x11proto-randr-dev
 x11proto-record-dev
 x11proto-xext-dev
 x11proto-xinerama-dev
