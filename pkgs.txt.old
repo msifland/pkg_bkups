@@ -2012,9 +2012,11 @@ linux-compiler-gcc-10-x86
 linux-headers-5.14.0-2-amd64
 linux-headers-5.14.0-2-common
 linux-headers-5.14.10-msi
+linux-headers-5.14.12-msi
 linux-headers-amd64
 linux-image-5.14.0-2-amd64
 linux-image-5.14.10-msi
+linux-image-5.14.12-msi
 linux-image-amd64
 linux-kbuild-5.14
 linux-libc-dev:amd64
