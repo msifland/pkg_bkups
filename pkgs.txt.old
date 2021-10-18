@@ -166,6 +166,7 @@ default-jre-headless
 desktop-base
 desktop-file-utils
 dh-autoreconf
+dh-elpa-helper
 dh-exec
 dh-python
 dh-strip-nondeterminism
@@ -841,8 +842,6 @@ libfdk-aac2:amd64
 libfdk-aac2:i386
 libffi-dev:amd64
 libffi6:amd64
-libffi7:amd64
-libffi7:i386
 libffi8:amd64
 libffi8:i386
 libffmpegthumbnailer4v5:amd64
@@ -2012,20 +2011,10 @@ linux-base
 linux-compiler-gcc-10-x86
 linux-headers-5.14.0-2-amd64
 linux-headers-5.14.0-2-common
-linux-headers-5.14.1-msi
 linux-headers-5.14.10-msi
-linux-headers-5.14.2-msi
-linux-headers-5.14.5-msi
-linux-headers-5.14.7-msi
-linux-headers-5.14.9-msi
 linux-headers-amd64
 linux-image-5.14.0-2-amd64
-linux-image-5.14.1-msi
 linux-image-5.14.10-msi
-linux-image-5.14.2-msi
-linux-image-5.14.5-msi
-linux-image-5.14.7-msi
-linux-image-5.14.9-msi
 linux-image-amd64
 linux-kbuild-5.14
 linux-libc-dev:amd64
