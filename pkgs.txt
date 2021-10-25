@@ -1279,7 +1279,7 @@ libmtp-common
 libmtp-runtime
 libmtp9:amd64
 libmuffin0
-libmutter-8-0:amd64
+libmutter-9-0:amd64
 libmypaint-1.5-1:amd64
 libmypaint-common
 libmysofa1:amd64
@@ -1516,6 +1516,7 @@ libqt5xml5:amd64
 libquadmath0:amd64
 librabbitmq4:amd64
 libraptor2-0:amd64
+libraqm0:amd64
 libraw1394-11:amd64
 libraw1394-11:i386
 libraw19:amd64
@@ -2013,10 +2014,12 @@ linux-headers-5.14.0-2-amd64
 linux-headers-5.14.0-2-common
 linux-headers-5.14.10-msi
 linux-headers-5.14.12-msi
+linux-headers-5.14.14-msi
 linux-headers-amd64
 linux-image-5.14.0-2-amd64
 linux-image-5.14.10-msi
 linux-image-5.14.12-msi
+linux-image-5.14.14-msi
 linux-image-amd64
 linux-kbuild-5.14
 linux-libc-dev:amd64
