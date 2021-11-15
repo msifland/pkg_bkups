@@ -145,6 +145,10 @@ dash
 dblatex
 dblatex-doc
 dbus
+dbus-bin
+dbus-daemon
+dbus-session-bus-common
+dbus-system-bus-common
 dbus-user-session
 dbus-x11
 dc
@@ -647,7 +651,7 @@ libc6-x32
 libcaca0:amd64
 libcaca0:i386
 libcacard0:amd64
-libcairo-gobject-perl
+libcairo-gobject-perl:amd64
 libcairo-gobject2:amd64
 libcairo-gobject2:i386
 libcairo-perl:amd64
@@ -829,7 +833,6 @@ libexpat1:i386
 libexpat1-dev:amd64
 libext2fs2:amd64
 libextutils-depends-perl
-libextutils-pkgconfig-perl
 libfaac0:amd64
 libfaad2:amd64
 libfakeroot:amd64
@@ -1128,6 +1131,7 @@ libjbig0:amd64
 libjbig0:i386
 libjbig2dec0:amd64
 libjcat1:amd64
+libjemalloc2:amd64
 libjim0.79:amd64
 libjpeg-dev:amd64
 libjpeg-turbo-progs
@@ -1177,7 +1181,8 @@ liblilv-0-0:amd64
 liblinear4:amd64
 liblirc-client0:amd64
 libllvm11:amd64
-libllvm11:i386
+libllvm12:amd64
+libllvm12:i386
 liblmdb0:amd64
 liblocale-gettext-perl
 liblockfile-bin
@@ -1790,6 +1795,8 @@ libvorbisenc2:i386
 libvorbisfile3:amd64
 libvpx6:amd64
 libvpx6:i386
+libvpx7:amd64
+libvpx7:i386
 libvte-2.91-0:amd64
 libvte-2.91-common
 libvulkan1:amd64
@@ -1823,6 +1830,7 @@ libwine:i386
 libwine-development:amd64
 libwine-development:i386
 libwinpr2-2:amd64
+libwireplumber-0.4-0:amd64
 libwmf-bin
 libwmf0.2-7:amd64
 libwnck-3-0:amd64
@@ -2015,11 +2023,13 @@ linux-headers-5.14.0-2-common
 linux-headers-5.14.10-msi
 linux-headers-5.14.12-msi
 linux-headers-5.14.14-msi
+linux-headers-5.14.15-msi
 linux-headers-amd64
 linux-image-5.14.0-2-amd64
 linux-image-5.14.10-msi
 linux-image-5.14.12-msi
 linux-image-5.14.14-msi
+linux-image-5.14.15-msi
 linux-image-amd64
 linux-kbuild-5.14
 linux-libc-dev:amd64
@@ -2188,7 +2198,7 @@ pinentry-gnome3
 pinentry-qt
 pipewire:amd64
 pipewire-bin
-pipewire-media-session
+pipewire-pulse
 pkg-config
 playonlinux
 pluma
@@ -2500,6 +2510,7 @@ winehq-stable
 winetricks
 wireless-regdb
 wireless-tools
+wireplumber
 wmdocker
 wpasupplicant
 wps-office
