@@ -52,6 +52,7 @@ bash-completion
 bc
 bind9-host
 bind9-libs:amd64
+binfmt-support
 binutils
 binutils-common:amd64
 binutils-dev
@@ -694,6 +695,7 @@ libcholmod3:amd64
 libchromaprint1:amd64
 libcjson1:amd64
 libclamav9:amd64
+libclang-cpp13
 libclass-c3-perl
 libclass-c3-xs-perl
 libclass-data-inheritable-perl
@@ -1183,9 +1185,9 @@ liblightdm-gobject-1-0:amd64
 liblilv-0-0:amd64
 liblinear4:amd64
 liblirc-client0:amd64
-libllvm11:amd64
 libllvm12:amd64
 libllvm12:i386
+libllvm13:amd64
 liblmdb0:amd64
 liblocale-gettext-perl
 liblockfile-bin
@@ -1306,7 +1308,7 @@ libnet-dbus-perl
 libnet-http-perl
 libnet-libidn-perl
 libnet-smtp-ssl-perl
-libnet-ssleay-perl
+libnet-ssleay-perl:amd64
 libnetfilter-conntrack3:amd64
 libnetfilter-queue1:amd64
 libnetpbm10
@@ -1440,6 +1442,7 @@ libperl-dev:amd64
 libperl4-corelibs-perl
 libperl5.32:amd64
 libperl5.32:i386
+libpfm4:amd64
 libpgm-5.3-0:amd64
 libphodav-2.0-0:amd64
 libphodav-2.0-common
@@ -1592,6 +1595,7 @@ libselinux1:i386
 libselinux1-dev:amd64
 libsemanage-common
 libsemanage1:amd64
+libsemanage2:amd64
 libsensors-config
 libsensors5:amd64
 libsensors5:i386
@@ -1657,7 +1661,7 @@ libssl1.1:i386
 libstartup-notification0:amd64
 libstb0:amd64
 libstb0:i386
-libstd-rust-1.50:amd64
+libstd-rust-1.56:amd64
 libstd-rust-dev:amd64
 libstdc++-11-dev:amd64
 libstdc++6:amd64
@@ -1964,6 +1968,7 @@ libxml-twig-perl
 libxml-xpathengine-perl
 libxml2:amd64
 libxml2:i386
+libxml2-dev:amd64
 libxml2-utils
 libxmlb2:amd64
 libxmu6:amd64
@@ -2007,6 +2012,7 @@ libyaml-tiny-perl
 libyelp0:amd64
 libz3-4:amd64
 libz3-4:i386
+libz3-dev:amd64
 libzbar0:amd64
 libzen0v5:amd64
 libzimg2:amd64
@@ -2024,25 +2030,22 @@ linux-base
 linux-compiler-gcc-10-x86
 linux-headers-5.14.0-4-amd64
 linux-headers-5.14.0-4-common
-linux-headers-5.14.10-msi
-linux-headers-5.14.12-msi
-linux-headers-5.14.14-msi
-linux-headers-5.14.15-msi
-linux-headers-5.15.0-msi
 linux-headers-5.15.2-msi
+linux-headers-5.15.3-msi
 linux-headers-amd64
 linux-image-5.14.0-4-amd64
-linux-image-5.14.10-msi
-linux-image-5.14.12-msi
-linux-image-5.14.14-msi
-linux-image-5.14.15-msi
-linux-image-5.15.0-msi
 linux-image-5.15.2-msi
+linux-image-5.15.3-msi
 linux-image-amd64
 linux-kbuild-5.14
 linux-libc-dev:amd64
 linux-perf
 linux-perf-5.14
+llvm-13
+llvm-13-dev
+llvm-13-linker-tools
+llvm-13-runtime
+llvm-13-tools
 lm-sensors
 lmodern
 locales
@@ -2373,7 +2376,6 @@ ruby-xmlrpc
 ruby2.7
 rubygems-integration
 runit-helper
-rust-gdb
 rustc
 rygel
 rygel-tracker
