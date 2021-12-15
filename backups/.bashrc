@@ -340,6 +340,7 @@ function force-remove(){ ##>forces unistall of package when apt errors
 	fi
 
 }
+
 function timed(){
 	START_TIME=$(date +"%s")
 	echo ${ILCOLOR4}$(date +%m-%d-%Y) $(date +"%r")
@@ -359,7 +360,7 @@ function rec-key(){
 	sudo gpg --no-default-keyring --keyring /usr/share/keyrings/"$1-archive-keyring.gpg" --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys $2
 	sleep 1
 	echo
-	echo "${ILCOLOR4}[signed-by=/usr/share/keyrings/$1-archive-keyring.gpg] \" Add this to /etc/apt/sources, after \"deb\" or after \"deb [arch=amd64, \"${ILRESTORE}"
+	echo "${ILCOLOR4}[signed-by=/usr/share/keyrings/$1-archive-keyring.gpg] \" Add this to /etc/apt/sources, after \"deb & deb-src\" or after \"deb [arch=amd64, \"${ILRESTORE}"
 	sleep 5
 	caja /etc/apt/
 	else
