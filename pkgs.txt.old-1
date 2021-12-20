@@ -982,7 +982,7 @@ libgme0:amd64
 libgmp10:amd64
 libgmp10:i386
 libgnome-desktop-3-19:amd64
-libgnustep-base1.27
+libgnustep-base1.28
 libgnutls30:amd64
 libgnutls30:i386
 libgoa-1.0-0b:amd64
@@ -1009,7 +1009,7 @@ libgs9-common
 libgsf-1-114:amd64
 libgsf-1-common
 libgsf-bin
-libgsl25:amd64
+libgsl27:amd64
 libgslcblas0:amd64
 libgsm1:amd64
 libgsm1:i386
@@ -2050,12 +2050,14 @@ linux-headers-5.15.2-msi
 linux-headers-5.15.3-msi
 linux-headers-5.15.5-msi
 linux-headers-5.15.6-msi
+linux-headers-5.15.7-msi
 linux-headers-amd64
 linux-image-5.15.0-2-amd64
 linux-image-5.15.2-msi
 linux-image-5.15.3-msi
 linux-image-5.15.5-msi
 linux-image-5.15.6-msi
+linux-image-5.15.7-msi
 linux-image-amd64
 linux-kbuild-5.15
 linux-libc-dev:amd64

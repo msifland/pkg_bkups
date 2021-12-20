@@ -1160,6 +1160,7 @@ libjson-c5:amd64
 libjson-glib-1.0-0:amd64
 libjson-glib-1.0-common
 libjsoncpp24:amd64
+libjsoncpp25:amd64
 libjte2:amd64
 libjxr-tools
 libjxr0:amd64
