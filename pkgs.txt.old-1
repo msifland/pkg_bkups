@@ -347,7 +347,6 @@ gir1.2-ggit-1.0:amd64
 gir1.2-glib-2.0:amd64
 gir1.2-gnomedesktop-3.0:amd64
 gir1.2-gtk-3.0:amd64
-gir1.2-gtksource-3.0:amd64
 gir1.2-gtksource-4:amd64
 gir1.2-gucharmap-2.90:amd64
 gir1.2-harfbuzz-0.0:amd64
@@ -2047,17 +2046,11 @@ linux-base
 linux-compiler-gcc-11-x86
 linux-headers-5.15.0-2-amd64
 linux-headers-5.15.0-2-common
-linux-headers-5.15.2-msi
-linux-headers-5.15.3-msi
-linux-headers-5.15.5-msi
-linux-headers-5.15.6-msi
+linux-headers-5.15.10-msi
 linux-headers-5.15.7-msi
 linux-headers-amd64
 linux-image-5.15.0-2-amd64
-linux-image-5.15.2-msi
-linux-image-5.15.3-msi
-linux-image-5.15.5-msi
-linux-image-5.15.6-msi
+linux-image-5.15.10-msi
 linux-image-5.15.7-msi
 linux-image-amd64
 linux-kbuild-5.15
@@ -2142,7 +2135,6 @@ mawk
 media-types
 megasync
 menu
-menu-xdg
 mesa-utils
 mesa-va-drivers:amd64
 mesa-va-drivers:i386
