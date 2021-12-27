@@ -2047,10 +2047,12 @@ linux-compiler-gcc-11-x86
 linux-headers-5.15.0-2-amd64
 linux-headers-5.15.0-2-common
 linux-headers-5.15.10-msi
+linux-headers-5.15.11-msi
 linux-headers-5.15.7-msi
 linux-headers-amd64
 linux-image-5.15.0-2-amd64
 linux-image-5.15.10-msi
+linux-image-5.15.11-msi
 linux-image-5.15.7-msi
 linux-image-amd64
 linux-kbuild-5.15
