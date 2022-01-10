@@ -1649,6 +1649,7 @@ libsoundtouch1:amd64
 libsoup-gnome2.4-1:amd64
 libsoup2.4-1:amd64
 libsoup2.4-1:i386
+libsoup2.4-common
 libsoxr0:amd64
 libsoxr0:i386
 libspa-0.2-modules:amd64
@@ -2048,11 +2049,13 @@ linux-headers-5.15.0-2-amd64
 linux-headers-5.15.0-2-common
 linux-headers-5.15.10-msi
 linux-headers-5.15.11-msi
+linux-headers-5.15.12-msi
 linux-headers-5.15.7-msi
 linux-headers-amd64
 linux-image-5.15.0-2-amd64
 linux-image-5.15.10-msi
 linux-image-5.15.11-msi
+linux-image-5.15.12-msi
 linux-image-5.15.7-msi
 linux-image-amd64
 linux-kbuild-5.15
