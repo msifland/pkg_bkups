@@ -1100,8 +1100,8 @@ libiec61883-0:amd64
 libiec61883-0:i386
 libieee1284-3:amd64
 libieee1284-3:i386
-libigdgmm11:amd64
-libigdgmm11:i386
+libigdgmm12:amd64
+libigdgmm12:i386
 libijs-0.35:amd64
 libilbc3:amd64
 libilbc3:i386
@@ -2050,12 +2050,14 @@ linux-headers-5.15.0-2-common
 linux-headers-5.15.10-msi
 linux-headers-5.15.11-msi
 linux-headers-5.15.12-msi
+linux-headers-5.15.13-msi
 linux-headers-5.15.7-msi
 linux-headers-amd64
 linux-image-5.15.0-2-amd64
 linux-image-5.15.10-msi
 linux-image-5.15.11-msi
 linux-image-5.15.12-msi
+linux-image-5.15.13-msi
 linux-image-5.15.7-msi
 linux-image-amd64
 linux-kbuild-5.15
