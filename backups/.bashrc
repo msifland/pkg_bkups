@@ -341,6 +341,23 @@ function force-remove(){ ##>forces unistall of package when apt errors
 
 }
 
+function line-numbers(){
+	if [[ ! -z $1 ]]; then
+		sleep 2
+		echo
+		echo "Running \"awk '{print NR  \". \" $s}' $1 > $1-numbered\""
+		awk '{print NR  ". " $s}' "$1" > "$1-numbered"
+		sleep 2
+		echo
+		echo "File saved as $1-numbered"
+	else
+		echo "
+		Usage:
+		line-numbers $HOME/Documents/Questions.txt
+		Line-numbers Questions.txt"
+	fi
+}
+
 function timed(){
 	START_TIME=$(date +"%s")
 	echo ${ILCOLOR4}$(date +%m-%d-%Y) $(date +"%r")
