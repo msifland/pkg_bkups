@@ -715,6 +715,7 @@ libcolord2:amd64
 libcolorhug2:amd64
 libcom-err2:amd64
 libcom-err2:i386
+libcommon-sense-perl:amd64
 libcommons-logging-java
 libcommons-parent-java
 libcompizconfig0
@@ -1159,6 +1160,8 @@ libjson-c3:amd64
 libjson-c5:amd64
 libjson-glib-1.0-0:amd64
 libjson-glib-1.0-common
+libjson-perl
+libjson-xs-perl
 libjsoncpp24:amd64
 libjsoncpp25:amd64
 libjte2:amd64
@@ -1703,6 +1706,7 @@ libstdc++-11-dev:amd64
 libstdc++6:amd64
 libstdc++6:i386
 libstemmer0d:amd64
+libstring-crc32-perl:amd64
 libsub-exporter-perl
 libsub-exporter-progressive-perl
 libsub-identify-perl
@@ -1777,6 +1781,7 @@ libtss2-tcti-swtpm0:amd64
 libturbojpeg0:amd64
 libtwolame0:amd64
 libtwolame0:i386
+libtypes-serialiser-perl
 libu2f-udev
 libubsan1:amd64
 libuchardet0:amd64
