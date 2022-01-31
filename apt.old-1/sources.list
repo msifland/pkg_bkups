@@ -38,7 +38,7 @@ deb [arch=amd64,i386] http://www.deb-multimedia.org bullseye main non-free
 deb http://repo.sinew.in/ stable main
 
 ###Google Chrome Browser
-deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
+#deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
 
 ###Open Shot
 deb http://ppa.launchpad.net/openshot.developers/ppa/ubuntu bionic main
