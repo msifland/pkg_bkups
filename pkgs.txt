@@ -113,7 +113,6 @@ compiz-plugins
 compiz-plugins-extra
 compiz-plugins-main
 compizconfig-settings-manager
-compton
 conky
 conky-std
 console-setup
@@ -238,6 +237,7 @@ fonts-dejavu-core
 fonts-dejavu-extra
 fonts-droid-fallback
 fonts-font-awesome
+fonts-freefont-ttf
 fonts-gfs-baskerville
 fonts-gfs-porson
 fonts-lato
@@ -346,12 +346,15 @@ gir1.2-gexiv2-0.10:amd64
 gir1.2-ggit-1.0:amd64
 gir1.2-glib-2.0:amd64
 gir1.2-gnomedesktop-3.0:amd64
+gir1.2-gst-plugins-base-1.0:amd64
+gir1.2-gstreamer-1.0:amd64
 gir1.2-gtk-3.0:amd64
 gir1.2-gtksource-4:amd64
 gir1.2-gucharmap-2.90:amd64
 gir1.2-harfbuzz-0.0:amd64
 gir1.2-javascriptcoregtk-4.0:amd64
 gir1.2-json-1.0:amd64
+gir1.2-keybinder-3.0
 gir1.2-matedesktop-2.0:amd64
 gir1.2-matemenu-2.0:amd64
 gir1.2-matepanelapplet-4.0:amd64
@@ -379,6 +382,7 @@ gnome-desktop3-data
 gnome-icon-theme
 gnome-keyring
 gnome-keyring-pkcs11:amd64
+gnome-session-canberra
 gnome-settings-daemon-common
 gnome-system-tools
 gnome-themes-extra:amd64
@@ -418,6 +422,7 @@ gstreamer1.0-plugins-base:i386
 gstreamer1.0-plugins-good:amd64
 gstreamer1.0-plugins-good:i386
 gstreamer1.0-plugins-ugly:amd64
+gstreamer1.0-pulseaudio:amd64
 gstreamer1.0-x:amd64
 gstreamer1.0-x:i386
 gtk-update-icon-cache
@@ -482,6 +487,7 @@ john
 john-data
 jq
 jshon
+kazam
 kbd
 kernel-wedge
 keyboard-configuration
@@ -628,7 +634,7 @@ libbluray2:amd64
 libboost-filesystem1.74.0:amd64
 libboost-iostreams1.74.0:amd64
 libboost-program-options1.74.0:amd64
-libbotan-2-18:amd64
+libbotan-2-19:amd64
 libbpf0:amd64
 libbrasero-media3-1:amd64
 libbrotli-dev:amd64
@@ -1170,6 +1176,7 @@ libjxr0:amd64
 libk5crypto3:amd64
 libk5crypto3:i386
 libkate1:amd64
+libkeybinder-3.0-0:amd64
 libkeyutils1:amd64
 libkeyutils1:i386
 libklibc:amd64
@@ -1882,8 +1889,10 @@ libwine-development:amd64
 libwine-development:i386
 libwinpr2-2:amd64
 libwireplumber-0.4-0:amd64
+libwmf-0.2-7:amd64
 libwmf-bin
 libwmf0.2-7:amd64
+libwmflite-0.2-7:amd64
 libwnck-3-0:amd64
 libwnck-3-common
 libwoff1:amd64
@@ -2077,11 +2086,13 @@ linux-headers-5.15.0-3-common
 linux-headers-5.16.0-msi
 linux-headers-5.16.2-msi
 linux-headers-5.16.3-msi
+linux-headers-5.16.5-msi
 linux-headers-amd64
 linux-image-5.15.0-3-amd64
 linux-image-5.16.0-msi
 linux-image-5.16.2-msi
 linux-image-5.16.3-msi
+linux-image-5.16.5-msi
 linux-image-amd64
 linux-kbuild-5.15
 linux-libc-dev:amd64
