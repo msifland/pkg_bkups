@@ -811,12 +811,14 @@ libdrm2:i386
 libdumbnet1:amd64
 libdv4:amd64
 libdv4:i386
+libdvbpsi10:amd64
 libdvdnav4:amd64
 libdvdread8:amd64
 libdw-dev:amd64
 libdw1:amd64
 libdw1:i386
 libdynaloader-functions-perl
+libebml5:amd64
 libedit2:amd64
 libedit2:i386
 libefiboot1:amd64
@@ -1142,6 +1144,7 @@ libisl23:amd64
 libisofs6:amd64
 libitm1:amd64
 libiw30:amd64
+libixml10:amd64
 libjack-jackd2-0:amd64
 libjack-jackd2-0:i386
 libjansson4:amd64
@@ -1222,6 +1225,7 @@ liblrdf0
 liblsan0:amd64
 libltdl7:amd64
 libltdl7:i386
+liblua5.2-0:amd64
 liblua5.3-0:amd64
 libluajit-5.1-2:amd64
 libluajit-5.1-common
@@ -1233,6 +1237,7 @@ liblzma-dev:amd64
 liblzma5:amd64
 liblzma5:i386
 liblzo2-2:amd64
+libmad0:amd64
 libmagic-mgc
 libmagic1:amd64
 libmagick++-6.q16-8:amd64
@@ -1257,6 +1262,7 @@ libmatemixer-common
 libmatemixer0:amd64
 libmateweather-common
 libmateweather1:amd64
+libmatroska7:amd64
 libmaxminddb0:amd64
 libmbedcrypto3:amd64
 libmbedtls12:amd64
@@ -1395,6 +1401,7 @@ libopenh264-6:amd64
 libopenh264-6:i386
 libopenjp2-7:amd64
 libopenjp2-7:i386
+libopenmpt-modplug1:amd64
 libopenmpt0:amd64
 libopus0:amd64
 libopus0:i386
@@ -1475,6 +1482,7 @@ libpipewire-0.3-modules:amd64
 libpixman-1-0:amd64
 libpixman-1-0:i386
 libpixman-1-dev:amd64
+libplacebo157:amd64
 libplist3:amd64
 libplymouth5:amd64
 libpng-dev:amd64
@@ -1495,7 +1503,9 @@ libprocps7:amd64
 libprocps8:amd64
 libprotobuf-c1:amd64
 libprotobuf-java
+libprotobuf-lite23:amd64
 libprotobuf23:amd64
+libproxy-tools
 libproxy1-plugin-gsettings:amd64
 libproxy1-plugin-networkmanager:amd64
 libproxy1-plugin-webkit:amd64
@@ -1564,6 +1574,7 @@ libreadonly-perl
 librecode0:amd64
 libref-util-perl
 libref-util-xs-perl
+libresid-builder0c2a
 librevenge-0.0-0:amd64
 librhash0:amd64
 librist4:amd64
@@ -1630,6 +1641,8 @@ libsasl2-modules:i386
 libsasl2-modules-db:amd64
 libsasl2-modules-db:i386
 libsbc1:amd64
+libsdl-image1.2:amd64
+libsdl1.2debian:amd64
 libsdl2-2.0-0:amd64
 libsdl2-2.0-0:i386
 libseccomp2:amd64
@@ -1654,6 +1667,7 @@ libshine3:i386
 libshout3:amd64
 libshout3:i386
 libsidplay1v5:amd64
+libsidplay2
 libsidplayfp5:amd64
 libsigc++-2.0-0v5:amd64
 libsigsegv2:amd64
@@ -1686,6 +1700,7 @@ libsoxr0:amd64
 libsoxr0:i386
 libspa-0.2-modules:amd64
 libspandsp2:amd64
+libspatialaudio0:amd64
 libspecio-perl
 libspectre1:amd64
 libspeex1:amd64
@@ -1807,6 +1822,7 @@ libunity9:amd64
 libunwind-dev:amd64
 libunwind8:amd64
 libunwind8:i386
+libupnp13:amd64
 libupower-glib3:amd64
 liburi-perl
 libusb-1.0-0:amd64
@@ -1840,8 +1856,12 @@ libvisual-0.4-0:amd64
 libvisual-0.4-0:i386
 libvkd3d1:amd64
 libvkd3d1:i386
+libvlc-bin:amd64
+libvlc5:amd64
+libvlccore9:amd64
 libvmaf1:amd64
 libvmaf1:i386
+libvncclient1:amd64
 libvo-aacenc0:amd64
 libvo-amrwbenc0:amd64
 libvo-amrwbenc0:i386
@@ -1914,6 +1934,7 @@ libx11-dev:amd64
 libx11-protocol-perl
 libx11-xcb1:amd64
 libx11-xcb1:i386
+libx264-160:amd64
 libx264-164:amd64
 libx264-164:i386
 libx265-199:amd64
@@ -2561,6 +2582,19 @@ vim-runtime
 vim-tiny
 vinagre
 vino
+vlc
+vlc-bin
+vlc-data
+vlc-l10n
+vlc-plugin-access-extra:amd64
+vlc-plugin-base:amd64
+vlc-plugin-notify:amd64
+vlc-plugin-qt:amd64
+vlc-plugin-samba:amd64
+vlc-plugin-skins2:amd64
+vlc-plugin-video-output:amd64
+vlc-plugin-video-splitter:amd64
+vlc-plugin-visualization:amd64
 vulkan-tools:i386
 wamerican
 wayland-protocols

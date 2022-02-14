@@ -1057,8 +1057,8 @@ libgucharmap-2-90-7:amd64
 libgudev-1.0-0:amd64
 libgudev-1.0-0:i386
 libgupnp-1.2-1:amd64
-libgupnp-av-1.0-2
-libgupnp-dlna-2.0-3
+libgupnp-av-1.0-3
+libgupnp-dlna-2.0-4
 libgupnp-igd-1.0-4:amd64
 libgusb2:amd64
 libgutenprint-common
@@ -1470,7 +1470,8 @@ libpeas-common
 libperl-dev:amd64
 libperl4-corelibs-perl
 libperl5.32:amd64
-libperl5.32:i386
+libperl5.34:amd64
+libperl5.34:i386
 libpfm4:amd64
 libpgm-5.3-0:amd64
 libphodav-2.0-0:amd64
@@ -1482,7 +1483,7 @@ libpipewire-0.3-modules:amd64
 libpixman-1-0:amd64
 libpixman-1-0:i386
 libpixman-1-dev:amd64
-libplacebo157:amd64
+libplacebo192:amd64
 libplist3:amd64
 libplymouth5:amd64
 libpng-dev:amd64
@@ -2108,12 +2109,14 @@ linux-headers-5.16.0-msi
 linux-headers-5.16.2-msi
 linux-headers-5.16.3-msi
 linux-headers-5.16.5-msi
+linux-headers-5.16.9-msi
 linux-headers-amd64
 linux-image-5.15.0-3-amd64
 linux-image-5.16.0-msi
 linux-image-5.16.2-msi
 linux-image-5.16.3-msi
 linux-image-5.16.5-msi
+linux-image-5.16.9-msi
 linux-image-amd64
 linux-kbuild-5.15
 linux-libc-dev:amd64
@@ -2281,6 +2284,7 @@ perl-base
 perl-doc
 perl-modules-5.28
 perl-modules-5.32
+perl-modules-5.34
 perl-openssl-defaults:amd64
 picom
 pinentry-gnome3
@@ -2623,7 +2627,6 @@ x11proto-core-dev
 x11proto-dev
 x11proto-record-dev
 x11proto-xext-dev
-x11proto-xinerama-dev
 xauth
 xbitmaps
 xclip
