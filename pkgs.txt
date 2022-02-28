@@ -351,6 +351,7 @@ gir1.2-gstreamer-1.0:amd64
 gir1.2-gtk-3.0:amd64
 gir1.2-gtksource-4:amd64
 gir1.2-gucharmap-2.90:amd64
+gir1.2-handy-1:amd64
 gir1.2-harfbuzz-0.0:amd64
 gir1.2-javascriptcoregtk-4.0:amd64
 gir1.2-json-1.0:amd64
@@ -1536,6 +1537,7 @@ libpython3.9-stdlib:amd64
 libqmi-glib5:amd64
 libqmi-proxy
 libqpdf28:amd64
+libqrtr-glib0:amd64
 libqscintilla2-qt5-15
 libqscintilla2-qt5-l10n
 libqt5concurrent5:amd64
@@ -2004,6 +2006,7 @@ libxcomposite1:i386
 libxcursor-dev:amd64
 libxcursor1:amd64
 libxcursor1:i386
+libxcvt0:amd64
 libxdamage-dev:amd64
 libxdamage1:amd64
 libxdamage1:i386
@@ -2107,6 +2110,7 @@ linux-headers-5.16.0-1-amd64
 linux-headers-5.16.0-1-common
 linux-headers-5.16.0-msi
 linux-headers-5.16.10-msi
+linux-headers-5.16.11-msi
 linux-headers-5.16.2-msi
 linux-headers-5.16.3-msi
 linux-headers-5.16.5-msi
@@ -2115,6 +2119,7 @@ linux-headers-amd64
 linux-image-5.16.0-1-amd64
 linux-image-5.16.0-msi
 linux-image-5.16.10-msi
+linux-image-5.16.11-msi
 linux-image-5.16.2-msi
 linux-image-5.16.3-msi
 linux-image-5.16.5-msi
@@ -2632,6 +2637,7 @@ x11proto-xext-dev
 xauth
 xbitmaps
 xclip
+xcvt
 xdg-dbus-proxy
 xdg-desktop-portal
 xdg-desktop-portal-gtk
