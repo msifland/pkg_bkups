@@ -1,1 +1,1 @@
-deb https://mega.nz/linux/repo/Debian_10.0/ ./
+deb [signed-by=/usr/share/keyrings/megasync-archive-keyring.gpg] https://mega.nz/linux/repo/Debian_10.0/ ./
