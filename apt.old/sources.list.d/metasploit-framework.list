@@ -1,1 +1,1 @@
-deb http://downloads.metasploit.com/data/releases/metasploit-framework/apt lucid main
+deb [signed-by=/usr/share/keyrings/metasploit-archive-keyring.gpg] http://downloads.metasploit.com/data/releases/metasploit-framework/apt lucid main
