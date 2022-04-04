@@ -1518,6 +1518,7 @@ libpython2.7-minimal:amd64
 libpython2.7-stdlib:amd64
 libpython3-dev:amd64
 libpython3-stdlib:amd64
+libpython3.10:amd64
 libpython3.10-minimal:amd64
 libpython3.10-stdlib:amd64
 libpython3.9:amd64
@@ -2364,6 +2365,7 @@ python3-caja
 python3-certifi
 python3-cffi-backend:amd64
 python3-chardet
+python3-charset-normalizer
 python3-compizconfig:amd64
 python3-configobj
 python3-cryptography

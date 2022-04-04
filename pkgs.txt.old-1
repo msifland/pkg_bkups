@@ -518,6 +518,7 @@ libaacs0:amd64
 libaccountsservice0:amd64
 libacl1:amd64
 libadplug-2.3.3-0
+libadwaita-1-0:amd64
 libalgorithm-c3-perl
 libalgorithm-diff-perl
 libalgorithm-diff-xs-perl
@@ -709,6 +710,7 @@ libclass-data-inheritable-perl
 libclass-method-modifiers-perl
 libclass-xsaccessor-perl
 libclone-perl
+libcloudproviders0:amd64
 libclutter-1.0-0:amd64
 libclutter-1.0-common
 libcodec2-0.9:amd64
@@ -1034,6 +1036,9 @@ libgtk-3-0:amd64
 libgtk-3-bin
 libgtk-3-common
 libgtk-3-dev:amd64
+libgtk-4-1:amd64
+libgtk-4-bin
+libgtk-4-common
 libgtk-layer-shell0
 libgtk-vnc-2.0-0:amd64
 libgtk2.0-0:amd64
@@ -1259,7 +1264,6 @@ libmateweather-common
 libmateweather1:amd64
 libmatroska7:amd64
 libmaxminddb0:amd64
-libmbedcrypto3:amd64
 libmbedcrypto7:amd64
 libmbedtls14:amd64
 libmbedx509-1:amd64
@@ -1679,6 +1683,8 @@ libsodium23:amd64
 libsombok3:amd64
 libsord-0-0:amd64
 libsoundtouch1:amd64
+libsoup-3.0-0:amd64
+libsoup-3.0-common
 libsoup-gnome2.4-1:amd64
 libsoup2.4-1:amd64
 libsoup2.4-1:i386
@@ -2092,8 +2098,8 @@ lightdm-gtk-greeter
 lightdm-settings
 linux-base
 linux-compiler-gcc-11-x86
-linux-headers-5.16.0-4-amd64
-linux-headers-5.16.0-4-common
+linux-headers-5.16.0-5-amd64
+linux-headers-5.16.0-5-common
 linux-headers-5.16.0-msi
 linux-headers-5.16.10-msi
 linux-headers-5.16.11-msi
@@ -2104,8 +2110,9 @@ linux-headers-5.16.2-msi
 linux-headers-5.16.3-msi
 linux-headers-5.16.5-msi
 linux-headers-5.16.9-msi
+linux-headers-5.17.0-msi
 linux-headers-amd64
-linux-image-5.16.0-4-amd64
+linux-image-5.16.0-5-amd64
 linux-image-5.16.0-msi
 linux-image-5.16.10-msi
 linux-image-5.16.11-msi
@@ -2116,6 +2123,7 @@ linux-image-5.16.2-msi
 linux-image-5.16.3-msi
 linux-image-5.16.5-msi
 linux-image-5.16.9-msi
+linux-image-5.17.0-msi
 linux-image-amd64
 linux-kbuild-5.16
 linux-libc-dev:amd64
