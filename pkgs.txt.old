@@ -1335,7 +1335,7 @@ libnet-smtp-ssl-perl
 libnet-ssleay-perl:amd64
 libnetfilter-conntrack3:amd64
 libnetfilter-queue1:amd64
-libnetpbm10
+libnetpbm11:amd64
 libnettle6:amd64
 libnettle8:amd64
 libnettle8:i386
@@ -2112,6 +2112,7 @@ linux-headers-5.16.3-msi
 linux-headers-5.16.5-msi
 linux-headers-5.16.9-msi
 linux-headers-5.17.0-msi
+linux-headers-5.17.1-msi
 linux-headers-amd64
 linux-image-5.16.0-5-amd64
 linux-image-5.16.0-msi
@@ -2125,6 +2126,7 @@ linux-image-5.16.3-msi
 linux-image-5.16.5-msi
 linux-image-5.16.9-msi
 linux-image-5.17.0-msi
+linux-image-5.17.1-msi
 linux-image-amd64
 linux-kbuild-5.16
 linux-libc-dev:amd64

@@ -339,12 +339,10 @@ gir1.2-cogl-1.0:amd64
 gir1.2-coglpango-1.0:amd64
 gir1.2-eom-1.0
 gir1.2-freedesktop:amd64
-gir1.2-gdesktopenums-3.0:amd64
 gir1.2-gdkpixbuf-2.0:amd64
 gir1.2-gexiv2-0.10:amd64
 gir1.2-ggit-1.0:amd64
 gir1.2-glib-2.0:amd64
-gir1.2-gnomedesktop-3.0:amd64
 gir1.2-gst-plugins-base-1.0:amd64
 gir1.2-gstreamer-1.0:amd64
 gir1.2-gtk-3.0:amd64
@@ -1313,7 +1311,7 @@ libmtp-common
 libmtp-runtime
 libmtp9:amd64
 libmuffin0
-libmutter-9-0:amd64
+libmutter-10-0:amd64
 libmypaint-1.5-1:amd64
 libmypaint-common
 libmysofa1:amd64
@@ -1807,7 +1805,9 @@ libudev1:i386
 libudfread0:amd64
 libudisks2-0:amd64
 libumfpack5:amd64
+libunicode-escape-perl
 libunicode-linebreak-perl
+libunicode-string-perl
 libunistring2:amd64
 libunistring2:i386
 libunity-protocol-private0:amd64
@@ -2099,8 +2099,8 @@ lightdm-gtk-greeter
 lightdm-settings
 linux-base
 linux-compiler-gcc-11-x86
-linux-headers-5.16.0-5-amd64
-linux-headers-5.16.0-5-common
+linux-headers-5.16.0-6-amd64
+linux-headers-5.16.0-6-common
 linux-headers-5.16.0-msi
 linux-headers-5.16.10-msi
 linux-headers-5.16.11-msi
@@ -2113,8 +2113,9 @@ linux-headers-5.16.5-msi
 linux-headers-5.16.9-msi
 linux-headers-5.17.0-msi
 linux-headers-5.17.1-msi
+linux-headers-5.17.2-msi
 linux-headers-amd64
-linux-image-5.16.0-5-amd64
+linux-image-5.16.0-6-amd64
 linux-image-5.16.0-msi
 linux-image-5.16.10-msi
 linux-image-5.16.11-msi
@@ -2127,6 +2128,7 @@ linux-image-5.16.5-msi
 linux-image-5.16.9-msi
 linux-image-5.17.0-msi
 linux-image-5.17.1-msi
+linux-image-5.17.2-msi
 linux-image-amd64
 linux-kbuild-5.16
 linux-libc-dev:amd64
@@ -2390,6 +2392,7 @@ python3-html5lib
 python3-httplib2
 python3-idna
 python3-imagesize
+python3-importlib-metadata
 python3-jinja2
 python3-ldb
 python3-lib2to3
@@ -2397,6 +2400,7 @@ python3-lxml:amd64
 python3-magic
 python3-markupsafe
 python3-minimal
+python3-more-itertools
 python3-multibootusb
 python3-natsort
 python3-numpy
@@ -2440,6 +2444,7 @@ python3-xapp
 python3-xdg
 python3-xlib
 python3-yaml
+python3-zipp
 python3.10
 python3.10-minimal
 python3.9
