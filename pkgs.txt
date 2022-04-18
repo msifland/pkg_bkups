@@ -1402,6 +1402,7 @@ libopus0:i386
 liborc-0.4-0:amd64
 liborc-0.4-0:i386
 libosinfo-1.0-0:amd64
+libosinfo-l10n
 libosmesa6:amd64
 libosmesa6:i386
 libosmpbf-java
@@ -2114,6 +2115,7 @@ linux-headers-5.16.9-msi
 linux-headers-5.17.0-msi
 linux-headers-5.17.1-msi
 linux-headers-5.17.2-msi
+linux-headers-5.17.3-msi
 linux-headers-amd64
 linux-image-5.16.0-6-amd64
 linux-image-5.16.0-msi
@@ -2129,6 +2131,7 @@ linux-image-5.16.9-msi
 linux-image-5.17.0-msi
 linux-image-5.17.1-msi
 linux-image-5.17.2-msi
+linux-image-5.17.3-msi
 linux-image-amd64
 linux-kbuild-5.16
 linux-libc-dev:amd64
@@ -2698,3 +2701,4 @@ zip
 zlib1g:amd64
 zlib1g:i386
 zlib1g-dev:amd64
+zstd
