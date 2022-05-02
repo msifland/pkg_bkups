@@ -1100,7 +1100,8 @@ libice-dev:amd64
 libice6:amd64
 libicu-dev:amd64
 libicu67:amd64
-libicu67:i386
+libicu71:amd64
+libicu71:i386
 libid3tag0:amd64
 libidn11:amd64
 libidn12:amd64
@@ -1518,10 +1519,9 @@ libpython2.7-stdlib:amd64
 libpython3-dev:amd64
 libpython3-stdlib:amd64
 libpython3.10:amd64
+libpython3.10-dev:amd64
 libpython3.10-minimal:amd64
 libpython3.10-stdlib:amd64
-libpython3.9:amd64
-libpython3.9-dev:amd64
 libpython3.9-minimal:amd64
 libpython3.9-stdlib:amd64
 libqmi-glib5:amd64
@@ -1715,7 +1715,7 @@ libssl1.1:i386
 libstartup-notification0:amd64
 libstb0:amd64
 libstb0:i386
-libstd-rust-1.57:amd64
+libstd-rust-1.58:amd64
 libstd-rust-dev:amd64
 libstdc++-11-dev:amd64
 libstdc++6:amd64
@@ -2116,6 +2116,7 @@ linux-headers-5.17.0-msi
 linux-headers-5.17.1-msi
 linux-headers-5.17.2-msi
 linux-headers-5.17.3-msi
+linux-headers-5.17.4-msi
 linux-headers-amd64
 linux-image-5.16.0-6-amd64
 linux-image-5.16.0-msi
@@ -2132,6 +2133,7 @@ linux-image-5.17.0-msi
 linux-image-5.17.1-msi
 linux-image-5.17.2-msi
 linux-image-5.17.3-msi
+linux-image-5.17.4-msi
 linux-image-amd64
 linux-kbuild-5.16
 linux-libc-dev:amd64
@@ -2397,7 +2399,6 @@ python3-idna
 python3-imagesize
 python3-importlib-metadata
 python3-jinja2
-python3-ldb
 python3-lib2to3
 python3-lxml:amd64
 python3-magic
@@ -2438,7 +2439,6 @@ python3-software-properties
 python3-soupsieve
 python3-sphinx
 python3-sphinx-rtd-theme
-python3-talloc:amd64
 python3-tz
 python3-urllib3
 python3-webencodings
@@ -2449,9 +2449,9 @@ python3-xlib
 python3-yaml
 python3-zipp
 python3.10
+python3.10-dev
 python3.10-minimal
 python3.9
-python3.9-dev
 python3.9-minimal
 qml-module-qtquick2:amd64
 qpdfview
@@ -2588,6 +2588,7 @@ usb.ids
 usbmuxd
 usbutils
 util-linux
+util-linux-extra
 util-linux-locales
 uuid-dev:amd64
 uuid-runtime
