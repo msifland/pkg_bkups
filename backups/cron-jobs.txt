@@ -36,4 +36,4 @@
 00 3 * * 5 /home/msifland/scripts/cron_scripts/screenfetch-update-run
 
 # Build a new OSM map for my Garmin on the first day of every month.
-#00 19 1 * * /home/msifland/scripts/cron_scripts/map-my-builder-run
+00 01 2 * * /home/msifland/scripts/cron_scripts/map-us-builder-run
