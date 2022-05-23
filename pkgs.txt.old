@@ -268,7 +268,6 @@ fortune-mod
 fortunes-min
 freerdp2-x11
 fuse3
-fuseiso
 fwupd
 fwupd-amd64-signed
 g++
@@ -391,6 +390,7 @@ gnome-video-effects
 gnupg
 gnupg-l10n
 gnupg-utils
+gnupg2
 gnustep-base-common
 gnustep-base-runtime
 gnustep-common
@@ -750,6 +750,7 @@ libcups2:i386
 libcupsfilters1:amd64
 libcupsimage2:amd64
 libcurl3-gnutls:amd64
+libcurl3-gnutls:i386
 libcurl4:amd64
 libcurl4:i386
 libcwidget4:amd64
@@ -939,8 +940,10 @@ libgd3:i386
 libgdata-common
 libgdata22:amd64
 libgdbm-compat4:amd64
+libgdbm-compat4:i386
 libgdbm5:amd64
 libgdbm6:amd64
+libgdbm6:i386
 libgdk-pixbuf-2.0-0:amd64
 libgdk-pixbuf-2.0-0:i386
 libgdk-pixbuf-2.0-dev:amd64
@@ -983,6 +986,7 @@ libglib2.0-dev:amd64
 libglib2.0-dev-bin
 libglibmm-2.4-1v5:amd64
 libglu1-mesa:amd64
+libglu1-mesa:i386
 libglvnd-core-dev:amd64
 libglvnd-dev:amd64
 libglvnd0:amd64
@@ -1117,6 +1121,7 @@ libidn2-0:i386
 libiec61883-0:amd64
 libiec61883-0:i386
 libieee1284-3:amd64
+libieee1284-3:i386
 libigdgmm12:amd64
 libigdgmm12:i386
 libijs-0.35:amd64
@@ -1328,6 +1333,8 @@ libnamespace-clean-perl
 libnatpmp1:amd64
 libnautilus-extension1a:amd64
 libncurses-dev:amd64
+libncurses5:amd64
+libncurses5:i386
 libncurses6:amd64
 libncurses6:i386
 libncursesw6:amd64
@@ -1366,6 +1373,7 @@ libnsl-dev:amd64
 libnsl2:amd64
 libnsl2:i386
 libnspr4:amd64
+libnspr4:i386
 libnss-mdns:amd64
 libnss-nis:amd64
 libnss-nis:i386
@@ -1373,15 +1381,18 @@ libnss-nisplus:amd64
 libnss-nisplus:i386
 libnss-systemd:amd64
 libnss3:amd64
+libnss3:i386
 libntfs-3g89
 libnuma-dev:amd64
 libnuma1:amd64
 libnuma1:i386
 libobjc4:amd64
 libodbc1:amd64
+libodbc1:i386
 libodbc2:amd64
 libodbc2:i386
 libodbccr2:amd64
+libodbccr2:i386
 libofa0:amd64
 libogg0:amd64
 libogg0:i386
@@ -1399,6 +1410,7 @@ libopencsd1:amd64
 libopenexr25:amd64
 libopengl-dev:amd64
 libopengl0:amd64
+libopengl0:i386
 libopenh264-6:amd64
 libopenh264-6:i386
 libopenjp2-7:amd64
@@ -1451,6 +1463,7 @@ libpcap0.8:amd64
 libpcap0.8:i386
 libpci-dev:amd64
 libpci3:amd64
+libpci3:i386
 libpciaccess0:amd64
 libpciaccess0:i386
 libpcre16-3:amd64
@@ -1472,6 +1485,7 @@ libpeas-common
 libperl-dev:amd64
 libperl4-corelibs-perl
 libperl5.34:amd64
+libperl5.34:i386
 libpfm4:amd64
 libpgm-5.3-0:amd64
 libphodav-2.0-0:amd64
@@ -1493,8 +1507,10 @@ libpolkit-agent-1-0:amd64
 libpolkit-gobject-1-0:amd64
 libpoppler-cpp0v5:amd64
 libpoppler-glib8:amd64
+libpoppler-glib8:i386
 libpoppler-qt5-1:amd64
 libpoppler118:amd64
+libpoppler118:i386
 libpopt0:amd64
 libpostproc55:amd64
 libpotrace0:amd64
@@ -1630,9 +1646,11 @@ librygel-server-2.6-2:amd64
 libsamplerate0:amd64
 libsamplerate0:i386
 libsane:amd64
+libsane:i386
 libsane-common
 libsane-hpaio:amd64
 libsane1:amd64
+libsane1:i386
 libsasl2-2:amd64
 libsasl2-2:i386
 libsasl2-modules:amd64
@@ -1686,6 +1704,7 @@ libsndio7.0:amd64
 libsndio7.0:i386
 libsnmp-base
 libsnmp40:amd64
+libsnmp40:i386
 libsodium23:amd64
 libsombok3:amd64
 libsord-0-0:amd64
@@ -1778,6 +1797,8 @@ libtiff5:amd64
 libtiff5:i386
 libtiffxx5:amd64
 libtimedate-perl
+libtinfo5:amd64
+libtinfo5:i386
 libtinfo6:amd64
 libtinfo6:i386
 libtinyxml2-9:amd64
@@ -2463,7 +2484,7 @@ rustc
 rygel
 rygel-tracker
 samba-libs:amd64
-sane-airscan
+sane-airscan:i386
 sane-utils
 screen
 screenfetch
@@ -2601,18 +2622,20 @@ vlc-plugin-skins2:amd64
 vlc-plugin-video-output:amd64
 vlc-plugin-video-splitter:amd64
 vlc-plugin-visualization:amd64
-vulkan-tools:i386
+vulkan-tools
 wamerican
 wayland-protocols
 wget
 whiptail
-wine
+wine-devel
+wine-devel-amd64
+wine-devel-i386:i386
 wine-stable-amd64
 wine32:i386
 wine32-development:i386
 wine64
 wine64-development
-winetricks
+winehq-devel
 wireless-regdb
 wireless-tools
 wireplumber
