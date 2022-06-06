@@ -763,6 +763,7 @@ libdatrie1:amd64
 libdatrie1:i386
 libdav1d5:amd64
 libdav1d5:i386
+libdav1d6:amd64
 libdavs2-16:amd64
 libdavs2-16:i386
 libdb5.3:amd64
@@ -2133,11 +2134,14 @@ linux-headers-5.17.0-1-common
 linux-headers-5.17.5-msi
 linux-headers-5.17.7-msi
 linux-headers-5.17.9-msi
+linux-headers-5.18.0-msi
 linux-headers-amd64
 linux-image-5.17.0-1-amd64
 linux-image-5.17.5-msi
 linux-image-5.17.7-msi
 linux-image-5.17.9-msi
+linux-image-5.18.0-msi
+linux-image-5.18.0-msi-dbg
 linux-image-amd64
 linux-kbuild-5.17
 linux-libc-dev:amd64
