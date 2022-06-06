@@ -36,7 +36,7 @@
 00 3 * * 5 /home/msifland/scripts/cron_scripts/screenfetch-update-run
 
 # Download mkgmap & splitter befor building monthly map.
-00 01 2 * * /home/msifland/scripts/cron_scripts/mkgmap-eheck-run
+00 01 2 * * /home/msifland/scripts/cron_scripts/mkgmap-check-run
 01 01 2 * * /home/msifland/scripts/cron_scripts/mkgmap-splitter-check-run
 
 # Build a new OSM map for my Garmin on the first day of every month.
