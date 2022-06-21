@@ -552,4 +552,4 @@ function parse_git_dirty {
 export PS1="
 \e[$ILCOLOR4\]\h⚡\e[$ILCOLOR3\]\u𒁍𒀖  \e[$ILCOLOR2\]\w\[\e[36m\]\`parse_git_branch\`\[\e[m\]\e[$ILCOLOR1\]\n      └──╼➤\\$\\$\\$\e[$ILRESTORE\] "
 # blesh, bash syntax highlighting.
-((_ble_bash)) && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
