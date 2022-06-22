@@ -116,14 +116,6 @@ coinor-libcoinutils3v5:amd64
 coinor-libosi1v5:amd64
 colord
 colord-data
-compiz
-compiz-core
-compiz-gnome
-compiz-mate
-compiz-plugins
-compiz-plugins-extra
-compiz-plugins-main
-compizconfig-settings-manager
 conky
 conky-std
 console-setup
@@ -764,7 +756,6 @@ libcom-err2:i386
 libcommon-sense-perl:amd64
 libcommons-logging-java
 libcommons-parent-java
-libcompizconfig0
 libconfig9:amd64
 libcpupower1
 libcrack2:amd64
@@ -2257,8 +2248,9 @@ lightdm-gtk-greeter
 lightdm-settings
 linux-base
 linux-compiler-gcc-11-x86
-linux-image-5.10.0-15-amd64
+linux-headers-5.18.5-msi
 linux-image-5.18.0-1-amd64
+linux-image-5.18.5-msi
 linux-image-amd64
 linux-libc-dev:amd64
 linux-perf
@@ -2321,8 +2313,6 @@ mate-polkit:amd64
 mate-polkit-common
 mate-power-manager
 mate-power-manager-common
-mate-screensaver
-mate-screensaver-common
 mate-sensors-applet
 mate-sensors-applet-common
 mate-session-manager
@@ -2341,6 +2331,7 @@ mate-utils
 mate-utils-common
 mawk
 media-types
+megasync
 menu
 mesa-utils
 mesa-utils-bin:amd64
@@ -2509,7 +2500,6 @@ python3-certifi
 python3-cffi-backend:amd64
 python3-chardet
 python3-charset-normalizer
-python3-compizconfig:amd64
 python3-configobj
 python3-cryptography
 python3-cups:amd64
