@@ -2545,6 +2545,7 @@ python3-ptyprocess
 python3-pyatspi
 python3-pycurl
 python3-pygments
+python3-pyosmium
 python3-pyparsing
 python3-pyqt5
 python3-pyqt5.sip
