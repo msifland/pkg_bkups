@@ -697,7 +697,7 @@ libcanberra-gtk3-module:amd64
 libcanberra-pulse:amd64
 libcanberra0:amd64
 libcap-dev:amd64
-libcap-ng-dev
+libcap-ng-dev:amd64
 libcap-ng0:amd64
 libcap2:amd64
 libcap2:i386
@@ -1719,9 +1719,6 @@ librust-quote-dev:amd64
 librust-serde-dev:amd64
 librust-strum-dev:amd64
 librust-strum-macros-dev:amd64
-librust-syn+default-dev:amd64
-librust-syn+printing-dev:amd64
-librust-syn+proc-macro-dev:amd64
 librust-syn-dev:amd64
 librust-system-deps-dev:amd64
 librust-thiserror-dev:amd64
@@ -2248,9 +2245,13 @@ lightdm-gtk-greeter
 lightdm-settings
 linux-base
 linux-compiler-gcc-11-x86
-linux-headers-5.18.5-msi
-linux-image-5.18.0-1-amd64
-linux-image-5.18.5-msi
+linux-headers-5.18.4-msi
+linux-headers-5.18.6-msi
+linux-image-5.18.0-2-amd64
+linux-image-5.18.4-msi
+linux-image-5.18.4-msi-dbg
+linux-image-5.18.6-msi
+linux-image-5.18.6-msi-dbg
 linux-image-amd64
 linux-libc-dev:amd64
 linux-perf
