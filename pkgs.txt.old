@@ -380,6 +380,10 @@ glib-networking:amd64
 glib-networking:i386
 glib-networking-common
 glib-networking-services
+gmt
+gmt-common
+gmt-dcw
+gmt-gshhg-high
 gnome-accessibility-themes
 gnome-desktop3-data
 gnome-icon-theme
@@ -1040,6 +1044,7 @@ libglx0:i386
 libgme0:amd64
 libgmp10:amd64
 libgmp10:i386
+libgmt6:amd64
 libgnome-desktop-3-19:amd64
 libgnustep-base1.28
 libgnutls30:amd64
