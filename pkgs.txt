@@ -1847,6 +1847,7 @@ libssl3:i386
 libstaroffice-0.0-0:amd64
 libstartup-notification0:amd64
 libstd-rust-1.58:amd64
+libstd-rust-1.59:amd64
 libstd-rust-dev:amd64
 libstdc++-11-dev:amd64
 libstdc++6:amd64
