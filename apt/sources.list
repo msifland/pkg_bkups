@@ -38,6 +38,10 @@ deb-src http://ftp.debian.org/debian buster-backports main
 #                      UNOFFICIAL  REPOS                       
 #------------------------------------------------------------------------------#
 
+###Kali linux repos(for hacking tools)
+deb [signed-by=/usr/share/keyrings/kali-archive-keyring.gpg] http://http.kali.org/kali kali-rolling main non-free contrib
+deb-src [signed-by=/usr/share/keyrings/kali-archive-keyring.gpg] http://http.kali.org/kali kali-rolling main non-free contrib
+
 ###Sublime Text
 deb [signed-by=/usr/share/keyrings/sublime-text-archive-keyring.gpg] https://download.sublimetext.com/ apt/stable/
 
