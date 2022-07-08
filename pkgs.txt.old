@@ -1005,6 +1005,7 @@ libgegl-0.4-0:amd64
 libgegl-common
 libgeos-c1v5:amd64
 libgeos3.10.3:amd64
+libgeos3.11.0:amd64
 libgeotiff5:amd64
 libges-1.0-0
 libgexiv2-2:amd64
@@ -1026,7 +1027,7 @@ libglapi-mesa:i386
 libgles-dev:amd64
 libgles1:amd64
 libgles2:amd64
-libglib-object-introspection-perl
+libglib-object-introspection-perl:amd64
 libglib-perl:amd64
 libglib2.0-0:amd64
 libglib2.0-0:i386
@@ -1735,6 +1736,7 @@ librust-system-deps-dev:amd64
 librust-thiserror-dev:amd64
 librust-thiserror-impl-dev:amd64
 librust-toml-dev:amd64
+librust-unicode-ident-dev:amd64
 librust-unicode-segmentation-dev:amd64
 librust-unicode-xid-dev:amd64
 librust-version-compare-dev:amd64
@@ -2353,7 +2355,6 @@ mate-utils-common
 mawk
 media-types
 megasync
-menu
 mesa-utils
 mesa-utils-bin:amd64
 mesa-va-drivers:amd64
