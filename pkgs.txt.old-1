@@ -59,6 +59,8 @@ binfmt-support
 binutils
 binutils-common:amd64
 binutils-dev
+binutils-mingw-w64-i686
+binutils-mingw-w64-x86-64
 binutils-x86-64-linux-gnu
 bison
 blackbird-gtk-theme
@@ -74,6 +76,7 @@ bsdmainutils
 bsdutils
 bubblewrap
 build-essential
+bundler
 busybox
 bzip2
 ca-certificates
@@ -289,6 +292,11 @@ gcc-9
 gcc-9-base:amd64
 gcc-9-base:i386
 gcc-9-multilib
+gcc-mingw-w64-base:amd64
+gcc-mingw-w64-i686-win32
+gcc-mingw-w64-i686-win32-runtime
+gcc-mingw-w64-x86-64-win32
+gcc-mingw-w64-x86-64-win32-runtime
 gcc-multilib
 gconf-defaults-service
 gconf-editor
@@ -534,6 +542,7 @@ libacl1:amd64
 libadplug-2.3.3-0
 libadwaita-1-0:amd64
 libaec0:amd64
+libaio1:amd64
 libalglib3.18:amd64
 libalgorithm-c3-perl
 libalgorithm-diff-perl
@@ -1048,8 +1057,10 @@ libglx-mesa0:i386
 libglx0:amd64
 libglx0:i386
 libgme0:amd64
+libgmp-dev:amd64
 libgmp10:amd64
 libgmp10:i386
+libgmpxx4ldbl:amd64
 libgmt6:amd64
 libgnome-desktop-3-19:amd64
 libgnustep-base1.28
@@ -2365,7 +2376,11 @@ mesa-vulkan-drivers:amd64
 mesa-vulkan-drivers:i386
 metacity
 metacity-common
+metasploit-framework
 mime-support
+mingw-w64-common
+mingw-w64-i686-dev
+mingw-w64-x86-64-dev
 mkgmap
 mkgmap-splitter
 mkgmapgui
@@ -2384,6 +2399,7 @@ mutter-common
 mysql-common
 mythes-en-us
 nano
+nasm
 nautilus-extension-brasero
 nautilus-sendto
 ncal
@@ -2418,6 +2434,7 @@ openssh-client
 openssh-server
 openssh-sftp-server
 openssl
+oracle-instantclient-basic
 orca
 os-prober
 osinfo-db
@@ -2467,6 +2484,11 @@ poppler-data
 poppler-utils
 popularity-contest
 postfix
+postgresql
+postgresql-14
+postgresql-client-14
+postgresql-client-common
+postgresql-common
 powermgmt-base
 powertop
 ppp
@@ -2627,11 +2649,15 @@ rsyslog
 rtkit
 ruby
 ruby-asciidoctor
+ruby-bundler
+ruby-dev:amd64
 ruby-net-telnet
 ruby-rubygems
 ruby-webrick
 ruby-xmlrpc
 ruby3.0
+ruby3.0-dev:amd64
+ruby3.0-doc
 rubygems-integration
 runit-helper
 rustc
@@ -2682,6 +2708,7 @@ steam-devices
 sublime-text
 sudo
 synaptic
+sysstat
 system-config-printer
 system-config-printer-common
 system-config-printer-udev
