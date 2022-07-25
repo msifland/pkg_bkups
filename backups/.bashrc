@@ -437,6 +437,7 @@ export ILCOLOR4=$ILCOLOR4
 export ILRESTORE=$ILRESTORE
 
 ##################Peronal Greeting######################
+$HOME/scripts/now
 # Color ranmdom number variables are calculated at the top of file -c$num1,$num2
 echo
 screenfetch -A 'Linux' | pv -qL 2000
