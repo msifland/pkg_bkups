@@ -2445,6 +2445,8 @@ oinkmaster
 openjade
 openjdk-11-jre:amd64
 openjdk-11-jre-headless:amd64
+openjdk-18-jre:amd64
+openjdk-18-jre-headless:amd64
 openprinting-ppds
 opensp
 openssh-client

@@ -2275,10 +2275,13 @@ lightdm-gtk-greeter
 lightdm-settings
 linux-base
 linux-compiler-gcc-11-x86
+linux-headers-5.18.10-msi
 linux-headers-5.18.4-msi
 linux-headers-5.18.6-msi
 linux-headers-5.18.8-msi
 linux-image-5.18.0-2-amd64
+linux-image-5.18.10-msi
+linux-image-5.18.10-msi-dbg
 linux-image-5.18.4-msi
 linux-image-5.18.4-msi-dbg
 linux-image-5.18.6-msi
