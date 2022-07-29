@@ -374,7 +374,7 @@ function timed(){
 
 function rec-key(){
 	if [[ ! -z $1 ]] && [[ ! -z $2 ]]; then
-	sudo gpg --no-default-keyring --keyring /usr/share/keyrings/"$1-archive-keyring.gpg" --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys $2
+	sudo gpg --no-default-keyring --keyring /usr/share/keyrings/"$1-archive-keyring.gpg" --keyserver https://pgp.mit.edu/ --recv-keys $2
 	sleep 1
 	echo
 	echo "${ILCOLOR4}[signed-by=/usr/share/keyrings/$1-archive-keyring.gpg] <<--- Add this to /etc/apt/sources, after \"deb & deb-src\" or after \"deb [arch=amd64,[SPACE] \"${ILRESTORE}"
