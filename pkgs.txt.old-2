@@ -69,6 +69,8 @@ blueman
 bluetooth
 bluez
 bluez-obexd
+boinc-client
+boinc-virtualbox
 bolt
 brasero-common
 bsdextrautils
@@ -397,7 +399,10 @@ glib-networking-services
 gmt
 gmt-common
 gmt-dcw
+gmt-gshhg
+gmt-gshhg-full
 gmt-gshhg-high
+gmt-gshhg-low
 gnome-accessibility-themes
 gnome-desktop3-data
 gnome-icon-theme
@@ -426,6 +431,7 @@ gpg-wks-server
 gpgconf
 gpgsm
 gpgv
+graphicsmagick
 graphviz
 grep
 greybird-gtk-theme
@@ -519,6 +525,7 @@ jq
 jshon
 kazam
 kbd
+kbuild
 kernel-wedge
 keyboard-configuration
 klibc-utils
@@ -673,6 +680,7 @@ libblockdev2:amd64
 libblosc1:amd64
 libbluetooth3:amd64
 libbluray2:amd64
+libboinc7:amd64
 libboost-filesystem1.74.0:amd64
 libboost-iostreams1.74.0:amd64
 libboost-locale1.74.0:amd64
@@ -1094,6 +1102,7 @@ libgpm2:amd64
 libgpm2:i386
 libgprofng0:amd64
 libgraphene-1.0-0:amd64
+libgraphicsmagick-q16-3
 libgraphite2-3:amd64
 libgraphite2-3:i386
 libgraphite2-dev:amd64
@@ -1460,6 +1469,7 @@ libnm0:i386
 libnma-common
 libnma0:amd64
 libnorm1:amd64
+libnotify-bin
 libnotify4:amd64
 libnpth0:amd64
 libnsl-dev:amd64
@@ -2310,6 +2320,7 @@ linux-headers-5.18.0-2-common
 linux-headers-5.18.10-msi
 linux-headers-5.18.12-msi
 linux-headers-5.18.13-msi
+linux-headers-5.18.15-msi
 linux-headers-5.18.4-msi
 linux-headers-5.18.6-msi
 linux-headers-5.18.8-msi
@@ -2321,6 +2332,8 @@ linux-image-5.18.12-msi
 linux-image-5.18.12-msi-dbg
 linux-image-5.18.13-msi
 linux-image-5.18.13-msi-dbg
+linux-image-5.18.15-msi
+linux-image-5.18.15-msi-dbg
 linux-image-5.18.4-msi
 linux-image-5.18.4-msi-dbg
 linux-image-5.18.6-msi
@@ -2847,7 +2860,12 @@ vinagre
 vino
 virtualbox
 virtualbox-dkms
+virtualbox-ext-pack
+virtualbox-guest-additions-iso
+virtualbox-guest-utils
+virtualbox-guest-x11
 virtualbox-qt
+virtualbox-source
 vkd3d-compiler:i386
 vlc
 vlc-bin
