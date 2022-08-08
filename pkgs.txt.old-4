@@ -162,6 +162,7 @@ dconf-cli
 dconf-editor
 dconf-gsettings-backend:amd64
 dconf-service
+dctrl-tools
 debconf
 debconf-i18n
 debhelper
@@ -175,6 +176,7 @@ default-jre-headless
 desktop-base
 desktop-file-utils
 dh-autoreconf
+dh-dkms
 dh-elpa-helper
 dh-exec
 dh-python
@@ -187,6 +189,7 @@ dirmngr
 discover
 discover-data
 distro-info-data
+dkms
 dmidecode
 dmsetup
 dns-root-data
@@ -225,6 +228,8 @@ fig2dev
 file
 file-roller
 findutils
+firebird3.0-common
+firebird3.0-common-doc
 firefox-esr
 firmware-amd-graphics
 firmware-iwlwifi
@@ -469,6 +474,8 @@ htop
 hunspell-en-us
 hwinfo
 hwloc
+hydra
+hydra-gtk
 hyphen-en-us
 i965-va-driver:amd64
 i965-va-driver:i386
@@ -682,6 +689,7 @@ libbrotli1:i386
 libbs2b0:amd64
 libbsd0:amd64
 libbsd0:i386
+libbson-1.0-0
 libburn4:amd64
 libbz2-1.0:amd64
 libbz2-1.0:i386
@@ -919,6 +927,7 @@ libfaad2:amd64
 libfakeroot:amd64
 libfastjson4:amd64
 libfastutil-java
+libfbclient2:amd64
 libfdisk1:amd64
 libfdk-aac2:amd64
 libfdk-aac2:i386
@@ -1097,6 +1106,7 @@ libgsl27:amd64
 libgslcblas0:amd64
 libgsm1:amd64
 libgsm1:i386
+libgsoap-2.8.117:amd64
 libgspell-1-2:amd64
 libgspell-1-common
 libgssapi-krb5-2:amd64
@@ -1319,6 +1329,7 @@ liblwp-mediatypes-perl
 liblwp-protocol-https-perl
 liblz4-1:amd64
 liblz4-1:i386
+liblzf1:amd64
 liblzma-dev:amd64
 liblzma5:amd64
 liblzma5:i386
@@ -1360,6 +1371,7 @@ libmd0:i386
 libmd4c0:amd64
 libmediaart-2.0-0:amd64
 libmediainfo0v5:amd64
+libmemcached11:amd64
 libmetacity3:amd64
 libmetis5:amd64
 libmfx1:amd64
@@ -1377,6 +1389,8 @@ libmnl0:amd64
 libmodplug1:amd64
 libmodule-implementation-perl
 libmodule-runtime-perl
+libmongoc-1.0-0
+libmongocrypt0:amd64
 libmount-dev:amd64
 libmount1:amd64
 libmount1:i386
@@ -1658,6 +1672,7 @@ libqt5gui5:amd64
 libqt5help5:amd64
 libqt5multimedia5:amd64
 libqt5network5:amd64
+libqt5opengl5:amd64
 libqt5positioning5:amd64
 libqt5printsupport5:amd64
 libqt5qml5:amd64
@@ -1800,6 +1815,7 @@ libsepol-dev:amd64
 libsepol1:amd64
 libsepol2:amd64
 libserd-0-0:amd64
+libserf-1-1:amd64
 libsgmls-perl
 libshine3:amd64
 libshine3:i386
@@ -1864,6 +1880,7 @@ libsrt1.4-gnutls:amd64
 libsrt1.5-gnutls:amd64
 libsrtp2-1:amd64
 libss2:amd64
+libssh-4:amd64
 libssh-gcrypt-4:amd64
 libssh2-1:amd64
 libssh2-1:i386
@@ -1891,6 +1908,7 @@ libsub-override-perl
 libsub-quote-perl
 libsuitesparseconfig5:amd64
 libsuperlu5:amd64
+libsvn1:amd64
 libsvtav1enc0:amd64
 libsvtav1enc0:i386
 libswresample3:amd64
@@ -1946,6 +1964,7 @@ libtirpc-dev:amd64
 libtirpc3:amd64
 libtirpc3:i386
 libtk8.6:amd64
+libtommath1:amd64
 libtool
 libtorrent-rasterbar2.0:amd64
 libtotem-plparser-common
@@ -2001,6 +2020,7 @@ libusbmuxd6:amd64
 libusbredirhost1:amd64
 libusbredirparser1:amd64
 libutempter0:amd64
+libutf8proc2:amd64
 libuuid1:amd64
 libuuid1:i386
 libuv1:amd64
@@ -2032,6 +2052,7 @@ libvlc-bin:amd64
 libvlc5:amd64
 libvlccore9:amd64
 libvncclient1:amd64
+libvncserver1:amd64
 libvo-aacenc0:amd64
 libvo-amrwbenc0:amd64
 libvo-amrwbenc0:i386
@@ -2219,6 +2240,7 @@ libxml2-utils
 libxmlb2:amd64
 libxmlsec1:amd64
 libxmlsec1-nss:amd64
+libxmlsec1-openssl:amd64
 libxmu-dev:amd64
 libxmu-headers
 libxmu6:amd64
@@ -2283,12 +2305,15 @@ lightdm-gtk-greeter
 lightdm-settings
 linux-base
 linux-compiler-gcc-11-x86
+linux-headers-5.18.0-2-amd64
+linux-headers-5.18.0-2-common
 linux-headers-5.18.10-msi
 linux-headers-5.18.12-msi
 linux-headers-5.18.13-msi
 linux-headers-5.18.4-msi
 linux-headers-5.18.6-msi
 linux-headers-5.18.8-msi
+linux-headers-amd64
 linux-image-5.18.0-2-amd64
 linux-image-5.18.10-msi
 linux-image-5.18.10-msi-dbg
@@ -2303,6 +2328,7 @@ linux-image-5.18.6-msi-dbg
 linux-image-5.18.8-msi
 linux-image-5.18.8-msi-dbg
 linux-image-amd64
+linux-kbuild-5.18
 linux-libc-dev:amd64
 linux-perf
 llvm-13
@@ -2442,6 +2468,8 @@ numlockx
 ocl-icd-libopencl1:amd64
 ocl-icd-libopencl1:i386
 oinkmaster
+open-vm-tools
+open-vm-tools-desktop
 openjade
 openjdk-11-jre:amd64
 openjdk-11-jre-headless:amd64
@@ -2817,6 +2845,9 @@ vim-runtime
 vim-tiny
 vinagre
 vino
+virtualbox
+virtualbox-dkms
+virtualbox-qt
 vkd3d-compiler:i386
 vlc
 vlc-bin
@@ -2914,6 +2945,7 @@ yelp
 yelp-xsl
 zenity
 zenity-common
+zerofree
 zip
 zlib1g:amd64
 zlib1g:i386
