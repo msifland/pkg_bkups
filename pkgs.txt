@@ -2343,6 +2343,7 @@ linux-headers-5.18.16-msi
 linux-headers-5.19.0-msi
 linux-headers-5.19.1-msi
 linux-headers-5.19.2-msi
+linux-headers-5.19.6-msi
 linux-headers-amd64
 linux-image-5.18.0-3-amd64
 linux-image-5.18.10-msi-dbg
@@ -2360,6 +2361,8 @@ linux-image-5.19.1-msi
 linux-image-5.19.1-msi-dbg
 linux-image-5.19.2-msi
 linux-image-5.19.2-msi-dbg
+linux-image-5.19.6-msi
+linux-image-5.19.6-msi-dbg
 linux-image-amd64
 linux-kbuild-5.18
 linux-libc-dev:amd64
