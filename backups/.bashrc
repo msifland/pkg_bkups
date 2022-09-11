@@ -372,6 +372,20 @@ function timed(){
     echo -e "${ILCOLOR4}⏰  $result${ILRESTORE}"
 }
 
+function dirs(){
+	if [[ ! -z $1 ]]; then
+		cd $1
+		du --summarize --human-readable * | sort -h
+		cd
+	else
+		echo "
+		This command shows directories and sorts by size.
+		Usage:
+		dirs /etc
+		dirs /home/msifland"
+	fi
+}
+
 function rec-key(){
 	if [[ ! -z $1 ]] && [[ ! -z $2 ]]; then
 	sudo gpg --no-default-keyring --keyring /usr/share/keyrings/"$1-archive-keyring.gpg" --keyserver https://pgp.mit.edu/ --recv-keys $2
