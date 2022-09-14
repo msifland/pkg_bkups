@@ -521,7 +521,6 @@ ipp-usb
 iproute2
 iptables
 iputils-ping
-isa-support:amd64
 isc-dhcp-client
 isc-dhcp-common
 iso-codes
@@ -563,7 +562,6 @@ liba52-0.7.4:amd64
 libaa1:amd64
 libaa1:i386
 libaacs0:amd64
-libabsl20210324:amd64
 libabsl20220623:amd64
 libabw-0.1-1:amd64
 libaccountsservice0:amd64
@@ -1098,7 +1096,7 @@ libgmp10:amd64
 libgmp10:i386
 libgmpxx4ldbl:amd64
 libgmt6:amd64
-libgnome-desktop-3-19:amd64
+libgnome-desktop-3-20:amd64
 libgnustep-base1.28
 libgnutls30:amd64
 libgnutls30:i386
@@ -1231,7 +1229,6 @@ libieee1284-3:i386
 libigdgmm12:amd64
 libigdgmm12:i386
 libijs-0.35:amd64
-libilmbase25:amd64
 libimage-magick-perl
 libimage-magick-q16-perl
 libimagequant0:amd64
@@ -1536,7 +1533,6 @@ libopencore-amrwb0:i386
 libopencsd-dev:amd64
 libopencsd1:amd64
 libopenexr-3-1-30:amd64
-libopenexr25:amd64
 libopengl-dev:amd64
 libopengl0:amd64
 libopengl0:i386
@@ -1609,7 +1605,6 @@ libpcre2-8-0:i386
 libpcre2-dev:amd64
 libpcre2-posix3:amd64
 libpcre3:amd64
-libpcre3:i386
 libpcre3-dev:amd64
 libpcre32-3:amd64
 libpcrecpp0v5:amd64
@@ -1930,7 +1925,6 @@ libssl3:i386
 libstaroffice-0.0-0:amd64
 libstartup-notification0:amd64
 libstd-rust-1.58:amd64
-libstd-rust-1.59:amd64
 libstd-rust-1.60:amd64
 libstd-rust-dev:amd64
 libstdc++-11-dev:amd64
@@ -2348,8 +2342,6 @@ lightdm-gtk-greeter
 lightdm-settings
 linux-base
 linux-compiler-gcc-11-x86
-linux-headers-5.18.0-3-amd64
-linux-headers-5.18.0-3-common
 linux-headers-5.18.16-msi
 linux-headers-5.19.0-1-amd64
 linux-headers-5.19.0-1-common
@@ -2358,7 +2350,6 @@ linux-headers-5.19.1-msi
 linux-headers-5.19.2-msi
 linux-headers-5.19.6-msi
 linux-headers-amd64
-linux-image-5.18.0-3-amd64
 linux-image-5.18.10-msi-dbg
 linux-image-5.18.12-msi-dbg
 linux-image-5.18.13-msi-dbg
@@ -2378,7 +2369,6 @@ linux-image-5.19.2-msi-dbg
 linux-image-5.19.6-msi
 linux-image-5.19.6-msi-dbg
 linux-image-amd64
-linux-kbuild-5.18
 linux-kbuild-5.19
 linux-libc-dev:amd64
 linux-perf
@@ -2519,7 +2509,6 @@ numlockx
 nvidia-installer-cleanup
 nvidia-kernel-common
 nvidia-legacy-390xx-alternative
-nvidia-legacy-390xx-kernel-5.19.2-msi
 nvidia-legacy-390xx-kernel-source
 nvidia-legacy-390xx-kernel-support
 nvidia-modprobe
@@ -2809,7 +2798,6 @@ spice-client-glib-usb-acl-helper
 spotify-client
 sqlitebrowser
 squashfs-tools
-sse3-support
 ssl-cert
 steam:i386
 steam-devices
