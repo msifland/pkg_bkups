@@ -1689,7 +1689,7 @@ libpython3.9-stdlib:amd64
 libqhull-r8.0:amd64
 libqmi-glib5:amd64
 libqmi-proxy
-libqpdf28:amd64
+libqpdf29:amd64
 libqrencode4:amd64
 libqrtr-glib0:amd64
 libqscintilla2-qt5-15
@@ -2091,7 +2091,7 @@ libvncserver1:amd64
 libvo-aacenc0:amd64
 libvo-amrwbenc0:amd64
 libvo-amrwbenc0:i386
-libvolume-key1
+libvolume-key1:amd64
 libvorbis0a:amd64
 libvorbis0a:i386
 libvorbisenc2:amd64
