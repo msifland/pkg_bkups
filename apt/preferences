@@ -9,7 +9,3 @@ Pin-Priority: 50
 Package: *
 Pin: release a=stable
 Pin-Priority: 40
-
-Package *
-Pin: release a=kali-rolling
-Pin-Priority: 30
