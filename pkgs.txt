@@ -2416,8 +2416,6 @@ linux-compiler-gcc-11-x86
 linux-headers-5.19.0-1-amd64
 linux-headers-5.19.0-1-common
 linux-headers-5.19.11-msi
-linux-headers-5.19.6-msi
-linux-headers-5.19.9-msi
 linux-headers-amd64
 linux-image-5.18.10-msi-dbg
 linux-image-5.18.12-msi-dbg
@@ -2433,9 +2431,7 @@ linux-image-5.19.1-msi-dbg
 linux-image-5.19.11-msi
 linux-image-5.19.11-msi-dbg
 linux-image-5.19.2-msi-dbg
-linux-image-5.19.6-msi
 linux-image-5.19.6-msi-dbg
-linux-image-5.19.9-msi
 linux-image-5.19.9-msi-dbg
 linux-image-amd64
 linux-kbuild-5.19
@@ -2581,7 +2577,6 @@ nvidia-installer-cleanup
 nvidia-kernel-common
 nvidia-legacy-390xx-alternative
 nvidia-legacy-390xx-kernel-5.19.11-msi
-nvidia-legacy-390xx-kernel-5.19.9-msi
 nvidia-legacy-390xx-kernel-source
 nvidia-legacy-390xx-kernel-support
 nvidia-modprobe
