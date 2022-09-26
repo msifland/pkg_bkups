@@ -2157,7 +2157,9 @@ libwrap0-dev:amd64
 libwww-perl
 libwww-robotrules-perl
 libwxbase3.0-0v5:amd64
+libwxbase3.2-0:amd64
 libwxgtk3.0-gtk3-0v5:amd64
+libwxgtk3.2-0:amd64
 libx11-6:amd64
 libx11-6:i386
 libx11-data
@@ -2501,7 +2503,9 @@ network-manager-gnome
 nftables
 nmap
 nmap-common
+node-clipboard
 node-normalize.css
+node-prismjs
 notification-daemon
 ntfs-3g
 numlockx
