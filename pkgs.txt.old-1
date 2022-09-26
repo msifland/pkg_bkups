@@ -9,6 +9,8 @@ alsa-utils
 amd64-microcode
 anacron
 analog
+ant
+ant-optional
 anydesk
 apache2
 apache2-bin
@@ -32,6 +34,7 @@ asciidoc-dblatex
 asciidoctor
 aspell
 aspell-en
+at-spi2-common
 at-spi2-core
 atril
 atril-common
@@ -234,6 +237,8 @@ file-roller
 findutils
 firebird3.0-common
 firebird3.0-common-doc
+firebird3.0-server-core:amd64
+firebird3.0-utils
 firefox-esr
 firmware-amd-graphics
 firmware-iwlwifi
@@ -247,6 +252,8 @@ fluid-soundfont-gs
 fontconfig
 fontconfig-config
 fonts-cantarell
+fonts-crosextra-caladea
+fonts-crosextra-carlito
 fonts-dejavu
 fonts-dejavu-core
 fonts-dejavu-extra
@@ -258,6 +265,7 @@ fonts-gfs-porson
 fonts-lato
 fonts-liberation
 fonts-liberation2
+fonts-linuxlibertine
 fonts-lmodern
 fonts-mathjax
 fonts-noto
@@ -528,6 +536,7 @@ ispell
 iucode-tool
 iw
 java-common
+java-wrappers
 javascript-common
 john
 john-data
@@ -566,6 +575,7 @@ libabsl20220623:amd64
 libabw-0.1-1:amd64
 libaccountsservice0:amd64
 libacl1:amd64
+libactivation-java
 libadplug-2.3.3-0
 libadwaita-1-0:amd64
 libaec0:amd64
@@ -619,7 +629,6 @@ libatk-bridge2.0-dev:amd64
 libatk-wrapper-java
 libatk-wrapper-java-jni:amd64
 libatk1.0-0:amd64
-libatk1.0-data
 libatk1.0-dev:amd64
 libatkmm-1.6-1v5:amd64
 libatomic1:amd64
@@ -673,6 +682,12 @@ libbabeltrace-dev:amd64
 libbabeltrace1:amd64
 libbabl-0.1-0:amd64
 libbamf3-2:amd64
+libbase-java
+libbatik-java
+libbcmail-java
+libbcpkix-java
+libbcprov-java
+libbcutil-java
 libbdplus0:amd64
 libbinio1v5:amd64
 libbinutils:amd64
@@ -803,6 +818,8 @@ libcolorhug2:amd64
 libcom-err2:amd64
 libcom-err2:i386
 libcommon-sense-perl:amd64
+libcommons-collections3-java
+libcommons-io-java
 libcommons-logging-java
 libcommons-parent-java
 libconfig9:amd64
@@ -913,6 +930,8 @@ libegl-mesa0:i386
 libegl1:amd64
 libegl1:i386
 libegl1-mesa-dev:amd64
+libehcache-java
+libel-api-java
 libelf-dev:amd64
 libelf1:amd64
 libelf1:i386
@@ -965,6 +984,7 @@ libfido2-1:amd64
 libfile-basedir-perl
 libfile-desktopentry-perl
 libfile-fcntllock-perl
+libfile-find-rule-perl
 libfile-homedir-perl
 libfile-listing-perl
 libfile-mimeinfo-perl
@@ -978,6 +998,7 @@ libflashrom1:amd64
 libflite1:amd64
 libfluidsynth2:amd64
 libfluidsynth3:amd64
+libflute-java
 libfont-afm-perl
 libfontbox-java
 libfontconfig-dev:amd64
@@ -986,6 +1007,8 @@ libfontconfig1:i386
 libfontconfig1-dev:amd64
 libfontembed1:amd64
 libfontenc1:amd64
+libfonts-java
+libformula-java
 libfreeaptx0:amd64
 libfreehand-0.1-1
 libfreerdp-client2-2:amd64
@@ -1195,6 +1218,7 @@ libheif1:amd64
 libhogweed6:amd64
 libhogweed6:i386
 libhpmud0:amd64
+libhsqldb1.8.0-java
 libhtml-form-perl
 libhtml-format-perl
 libhtml-parser-perl:amd64
@@ -1210,6 +1234,7 @@ libhunspell-1.7-0:amd64
 libhwloc-plugins:amd64
 libhwloc15:amd64
 libhyphen0:amd64
+libib-util:amd64
 libiberty-dev:amd64
 libical3:amd64
 libice-dev:amd64
@@ -1251,6 +1276,7 @@ libiptcdata0
 libisc-export1105:amd64
 libisl23:amd64
 libisofs6:amd64
+libitext-java
 libitm1:amd64
 libiw30:amd64
 libixml10:amd64
@@ -1259,12 +1285,14 @@ libjack-jackd2-0:i386
 libjansson4:amd64
 libjavascriptcoregtk-4.0-18:amd64
 libjavascriptcoregtk-4.1-0:amd64
+libjaxp1.3-java
 libjbig-dev:amd64
 libjbig0:amd64
 libjbig0:i386
 libjbig2dec0:amd64
 libjcat1:amd64
 libjcode-pm-perl
+libjcommon-java
 libjemalloc2:amd64
 libjim0.81:amd64
 libjpeg-dev:amd64
@@ -1283,6 +1311,7 @@ libjson-glib-1.0-common
 libjson-perl
 libjson-xs-perl
 libjsoncpp25:amd64
+libjsp-api-java
 libjte2:amd64
 libjxr-tools
 libjxr0:amd64
@@ -1307,6 +1336,7 @@ liblab-gamut1:amd64
 liblangtag-common
 liblangtag1:amd64
 liblapack3:amd64
+liblayout-java
 liblcms2-2:amd64
 liblcms2-2:i386
 liblcms2-utils
@@ -1321,6 +1351,7 @@ liblept5:amd64
 liblerc-dev:amd64
 liblerc4:amd64
 liblerc4:i386
+liblibreoffice-java
 liblightdm-gobject-1-0:amd64
 liblilv-0-0:amd64
 liblinear4:amd64
@@ -1329,6 +1360,7 @@ libllvm13:amd64
 libllvm14:amd64
 libllvm14:i386
 liblmdb0:amd64
+libloader-java
 liblocale-gettext-perl
 liblockfile-bin
 liblog-dispatch-perl
@@ -1366,6 +1398,7 @@ libmagick++-6.q16-8:amd64
 libmagickcore-6.q16-6:amd64
 libmagickcore-6.q16-6-extra:amd64
 libmagickwand-6.q16-6:amd64
+libmail-java
 libmail-sendmail-perl
 libmailtools-perl
 libmanette-0.2-0:amd64
@@ -1448,6 +1481,7 @@ libnamespace-autoclean-perl
 libnamespace-clean-perl
 libnatpmp1:amd64
 libnautilus-extension1a:amd64
+libnautilus-extension4:amd64
 libncurses-dev:amd64
 libncurses5:amd64
 libncurses5:i386
@@ -1505,6 +1539,7 @@ libntfs-3g89
 libnuma-dev:amd64
 libnuma1:amd64
 libnuma1:i386
+libnumber-compare-perl
 libnumbertext-1.0-0:amd64
 libnumbertext-data
 libobjc4:amd64
@@ -1612,6 +1647,7 @@ libpcsclite1:amd64
 libpdfbox-java
 libpeas-1.0-0:amd64
 libpeas-common
+libpentaho-reporting-flow-engine-java
 libperl-dev:amd64
 libperl4-corelibs-perl
 libperl5.32:amd64
@@ -1627,10 +1663,12 @@ libpipeline1:amd64
 libpipewire-0.3-0:amd64
 libpipewire-0.3-common
 libpipewire-0.3-modules:amd64
+libpixie-java
 libpixman-1-0:amd64
 libpixman-1-0:i386
 libpixman-1-dev:amd64
 libplacebo192:amd64
+libplacebo208:amd64
 libplist3:amd64
 libplymouth5:amd64
 libpng-dev:amd64
@@ -1729,6 +1767,8 @@ librabbitmq4:amd64
 libraptor2-0:amd64
 libraqm0:amd64
 librasqal3:amd64
+librav1e0:amd64
+librav1e0:i386
 libraw1394-11:amd64
 libraw1394-11:i386
 libraw20:amd64
@@ -1742,7 +1782,9 @@ librecode0:amd64
 libref-util-perl
 libref-util-xs-perl
 libregexp-ipv6-perl
+libreoffice-base
 libreoffice-base-core
+libreoffice-base-drivers
 libreoffice-calc
 libreoffice-common
 libreoffice-core
@@ -1751,9 +1793,17 @@ libreoffice-gtk3
 libreoffice-help-common
 libreoffice-help-en-us
 libreoffice-impress
+libreoffice-java-common
 libreoffice-math
+libreoffice-report-builder
+libreoffice-report-builder-bin
+libreoffice-sdbc-firebird
+libreoffice-sdbc-hsqldb
+libreoffice-sdbc-mysql
+libreoffice-sdbc-postgresql
 libreoffice-style-colibre
 libreoffice-writer
+librepository-java
 libresid-builder0c2a
 librevenge-0.0-0:amd64
 librhash0:amd64
@@ -1770,6 +1820,7 @@ librtmp1:amd64
 librtmp1:i386
 librttopo1:amd64
 librubberband2:amd64
+libruby
 libruby3.0:amd64
 librust-anyhow-dev:amd64
 librust-arbitrary-dev:amd64
@@ -1814,6 +1865,7 @@ librygel-core-2.6-2:amd64
 librygel-db-2.6-2:amd64
 librygel-renderer-2.6-2:amd64
 librygel-server-2.6-2:amd64
+libsac-java
 libsamplerate0:amd64
 libsamplerate0:i386
 libsane:amd64
@@ -1849,6 +1901,9 @@ libsepol1:amd64
 libsepol2:amd64
 libserd-0-0:amd64
 libserf-1-1:amd64
+libserializer-java
+libservlet-api-java
+libservlet3.1-java
 libsgmls-perl
 libshine3:amd64
 libshine3:i386
@@ -1973,6 +2028,7 @@ libtevent0:amd64
 libtexlua53-5:amd64
 libtexluajit2:amd64
 libtext-charwidth-perl
+libtext-glob-perl
 libtext-iconv-perl
 libtext-wrapi18n-perl
 libtfm1:amd64
@@ -2046,6 +2102,7 @@ libuno-cppuhelpergcc3-3
 libuno-purpenvhelpergcc3-3
 libuno-sal3
 libuno-salhelpergcc3-3
+libunoloader-java
 libunwind-dev:amd64
 libunwind8:amd64
 libunwind8:i386
@@ -2069,6 +2126,7 @@ libv4lconvert0:amd64
 libv4lconvert0:i386
 libva-drm2:amd64
 libva-drm2:i386
+libva-glx2:i386
 libva-wayland2:amd64
 libva-x11-2:amd64
 libva-x11-2:i386
@@ -2135,6 +2193,7 @@ libwebpdemux2:amd64
 libwebpmux3:amd64
 libwebpmux3:i386
 libwebrtc-audio-processing1:amd64
+libwebsocket-api-java
 libwildmidi2:amd64
 libwine-development:amd64
 libwine-development:i386
@@ -2188,6 +2247,7 @@ libx32quadmath0
 libx32stdc++6
 libx32ubsan1
 libx86emu3:amd64
+libxalan2-java
 libxapian30:amd64
 libxatracker2:amd64
 libxau-dev:amd64
@@ -2245,6 +2305,7 @@ libxdmcp-dev:amd64
 libxdmcp6:amd64
 libxdmcp6:i386
 libxerces-c3.2:amd64
+libxerces2-java
 libxext-dev:amd64
 libxext6:amd64
 libxext6:i386
@@ -2268,6 +2329,9 @@ libxkbcommon0:i386
 libxkbfile1:amd64
 libxkbregistry0:amd64
 libxklavier16:amd64
+libxml-commons-external-java
+libxml-commons-resolver1.1-java
+libxml-java
 libxml-libxml-perl
 libxml-namespacesupport-perl
 libxml-parser-perl:amd64
@@ -2281,6 +2345,7 @@ libxml2:i386
 libxml2-dev:amd64
 libxml2-utils
 libxmlb2:amd64
+libxmlgraphics-commons-java
 libxmlsec1:amd64
 libxmlsec1-nss:amd64
 libxmlsec1-openssl:amd64
@@ -2350,6 +2415,7 @@ linux-base
 linux-compiler-gcc-11-x86
 linux-headers-5.19.0-1-amd64
 linux-headers-5.19.0-1-common
+linux-headers-5.19.11-msi
 linux-headers-5.19.6-msi
 linux-headers-5.19.9-msi
 linux-headers-amd64
@@ -2364,6 +2430,8 @@ linux-image-5.18.8-msi-dbg
 linux-image-5.19.0-1-amd64
 linux-image-5.19.0-msi-dbg
 linux-image-5.19.1-msi-dbg
+linux-image-5.19.11-msi
+linux-image-5.19.11-msi-dbg
 linux-image-5.19.2-msi-dbg
 linux-image-5.19.6-msi
 linux-image-5.19.6-msi-dbg
@@ -2512,6 +2580,7 @@ numlockx
 nvidia-installer-cleanup
 nvidia-kernel-common
 nvidia-legacy-390xx-alternative
+nvidia-legacy-390xx-kernel-5.19.11-msi
 nvidia-legacy-390xx-kernel-5.19.9-msi
 nvidia-legacy-390xx-kernel-source
 nvidia-legacy-390xx-kernel-support
@@ -2876,11 +2945,13 @@ update-glx
 update-inetd
 upower
 ure
+ure-java
 usb-modeswitch
 usb-modeswitch-data
 usb.ids
 usbmuxd
 usbutils
+usrmerge
 util-linux
 util-linux-extra
 util-linux-locales
