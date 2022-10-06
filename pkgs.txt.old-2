@@ -1472,6 +1472,7 @@ libmtp-runtime
 libmtp9:amd64
 libmuffin0:amd64
 libmutter-10-0:amd64
+libmutter-11-0:amd64
 libmwaw-0.3-3:amd64
 libmypaint-1.5-1:amd64
 libmypaint-common
@@ -2416,6 +2417,7 @@ linux-compiler-gcc-11-x86
 linux-headers-5.19.0-2-amd64
 linux-headers-5.19.0-2-common
 linux-headers-5.19.11-msi
+linux-headers-5.19.12-msi
 linux-headers-amd64
 linux-image-5.10.0-0.deb10.16-amd64-dbg
 linux-image-5.18.10-msi-dbg
@@ -2431,6 +2433,8 @@ linux-image-5.19.0-msi-dbg
 linux-image-5.19.1-msi-dbg
 linux-image-5.19.11-msi
 linux-image-5.19.11-msi-dbg
+linux-image-5.19.12-msi
+linux-image-5.19.12-msi-dbg
 linux-image-5.19.2-msi-dbg
 linux-image-5.19.6-msi-dbg
 linux-image-5.19.9-msi-dbg
@@ -2578,6 +2582,7 @@ nvidia-installer-cleanup
 nvidia-kernel-common
 nvidia-legacy-390xx-alternative
 nvidia-legacy-390xx-kernel-5.19.11-msi
+nvidia-legacy-390xx-kernel-5.19.12-msi
 nvidia-legacy-390xx-kernel-source
 nvidia-legacy-390xx-kernel-support
 nvidia-modprobe
