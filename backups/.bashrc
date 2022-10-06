@@ -512,12 +512,6 @@ export DISPLAY=:0
 alias sudo="sudo env PATH=$PATH"
 ###############################################
 
-################ Terminal Jokes ###############
-if [ "$PS1" ]; then
-    wget "http://api.icndb.com/jokes/random" -qO- | jshon -e value -e joke -u
-echo
-fi
-
 # get current branch in git repo
 function parse_git_branch() {
 	BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
