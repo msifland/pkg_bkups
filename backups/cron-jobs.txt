@@ -39,4 +39,4 @@
 02 4 2 * * /home/msifland/scripts/cron_scripts/map-my-builder-run
 
 # Update ble.sh(bash syntax highlighting) every week
-30 0 * * 2 /home/msifland/scripts/cron_scripts/blesh-updater-run
+30 0 * * 2 /home/msifland/scripts/cron_scripts/blesh-update-run
