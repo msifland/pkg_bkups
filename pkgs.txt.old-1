@@ -49,7 +49,6 @@ avahi-autoipd
 avahi-daemon
 avahi-utils
 bamfdaemon
-baobab
 base-files
 base-passwd
 bash
