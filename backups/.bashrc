@@ -480,7 +480,6 @@ alias matrix="cmatrix -a -s"
 alias apt-sources="subl /etc/apt/sources.list"
 alias apt-preferences="subl /etc/apt/preferences"
 alias redo='sudo $(fc -ln -1)'
-alias adb="$HOME/Android/Sdk/platform-tools/adb"
 alias update-grub="echo 'running grub-mkconfig -o /boot/grub/grub.cfg'; sudo grub-mkconfig -o /boot/grub/grub.cfg"
 
 ############# Paths #####################
@@ -488,20 +487,9 @@ export PATH="$HOME/scripts:$PATH"
 export PATH="$HOME/scripts/kernel_scripts:$PATH"
 export PATH="$HOME/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
-export ANDROID_HOME="$HOME/Android/Sdk:$ANDROID_HOME"
 export PATH="/usr/lib/jvm/default-java/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$PATH"
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:$PATH"
 export PATH="/opt/wine-stable/bin:$PATH"
-
-# This line specifically call the latest build tools number folder(mainly for building opengapps). It also deletes any older folders.
-export PATH="$(find $HOME/Android/Sdk/build-tools/ -mindepth 1 -maxdepth 1 -type d):$PATH"
-
-# For android
-BLD_TOOLS_KEEP=$(ls -t $HOME/Android/Sdk/build-tools/ | head -n 1)
-find $HOME/Android/Sdk/build-tools/ -mindepth 1 -maxdepth 1 ! -name "$BLD_TOOLS_KEEP" -execdir rm -rf 2>/dev/null {} \+
-
-alias android-studio="detach /home/msifland/Android/android-studio/bin/studio.sh"
-#export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 
 # System configs
 export EDITOR="nano"
