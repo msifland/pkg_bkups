@@ -481,7 +481,7 @@ alias apt-sources="subl /etc/apt/sources.list"
 alias apt-preferences="subl /etc/apt/preferences"
 alias redo='sudo $(fc -ln -1)'
 alias update-grub="echo 'running grub-mkconfig -o /boot/grub/grub.cfg'; sudo grub-mkconfig -o /boot/grub/grub.cfg"
-
+alias linux-usb-update="$HOME/scripts/linux-usb-startup-git-pull"
 ############# Paths #####################
 export PATH="$HOME/scripts:$PATH"
 export PATH="$HOME/scripts/kernel_scripts:$PATH"
