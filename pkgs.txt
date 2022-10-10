@@ -1025,7 +1025,6 @@ libftdi1-2:amd64
 libfuse2:amd64
 libfuse3-3:amd64
 libfwupd2:amd64
-libfwupdplugin7:amd64
 libfyba0:amd64
 libgail-3-0:amd64
 libgail-common:amd64
