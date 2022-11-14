@@ -119,7 +119,7 @@ cmake
 cmake-data
 coinor-libcbc3:amd64
 coinor-libcgl1:amd64
-coinor-libclp1
+coinor-libclp1:amd64
 coinor-libcoinmp1v5:amd64
 coinor-libcoinutils3v5:amd64
 coinor-libosi1v5:amd64
@@ -281,6 +281,7 @@ fonts-opensymbol
 fonts-quicksand
 fonts-symbola
 fonts-texgyre
+fonts-texgyre-math
 fonts-urw-base35
 fonts-vlgothic
 fonts-wine
@@ -571,6 +572,7 @@ libaa1:amd64
 libaa1:i386
 libaacs0:amd64
 libabsl20220623:amd64
+libabsl20220623:i386
 libabw-0.1-1:amd64
 libaccountsservice0:amd64
 libacl1:amd64
@@ -580,6 +582,7 @@ libadwaita-1-0:amd64
 libaec0:amd64
 libaio1:amd64
 libalglib3.18:amd64
+libalglib3.19:amd64
 libalgorithm-c3-perl
 libalgorithm-diff-perl
 libalgorithm-diff-xs-perl:amd64
@@ -668,6 +671,8 @@ libavfilter7:amd64
 libavfilter8:amd64
 libavformat58:amd64
 libavformat59:amd64
+libavif15:amd64
+libavif15:i386
 libavutil56:amd64
 libavutil57:amd64
 libavutil57:i386
@@ -746,7 +751,7 @@ libcacard0:amd64
 libcairo-gobject-perl:amd64
 libcairo-gobject2:amd64
 libcairo-gobject2:i386
-libcairo-perl:amd64
+libcairo-perl
 libcairo-script-interpreter2:amd64
 libcairo2:amd64
 libcairo2:i386
@@ -790,12 +795,13 @@ libcinnamon-desktop4:amd64
 libcjson1:amd64
 libclamav9:amd64
 libclang-cpp13
+libclang-cpp14
 libclass-c3-perl
 libclass-c3-xs-perl
 libclass-data-inheritable-perl
 libclass-method-modifiers-perl
 libclass-xsaccessor-perl
-libclone-perl
+libclone-perl:amd64
 libcloudproviders0:amd64
 libclucene-contribs1v5:amd64
 libclucene-core1v5:amd64
@@ -839,6 +845,7 @@ libcupsfilters1:amd64
 libcupsimage2:amd64
 libcurl3-gnutls:amd64
 libcurl3-gnutls:i386
+libcurl3-nss:amd64
 libcurl4:amd64
 libcurl4:i386
 libcwidget4:amd64
@@ -867,6 +874,7 @@ libdc1394-25:amd64
 libdca0:amd64
 libdconf1:amd64
 libde265-0:amd64
+libde265-0:i386
 libdebconfclient0:amd64
 libdebhelper-perl
 libdebuginfod-common
@@ -907,6 +915,7 @@ libdrm-radeon1:amd64
 libdrm-radeon1:i386
 libdrm2:amd64
 libdrm2:i386
+libduktape207:amd64
 libdumbnet1:amd64
 libdv4:amd64
 libdv4:i386
@@ -991,8 +1000,8 @@ libfile-stripnondeterminism-perl
 libfile-which-perl
 libfl-dev:amd64
 libfl2:amd64
-libflac8:amd64
-libflac8:i386
+libflac12:amd64
+libflac12:i386
 libflashrom1:amd64
 libflite1:amd64
 libfluidsynth2:amd64
@@ -1029,6 +1038,8 @@ libfyba0:amd64
 libgail-3-0:amd64
 libgail-common:amd64
 libgail18:amd64
+libgav1-1:amd64
+libgav1-1:i386
 libgbm1:amd64
 libgbm1:i386
 libgc1:amd64
@@ -1078,6 +1089,7 @@ libgif7:amd64
 libgimp2.0:amd64
 libgirepository-1.0-1:amd64
 libgit2-1.3:amd64
+libgit2-1.5:amd64
 libgit2-glib-1.0-0:amd64
 libgl-dev:amd64
 libgl1:amd64
@@ -1214,6 +1226,7 @@ libhdf4-0-alt
 libhdf5-103-1:amd64
 libhdf5-hl-100:amd64
 libheif1:amd64
+libheif1:i386
 libhogweed6:amd64
 libhogweed6:i386
 libhpmud0:amd64
@@ -1536,7 +1549,7 @@ libnss-nisplus:i386
 libnss-systemd:amd64
 libnss3:amd64
 libnss3:i386
-libntfs-3g89
+libntfs-3g89:amd64
 libnuma-dev:amd64
 libnuma1:amd64
 libnuma1:i386
@@ -1654,6 +1667,8 @@ libperl4-corelibs-perl
 libperl5.32:amd64
 libperl5.34:amd64
 libperl5.34:i386
+libperl5.36:amd64
+libperl5.36:i386
 libpfm4:amd64
 libpgm-5.3-0:amd64
 libphodav-2.0-0:amd64
@@ -1982,14 +1997,14 @@ libssl3:i386
 libstaroffice-0.0-0:amd64
 libstartup-notification0:amd64
 libstd-rust-1.58:amd64
-libstd-rust-1.60:amd64
+libstd-rust-1.61:amd64
 libstd-rust-dev:amd64
 libstdc++-11-dev:amd64
 libstdc++-12-dev:amd64
 libstdc++6:amd64
 libstdc++6:i386
 libstemmer0d:amd64
-libstring-crc32-perl:amd64
+libstring-crc32-perl
 libsub-exporter-perl
 libsub-exporter-progressive-perl
 libsub-identify-perl
@@ -2374,7 +2389,7 @@ libxslt1.1:amd64
 libxss-dev:amd64
 libxss1:amd64
 libxss1:i386
-libxstring-perl
+libxstring-perl:amd64
 libxt-dev:amd64
 libxt6:amd64
 libxtables12:amd64
@@ -2394,6 +2409,8 @@ libyajl2:amd64
 libyaml-0-2:amd64
 libyaml-tiny-perl
 libyelp0:amd64
+libyuv0:amd64
+libyuv0:i386
 libz-mingw-w64
 libz3-4:amd64
 libz3-4:i386
@@ -2415,8 +2432,9 @@ lightdm-gtk-greeter
 lightdm-settings
 linux-base
 linux-compiler-gcc-11-x86
-linux-headers-5.19.0-2-amd64
-linux-headers-5.19.0-2-common
+linux-compiler-gcc-12-x86
+linux-headers-6.0.0-2-amd64
+linux-headers-6.0.0-2-common
 linux-headers-6.0.5-msi
 linux-headers-amd64
 linux-image-5.10.0-0.deb10.16-amd64-dbg
@@ -2428,7 +2446,6 @@ linux-image-5.18.16-msi-dbg
 linux-image-5.18.4-msi-dbg
 linux-image-5.18.6-msi-dbg
 linux-image-5.18.8-msi-dbg
-linux-image-5.19.0-2-amd64
 linux-image-5.19.0-msi-dbg
 linux-image-5.19.1-msi-dbg
 linux-image-5.19.11-msi-dbg
@@ -2436,13 +2453,14 @@ linux-image-5.19.12-msi-dbg
 linux-image-5.19.2-msi-dbg
 linux-image-5.19.6-msi-dbg
 linux-image-5.19.9-msi-dbg
+linux-image-6.0.0-2-amd64
 linux-image-6.0.0-msi-dbg
 linux-image-6.0.2-msi-dbg
 linux-image-6.0.3-msi-dbg
 linux-image-6.0.5-msi
 linux-image-6.0.5-msi-dbg
 linux-image-amd64
-linux-kbuild-5.19
+linux-kbuild-6.0
 linux-libc-dev:amd64
 linux-perf
 llvm-13
@@ -2450,6 +2468,11 @@ llvm-13-dev
 llvm-13-linker-tools
 llvm-13-runtime
 llvm-13-tools
+llvm-14
+llvm-14-dev
+llvm-14-linker-tools
+llvm-14-runtime
+llvm-14-tools
 lm-sensors
 lmodern
 locales
@@ -2629,6 +2652,7 @@ perl-base
 perl-doc
 perl-modules-5.32
 perl-modules-5.34
+perl-modules-5.36
 perl-openssl-defaults:amd64
 perl-tk
 picom
@@ -2650,13 +2674,16 @@ pocketsphinx-en-us
 policykit-1
 policykit-1-gnome
 polkitd
+polkitd-pkla
 poppler-data
 poppler-utils
 popularity-contest
 postfix
 postgresql
 postgresql-14
+postgresql-15
 postgresql-client-14
+postgresql-client-15
 postgresql-client-common
 postgresql-common
 powermgmt-base

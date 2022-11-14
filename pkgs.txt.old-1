@@ -239,6 +239,8 @@ firebird3.0-common-doc
 firebird3.0-server-core:amd64
 firebird3.0-utils
 firefox-esr
+firewall-config
+firewalld
 firmware-amd-graphics
 firmware-iwlwifi
 firmware-linux
@@ -477,7 +479,6 @@ gtk2-engines:amd64
 gtk2-engines-murrine:amd64
 gtk2-engines-pixbuf:amd64
 gtkhash
-gufw
 gvfs:amd64
 gvfs-backends
 gvfs-common
@@ -493,6 +494,7 @@ hostname
 hplip
 hplip-data
 htop
+hugo
 hunspell-en-us
 hwdata
 hwinfo
@@ -527,6 +529,7 @@ intel-microcode
 intltool-debian
 ipp-usb
 iproute2
+ipset
 iptables
 iputils-ping
 isc-dhcp-client
@@ -721,6 +724,7 @@ libboost-thread1.74.0:amd64
 libbotan-2-19:amd64
 libbox2d2:amd64
 libbpf0:amd64
+libbpf1:amd64
 libbrasero-media3-1:amd64
 libbrlapi0.8:amd64
 libbrotli-dev:amd64
@@ -1171,6 +1175,7 @@ libgspell-1-common
 libgssapi-krb5-2:amd64
 libgssapi-krb5-2:i386
 libgssdp-1.2-0:amd64
+libgssdp-1.6-0:amd64
 libgstreamer-gl1.0-0:amd64
 libgstreamer-plugins-bad1.0-0:amd64
 libgstreamer-plugins-base1.0-0:amd64
@@ -1204,6 +1209,7 @@ libgucharmap-2-90-7:amd64
 libgudev-1.0-0:amd64
 libgudev-1.0-0:i386
 libgupnp-1.2-1:amd64
+libgupnp-1.6-0:amd64
 libgupnp-av-1.0-3
 libgupnp-dlna-2.0-4
 libgupnp-igd-1.0-4:amd64
@@ -1253,7 +1259,8 @@ libice-dev:amd64
 libice6:amd64
 libicu-dev:amd64
 libicu71:amd64
-libicu71:i386
+libicu72:amd64
+libicu72:i386
 libid3tag0:amd64
 libidn11:amd64
 libidn12:amd64
@@ -1282,6 +1289,7 @@ libip4tc2:amd64
 libip6tc2:amd64
 libipc-shareable-perl
 libipc-system-simple-perl
+libipset13:amd64
 libipt2
 libiptc0:amd64
 libiptcdata0
@@ -1879,9 +1887,13 @@ librust-winapi-i686-pc-windows-gnu-dev:amd64
 librust-winapi-x86-64-pc-windows-gnu-dev:amd64
 librust-x11-dev:amd64
 librygel-core-2.6-2:amd64
+librygel-core-2.8-0:amd64
 librygel-db-2.6-2:amd64
+librygel-db-2.8-0:amd64
 librygel-renderer-2.6-2:amd64
+librygel-renderer-2.8-0:amd64
 librygel-server-2.6-2:amd64
+librygel-server-2.8-0:amd64
 libsac-java
 libsamplerate0:amd64
 libsamplerate0:i386
@@ -1897,6 +1909,7 @@ libsasl2-modules:amd64
 libsasl2-modules:i386
 libsasl2-modules-db:amd64
 libsasl2-modules-db:i386
+libsass1:amd64
 libsbc1:amd64
 libsdl-image1.2:amd64
 libsdl1.2debian:amd64
@@ -1997,7 +2010,7 @@ libssl3:i386
 libstaroffice-0.0-0:amd64
 libstartup-notification0:amd64
 libstd-rust-1.58:amd64
-libstd-rust-1.61:amd64
+libstd-rust-1.62:amd64
 libstd-rust-dev:amd64
 libstdc++-11-dev:amd64
 libstdc++-12-dev:amd64
@@ -2321,6 +2334,7 @@ libxdamage1:i386
 libxdmcp-dev:amd64
 libxdmcp6:amd64
 libxdmcp6:i386
+libxdo3:amd64
 libxerces-c3.2:amd64
 libxerces2-java
 libxext-dev:amd64
@@ -2433,8 +2447,8 @@ lightdm-settings
 linux-base
 linux-compiler-gcc-11-x86
 linux-compiler-gcc-12-x86
-linux-headers-6.0.0-2-amd64
-linux-headers-6.0.0-2-common
+linux-headers-6.0.0-3-amd64
+linux-headers-6.0.0-3-common
 linux-headers-6.0.5-msi
 linux-headers-6.0.7-msi
 linux-headers-amd64
@@ -2454,7 +2468,7 @@ linux-image-5.19.12-msi-dbg
 linux-image-5.19.2-msi-dbg
 linux-image-5.19.6-msi-dbg
 linux-image-5.19.9-msi-dbg
-linux-image-6.0.0-2-amd64
+linux-image-6.0.0-3-amd64
 linux-image-6.0.0-msi-dbg
 linux-image-6.0.2-msi-dbg
 linux-image-6.0.3-msi-dbg
@@ -2622,6 +2636,8 @@ open-vm-tools-desktop
 openjade
 openjdk-11-jre:amd64
 openjdk-11-jre-headless:amd64
+openjdk-17-jre:amd64
+openjdk-17-jre-headless:amd64
 openjdk-18-jre:amd64
 openjdk-18-jre-headless:amd64
 openprinting-ppds
@@ -2721,6 +2737,7 @@ proj-bin
 proj-data
 psmisc
 publicsuffix
+pulseaudio
 pulseaudio-utils
 pv
 python-apt-common
@@ -2734,11 +2751,14 @@ python2.7-minimal
 python3
 python3-alabaster
 python3-apt
+python3-attr
 python3-babel
 python3-brlapi:amd64
+python3-brotli
 python3-bs4
 python3-cairo:amd64
 python3-caja
+python3-cap-ng
 python3-certifi
 python3-cffi-backend:amd64
 python3-chardet
@@ -2757,6 +2777,7 @@ python3-distro-info
 python3-distutils
 python3-docutils
 python3-evdev
+python3-firewall
 python3-gdal
 python3-gi
 python3-gi-cairo
@@ -2767,6 +2788,8 @@ python3-idna
 python3-imagesize
 python3-importlib-metadata
 python3-jinja2
+python3-json-pointer
+python3-jsonschema
 python3-lib2to3
 python3-libevdev
 python3-louis
@@ -2777,12 +2800,14 @@ python3-minimal
 python3-more-itertools
 python3-multibootusb
 python3-natsort
+python3-nftables
 python3-numpy
 python3-olefile
 python3-openssl
 python3-packaging
 python3-pexpect
 python3-pil:amd64
+python3-pip
 python3-pkg-resources
 python3-psutil
 python3-ptyprocess
@@ -2793,6 +2818,7 @@ python3-pyosmium
 python3-pyparsing
 python3-pyqt5
 python3-pyqt5.sip
+python3-pyrsistent:amd64
 python3-pysimplesoap
 python3-pyudev
 python3-renderpm:amd64
@@ -2800,6 +2826,7 @@ python3-reportbug
 python3-reportlab
 python3-reportlab-accel:amd64
 python3-requests
+python3-rfc3987
 python3-roman
 python3-scour
 python3-setproctitle:amd64
@@ -2815,8 +2842,11 @@ python3-sphinx-rtd-theme
 python3-tomli
 python3-tz
 python3-uno
+python3-uritemplate
 python3-urllib3
+python3-webcolors
 python3-webencodings
+python3-wheel
 python3-wxgtk4.0
 python3-xapp
 python3-xdg
@@ -2864,6 +2894,7 @@ ruby3.0-doc
 rubygems-integration
 runit-helper
 rustc
+rustdesk
 rygel
 rygel-tracker
 samba-libs:amd64
@@ -2904,6 +2935,7 @@ spice-client-glib-usb-acl-helper
 spotify-client
 sqlitebrowser
 squashfs-tools
+ssh-askpass
 ssl-cert
 steam:i386
 steam-devices
@@ -2967,7 +2999,6 @@ tzdata
 ucf
 udev
 udisks2
-ufw
 unar
 unattended-upgrades
 unixodbc-common
@@ -3091,6 +3122,7 @@ xserver-xorg-legacy
 xserver-xorg-video-all
 xserver-xorg-video-amdgpu
 xserver-xorg-video-ati
+xserver-xorg-video-dummy
 xserver-xorg-video-fbdev
 xserver-xorg-video-intel
 xserver-xorg-video-nouveau
@@ -3101,6 +3133,7 @@ xserver-xorg-video-vmware
 xsltproc
 xterm
 xtrans-dev
+xvfb
 xxd
 xz-utils
 yelp
