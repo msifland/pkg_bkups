@@ -1143,8 +1143,9 @@ libgraphicsmagick-q16-3
 libgraphite2-3:amd64
 libgraphite2-3:i386
 libgraphite2-dev:amd64
-libgs9:amd64
-libgs9-common
+libgs-common
+libgs10:amd64
+libgs10-common
 libgsf-1-114:amd64
 libgsf-1-common
 libgsf-bin
@@ -2416,9 +2417,6 @@ linux-base
 linux-compiler-gcc-11-x86
 linux-headers-5.19.0-2-amd64
 linux-headers-5.19.0-2-common
-linux-headers-6.0.0-msi
-linux-headers-6.0.2-msi
-linux-headers-6.0.3-msi
 linux-headers-6.0.5-msi
 linux-headers-amd64
 linux-image-5.10.0-0.deb10.16-amd64-dbg
@@ -2438,11 +2436,8 @@ linux-image-5.19.12-msi-dbg
 linux-image-5.19.2-msi-dbg
 linux-image-5.19.6-msi-dbg
 linux-image-5.19.9-msi-dbg
-linux-image-6.0.0-msi
 linux-image-6.0.0-msi-dbg
-linux-image-6.0.2-msi
 linux-image-6.0.2-msi-dbg
-linux-image-6.0.3-msi
 linux-image-6.0.3-msi-dbg
 linux-image-6.0.5-msi
 linux-image-6.0.5-msi-dbg
