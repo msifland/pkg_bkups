@@ -3071,6 +3071,7 @@ winetricks
 wireless-regdb
 wireless-tools
 wireplumber
+wmctrl
 wmdocker
 wpasupplicant
 x11-apps
@@ -3094,6 +3095,7 @@ xdg-desktop-portal-gtk
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
+xdotool
 xfonts-100dpi
 xfonts-75dpi
 xfonts-base
