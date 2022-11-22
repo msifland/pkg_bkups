@@ -450,6 +450,30 @@ export ILCOLOR3=$ILCOLOR3
 export ILCOLOR4=$ILCOLOR4
 export ILRESTORE=$ILRESTORE
 
+if ! dpkg --get-selections | awk '{print $1}' | grep -xq "screenfetch"; then
+	echo
+	echo "screenfetch not found, installing now. . . "
+	sleep 1
+	echo "spike" | sudo -S apt install screenfetch
+fi
+if ! dpkg --get-selections | awk '{print $1}' | grep -xq "pv"; then
+	echo
+	echo "pv not found, installing now. . . "
+	sleep 1
+	echo "spike" | sudo -S apt install pv
+fi
+if ! dpkg --get-selections | awk '{print $1}' | grep -xq "jshon"; then
+	echo
+	echo "jshon not found, installing now. . . "
+	sleep 1
+	echo "spike" | sudo -S apt install jshon
+fi
+if ! dpkg --get-selections | awk '{print $1}' | grep -xq "ncal"; then
+	echo
+	echo "ncal not found, installing now. . . "
+	sleep 1
+	echo "spike" | sudo -S apt install ncal
+fi
 ##################Peronal Greeting######################
 $HOME/scripts/now
 # Color ranmdom number variables are calculated at the top of file -c$num1,$num2
