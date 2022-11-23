@@ -545,6 +545,7 @@ john
 john-data
 jq
 jshon
+kali-archive-keyring
 kazam
 kbd
 kbuild
@@ -1378,7 +1379,8 @@ liblinear4:amd64
 liblirc-client0:amd64
 libllvm13:amd64
 libllvm14:amd64
-libllvm14:i386
+libllvm15:amd64
+libllvm15:i386
 liblmdb0:amd64
 libloader-java
 liblocale-gettext-perl
