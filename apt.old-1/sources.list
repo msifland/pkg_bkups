@@ -74,4 +74,3 @@ deb [signed-by=/usr/share/keyrings/spotify-archive-keyring.gpg] http://repositor
 
 ###Skype
 deb [arch=amd64, signed-by=/usr/share/keyrings/skype-keyring.gpg] https://repo.skype.com/deb/ stable main
-
