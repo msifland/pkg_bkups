@@ -18,7 +18,3 @@ Pin-Priority: 40
 Package: *
 Pin: release a=kali-rolling
 Pin-Priority: 10
-
-Package: bash
-Pin: release a=stable
-Pin-Priority: 1002

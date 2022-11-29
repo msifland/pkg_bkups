@@ -11,7 +11,6 @@ anacron
 analog
 ant
 ant-optional
-anydesk
 apache2
 apache2-bin
 apache2-data
@@ -341,9 +340,7 @@ gedit-plugin-character-map
 gedit-plugin-code-comment
 gedit-plugin-color-picker
 gedit-plugin-color-schemer
-gedit-plugin-commander
 gedit-plugin-draw-spaces
-gedit-plugin-find-in-files
 gedit-plugin-git
 gedit-plugin-join-lines
 gedit-plugin-multi-edit
@@ -352,7 +349,6 @@ gedit-plugin-smart-spaces
 gedit-plugin-synctex
 gedit-plugin-terminal
 gedit-plugin-text-size
-gedit-plugin-translate
 gedit-plugin-word-completion
 gedit-plugins
 gedit-plugins-common
@@ -591,6 +587,8 @@ libalgorithm-diff-perl
 libalgorithm-diff-xs-perl:amd64
 libalgorithm-merge-perl
 libamd2:amd64
+libamtk-5-0:amd64
+libamtk-5-common
 libann0
 libao-common
 libao4:amd64
@@ -1063,6 +1061,7 @@ libgcrypt20:i386
 libgd3:amd64
 libgd3:i386
 libgdal31
+libgdal32
 libgdata-common
 libgdata22:amd64
 libgdbm-compat4:amd64
@@ -1722,6 +1721,7 @@ libproj25:amd64
 libprotobuf-c1:amd64
 libprotobuf-java
 libprotobuf-lite23:amd64
+libprotobuf-lite32:amd64
 libprotobuf23:amd64
 libproxy-tools
 libproxy1-plugin-gsettings:amd64
@@ -2090,6 +2090,7 @@ libtcl8.6:amd64
 libtdb1:amd64
 libteamdctl0:amd64
 libteckit0:amd64
+libtepl-6-1:amd64
 libtesseract4:amd64
 libtest-fatal-perl
 libtevent0:amd64
@@ -2097,7 +2098,7 @@ libtexlua53-5:amd64
 libtexluajit2:amd64
 libtext-charwidth-perl:amd64
 libtext-glob-perl
-libtext-iconv-perl
+libtext-iconv-perl:amd64
 libtext-wrapi18n-perl
 libtfm1:amd64
 libthai-data
