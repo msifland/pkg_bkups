@@ -238,7 +238,6 @@ firebird3.0-common
 firebird3.0-common-doc
 firebird3.0-server-core:amd64
 firebird3.0-utils
-firefox-esr
 firewall-config
 firewalld
 firmware-amd-graphics
@@ -2488,6 +2487,7 @@ linux-compiler-gcc-11-x86
 linux-compiler-gcc-12-x86
 linux-headers-6.0.0-4-amd64
 linux-headers-6.0.0-4-common
+linux-headers-6.0.10-msi
 linux-headers-6.0.5-msi
 linux-headers-6.0.7-msi
 linux-headers-6.0.9-msi
@@ -2510,6 +2510,8 @@ linux-image-5.19.6-msi-dbg
 linux-image-5.19.9-msi-dbg
 linux-image-6.0.0-4-amd64
 linux-image-6.0.0-msi-dbg
+linux-image-6.0.10-msi
+linux-image-6.0.10-msi-dbg
 linux-image-6.0.2-msi-dbg
 linux-image-6.0.3-msi-dbg
 linux-image-6.0.5-msi
@@ -2666,6 +2668,7 @@ numlockx
 nvidia-installer-cleanup
 nvidia-kernel-common
 nvidia-legacy-390xx-alternative
+nvidia-legacy-390xx-kernel-6.0.10-msi
 nvidia-legacy-390xx-kernel-6.0.9-msi
 nvidia-legacy-390xx-kernel-source
 nvidia-legacy-390xx-kernel-support
