@@ -2489,6 +2489,7 @@ linux-compiler-gcc-12-x86
 linux-headers-6.0.0-4-amd64
 linux-headers-6.0.0-4-common
 linux-headers-6.0.10-msi
+linux-headers-6.0.11-msi
 linux-headers-6.0.5-msi
 linux-headers-6.0.7-msi
 linux-headers-6.0.9-msi
@@ -2513,6 +2514,8 @@ linux-image-6.0.0-4-amd64
 linux-image-6.0.0-msi-dbg
 linux-image-6.0.10-msi
 linux-image-6.0.10-msi-dbg
+linux-image-6.0.11-msi
+linux-image-6.0.11-msi-dbg
 linux-image-6.0.2-msi-dbg
 linux-image-6.0.3-msi-dbg
 linux-image-6.0.5-msi
@@ -2670,7 +2673,7 @@ nvidia-installer-cleanup
 nvidia-kernel-common
 nvidia-legacy-390xx-alternative
 nvidia-legacy-390xx-kernel-6.0.10-msi
-nvidia-legacy-390xx-kernel-6.0.9-msi
+nvidia-legacy-390xx-kernel-6.0.11-msi
 nvidia-legacy-390xx-kernel-source
 nvidia-legacy-390xx-kernel-support
 nvidia-modprobe
