@@ -890,7 +890,7 @@ libdee-1.0-4:amd64
 libdeflate-dev:amd64
 libdeflate0:amd64
 libdeflate0:i386
-libdevel-callchecker-perl
+libdevel-callchecker-perl:amd64
 libdevel-caller-perl:amd64
 libdevel-globaldestruction-perl
 libdevel-lexalias-perl
@@ -2404,7 +2404,7 @@ libxml-commons-resolver1.1-java
 libxml-java
 libxml-libxml-perl
 libxml-namespacesupport-perl
-libxml-parser-perl:amd64
+libxml-parser-perl
 libxml-sax-base-perl
 libxml-sax-expat-perl
 libxml-sax-perl
@@ -2486,8 +2486,8 @@ lightdm-settings
 linux-base
 linux-compiler-gcc-11-x86
 linux-compiler-gcc-12-x86
-linux-headers-6.0.0-4-amd64
-linux-headers-6.0.0-4-common
+linux-headers-6.0.0-5-amd64
+linux-headers-6.0.0-5-common
 linux-headers-6.0.10-msi
 linux-headers-6.0.11-msi
 linux-headers-6.0.5-msi
@@ -2510,7 +2510,7 @@ linux-image-5.19.12-msi-dbg
 linux-image-5.19.2-msi-dbg
 linux-image-5.19.6-msi-dbg
 linux-image-5.19.9-msi-dbg
-linux-image-6.0.0-4-amd64
+linux-image-6.0.0-5-amd64
 linux-image-6.0.0-msi-dbg
 linux-image-6.0.10-msi
 linux-image-6.0.10-msi-dbg
