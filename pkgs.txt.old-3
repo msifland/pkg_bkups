@@ -2488,11 +2488,7 @@ linux-compiler-gcc-11-x86
 linux-compiler-gcc-12-x86
 linux-headers-6.0.0-5-amd64
 linux-headers-6.0.0-5-common
-linux-headers-6.0.10-msi
 linux-headers-6.0.11-msi
-linux-headers-6.0.5-msi
-linux-headers-6.0.7-msi
-linux-headers-6.0.9-msi
 linux-headers-amd64
 linux-image-5.10.0-0.deb10.16-amd64-dbg
 linux-image-5.18.10-msi-dbg
@@ -2512,17 +2508,13 @@ linux-image-5.19.6-msi-dbg
 linux-image-5.19.9-msi-dbg
 linux-image-6.0.0-5-amd64
 linux-image-6.0.0-msi-dbg
-linux-image-6.0.10-msi
 linux-image-6.0.10-msi-dbg
 linux-image-6.0.11-msi
 linux-image-6.0.11-msi-dbg
 linux-image-6.0.2-msi-dbg
 linux-image-6.0.3-msi-dbg
-linux-image-6.0.5-msi
 linux-image-6.0.5-msi-dbg
-linux-image-6.0.7-msi
 linux-image-6.0.7-msi-dbg
-linux-image-6.0.9-msi
 linux-image-6.0.9-msi-dbg
 linux-image-amd64
 linux-kbuild-6.0
@@ -2672,7 +2664,6 @@ numlockx
 nvidia-installer-cleanup
 nvidia-kernel-common
 nvidia-legacy-390xx-alternative
-nvidia-legacy-390xx-kernel-6.0.10-msi
 nvidia-legacy-390xx-kernel-6.0.11-msi
 nvidia-legacy-390xx-kernel-source
 nvidia-legacy-390xx-kernel-support
