@@ -548,6 +548,7 @@ krb5-locales
 laptop-detect
 less
 lib2geom1.1.0:amd64
+lib2geom1.2.0:amd64
 lib32asan5
 lib32asan6
 lib32asan8
@@ -1157,7 +1158,6 @@ libgpgme11:amd64
 libgpgmepp6:amd64
 libgphoto2-6:amd64
 libgphoto2-6:i386
-libgphoto2-l10n
 libgphoto2-port12:amd64
 libgphoto2-port12:i386
 libgpm2:amd64
@@ -1216,6 +1216,7 @@ libgts-bin
 libgucharmap-2-90-7:amd64
 libgudev-1.0-0:amd64
 libgudev-1.0-0:i386
+libgumbo1:amd64
 libgupnp-1.2-1:amd64
 libgupnp-1.6-0:amd64
 libgupnp-av-1.0-3
@@ -1502,6 +1503,7 @@ libmtp-common
 libmtp-runtime
 libmtp9:amd64
 libmuffin0:amd64
+libmujs2:amd64
 libmutter-10-0:amd64
 libmutter-11-0:amd64
 libmwaw-0.3-3:amd64
@@ -1738,7 +1740,8 @@ libpoppler-glib8:i386
 libpoppler-qt5-1:amd64
 libpoppler118:i386
 libpoppler123:amd64
-libpoppler123:i386
+libpoppler126:amd64
+libpoppler126:i386
 libpopt0:amd64
 libpostproc55:amd64
 libpostproc56:amd64
@@ -2192,7 +2195,10 @@ libtie-ixhash-perl
 libtiff-dev:amd64
 libtiff5:amd64
 libtiff5:i386
+libtiff6:amd64
+libtiff6:i386
 libtiffxx5:amd64
+libtiffxx6:amd64
 libtimedate-perl
 libtinfo5:amd64
 libtinfo5:i386
@@ -2333,6 +2339,7 @@ libwayland-server0:i386
 libwbclient0:amd64
 libwebkit2gtk-4.0-37:amd64
 libwebkit2gtk-4.1-0:amd64
+libwebp-dev:amd64
 libwebp6:amd64
 libwebp6:i386
 libwebp7:amd64
@@ -2553,6 +2560,7 @@ libzen0v5:amd64
 libzimg2:amd64
 libzmf-0.0-0:amd64
 libzmq5:amd64
+libzstd-dev:amd64
 libzstd1:amd64
 libzstd1:i386
 libzvbi-common
@@ -2714,6 +2722,7 @@ mscompress
 mtools
 muffin
 muffin-common
+mupdf-tools
 murrine-themes
 mutter
 mutter-common
