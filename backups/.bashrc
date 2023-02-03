@@ -402,6 +402,18 @@ function rec-key(){
 	fi
 }
 
+function snap-search(){
+	if [[ ! -z $1 ]]; then
+		snap find $1 | awk '{ print $1 }'
+	else
+		echo "
+		This command only shows the first column of the search to
+		  make it easier to read.
+		Usage:
+		snap-search spotify
+		snap-search skype"
+	fi
+}
 function goto-instructions(){ ##> Show how to use goto in scripts.
 	echo '
 	# Copy this text to your script
