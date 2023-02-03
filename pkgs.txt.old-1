@@ -2565,6 +2565,7 @@ linux-headers-6.1.0-msi
 linux-headers-6.1.1-msi
 linux-headers-6.1.3-msi
 linux-headers-6.1.5-msi
+linux-headers-6.1.7-msi
 linux-headers-amd64
 linux-image-5.10.0-0.deb10.16-amd64-dbg
 linux-image-5.18.10-msi-dbg
@@ -2600,6 +2601,8 @@ linux-image-6.1.3-msi
 linux-image-6.1.3-msi-dbg
 linux-image-6.1.5-msi
 linux-image-6.1.5-msi-dbg
+linux-image-6.1.7-msi
+linux-image-6.1.7-msi-dbg
 linux-image-amd64
 linux-kbuild-6.1
 linux-libc-dev:amd64
@@ -3072,6 +3075,10 @@ ssh-askpass
 ssl-cert
 steam:i386
 steam-devices
+steam-installer
+steam-libs:amd64
+steam-libs:i386
+steam-libs-i386:i386
 sublime-text
 sudo
 synaptic
