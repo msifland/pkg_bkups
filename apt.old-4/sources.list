@@ -69,8 +69,5 @@ deb [signed-by=/usr/share/keyrings/megasync-archive-keyring.gpg] http://mega.nz/
 deb [signed-by=/usr/share/keyrings/paper_gtk_theme-archive-keyring.gpg] http://ppa.launchpad.net/snwh/pulp/ubuntu/ yakkety main
 deb-src [signed-by=/usr/share/keyrings/paper_gtk_theme-archive-keyring.gpg] http://ppa.launchpad.net/snwh/pulp/ubuntu/ yakkety main
 
-###Spotify
-deb [signed-by=/usr/share/keyrings/spotify-archive-keyring.gpg] http://repository.spotify.com/ stable non-free
-
 ###Skype
 deb [arch=amd64, signed-by=/usr/share/keyrings/skype-keyring.gpg] https://repo.skype.com/deb/ stable main
