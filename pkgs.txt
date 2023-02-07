@@ -163,7 +163,6 @@ dconf-cli
 dconf-editor
 dconf-gsettings-backend:amd64
 dconf-service
-dctrl-tools
 debconf
 debconf-i18n
 debhelper
@@ -177,7 +176,6 @@ default-jre-headless
 desktop-base
 desktop-file-utils
 dh-autoreconf
-dh-dkms
 dh-elpa-helper
 dh-exec
 dh-python
@@ -1242,6 +1240,7 @@ libharfbuzz-icu0:amd64
 libharfbuzz-subset0:amd64
 libharfbuzz0b:amd64
 libharfbuzz0b:i386
+libhashkit2:amd64
 libhavege2:amd64
 libhd21:amd64
 libhdf4-0-alt
@@ -1324,6 +1323,7 @@ libjansson4:amd64
 libjavascriptcoregtk-4.0-18:amd64
 libjavascriptcoregtk-4.1-0:amd64
 libjaxp1.3-java
+libjaylink0:amd64
 libjbig-dev:amd64
 libjbig0:amd64
 libjbig0:i386
