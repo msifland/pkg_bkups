@@ -758,6 +758,7 @@ libcairo2:amd64
 libcairo2:i386
 libcairo2-dev:amd64
 libcairomm-1.0-1v5:amd64
+libcairomm-1.16-1:amd64
 libcaja-extension1:amd64
 libcamd2:amd64
 libcanberra-gtk3-0:amd64
@@ -1127,6 +1128,7 @@ libglib2.0-data
 libglib2.0-dev:amd64
 libglib2.0-dev-bin
 libglibmm-2.4-1v5:amd64
+libglibmm-2.68-1:amd64
 libglu1-mesa:amd64
 libglu1-mesa:i386
 libglvnd-core-dev:amd64
@@ -1209,6 +1211,7 @@ libgtk2.0-common
 libgtk3-perl
 libgtkglext1:amd64
 libgtkmm-3.0-1v5:amd64
+libgtkmm-4.0-0:amd64
 libgtksourceview-3.0-1:amd64
 libgtksourceview-3.0-common
 libgtksourceview-4-0:amd64
@@ -1677,6 +1680,7 @@ libpangocairo-1.0-0:i386
 libpangoft2-1.0-0:amd64
 libpangoft2-1.0-0:i386
 libpangomm-1.4-1v5:amd64
+libpangomm-2.48-1:amd64
 libpangox-1.0-0:amd64
 libpangoxft-1.0-0:amd64
 libpangoxft-1.0-0:i386
@@ -2073,6 +2077,7 @@ libsidplay1v5:amd64
 libsidplay2
 libsidplayfp5:amd64
 libsigc++-2.0-0v5:amd64
+libsigc++-3.0-0:amd64
 libsigsegv2:amd64
 libslang2:amd64
 libslang2:i386
