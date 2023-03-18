@@ -2729,6 +2729,7 @@ node-clipboard
 node-normalize.css
 node-prismjs
 notification-daemon
+nss-plugin-pem:amd64
 ntfs-3g
 numlockx
 nvidia-egl-common
