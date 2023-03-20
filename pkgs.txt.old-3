@@ -1416,7 +1416,7 @@ liblouisutdml-bin
 liblouisutdml-data
 liblouisutdml9:amd64
 liblqr-1-0:amd64
-liblrdf0
+liblrdf0:amd64
 liblsan0:amd64
 libltc11:amd64
 libltdl-dev:amd64
