@@ -110,8 +110,8 @@ ${if_existing .conky_has_wireless}${goto 5}${voffset 13}${color}WiFi Signal Stre
  wlp3s0}%${endif} \
 ${goto 5}${voffset 13}${color}Dnload Speed: ${color2}${downspeed  wlp3s0
  wlp3s0}/s
-${color2}${downspeedgraph  wlp3s0
- wlp3s0 28,255 ${color2} ${color3}}
+${color}${downspeedgraph  wlp3s0
+ wlp3s0 28,255 ${color} ${color3}}
 ${color}Upload Speed: ${color2}${upspeed  wlp3s0
  wlp3s0}/s${color2}
 ${upspeedgraph  wlp3s0
