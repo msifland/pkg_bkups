@@ -518,8 +518,8 @@ initramfs-tools-core
 inkscape
 install-info
 installation-report
-intel-media-va-driver:amd64
-intel-media-va-driver:i386
+intel-media-va-driver-non-free:amd64
+intel-media-va-driver-non-free:i386
 intel-microcode
 intltool-debian
 inxi
@@ -3177,8 +3177,6 @@ util-linux-extra
 util-linux-locales
 uuid-dev:amd64
 uuid-runtime
-va-driver-all:amd64
-va-driver-all:i386
 vainfo
 variety
 vdpau-driver-all:amd64
