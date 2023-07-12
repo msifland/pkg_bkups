@@ -17,10 +17,10 @@
 # These call scripts located in $HOME/scripts/cron_scripts
 ##################################################################
 # Updates linux system every week.
-00 7 * * 1 /home/msifland/scripts/cron_scripts/linux-update-run
+#00 7 * * 1 /home/msifland/scripts/cron_scripts/linux-update-run
 
 # Backs up my important files. See script for files that are backed up.
-30 1 * * * /home/msifland/scripts/cron_scripts/my-backup-run
+#30 1 * * * /home/msifland/scripts/cron_scripts/my-backup-run
 
 # Scans for viruses once a week. This entry has a corrosponding entry
 # uder 'sudo crontab -e' for updating virus definitions.
@@ -36,10 +36,11 @@
 00 3 * * 5 /home/msifland/scripts/cron_scripts/screenfetch-update-run
 
 # Build a new OSM map for my Garmin on the first day of every month.
-02 4 2 * * /home/msifland/scripts/cron_scripts/map-my-builder-run
+#02 4 2 * * /home/msifland/scripts/cron_scripts/map-my-builder-run
 
 # Update ble.sh(bash syntax highlighting) every week
 30 0 * * 2 /home/msifland/scripts/cron_scripts/blesh-update-run
 
 # Purge old kernels once a month
 0 0 15 * * /home/msifland/scripts/cron_scripts/kernel-purge-auto-run
+

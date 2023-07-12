@@ -302,8 +302,9 @@ gcc-11-base:amd64
 gcc-11-multilib
 gcc-12
 gcc-12-base:amd64
-gcc-12-base:i386
 gcc-12-multilib
+gcc-13-base:amd64
+gcc-13-base:i386
 gcc-9
 gcc-9-base:amd64
 gcc-9-base:i386
@@ -321,7 +322,6 @@ gdal-data
 gdal-plugins
 gdb-minimal
 gdbm-l10n
-gdisk
 gedit
 gedit-common
 gedit-plugin-bookmarks
@@ -430,8 +430,8 @@ gnustep-base-common
 gnustep-base-runtime
 gnustep-common
 gnutls-bin
-golang-1.19-go
-golang-1.19-src
+golang-1.20-go
+golang-1.20-src
 golang-any:amd64
 golang-go:amd64
 golang-src
@@ -522,6 +522,7 @@ intel-media-va-driver:amd64
 intel-media-va-driver:i386
 intel-microcode
 intltool-debian
+inxi
 ipp-usb
 iproute2
 ipset
@@ -625,6 +626,7 @@ libassuan0:amd64
 libasyncns0:amd64
 libasyncns0:i386
 libatasmart4:amd64
+libatinject-jsr330-api-java
 libatk-adaptor:amd64
 libatk-bridge2.0-0:amd64
 libatk-bridge2.0-dev:amd64
@@ -673,6 +675,7 @@ libavformat58:amd64
 libavformat59:amd64
 libavif15:amd64
 libavif15:i386
+libavtp0:amd64
 libavutil56:amd64
 libavutil57:amd64
 libavutil57:i386
@@ -701,14 +704,15 @@ libblas3:amd64
 libblkid-dev:amd64
 libblkid1:amd64
 libblkid1:i386
-libblockdev-crypto2:amd64
-libblockdev-fs2:amd64
-libblockdev-loop2:amd64
-libblockdev-part-err2:amd64
-libblockdev-part2:amd64
-libblockdev-swap2:amd64
-libblockdev-utils2:amd64
-libblockdev2:amd64
+libblockdev-crypto3:amd64
+libblockdev-fs3:amd64
+libblockdev-loop3:amd64
+libblockdev-mdraid3:amd64
+libblockdev-nvme3:amd64
+libblockdev-part3:amd64
+libblockdev-swap3:amd64
+libblockdev-utils3:amd64
+libblockdev3:amd64
 libblosc1:amd64
 libbluetooth3:amd64
 libbluray2:amd64
@@ -732,6 +736,8 @@ libbsd0:amd64
 libbsd0:i386
 libbson-1.0-0
 libburn4:amd64
+libbytesize-common
+libbytesize1:amd64
 libbz2-1.0:amd64
 libbz2-1.0:i386
 libc-ares2:amd64
@@ -799,7 +805,6 @@ libcjson1:amd64
 libclamav11:amd64
 libclamav9:amd64
 libclang-cpp13
-libclang-cpp14
 libclass-c3-perl
 libclass-c3-xs-perl
 libclass-data-inheritable-perl
@@ -831,6 +836,7 @@ libcommons-collections3-java
 libcommons-io-java
 libcommons-logging-java
 libcommons-parent-java
+libconfig++9v5:amd64
 libconfig9:amd64
 libcpupower1
 libcrack2:amd64
@@ -878,7 +884,6 @@ libdc1394-25:amd64
 libdca0:amd64
 libdconf1:amd64
 libde265-0:amd64
-libde265-0:i386
 libdebconfclient0:amd64
 libdebhelper-perl
 libdebuginfod-common
@@ -959,6 +964,7 @@ libepoxy0:amd64
 libept1.6.0:amd64
 libepubgen-0.1-1:amd64
 liberror-perl
+liberror-prone-java
 libespeak-ng1:amd64
 libestr0:amd64
 libetonyek-0.1-1:amd64
@@ -987,6 +993,7 @@ libfbclient2:amd64
 libfdisk1:amd64
 libfdk-aac2:amd64
 libfdk-aac2:i386
+libffado2:amd64
 libffi-dev:amd64
 libffi6:amd64
 libffi7:amd64
@@ -1066,7 +1073,7 @@ libgcrypt20:i386
 libgd3:amd64
 libgd3:i386
 libgdal31
-libgdal32
+libgdal33
 libgdata-common
 libgdata22:amd64
 libgdbm-compat4:amd64
@@ -1088,7 +1095,7 @@ libgegl-0.4-0:amd64
 libgegl-common
 libgeos-c1v5:amd64
 libgeos3.10.3:amd64
-libgeos3.11.1:amd64
+libgeos3.12.0:amd64
 libgeotiff5:amd64
 libges-1.0-0
 libgexiv2-2:amd64
@@ -1149,7 +1156,9 @@ libgmp10:i386
 libgmpxx4ldbl:amd64
 libgmt6:amd64
 libgnome-desktop-3-20:amd64
-libgnustep-base1.28
+libgnomekbd-common
+libgnomekbd8:amd64
+libgnustep-base1.29
 libgnutls-dane0:amd64
 libgnutls30:amd64
 libgnutls30:i386
@@ -1157,6 +1166,7 @@ libgoa-1.0-0b:amd64
 libgoa-1.0-common
 libgomp1:amd64
 libgomp1:i386
+libgoogle-gson-java
 libgpg-error-l10n
 libgpg-error0:amd64
 libgpg-error0:i386
@@ -1220,6 +1230,7 @@ libgtop-2.0-11:amd64
 libgtop2-common
 libgts-0.7-5:amd64
 libgts-bin
+libguava-java
 libgucharmap-2-90-7:amd64
 libgudev-1.0-0:amd64
 libgudev-1.0-0:i386
@@ -1237,6 +1248,7 @@ libgvnc-1.0-0:amd64
 libgvpr2:amd64
 libgxps2:amd64
 libhandy-1-0:amd64
+libharfbuzz-cairo0:amd64
 libharfbuzz-dev:amd64
 libharfbuzz-gobject0:amd64
 libharfbuzz-icu0:amd64
@@ -1260,6 +1272,7 @@ libhtml-format-perl
 libhtml-parser-perl:amd64
 libhtml-tagset-perl
 libhtml-tree-perl
+libhttp-cookiejar-perl
 libhttp-cookies-perl
 libhttp-daemon-perl
 libhttp-date-perl
@@ -1302,6 +1315,7 @@ libimobiledevice6:amd64
 libinput-bin
 libinput10:amd64
 libinstpatch-1.0-2:amd64
+libio-compress-brotli-perl
 libio-html-perl
 libio-socket-ssl-perl
 libio-stringy-perl
@@ -1320,6 +1334,7 @@ libitext-java
 libitm1:amd64
 libiw30:amd64
 libixml10:amd64
+libixml11:amd64
 libjack-jackd2-0:amd64
 libjack-jackd2-0:i386
 libjansson4:amd64
@@ -1353,6 +1368,7 @@ libjson-perl
 libjson-xs-perl
 libjsoncpp25:amd64
 libjsp-api-java
+libjsr305-java
 libjte2:amd64
 libjxl0.7:amd64
 libjxl0.7:i386
@@ -1424,6 +1440,7 @@ libltdl7:amd64
 libltdl7:i386
 liblua5.2-0:amd64
 liblua5.3-0:amd64
+liblua5.4-0:amd64
 libluajit-5.1-2:amd64
 libluajit-5.1-common
 liblwp-mediatypes-perl
@@ -1493,7 +1510,6 @@ libmodplug1:amd64
 libmodule-implementation-perl
 libmodule-runtime-perl
 libmongoc-1.0-0
-libmongocrypt0:amd64
 libmount-dev:amd64
 libmount1:amd64
 libmount1:i386
@@ -1516,7 +1532,7 @@ libmtp-common
 libmtp-runtime
 libmtp9:amd64
 libmuffin0:amd64
-libmujs2:amd64
+libmujs3:amd64
 libmutter-10-0:amd64
 libmutter-11-0:amd64
 libmwaw-0.3-3:amd64
@@ -1609,9 +1625,8 @@ libnvidia-tesla-470-nvcuvid1:i386
 libnvidia-tesla-470-ptxjitcompiler1:amd64
 libnvidia-tesla-470-ptxjitcompiler1:i386
 libnvidia-tesla-470-rtcore:amd64
+libnvme1
 libobjc4:amd64
-libodbc1:amd64
-libodbc1:i386
 libodbc2:amd64
 libodbc2:i386
 libodbccr2:amd64
@@ -1627,7 +1642,6 @@ libonig5:amd64
 liboobs-1-5:amd64
 libopenal-data
 libopenal1:amd64
-libopenal1:i386
 libopencore-amrnb0:amd64
 libopencore-amrnb0:i386
 libopencore-amrwb0:amd64
@@ -1659,6 +1673,7 @@ libosmpbf-java
 libosp5
 libostree-1-1:amd64
 libostyle1c2
+libotr5:amd64
 libp11-kit0:amd64
 libp11-kit0:i386
 libpackage-stash-perl
@@ -1713,6 +1728,7 @@ libpcre3-dev:amd64
 libpcre32-3:amd64
 libpcrecpp0v5:amd64
 libpcsclite1:amd64
+libpcsclite1:i386
 libpdfbox-java
 libpeas-1.0-0:amd64
 libpeas-common
@@ -1759,6 +1775,8 @@ libpoppler123:amd64
 libpoppler126:amd64
 libpoppler126:i386
 libpopt0:amd64
+libportal-gtk3-1:amd64
+libportal1:amd64
 libpostproc55:amd64
 libpostproc56:amd64
 libpotrace0:amd64
@@ -1830,6 +1848,15 @@ libqt5webengine-data
 libqt5widgets5:amd64
 libqt5x11extras5:amd64
 libqt5xml5:amd64
+libqt6core6:amd64
+libqt6dbus6:amd64
+libqt6gui6:amd64
+libqt6network6:amd64
+libqt6sql6:amd64
+libqt6sql6-sqlite:amd64
+libqt6svg6:amd64
+libqt6widgets6:amd64
+libqt6xml6:amd64
 libquadmath0:amd64
 libquazip5-1:amd64
 libqxp-0.0-0
@@ -1841,11 +1868,11 @@ librav1e0:amd64
 librav1e0:i386
 libraw1394-11:amd64
 libraw1394-11:i386
-libraw20:amd64
+libraw23:amd64
 librda-common
 librda0:amd64
 librdf0:amd64
-libre2-9:amd64
+libre2-10:amd64
 libreadline8:amd64
 libreadonly-perl
 librecode0:amd64
@@ -1923,7 +1950,6 @@ librust-crossbeam-epoch+std-dev:amd64
 librust-crossbeam-epoch-dev:amd64
 librust-crossbeam-utils-dev:amd64
 librust-crunchy-dev:amd64
-librust-ctor-dev:amd64
 librust-derive-arbitrary-dev:amd64
 librust-either-dev:amd64
 librust-env-logger+atty-dev:amd64
@@ -1932,7 +1958,6 @@ librust-env-logger+humantime-dev:amd64
 librust-env-logger+regex-dev:amd64
 librust-env-logger+termcolor-dev:amd64
 librust-env-logger-dev:amd64
-librust-erased-serde-dev:amd64
 librust-fallible-iterator-dev:amd64
 librust-flate2+miniz-oxide-dev:amd64
 librust-flate2-dev:amd64
@@ -1964,7 +1989,6 @@ librust-quickcheck+default-dev:amd64
 librust-quickcheck+regex-dev:amd64
 librust-quickcheck+use-logging-dev:amd64
 librust-quickcheck-dev:amd64
-librust-quote+proc-macro-dev:amd64
 librust-quote-dev:amd64
 librust-rand-chacha-dev:amd64
 librust-rand-core+getrandom-dev:amd64
@@ -1996,14 +2020,12 @@ librust-scopeguard-dev:amd64
 librust-serde+serde-derive-dev:amd64
 librust-serde-derive-dev:amd64
 librust-serde-dev:amd64
-librust-serde-fmt-dev
 librust-smallvec-dev:amd64
 librust-spin-dev:amd64
 librust-stable-deref-trait-dev:amd64
 librust-strum-dev:amd64
 librust-strum-macros-dev:amd64
-librust-sval+serde1-lib-dev:amd64
-librust-sval-dev:amd64
+librust-syn-1-dev:amd64
 librust-syn-dev:amd64
 librust-termcolor-dev:amd64
 librust-thiserror-dev:amd64
@@ -2012,7 +2034,6 @@ librust-tiny-keccak-dev:amd64
 librust-unicode-ident-dev:amd64
 librust-unicode-segmentation-dev:amd64
 librust-unicode-xid-dev:amd64
-librust-value-bag-dev:amd64
 librust-version-check-dev:amd64
 librust-version-compare-dev:amd64
 librust-winapi-dev:amd64
@@ -2068,6 +2089,7 @@ libserf-1-1:amd64
 libserializer-java
 libservlet-api-java
 libservlet3.1-java
+libsframe1:amd64
 libsgmls-perl
 libshine3:amd64
 libshine3:i386
@@ -2092,7 +2114,6 @@ libsnappy1v5:i386
 libsndfile1:amd64
 libsndfile1:i386
 libsndio7.0:amd64
-libsndio7.0:i386
 libsnmp-base
 libsnmp40:amd64
 libsnmp40:i386
@@ -2144,7 +2165,7 @@ libssl3:i386
 libstaroffice-0.0-0:amd64
 libstartup-notification0:amd64
 libstd-rust-1.58:amd64
-libstd-rust-1.63:amd64
+libstd-rust-1.66:amd64
 libstd-rust-dev:amd64
 libstdc++-11-dev:amd64
 libstdc++-12-dev:amd64
@@ -2234,6 +2255,7 @@ libtracefs-dev:amd64
 libtracefs1:amd64
 libtracker-sparql-3.0-0:amd64
 libtry-tiny-perl
+libts0:amd64
 libtsan0:amd64
 libtsan2:amd64
 libtspi1
@@ -2277,6 +2299,7 @@ libunwind-dev:amd64
 libunwind8:amd64
 libunwind8:i386
 libupnp13:amd64
+libupnp17:amd64
 libupower-glib3:amd64
 liburi-perl
 liburiparser1:amd64
@@ -2310,8 +2333,6 @@ libvidstab1.1:amd64
 libvisio-0.1-1:amd64
 libvisual-0.4-0:amd64
 libvisual-0.4-0:i386
-libvkd3d-shader1:amd64
-libvkd3d1:amd64
 libvlc-bin:amd64
 libvlc5:amd64
 libvlccore9:amd64
@@ -2417,6 +2438,8 @@ libx32ubsan1
 libx86emu3:amd64
 libxalan2-java
 libxapian30:amd64
+libxapp-gtk3-module:amd64
+libxapp1:amd64
 libxatracker2:amd64
 libxau-dev:amd64
 libxau6:amd64
@@ -2498,6 +2521,7 @@ libxkbcommon0:i386
 libxkbfile1:amd64
 libxkbregistry0:amd64
 libxklavier16:amd64
+libxml++2.6-2v5:amd64
 libxml-commons-external-java
 libxml-commons-resolver1.1-java
 libxml-java
@@ -2602,11 +2626,6 @@ llvm-13-dev
 llvm-13-linker-tools
 llvm-13-runtime
 llvm-13-tools
-llvm-14
-llvm-14-dev
-llvm-14-linker-tools
-llvm-14-runtime
-llvm-14-tools
 lm-sensors
 lmodern
 locales
@@ -2657,7 +2676,7 @@ mate-notification-daemon
 mate-notification-daemon-common
 mate-panel
 mate-panel-common
-mate-polkit:amd64
+mate-polkit
 mate-polkit-common
 mate-power-manager
 mate-power-manager-common
@@ -2678,6 +2697,7 @@ mate-user-share-common
 mate-utils
 mate-utils-common
 mawk
+mdadm
 media-types
 mesa-utils
 mesa-utils-bin:amd64
@@ -2768,8 +2788,6 @@ openjdk-11-jre:amd64
 openjdk-11-jre-headless:amd64
 openjdk-17-jre:amd64
 openjdk-17-jre-headless:amd64
-openjdk-18-jre:amd64
-openjdk-18-jre-headless:amd64
 openprinting-ppds
 opensp
 openssh-client
@@ -2974,6 +2992,7 @@ python3-soupsieve
 python3-speechd
 python3-sphinx
 python3-sphinx-rtd-theme
+python3-sphinxcontrib.jquery
 python3-tomli
 python3-tz
 python3-uritemplate
@@ -3000,6 +3019,9 @@ qbittorrent
 qml-module-qtquick2:amd64
 qpdfview-pdf-poppler-plugin
 qt5-gtk-platformtheme:amd64
+qt6-gtk-platformtheme:amd64
+qt6-qpa-plugins:amd64
+qt6-translations-l10n
 qttranslations5-l10n
 quilt
 rake
@@ -3084,6 +3106,7 @@ system-config-printer-common
 system-config-printer-udev
 system-tools-backends
 systemd
+systemd-dev
 systemd-sysv
 systemd-timesyncd
 sysvinit-utils
@@ -3128,6 +3151,7 @@ tpm-udev
 traceroute
 transmission-common
 transmission-gtk
+tree
 tzdata
 ucf
 udev
@@ -3210,6 +3234,8 @@ x11proto-core-dev
 x11proto-dev
 x11proto-record-dev
 x11proto-xext-dev
+xapp-sn-watcher
+xapps-common
 xauth
 xbitmaps
 xbrlapi
