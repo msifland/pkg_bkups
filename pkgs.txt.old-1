@@ -78,6 +78,7 @@ build-essential
 bundler
 busybox
 bzip2
+bzip2-doc
 ca-certificates
 ca-certificates-java
 cabextract
@@ -130,6 +131,7 @@ cpp
 cpp-10
 cpp-11
 cpp-12
+cpp-13
 cpp-9
 cracklib-runtime
 cron
@@ -231,7 +233,6 @@ firebird3.0-common
 firebird3.0-common-doc
 firebird3.0-server-core:amd64
 firebird3.0-utils
-firewall-config
 firewalld
 firmware-amd-graphics
 firmware-iwlwifi
@@ -291,7 +292,7 @@ fwupd
 fwupd-amd64-signed
 g++
 g++-11
-g++-12
+g++-13
 gawk
 gcc
 gcc-10
@@ -303,8 +304,10 @@ gcc-11-multilib
 gcc-12
 gcc-12-base:amd64
 gcc-12-multilib
+gcc-13
 gcc-13-base:amd64
 gcc-13-base:i386
+gcc-13-multilib
 gcc-9
 gcc-9-base:amd64
 gcc-9-base:i386
@@ -475,6 +478,7 @@ gtk2-engines:amd64
 gtk2-engines-murrine:amd64
 gtk2-engines-pixbuf:amd64
 gtkhash
+gufw
 gvfs:amd64
 gvfs-backends
 gvfs-common
@@ -561,6 +565,7 @@ lib32atomic1
 lib32gcc-10-dev
 lib32gcc-11-dev
 lib32gcc-12-dev
+lib32gcc-13-dev
 lib32gcc-9-dev
 lib32gcc-s1
 lib32gomp1
@@ -740,6 +745,7 @@ libbytesize-common
 libbytesize1:amd64
 libbz2-1.0:amd64
 libbz2-1.0:i386
+libbz2-dev:amd64
 libc-ares2:amd64
 libc-bin
 libc-dev-bin
@@ -1061,6 +1067,7 @@ libgcab-1.0-0:amd64
 libgcc-10-dev:amd64
 libgcc-11-dev:amd64
 libgcc-12-dev:amd64
+libgcc-13-dev:amd64
 libgcc-9-dev:amd64
 libgcc-s1:amd64
 libgcc-s1:i386
@@ -1280,6 +1287,7 @@ libhttp-message-perl
 libhttp-negotiate-perl
 libhttp-parser2.9:amd64
 libhunspell-1.7-0:amd64
+libhwasan0:amd64
 libhwloc-plugins:amd64
 libhwloc15:amd64
 libhwy1:amd64
@@ -1933,6 +1941,7 @@ librust-ahash-dev
 librust-aho-corasick-dev:amd64
 librust-anyhow-dev:amd64
 librust-arbitrary-dev:amd64
+librust-atomic-polyfill-dev:amd64
 librust-atty-dev:amd64
 librust-autocfg-dev:amd64
 librust-backtrace-dev:amd64
@@ -1944,6 +1953,7 @@ librust-const-random-dev:amd64
 librust-const-random-macro-dev:amd64
 librust-cpp-demangle-dev:amd64
 librust-crc32fast-dev:amd64
+librust-critical-section-dev:amd64
 librust-crossbeam-channel-dev:amd64
 librust-crossbeam-deque-dev:amd64
 librust-crossbeam-epoch+std-dev:amd64
@@ -1981,6 +1991,14 @@ librust-object-dev:amd64
 librust-once-cell-dev:amd64
 librust-owning-ref-dev:amd64
 librust-parking-lot-core-dev:amd64
+librust-phf+macros-dev:amd64
+librust-phf+phf-macros-dev:amd64
+librust-phf+proc-macro-hack-dev:amd64
+librust-phf+std-dev:amd64
+librust-phf-dev:amd64
+librust-phf-generator-dev:amd64
+librust-phf-macros-dev:amd64
+librust-phf-shared-dev:amd64
 librust-pkg-config-dev:amd64
 librust-ppv-lite86-dev:amd64
 librust-proc-macro-hack-dev:amd64
@@ -2016,10 +2034,12 @@ librust-regex-syntax+unicode-dev:amd64
 librust-regex-syntax-dev:amd64
 librust-rustc-demangle-dev:amd64
 librust-rustc-std-workspace-core-dev:amd64
+librust-rustversion-dev:amd64
 librust-scopeguard-dev:amd64
 librust-serde+serde-derive-dev:amd64
 librust-serde-derive-dev:amd64
 librust-serde-dev:amd64
+librust-siphasher-dev:amd64
 librust-smallvec-dev:amd64
 librust-spin-dev:amd64
 librust-stable-deref-trait-dev:amd64
@@ -2168,7 +2188,7 @@ libstd-rust-1.58:amd64
 libstd-rust-1.66:amd64
 libstd-rust-dev:amd64
 libstdc++-11-dev:amd64
-libstdc++-12-dev:amd64
+libstdc++-13-dev:amd64
 libstdc++6:amd64
 libstdc++6:i386
 libstemmer0d:amd64
@@ -2428,6 +2448,7 @@ libx32atomic1
 libx32gcc-10-dev
 libx32gcc-11-dev
 libx32gcc-12-dev
+libx32gcc-13-dev
 libx32gcc-9-dev
 libx32gcc-s1
 libx32gomp1
@@ -2929,6 +2950,7 @@ python3-distutils
 python3-docutils
 python3-evdev
 python3-firewall
+python3-freetype
 python3-gdal
 python3-gi
 python3-gi-cairo
@@ -2980,6 +3002,7 @@ python3-reportlab
 python3-reportlab-accel:amd64
 python3-requests
 python3-rfc3987
+python3-rlpycairo
 python3-roman
 python3-scour
 python3-setproctitle:amd64
@@ -3152,10 +3175,12 @@ traceroute
 transmission-common
 transmission-gtk
 tree
+ttf-bitstream-vera
 tzdata
 ucf
 udev
 udisks2
+ufw
 unar
 unattended-upgrades
 unixodbc-common
