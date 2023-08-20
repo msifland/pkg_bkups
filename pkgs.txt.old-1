@@ -591,7 +591,7 @@ libalgorithm-c3-perl
 libalgorithm-diff-perl
 libalgorithm-diff-xs-perl:amd64
 libalgorithm-merge-perl
-libamd2:amd64
+libamd3:amd64
 libamtk-5-0:amd64
 libamtk-5-common
 libann0
@@ -772,7 +772,7 @@ libcairo2-dev:amd64
 libcairomm-1.0-1v5:amd64
 libcairomm-1.16-1:amd64
 libcaja-extension1:amd64
-libcamd2:amd64
+libcamd3:amd64
 libcanberra-gtk3-0:amd64
 libcanberra-gtk3-module:amd64
 libcanberra-pulse:amd64
@@ -790,7 +790,7 @@ libcaribou0:amd64
 libcarp-clan-perl
 libcbor0.8:amd64
 libcc1-0:amd64
-libccolamd2:amd64
+libccolamd3:amd64
 libcddb2
 libcdio-cdda2:amd64
 libcdio-paranoia2:amd64
@@ -804,7 +804,7 @@ libcfitsio9:amd64
 libcgraph6:amd64
 libcheese-gtk25:amd64
 libcheese8:amd64
-libcholmod3:amd64
+libcholmod4:amd64
 libchromaprint1:amd64
 libcinnamon-desktop4:amd64
 libcjson1:amd64
@@ -832,7 +832,7 @@ libcogl-common
 libcogl-pango20:amd64
 libcogl-path20:amd64
 libcogl20:amd64
-libcolamd2:amd64
+libcolamd3:amd64
 libcolord2:amd64
 libcolorhug2:amd64
 libcom-err2:amd64
@@ -890,6 +890,7 @@ libdc1394-25:amd64
 libdca0:amd64
 libdconf1:amd64
 libde265-0:amd64
+libde265-0:i386
 libdebconfclient0:amd64
 libdebhelper-perl
 libdebuginfod-common
@@ -1220,6 +1221,7 @@ libgtk-3-dev:amd64
 libgtk-4-1:amd64
 libgtk-4-bin
 libgtk-4-common
+libgtk-4-media-gstreamer
 libgtk-layer-shell0
 libgtk-vnc-2.0-0:amd64
 libgtk2.0-0:amd64
@@ -1268,6 +1270,10 @@ libhd21:amd64
 libhdf4-0-alt
 libhdf5-103-1:amd64
 libhdf5-hl-100:amd64
+libheif-plugin-dav1d:amd64
+libheif-plugin-dav1d:i386
+libheif-plugin-libde265:amd64
+libheif-plugin-libde265:i386
 libheif1:amd64
 libheif1:i386
 libhogweed6:amd64
@@ -1501,7 +1507,6 @@ libmediaart-2.0-0:amd64
 libmediainfo0v5:amd64
 libmemcached11:amd64
 libmetacity3:amd64
-libmetis5:amd64
 libmfx1:amd64
 libmhash2:amd64
 libmime-charset-perl
@@ -1860,10 +1865,19 @@ libqt6core6:amd64
 libqt6dbus6:amd64
 libqt6gui6:amd64
 libqt6network6:amd64
+libqt6opengl6:amd64
+libqt6qml6:amd64
+libqt6qmlmodels6:amd64
+libqt6quick6:amd64
 libqt6sql6:amd64
 libqt6sql6-sqlite:amd64
 libqt6svg6:amd64
+libqt6waylandclient6:amd64
+libqt6waylandcompositor6:amd64
+libqt6waylandeglclienthwintegration6:amd64
+libqt6waylandeglcompositorhwintegration6:amd64
 libqt6widgets6:amd64
+libqt6wlshellintegration6:amd64
 libqt6xml6:amd64
 libquadmath0:amd64
 libquazip5-1:amd64
@@ -2200,7 +2214,7 @@ libsub-install-perl
 libsub-name-perl:amd64
 libsub-override-perl
 libsub-quote-perl
-libsuitesparseconfig5:amd64
+libsuitesparseconfig7:amd64
 libsuperlu5:amd64
 libsvn1:amd64
 libsvtav1enc1:amd64
@@ -2298,7 +2312,7 @@ libudev1:amd64
 libudev1:i386
 libudfread0:amd64
 libudisks2-0:amd64
-libumfpack5:amd64
+libumfpack6:amd64
 libunbound8:amd64
 libunicode-escape-perl
 libunicode-linebreak-perl
@@ -3045,6 +3059,7 @@ qt5-gtk-platformtheme:amd64
 qt6-gtk-platformtheme:amd64
 qt6-qpa-plugins:amd64
 qt6-translations-l10n
+qt6-wayland:amd64
 qttranslations5-l10n
 quilt
 rake
