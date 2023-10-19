@@ -13,5 +13,6 @@ APT
   {
     "^postgresql.*-14";
     "^postgresql.*-15";
+    "^postgresql.*-16";
   };
 };
