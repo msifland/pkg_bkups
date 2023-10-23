@@ -20,10 +20,10 @@
 #00 7 * * 1 /home/msifland/scripts/cron_scripts/linux-update-run
 
 # Backs up my important files. See script for files that are backed up.
-#30 1 * * * /home/msifland/scripts/cron_scripts/my-backup-run
+30 1 * * 3 /home/msifland/scripts/cron_scripts/my-backup-run
 
 # Scans for viruses once a week. This entry has a corrosponding entry
-# uder 'sudo crontab -e' for updating virus definitions.
+# under 'sudo crontab -e' for updating virus definitions.
 15 2 * * 1 /home/msifland/scripts/cron_scripts/virus-clamscan-run
 
 # Restart PC once a week.
