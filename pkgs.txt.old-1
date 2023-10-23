@@ -1479,7 +1479,6 @@ libmagic-mgc
 libmagic1:amd64
 libmagick++-6.q16-8:amd64
 libmagickcore-6.q16-6:amd64
-libmagickcore-6.q16-6-extra:amd64
 libmagickcore-6.q16-7:amd64
 libmagickcore-6.q16-7-extra:amd64
 libmagickwand-6.q16-6:amd64
