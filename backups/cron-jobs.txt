@@ -30,7 +30,7 @@
 00 1 * * 6 /home/msifland/scripts/restart
 
 # Run a check for new kernels once a week.
-00 3 * * 6 /home/msifland/scripts/cron_scripts/kernel-check-run
+00 3 * * 6 /home/msifland/scripts/cron_scripts/kernel-build-run
 
 # Update screenfetch one a week.
 00 3 * * 5 /home/msifland/scripts/cron_scripts/screenfetch-update-run

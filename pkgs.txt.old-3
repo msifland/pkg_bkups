@@ -211,6 +211,7 @@ dvisvgm
 dwarves
 dwz
 e2fsprogs
+easy-rsa
 ed
 eject
 emacsen-common
@@ -683,8 +684,8 @@ libavfilter7:amd64
 libavfilter9:amd64
 libavformat58:amd64
 libavformat60:amd64
-libavif15:amd64
-libavif15:i386
+libavif16:amd64
+libavif16:i386
 libavtp0:amd64
 libavutil56:amd64
 libavutil58:amd64
@@ -795,6 +796,7 @@ libcaribou0:amd64
 libcarp-clan-perl
 libcbor0.10:amd64
 libcc1-0:amd64
+libccid
 libccolamd3:amd64
 libcddb2
 libcdio-cdda2:amd64
@@ -816,6 +818,7 @@ libcjson1:amd64
 libclamav11:amd64
 libclamav9:amd64
 libclang-cpp13
+libclang-cpp16
 libclass-c3-perl
 libclass-c3-xs-perl
 libclass-data-inheritable-perl
@@ -951,6 +954,7 @@ libdw1:amd64
 libdw1:i386
 libdynaloader-functions-perl
 libe-book-0.1-1:amd64
+libeac3:amd64
 libebml5:amd64
 libedit2:amd64
 libedit2:i386
@@ -1248,7 +1252,7 @@ libguava-java
 libgucharmap-2-90-7:amd64
 libgudev-1.0-0:amd64
 libgudev-1.0-0:i386
-libgumbo1:amd64
+libgumbo2:amd64
 libgupnp-1.2-1:amd64
 libgupnp-1.6-0:amd64
 libgupnp-av-1.0-3
@@ -1436,7 +1440,8 @@ liblirc-client0:amd64
 libllvm13:amd64
 libllvm14:amd64
 libllvm15:amd64
-libllvm15:i386
+libllvm16:amd64
+libllvm16:i386
 liblmdb0:amd64
 libloader-java
 liblocale-gettext-perl
@@ -1771,6 +1776,7 @@ libpixie-java
 libpixman-1-0:amd64
 libpixman-1-0:i386
 libpixman-1-dev:amd64
+libpkcs11-helper1:amd64
 libpkgconf3:amd64
 libplacebo192:amd64
 libplacebo292:amd64
@@ -1976,6 +1982,7 @@ librust-atty-dev:amd64
 librust-autocfg-dev:amd64
 librust-backtrace-dev:amd64
 librust-bitflags-1-dev:amd64
+librust-bitflags-dev:amd64
 librust-bitvec-dev:amd64
 librust-blobby-dev:amd64
 librust-block-buffer-dev:amd64
@@ -1994,6 +2001,8 @@ librust-chrono-dev:amd64
 librust-clap-2-dev:amd64
 librust-cmake-dev:amd64
 librust-color-quant-dev:amd64
+librust-compiler-builtins+core-dev:amd64
+librust-compiler-builtins+rustc-dep-of-std-dev:amd64
 librust-compiler-builtins-dev:amd64
 librust-concurrent-queue-dev:amd64
 librust-const-cstr-dev:amd64
@@ -2055,8 +2064,6 @@ librust-humantime-dev:amd64
 librust-iana-time-zone-dev:amd64
 librust-image-dev:amd64
 librust-indexmap-dev:amd64
-librust-io-lifetimes-dev:amd64
-librust-is-terminal-dev:amd64
 librust-itertools-dev:amd64
 librust-itoa-dev:amd64
 librust-jpeg-decoder-dev:amd64
@@ -2115,6 +2122,7 @@ librust-plotters-dev:amd64
 librust-plotters-svg-dev:amd64
 librust-png-dev:amd64
 librust-polling-dev:amd64
+librust-portable-atomic-dev:amd64
 librust-ppv-lite86-dev:amd64
 librust-proc-macro-hack-dev:amd64
 librust-proc-macro2-dev:amd64
@@ -2132,21 +2140,8 @@ librust-rand-core-dev:amd64
 librust-rand-dev:amd64
 librust-rayon-core-dev:amd64
 librust-rayon-dev:amd64
-librust-regex+aho-corasick-dev:amd64
-librust-regex+default-dev:amd64
-librust-regex+memchr-dev:amd64
-librust-regex+perf-dev:amd64
-librust-regex+perf-literal-dev:amd64
-librust-regex+unicode-age-dev:amd64
-librust-regex+unicode-bool-dev:amd64
-librust-regex+unicode-case-dev:amd64
-librust-regex+unicode-dev:amd64
-librust-regex+unicode-gencat-dev:amd64
-librust-regex+unicode-perl-dev:amd64
-librust-regex+unicode-script-dev:amd64
-librust-regex+unicode-segment-dev:amd64
+librust-regex-automata-dev:amd64
 librust-regex-dev:amd64
-librust-regex-syntax+unicode-dev:amd64
 librust-regex-syntax-dev:amd64
 librust-rend-dev:amd64
 librust-rkyv-derive-dev:amd64
@@ -2319,6 +2314,9 @@ libservlet3.1-java
 libsexpp0:amd64
 libsframe1:amd64
 libsgmls-perl
+libsharpyuv-dev:amd64
+libsharpyuv0:amd64
+libsharpyuv0:i386
 libshine3:amd64
 libshine3:i386
 libshout3:amd64
@@ -2394,7 +2392,7 @@ libssl3:i386
 libstaroffice-0.0-0:amd64
 libstartup-notification0:amd64
 libstd-rust-1.58:amd64
-libstd-rust-1.69:amd64
+libstd-rust-1.70:amd64
 libstd-rust-dev:amd64
 libstdc++-11-dev:amd64
 libstdc++-13-dev:amd64
@@ -2413,8 +2411,7 @@ libsuitesparseconfig7:amd64
 libsuperlu5:amd64
 libsuperlu6:amd64
 libsvn1:amd64
-libsvtav1enc1:amd64
-libsvtav1enc1:i386
+libsvtav1enc1d1:amd64
 libswresample3:amd64
 libswresample4:amd64
 libswresample4:i386
@@ -2532,6 +2529,7 @@ libunwind8:i386
 libupnp13:amd64
 libupnp17:amd64
 libupower-glib3:amd64
+liburcu8:amd64
 liburi-perl
 liburiparser1:amd64
 libusb-1.0-0:amd64
@@ -2581,7 +2579,8 @@ libvpl2
 libvpx6:amd64
 libvpx6:i386
 libvpx7:amd64
-libvpx7:i386
+libvpx8:amd64
+libvpx8:i386
 libvte-2.91-0:amd64
 libvte-2.91-common
 libvulkan1:amd64
@@ -2609,6 +2608,7 @@ libwebp6:amd64
 libwebp6:i386
 libwebp7:amd64
 libwebp7:i386
+libwebpdecoder3:amd64
 libwebpdemux2:amd64
 libwebpmux3:amd64
 libwebpmux3:i386
@@ -2859,6 +2859,11 @@ llvm-13-dev
 llvm-13-linker-tools
 llvm-13-runtime
 llvm-13-tools
+llvm-16
+llvm-16-dev
+llvm-16-linker-tools
+llvm-16-runtime
+llvm-16-tools
 lm-sensors
 lmodern
 locales
@@ -3023,11 +3028,14 @@ openjdk-11-jre-headless:amd64
 openjdk-17-jre:amd64
 openjdk-17-jre-headless:amd64
 openprinting-ppds
+opensc
+opensc-pkcs11:amd64
 opensp
 openssh-client
 openssh-server
 openssh-sftp-server
 openssl
+openvpn
 orca
 os-prober
 osinfo-db
@@ -3048,6 +3056,7 @@ patch
 patchutils
 pci.ids
 pciutils
+pcscd
 perl
 perl-base
 perl-doc
@@ -3393,6 +3402,7 @@ transmission-gtk
 tree
 ttf-bitstream-vera
 tzdata
+tzdata-legacy
 ucf
 udev
 udisks2
