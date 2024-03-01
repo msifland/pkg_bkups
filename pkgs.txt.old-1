@@ -134,7 +134,9 @@ cpp-10
 cpp-11
 cpp-12
 cpp-13
+cpp-13-x86-64-linux-gnu
 cpp-9
+cpp-x86-64-linux-gnu
 cracklib-runtime
 cron
 cron-daemon-common
@@ -207,6 +209,7 @@ docutils-common
 dosfstools
 dpkg
 dpkg-dev
+dtach
 dvipng
 dvisvgm
 dwarves
@@ -300,6 +303,8 @@ fwupd-amd64-signed
 g++
 g++-11
 g++-13
+g++-13-x86-64-linux-gnu
+g++-x86-64-linux-gnu
 gawk
 gcc
 gcc-10
@@ -313,13 +318,16 @@ gcc-12-base:amd64
 gcc-12-multilib
 gcc-13
 gcc-13-base:amd64
-gcc-13-base:i386
 gcc-13-multilib
+gcc-13-x86-64-linux-gnu
+gcc-14-base:amd64
+gcc-14-base:i386
 gcc-9
 gcc-9-base:amd64
 gcc-9-base:i386
 gcc-9-multilib
 gcc-multilib
+gcc-x86-64-linux-gnu
 gconf-defaults-service
 gconf-editor
 gconf-gsettings-backend:amd64
@@ -327,9 +335,10 @@ gconf-service
 gconf2
 gconf2-common
 gcr
+gcr4
 gdal-bin
 gdal-data
-gdal-plugins
+gdal-plugins:amd64
 gdb-minimal
 gdbm-l10n
 gedit
@@ -375,6 +384,7 @@ gir1.2-gdkpixbuf-2.0:amd64
 gir1.2-gexiv2-0.10:amd64
 gir1.2-ggit-1.0:amd64
 gir1.2-girepository-2.0:amd64
+gir1.2-girepository-2.0-dev:amd64
 gir1.2-glib-2.0:amd64
 gir1.2-glib-2.0-dev:amd64
 gir1.2-gst-plugins-base-1.0:amd64
@@ -443,8 +453,10 @@ gnustep-base-common
 gnustep-base-runtime
 gnustep-common
 gnutls-bin
-golang-1.21-go
-golang-1.21-src
+gobject-introspection:amd64
+gobject-introspection-bin
+golang-1.22-go
+golang-1.22-src
 golang-any:amd64
 golang-go:amd64
 golang-src
@@ -951,6 +963,7 @@ libdrm-radeon1:i386
 libdrm2:amd64
 libdrm2:i386
 libduktape207:amd64
+libduktape207:i386
 libdumbnet1:amd64
 libdv4:amd64
 libdv4:i386
@@ -1091,7 +1104,9 @@ libgcc-9-dev:amd64
 libgcc-s1:amd64
 libgcc-s1:i386
 libgck-1-0:amd64
+libgck-2-2:amd64
 libgconf-2-4:amd64
+libgcr-4-4:amd64
 libgcr-base-3-1:amd64
 libgcr-ui-3-1:amd64
 libgcrypt20:amd64
@@ -1133,6 +1148,8 @@ libgfortran5:amd64
 libgif7:amd64
 libgimp2.0:amd64
 libgirepository-1.0-1:amd64
+libgirepository-1.0-dev:amd64
+libgirepository1.0-dev
 libgit2-1.3:amd64
 libgit2-1.7:amd64
 libgit2-glib-1.0-0:amd64
@@ -1267,8 +1284,8 @@ libgudev-1.0-0:i386
 libgumbo2:amd64
 libgupnp-1.2-1:amd64
 libgupnp-1.6-0:amd64
-libgupnp-av-1.0-3
-libgupnp-dlna-2.0-4
+libgupnp-av-1.0-3:amd64
+libgupnp-dlna-2.0-4:amd64
 libgupnp-igd-1.6-0:amd64
 libgusb2:amd64
 libgutenprint-common
@@ -1888,7 +1905,10 @@ libqt5quick5:amd64
 libqt5sql5:amd64
 libqt5sql5-mysql:amd64
 libqt5sql5-sqlite:amd64
+libqt5svg5:amd64
 libqt5test5:amd64
+libqt5waylandclient5:amd64
+libqt5waylandcompositor5:amd64
 libqt5webengine-data
 libqt5widgets5:amd64
 libqt5x11extras5:amd64
@@ -1939,6 +1959,7 @@ libreoffice-calc
 libreoffice-common
 libreoffice-core
 libreoffice-draw
+libreoffice-gnome
 libreoffice-gtk3
 libreoffice-help-common
 libreoffice-help-en-us
@@ -1952,6 +1973,7 @@ libreoffice-sdbc-hsqldb
 libreoffice-sdbc-mysql
 libreoffice-sdbc-postgresql
 libreoffice-style-colibre
+libreoffice-style-elementary
 libreoffice-uiconfig-base
 libreoffice-uiconfig-calc
 libreoffice-uiconfig-common
@@ -2118,7 +2140,6 @@ librust-md-5-dev:amd64
 librust-md5-asm-dev:amd64
 librust-memchr-dev:amd64
 librust-memmap2-dev:amd64
-librust-memoffset-dev:amd64
 librust-miniz-oxide-dev:amd64
 librust-mio-dev:amd64
 librust-no-panic-dev:amd64
@@ -2207,6 +2228,7 @@ librust-slog-dev:amd64
 librust-smallvec-dev:amd64
 librust-smawk-dev:amd64
 librust-smol-dev
+librust-smol-str-dev:amd64
 librust-socket2-dev:amd64
 librust-spin-dev:amd64
 librust-stable-deref-trait-dev:amd64
@@ -2225,8 +2247,6 @@ librust-sval-ref-dev:amd64
 librust-sval-serde-dev:amd64
 librust-syn-1-dev:amd64
 librust-syn-dev:amd64
-librust-synstructure+proc-macro-dev:amd64
-librust-synstructure-dev:amd64
 librust-tap-dev:amd64
 librust-term-size-dev:amd64
 librust-termcolor-dev:amd64
@@ -2365,6 +2385,7 @@ libsm6:amd64
 libsmartcols1:amd64
 libsmbclient:amd64
 libsmbios-c2
+libsnapd-glib-2-1:amd64
 libsnappy1v5:amd64
 libsnappy1v5:i386
 libsndfile1:amd64
@@ -2883,17 +2904,17 @@ linux-headers-6.1.0-5-amd64
 linux-headers-6.1.0-5-common
 linux-headers-6.5.8-msi+
 linux-headers-6.5.9-msi+
-linux-headers-6.6.11-amd64
-linux-headers-6.6.11-common
+linux-headers-6.6.15-amd64
+linux-headers-6.6.15-common
 linux-headers-amd64
 linux-image-6.1.0-5-amd64
 linux-image-6.5.8-msi+
 linux-image-6.5.9-msi+
 linux-image-6.5.9-msi+-dbg
-linux-image-6.6.11-amd64
+linux-image-6.6.15-amd64
 linux-image-amd64
 linux-kbuild-6.1
-linux-kbuild-6.6.11
+linux-kbuild-6.6.15
 linux-libc-dev
 linux-perf
 llvm-13
@@ -3194,7 +3215,7 @@ python3-blinker
 python3-brlapi:amd64
 python3-brotli
 python3-bs4
-python3-cairo:amd64
+python3-cairo
 python3-caja
 python3-cap-ng
 python3-certifi
@@ -3215,6 +3236,7 @@ python3-distro
 python3-distro-info
 python3-distutils
 python3-docutils
+python3-editables
 python3-evdev
 python3-firewall
 python3-freetype
@@ -3222,6 +3244,8 @@ python3-gdal
 python3-gi
 python3-gi-cairo
 python3-gpg
+python3-hatch-vcs
+python3-hatchling
 python3-html5lib
 python3-httplib2
 python3-idna
@@ -3230,6 +3254,7 @@ python3-importlib-metadata
 python3-jinja2
 python3-json-pointer
 python3-jsonschema
+python3-jsonschema-specifications
 python3-jwt
 python3-lazr.restfulclient
 python3-lazr.uri
@@ -3238,6 +3263,8 @@ python3-libevdev
 python3-louis
 python3-lxml:amd64
 python3-magic
+python3-mako
+python3-markdown
 python3-markupsafe
 python3-minimal
 python3-more-itertools
@@ -3248,10 +3275,12 @@ python3-oauthlib
 python3-olefile
 python3-openssl
 python3-packaging
+python3-pathspec
 python3-pexpect
 python3-pil:amd64
 python3-pip
 python3-pkg-resources
+python3-pluggy
 python3-protobuf
 python3-psutil
 python3-ptyprocess
@@ -3261,9 +3290,9 @@ python3-pygments
 python3-pyosmium
 python3-pyparsing
 python3-pyqt5.sip
-python3-pyrsistent:amd64
 python3-pysimplesoap
 python3-pyudev
+python3-referencing
 python3-renderpm:amd64
 python3-reportbug
 python3-reportlab
@@ -3272,9 +3301,11 @@ python3-requests
 python3-rfc3987
 python3-rlpycairo
 python3-roman
+python3-rpds-py
 python3-scour
 python3-setproctitle:amd64
 python3-setuptools
+python3-setuptools-scm
 python3-six
 python3-smbc
 python3-snowballstemmer
@@ -3284,6 +3315,8 @@ python3-speechd
 python3-sphinx
 python3-sphinx-rtd-theme
 python3-sphinxcontrib.jquery
+python3-trove-classifiers
+python3-typing-extensions
 python3-tz
 python3-uritemplate
 python3-urllib3
@@ -3317,6 +3350,7 @@ qt6-qpa-plugins:amd64
 qt6-translations-l10n
 qt6-wayland:amd64
 qttranslations5-l10n
+qtwayland5:amd64
 quilt
 rake
 readline-common
@@ -3562,6 +3596,7 @@ xorg-sgml-doctools
 xscreensaver
 xscreensaver-data
 xscreensaver-data-extra
+xscreensaver-gl
 xserver-common
 xserver-xephyr
 xserver-xorg
