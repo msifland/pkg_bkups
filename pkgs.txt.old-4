@@ -1,3 +1,4 @@
+7zip
 accountsservice
 acl
 adduser
@@ -369,10 +370,13 @@ gir1.2-cogl-1.0:amd64
 gir1.2-coglpango-1.0:amd64
 gir1.2-eom-1.0
 gir1.2-freedesktop:amd64
+gir1.2-freedesktop-dev:amd64
 gir1.2-gdkpixbuf-2.0:amd64
 gir1.2-gexiv2-0.10:amd64
 gir1.2-ggit-1.0:amd64
+gir1.2-girepository-2.0:amd64
 gir1.2-glib-2.0:amd64
+gir1.2-glib-2.0-dev:amd64
 gir1.2-gst-plugins-base-1.0:amd64
 gir1.2-gstreamer-1.0:amd64
 gir1.2-gtk-3.0:amd64
@@ -729,7 +733,7 @@ libblosc1:amd64
 libbluetooth3:amd64
 libbluray2:amd64
 libboinc7:amd64
-libboost-filesystem1.74.0:amd64
+libboost-filesystem1.83.0:amd64
 libboost-iostreams1.83.0:amd64
 libboost-locale1.83.0:amd64
 libboost-program-options1.74.0:amd64
@@ -1684,6 +1688,7 @@ libopencore-amrwb0:i386
 libopencsd-dev:amd64
 libopencsd1:amd64
 libopenexr-3-1-30:amd64
+libopenfec1:amd64
 libopengl-dev:amd64
 libopengl0:amd64
 libopengl0:i386
@@ -1773,8 +1778,8 @@ libperl4-corelibs-perl
 libperl5.32:amd64
 libperl5.34:amd64
 libperl5.34:i386
-libperl5.36:amd64
-libperl5.36:i386
+libperl5.38:amd64
+libperl5.38:i386
 libpfm4:amd64
 libpgm-5.3-0:amd64
 libphodav-2.0-0:amd64
@@ -1806,6 +1811,7 @@ libpoppler-cpp0v5:amd64
 libpoppler-glib8:amd64
 libpoppler-glib8:i386
 libpoppler-qt5-1:amd64
+libpoppler-qt6-3:amd64
 libpoppler118:i386
 libpoppler123:amd64
 libpoppler126:amd64
@@ -1984,6 +1990,7 @@ librust-adler-dev:amd64
 librust-ahash-0.7-dev
 librust-ahash-dev
 librust-aho-corasick-dev:amd64
+librust-allocator-api2-dev:amd64
 librust-ansi-term-dev:amd64
 librust-anyhow-dev:amd64
 librust-arbitrary-dev:amd64
@@ -2034,6 +2041,7 @@ librust-const-cstr-dev:amd64
 librust-const-oid-dev:amd64
 librust-const-random-dev:amd64
 librust-const-random-macro-dev:amd64
+librust-convert-case-dev:amd64
 librust-cpp-demangle-dev:amd64
 librust-cpufeatures-dev:amd64
 librust-crc32fast-dev:amd64
@@ -2049,6 +2057,7 @@ librust-crypto-common-dev:amd64
 librust-csv-core-dev:amd64
 librust-csv-dev:amd64
 librust-derive-arbitrary-dev:amd64
+librust-derive-more-dev:amd64
 librust-digest-dev:amd64
 librust-dirs-next-dev:amd64
 librust-dirs-sys-next-dev:amd64
@@ -2147,7 +2156,6 @@ librust-png-dev:amd64
 librust-polling-dev:amd64
 librust-portable-atomic-dev:amd64
 librust-ppv-lite86-dev:amd64
-librust-proc-macro-hack-dev:amd64
 librust-proc-macro2-dev:amd64
 librust-ptr-meta-derive-dev:amd64
 librust-ptr-meta-dev:amd64
@@ -2224,8 +2232,6 @@ librust-term-size-dev:amd64
 librust-termcolor-dev:amd64
 librust-terminal-size-dev:amd64
 librust-textwrap-dev:amd64
-librust-thiserror-core-dev:amd64
-librust-thiserror-core-impl-dev:amd64
 librust-thiserror-dev:amd64
 librust-thiserror-impl-dev:amd64
 librust-tiff-dev:amd64
@@ -2490,6 +2496,7 @@ libtinfo5:amd64
 libtinfo5:i386
 libtinfo6:amd64
 libtinfo6:i386
+libtinyxml2-10:amd64
 libtinyxml2-9:amd64
 libtirpc-common
 libtirpc-dev:amd64
@@ -2863,6 +2870,7 @@ libzstd1:i386
 libzvbi-common
 libzvbi0:amd64
 libzvbi0:i386
+libzxcvbn0:amd64
 libzxing3:amd64
 libzzip-0-13:amd64
 lightdm
@@ -2871,23 +2879,22 @@ lightdm-settings
 linux-base
 linux-compiler-gcc-11-x86
 linux-compiler-gcc-12-x86
-linux-compiler-gcc-13-x86
 linux-headers-6.1.0-5-amd64
 linux-headers-6.1.0-5-common
-linux-headers-6.5.0-5-amd64
-linux-headers-6.5.0-5-common
 linux-headers-6.5.8-msi+
 linux-headers-6.5.9-msi+
+linux-headers-6.6.11-amd64
+linux-headers-6.6.11-common
 linux-headers-amd64
 linux-image-6.1.0-5-amd64
-linux-image-6.5.0-5-amd64
 linux-image-6.5.8-msi+
 linux-image-6.5.9-msi+
 linux-image-6.5.9-msi+-dbg
+linux-image-6.6.11-amd64
 linux-image-amd64
 linux-kbuild-6.1
-linux-kbuild-6.5.0-5
-linux-libc-dev:amd64
+linux-kbuild-6.6.11
+linux-libc-dev
 linux-perf
 llvm-13
 llvm-13-dev
@@ -3098,7 +3105,7 @@ perl-base
 perl-doc
 perl-modules-5.32
 perl-modules-5.34
-perl-modules-5.36
+perl-modules-5.38
 perl-openssl-defaults:amd64
 perl-tk
 picom
