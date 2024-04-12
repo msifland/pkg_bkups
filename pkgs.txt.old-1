@@ -290,6 +290,9 @@ g++-11
 g++-13
 g++-13-x86-64-linux-gnu
 g++-x86-64-linux-gnu
+gamemode
+gamemode-daemon
+gamescope
 gawk
 gcc
 gcc-10
@@ -574,7 +577,7 @@ lib32ubsan1
 liba52-0.7.4:amd64
 libaa1:amd64
 libaacs0:amd64
-libabsl20220623t64:amd64
+libabsl20230802:amd64
 libaccountsservice0:amd64
 libacl1:amd64
 libadplug-2.3.3-0
@@ -834,6 +837,7 @@ libdav1d7:amd64
 libdavs2-16:amd64
 libdb5.3t64:amd64
 libdbus-1-3:amd64
+libdbus-1-3:i386
 libdbus-1-dev:amd64
 libdbus-glib-1-2:amd64
 libdbus-glib-1-dev:amd64
@@ -860,10 +864,12 @@ libdevel-globaldestruction-perl
 libdevel-lexalias-perl
 libdevel-stacktrace-perl
 libdevmapper1.02.1:amd64
+libdialog15:amd64
 libdigest-hmac-perl
 libdigest-perl-md5-perl
 libdirectfb-1.7-7t64:amd64
 libdiscover2
+libdisplay-info1:amd64
 libdist-checkconflicts-perl
 libdjvulibre-text
 libdjvulibre21:amd64
@@ -977,8 +983,8 @@ libfontconfig1-dev:amd64
 libfontembed1t64:amd64
 libfontenc1:amd64
 libfreeaptx0:amd64
-libfreerdp-client2-2:amd64
-libfreerdp2-2:amd64
+libfreerdp-client2-2t64:amd64
+libfreerdp2-2t64:amd64
 libfreetype-dev:amd64
 libfreetype6:amd64
 libfreexl1:amd64
@@ -988,10 +994,14 @@ libfstrm0:amd64
 libftdi1-2:amd64
 libfuse3-3:amd64
 libfwupd2:amd64
-libfyba0:amd64
+libfyba0t64:amd64
 libgail-3-0t64:amd64
 libgail-common:amd64
 libgail18t64:amd64
+libgamemode0:amd64
+libgamemode0:i386
+libgamemodeauto0:amd64
+libgamemodeauto0:i386
 libgav1-1:amd64
 libgbm1:amd64
 libgbm1:i386
@@ -1011,6 +1021,7 @@ libgcr-4-4:amd64
 libgcr-base-3-1:amd64
 libgcr-ui-3-1:amd64
 libgcrypt20:amd64
+libgcrypt20:i386
 libgd3:amd64
 libgdal31
 libgdal34t64:amd64
@@ -1223,6 +1234,7 @@ libimagequant0:amd64
 libimath-3-1-29t64:amd64
 libimlib2t64:amd64
 libimobiledevice6:amd64
+libinih1:amd64
 libinput-bin
 libinput10:amd64
 libinstpatch-1.0-2:amd64
@@ -1256,7 +1268,7 @@ libjbig2dec0:amd64
 libjcat1:amd64
 libjcode-pm-perl
 libjemalloc2:amd64
-libjim0.82:amd64
+libjim0.82t64:amd64
 libjpeg-dev:amd64
 libjpeg-turbo-progs
 libjpeg62-turbo:amd64
@@ -1309,6 +1321,7 @@ libldb2:amd64
 liblept5:amd64
 liblerc-dev:amd64
 liblerc4:amd64
+libliftoff0:amd64
 liblightdm-gobject-1-0:amd64
 liblilv-0-0:amd64
 liblinear4:amd64
@@ -1344,6 +1357,7 @@ libluajit-5.1-common
 liblwp-mediatypes-perl
 liblwp-protocol-https-perl
 liblz4-1:amd64
+liblz4-1:i386
 liblzma-dev:amd64
 liblzma5:amd64
 liblzma5:i386
@@ -1416,7 +1430,7 @@ libmpdec3:amd64
 libmpeg2-4:amd64
 libmpeg2encpp-2.1-0t64:amd64
 libmpfr6:amd64
-libmpg123-0:amd64
+libmpg123-0t64:amd64
 libmplex2-2.1-0t64:amd64
 libmro-compat-perl
 libmspack0t64:amd64
@@ -1533,6 +1547,7 @@ libopenjp2-7:amd64
 libopenmpt-modplug1:amd64
 libopenmpt0t64:amd64
 libopenni2-0:amd64
+libopenvr-api1:amd64
 libopus0:amd64
 liborc-0.4-0t64:amd64
 liborcus-0.18-0:amd64
@@ -1722,7 +1737,7 @@ libquazip5-1:amd64
 librabbitmq4:amd64
 libraptor2-0:amd64
 libraqm0:amd64
-librasqal3:amd64
+librasqal3t64:amd64
 librav1e0:amd64
 libraw1394-11:amd64
 libraw23t64:amd64
@@ -2090,6 +2105,7 @@ libsbc1:amd64
 libsdl-image1.2:amd64
 libsdl1.2debian:amd64
 libsdl2-2.0-0:amd64
+libseat1:amd64
 libseccomp2:amd64
 libsecret-1-0:amd64
 libsecret-common
@@ -2199,6 +2215,7 @@ libsynctex2:amd64
 libsys-hostname-long-perl
 libsystemd-shared:amd64
 libsystemd0:amd64
+libsystemd0:i386
 libsz2:amd64
 libtag1v5:amd64
 libtag1v5-vanilla:amd64
@@ -2285,7 +2302,7 @@ libunistring5:amd64
 libunistring5:i386
 libunity-protocol-private0:amd64
 libunity-scopes-json-def-desktop
-libunity9:amd64
+libunity9
 libuno-cppu3t64
 libuno-cppuhelpergcc3-3t64
 libuno-purpenvhelpergcc3-3t64
@@ -2367,16 +2384,15 @@ libwebrtc-audio-processing1:amd64
 libwildmidi2:amd64
 libwine:amd64
 libwine-development:amd64
-libwinpr2-2:amd64
+libwinpr2-2t64:amd64
 libwireplumber-0.4-0:amd64
+libwlroots11:amd64
 libwmf-0.2-7:amd64
 libwmf-bin
 libwmflite-0.2-7:amd64
 libwnck-3-0:amd64
 libwnck-3-common
 libwoff1:amd64
-libwpe-1.0-1:amd64
-libwpebackend-fdo-1.0-1:amd64
 libwrap0:amd64
 libwrap0-dev:amd64
 libwww-perl
@@ -2810,7 +2826,6 @@ osmium-tool
 p11-kit
 p11-kit-modules:amd64
 p7zip
-p7zip-full
 packagekit
 packagekit-tools
 papirus-icon-theme
@@ -3298,6 +3313,7 @@ xsltproc
 xterm
 xtrans-dev
 xvfb
+xwayland
 xxd
 xz-utils
 yelp
