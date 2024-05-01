@@ -35,6 +35,9 @@
 # Update screenfetch one a week.
 00 3 * * 5 /home/msifland/scripts/cron_scripts/screenfetch-update-run
 
+# Update Rustdesk once a month
+15 3 1 * * /home/msifland/scripts/cron_scripts/rust_desk-updater-run
+
 # Build a new OSM map for my Garmin on the first day of every month.
 #02 4 2 * * /home/msifland/scripts/cron_scripts/map-my-builder-run
 
