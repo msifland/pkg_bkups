@@ -2688,7 +2688,6 @@ mate-polkit-bin
 mate-polkit-common
 mate-power-manager
 mate-power-manager-common
-mate-screensaver
 mate-screensaver-common
 mate-sensors-applet
 mate-sensors-applet-common
