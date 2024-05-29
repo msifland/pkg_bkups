@@ -467,6 +467,7 @@ gstreamer1.0-clutter-3.0:amd64
 gstreamer1.0-gl:amd64
 gstreamer1.0-gtk3:amd64
 gstreamer1.0-libav:amd64
+gstreamer1.0-pipewire:amd64
 gstreamer1.0-plugins-bad:amd64
 gstreamer1.0-plugins-base:amd64
 gstreamer1.0-plugins-good:amd64
@@ -2981,7 +2982,6 @@ python3-packaging
 python3-pathspec
 python3-pexpect
 python3-pil:amd64
-python3-pip
 python3-pkg-resources
 python3-pluggy
 python3-protobuf

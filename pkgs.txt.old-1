@@ -112,6 +112,7 @@ cinnamon-desktop-data
 clamav
 clamav-base
 clamav-freshclam
+clang-16
 clinfo
 cmake
 cmake-data
@@ -774,8 +775,11 @@ libcinnamon-desktop4t64:amd64
 libcjson1:amd64
 libclamav11t64:amd64
 libclamav9:amd64
+libclang-common-16-dev
 libclang-cpp13
 libclang-cpp16t64
+libclang-rt-16-dev:amd64
+libclang1-16t64
 libclass-c3-perl
 libclass-c3-xs-perl
 libclass-data-inheritable-perl
@@ -1025,6 +1029,7 @@ libgcrypt20:i386
 libgd3:amd64
 libgdal31
 libgdal34t64:amd64
+libgdal35:amd64
 libgdata-common
 libgdata22:amd64
 libgdbm-compat4t64:amd64
@@ -1052,6 +1057,7 @@ libgexiv2-2:amd64
 libgfortran5:amd64
 libgif7:amd64
 libgirepository-1.0-1:amd64
+libgirepository-2.0-0:amd64
 libgit2-1.3:amd64
 libgit2-1.7:amd64
 libgit2-glib-1.0-0:amd64
@@ -1433,6 +1439,7 @@ libmpfr6:amd64
 libmpg123-0t64:amd64
 libmplex2-2.1-0t64:amd64
 libmro-compat-perl
+libmsgraph-0-1:amd64
 libmspack0t64:amd64
 libmtdev1t64:amd64
 libmtp-common
@@ -1516,6 +1523,7 @@ libnvidia-tesla-470-ptxjitcompiler1:amd64
 libnvidia-tesla-470-ptxjitcompiler1:i386
 libnvidia-tesla-470-rtcore:amd64
 libnvme1t64
+libobjc-13-dev:amd64
 libobjc4:amd64
 libodbc2:amd64
 libodbc2:i386
@@ -1639,7 +1647,7 @@ libpolkit-gobject-1-0:amd64
 libpoppler-cpp0t64:amd64
 libpoppler-glib8t64:amd64
 libpoppler123:amd64
-libpoppler126t64:amd64
+libpoppler134:amd64
 libpopt0:amd64
 libportal-gtk3-1:amd64
 libportal1:amd64
@@ -1707,7 +1715,6 @@ libqt5sql5-mysql:amd64
 libqt5sql5-sqlite:amd64
 libqt5sql5t64:amd64
 libqt5svg5:amd64
-libqt5test5:amd64
 libqt5waylandclient5:amd64
 libqt5waylandcompositor5:amd64
 libqt5webengine-data
@@ -1763,6 +1770,7 @@ libresid-builder0c2a
 librevenge-0.0-0:amd64
 librhash0:amd64
 librist4:amd64
+librnp0:amd64
 libroc0.3:amd64
 librole-tiny-perl
 libroutino-slim0
@@ -1780,7 +1788,6 @@ librust-ab-glyph-rasterizer+libm-dev:amd64
 librust-ab-glyph-rasterizer-dev:amd64
 librust-addr2line-dev:amd64
 librust-adler-dev:amd64
-librust-ahash-0.7-dev
 librust-ahash-dev
 librust-aho-corasick-dev:amd64
 librust-allocator-api2-dev:amd64
@@ -1800,7 +1807,6 @@ librust-async-process-dev
 librust-async-std-dev
 librust-async-task-dev
 librust-atomic-dev:amd64
-librust-atomic-polyfill-dev:amd64
 librust-atomic-waker-dev:amd64
 librust-atty-dev:amd64
 librust-autocfg-dev:amd64
@@ -1857,6 +1863,7 @@ librust-dirs-sys-next-dev:amd64
 librust-dlib-dev:amd64
 librust-either-dev:amd64
 librust-env-logger-dev:amd64
+librust-equivalent-dev:amd64
 librust-erased-serde-dev:amd64
 librust-errno-dev:amd64
 librust-event-listener-dev
@@ -1971,7 +1978,6 @@ librust-rend-dev:amd64
 librust-rkyv-derive-dev:amd64
 librust-rkyv-dev:amd64
 librust-rustc-demangle-dev:amd64
-librust-rustc-serialize-dev:amd64
 librust-rustc-std-workspace-core-dev:amd64
 librust-rustc-version-dev:amd64
 librust-rustix-dev:amd64
@@ -2120,6 +2126,7 @@ libsepol1:amd64
 libsepol2:amd64
 libserd-0-0:amd64
 libserf-1-1:amd64
+libsexpp0:amd64
 libsframe1:amd64
 libsgmls-perl
 libsharpyuv-dev:amd64
@@ -2139,7 +2146,6 @@ libsm6:amd64
 libsmartcols1:amd64
 libsmbclient0:amd64
 libsmbios-c2
-libsnapd-glib-2-1:amd64
 libsnappy1v5:amd64
 libsndfile1:amd64
 libsndio7.0:amd64
@@ -2186,7 +2192,7 @@ libssl1.1:i386
 libssl3t64:amd64
 libstartup-notification0:amd64
 libstd-rust-1.58:amd64
-libstd-rust-1.70:amd64
+libstd-rust-1.71:amd64
 libstd-rust-dev:amd64
 libstdc++-11-dev:amd64
 libstdc++-13-dev:amd64
@@ -2200,6 +2206,7 @@ libsub-identify-perl
 libsub-install-perl
 libsub-name-perl:amd64
 libsub-override-perl
+libsub-prototype-perl
 libsub-quote-perl
 libsuperlu5:amd64
 libsuperlu6:amd64
@@ -2211,6 +2218,7 @@ libswscale5:amd64
 libswscale7:amd64
 libsynctex2:amd64
 libsys-hostname-long-perl
+libsysprof-capture-4-dev:amd64
 libsystemd-shared:amd64
 libsystemd0:amd64
 libsystemd0:i386
@@ -2290,7 +2298,7 @@ libudev1:i386
 libudfread0:amd64
 libudisks2-0:amd64
 libunbound8:amd64
-libunibreak5:amd64
+libunibreak6:amd64
 libunicode-escape-perl
 libunicode-linebreak-perl
 libunicode-map-perl
@@ -2352,7 +2360,7 @@ libvpl2
 libvpx6:amd64
 libvpx6:i386
 libvpx7:amd64
-libvpx8:amd64
+libvpx9:amd64
 libvte-2.91-0:amd64
 libvte-2.91-common
 libvulkan1:amd64
@@ -2384,6 +2392,7 @@ libwine:amd64
 libwine-development:amd64
 libwinpr2-2t64:amd64
 libwireplumber-0.4-0:amd64
+libwireplumber-0.5-0:amd64
 libwlroots11:amd64
 libwmf-0.2-7:amd64
 libwmf-bin
@@ -2600,8 +2609,8 @@ linux-headers-6.5.8-msi+
 linux-headers-6.5.9-msi+
 linux-headers-6.7.12-amd64
 linux-headers-6.7.12-common
-linux-headers-6.7.9-amd64
-linux-headers-6.7.9-common
+linux-headers-6.8.9-amd64
+linux-headers-6.8.9-common
 linux-headers-amd64
 linux-image-6.1.0-5-amd64
 linux-image-6.5.8-msi+
@@ -2609,11 +2618,13 @@ linux-image-6.5.9-msi+
 linux-image-6.5.9-msi+-dbg
 linux-image-6.7.12-amd64
 linux-image-6.7.9-amd64
+linux-image-6.8.9-amd64
 linux-image-amd64
 linux-kbuild-6.1
 linux-kbuild-6.7.12
-linux-kbuild-6.7.9
+linux-kbuild-6.8.9
 linux-libc-dev
+lld-16
 llvm-13
 llvm-13-dev
 llvm-13-linker-tools
@@ -3079,6 +3090,7 @@ ruby3.1-dev:amd64
 ruby3.1-doc
 rubygems-integration
 runit-helper
+rust-llvm
 rustc
 rustdesk
 rygel
@@ -3130,7 +3142,6 @@ system-config-printer-common
 system-config-printer-udev
 system-tools-backends
 systemd
-systemd-dev
 systemd-sysv
 systemd-timesyncd
 sysvinit-utils
