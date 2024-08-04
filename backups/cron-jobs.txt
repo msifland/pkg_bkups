@@ -39,7 +39,7 @@
 15 3 1 * * /home/msifland/scripts/cron_scripts/rust_desk-updater-run
 
 # Build a new OSM map for my Garmin on the first day of every month.
-#02 4 2 * * /home/msifland/scripts/cron_scripts/map-my-builder-run
+02 4 2 * * /home/msifland/scripts/cron_scripts/map-my-builder-run
 
 # Update ble.sh(bash syntax highlighting) every week
 30 0 * * 2 /home/msifland/scripts/cron_scripts/blesh-update-run
