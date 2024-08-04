@@ -113,6 +113,7 @@ clamav
 clamav-base
 clamav-freshclam
 clang-16
+clang-17
 clinfo
 cmake
 cmake-data
@@ -776,10 +777,14 @@ libcjson1:amd64
 libclamav11t64:amd64
 libclamav9:amd64
 libclang-common-16-dev
+libclang-common-17-dev:amd64
 libclang-cpp13
 libclang-cpp16t64
+libclang-cpp17t64
 libclang-rt-16-dev:amd64
+libclang-rt-17-dev:amd64
 libclang1-16t64
+libclang1-17t64
 libclass-c3-perl
 libclass-c3-xs-perl
 libclass-data-inheritable-perl
@@ -1028,7 +1033,6 @@ libgcrypt20:amd64
 libgcrypt20:i386
 libgd3:amd64
 libgdal31
-libgdal34t64:amd64
 libgdal35:amd64
 libgdata-common
 libgdata22:amd64
@@ -1435,6 +1439,7 @@ libmpcdec6:amd64
 libmpdec3:amd64
 libmpeg2-4:amd64
 libmpeg2encpp-2.1-0t64:amd64
+libmpfi0:amd64
 libmpfr6:amd64
 libmpg123-0t64:amd64
 libmplex2-2.1-0t64:amd64
@@ -2192,7 +2197,7 @@ libssl1.1:i386
 libssl3t64:amd64
 libstartup-notification0:amd64
 libstd-rust-1.58:amd64
-libstd-rust-1.71:amd64
+libstd-rust-1.73:amd64
 libstd-rust-dev:amd64
 libstdc++-11-dev:amd64
 libstdc++-13-dev:amd64
@@ -2609,8 +2614,8 @@ linux-headers-6.5.8-msi+
 linux-headers-6.5.9-msi+
 linux-headers-6.7.12-amd64
 linux-headers-6.7.12-common
-linux-headers-6.8.9-amd64
-linux-headers-6.8.9-common
+linux-headers-6.8.11-amd64
+linux-headers-6.8.11-common
 linux-headers-amd64
 linux-image-6.1.0-5-amd64
 linux-image-6.5.8-msi+
@@ -2618,13 +2623,14 @@ linux-image-6.5.9-msi+
 linux-image-6.5.9-msi+-dbg
 linux-image-6.7.12-amd64
 linux-image-6.7.9-amd64
+linux-image-6.8.11-amd64
 linux-image-6.8.9-amd64
 linux-image-amd64
 linux-kbuild-6.1
 linux-kbuild-6.7.12
-linux-kbuild-6.8.9
+linux-kbuild-6.8.11
 linux-libc-dev
-lld-16
+lld-17
 llvm-13
 llvm-13-dev
 llvm-13-linker-tools
@@ -2635,6 +2641,11 @@ llvm-16-dev
 llvm-16-linker-tools
 llvm-16-runtime
 llvm-16-tools
+llvm-17
+llvm-17-dev
+llvm-17-linker-tools
+llvm-17-runtime
+llvm-17-tools
 lm-sensors
 lmodern
 locales
