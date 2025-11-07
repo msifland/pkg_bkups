@@ -388,10 +388,17 @@ function dirs(){
 
 function rec-key(){
 	if [[ ! -z $1 ]] && [[ ! -z $2 ]]; then
+<<<<<<< HEAD
 	sudo gpg --no-default-keyring --keyring /etc/apt/keyrings/"$1-archive-keyring.gpg" --keyserver https://pgp.mit.edu/ --recv-keys $2
 	sleep 1
 	echo
 	echo "${ILCOLOR4}[Signed-By: /etc/apt/keyrings/$1-archive-keyring.gpg] <<--- Add this to /etc/apt/sources.d/<sources.file> as the last line.\"${ILRESTORE}"
+=======
+	sudo gpg --no-default-keyring --keyring /usr/share/keyrings/"$1-archive-keyring.gpg" --keyserver https://pgp.mit.edu/ --recv-keys $2
+	sleep 1
+	echo
+	echo "${ILCOLOR4}[signed-by=/usr/share/keyrings/$1-archive-keyring.gpg] <<--- Add this to /etc/apt/sources, after \"deb & deb-src\" or after \"deb [arch=amd64,[SPACE] \"${ILRESTORE}"
+>>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 	#sleep 5
 	#caja /etc/apt/
 	else
