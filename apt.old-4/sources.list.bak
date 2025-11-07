@@ -35,8 +35,6 @@ deb-src http://deb.debian.org/debian/ stable-updates main contrib non-free non-f
 deb http://security.debian.org/debian-security/ stable-security main contrib non-free non-free-firmware
 deb-src http://security.debian.org/debian-security/ stable-security main contrib non-free non-free-firmware
 
-deb http://ftp.debian.org/debian/ bullseye-backports main
-deb-src http://ftp.debian.org/debian/ bullseye-backports main
 #------------------------------------------------------------------------------#
 #                      UNOFFICIAL  REPOS                       
 #------------------------------------------------------------------------------#
@@ -44,9 +42,6 @@ deb-src http://ftp.debian.org/debian/ bullseye-backports main
 ###Kali linux repos(for hacking tools)
 deb [signed-by=/usr/share/keyrings/kali-archive-keyring.gpg] http://http.kali.org/kali/ kali-rolling main non-free contrib
 deb-src [signed-by=/usr/share/keyrings/kali-archive-keyring.gpg] http://http.kali.org/kali/ kali-rolling main non-free contrib
-
-###Sublime Text
-deb [signed-by=/usr/share/keyrings/sublime-text-archive-keyring.gpg] https://download.sublimetext.com/ apt/stable/
 
 ###Adapta GTK Theme
 deb [signed-by=/usr/share/keyrings/gtk_theme-archive-keyring.gpg] http://ppa.launchpad.net/tista/adapta/ubuntu/ bionic main

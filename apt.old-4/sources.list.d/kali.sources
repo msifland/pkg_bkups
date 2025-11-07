@@ -2,5 +2,5 @@
 Types: deb deb-src
 URIs: http://http.kali.org/kali/
 Suites: kali-rolling
-Components: main contrib non-free non-free-firmware
-Signed-By: /etc/apt/keyrings/kali-archive-keyring.gpg
+Components: main non-free contrib
+Signed-By: /usr/share/keyrings/kali-archive-keyring.gpg
