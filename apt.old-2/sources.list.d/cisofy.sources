@@ -1,6 +1,0 @@
-# Modernized from /etc/apt/sources.list
-Types: deb
-URIs: https://packages.cisofy.com/community/lynis/deb/
-Suites: stable
-Components: main
-Signed-By: /usr/share/keyrings/lynis-archive-keyring.gpg

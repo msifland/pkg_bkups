@@ -209,6 +209,7 @@ dosfstools
 dpkg
 dpkg-dev
 dracut-install
+dropbox
 dtach
 dvipng
 dvisvgm
@@ -392,9 +393,11 @@ gir1.2-ggit-1.0:amd64
 gir1.2-girepository-2.0:amd64
 gir1.2-glib-2.0:amd64
 gir1.2-glib-2.0-dev:amd64
+gir1.2-graphene-1.0:amd64
 gir1.2-gst-plugins-base-1.0:amd64
 gir1.2-gstreamer-1.0:amd64
 gir1.2-gtk-3.0:amd64
+gir1.2-gtk-4.0:amd64
 gir1.2-gtksource-300:amd64
 gir1.2-gtksource-4:amd64
 gir1.2-gucharmap-2.90:amd64
@@ -637,7 +640,7 @@ libargon2-1:amd64
 libaribb24-0t64:amd64
 libarmadillo10
 libarmadillo11
-libarmadillo14
+libarmadillo15
 libarpack2t64:amd64
 libasan5:amd64
 libasan6:amd64
@@ -1801,7 +1804,11 @@ libqt5network5t64:amd64
 libqt5printsupport5t64:amd64
 libqt5qml5:amd64
 libqt5qmlmodels5:amd64
+libqt5qmlworkerscript5:amd64
 libqt5quick5-gles:amd64
+libqt5quickcontrols2-5:amd64
+libqt5quicktemplates2-5:amd64
+libqt5quickwidgets5:amd64
 libqt5sql5-mysql:amd64
 libqt5sql5-sqlite:amd64
 libqt5sql5t64:amd64
@@ -2329,6 +2336,7 @@ libsub-override-perl
 libsub-quote-perl
 libsuperlu5:amd64
 libsuperlu6:amd64
+libsuperlu7:amd64
 libsvn1:amd64
 libsvtav1enc2:amd64
 libswresample3:amd64
@@ -2415,7 +2423,6 @@ libtss2-tcti-swtpm0t64:amd64
 libturbojpeg0:amd64
 libtwolame0:amd64
 libtypes-serialiser-perl
-libu2f-udev
 libubsan1:amd64
 libuchardet0:amd64
 libudev-dev:amd64
@@ -2877,6 +2884,7 @@ materia-kde
 mawk
 mdadm
 media-types
+megasync
 mesa-libgallium:amd64
 mesa-libgallium:i386
 mesa-utils
@@ -3218,6 +3226,19 @@ python3.13-dev
 python3.13-minimal
 python3.9
 python3.9-minimal
+qml-module-qt-labs-folderlistmodel:amd64
+qml-module-qt-labs-settings:amd64
+qml-module-qtgraphicaleffects:amd64
+qml-module-qtqml:amd64
+qml-module-qtqml-models2:amd64
+qml-module-qtquick-controls:amd64
+qml-module-qtquick-controls2:amd64
+qml-module-qtquick-dialogs:amd64
+qml-module-qtquick-layouts:amd64
+qml-module-qtquick-privatewidgets:amd64
+qml-module-qtquick-templates2:amd64
+qml-module-qtquick-window2:amd64
+qml-module-qtquick2:amd64
 qml6-module-qtqml:amd64
 qml6-module-qtqml-models:amd64
 qml6-module-qtqml-workerscript:amd64

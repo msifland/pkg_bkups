@@ -1,6 +1,0 @@
-# Modernized from /etc/apt/sources.list
-Types: deb
-URIs: http://mega.nz/linux/MEGAsync/Debian_9.0/
-Suites: ./
-Components: 
-Signed-By: /usr/share/keyrings/megasync-archive-keyring.gpg
