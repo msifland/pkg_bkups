@@ -1,0 +1,6 @@
+# Modernized from /etc/apt/sources.list
+Types: deb deb-src
+URIs: http://apt.llvm.org/unstable/
+Suites: llvm-toolchain
+Components: main
+Signed-By: /usr/share/keyrings/llvm_toolchain-archive-keyring.gpg

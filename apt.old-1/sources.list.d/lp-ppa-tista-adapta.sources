@@ -1,0 +1,6 @@
+# Modernized from /etc/apt/sources.list
+Types: deb deb-src
+URIs: http://ppa.launchpad.net/tista/adapta/ubuntu/
+Suites: bionic
+Components: main
+Signed-By: /usr/share/keyrings/gtk_theme-archive-keyring.gpg

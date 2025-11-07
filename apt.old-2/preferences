@@ -9,7 +9,7 @@ Pin-Priority: 50
 
 Package: *
 Pin: release a=unstable
-Pin-Priority: 1001
+Pin-Priority: 999
 
 Package: *
 Pin: release a=stable
@@ -18,3 +18,11 @@ Pin-Priority: 40
 Package: *
 Pin: release a=kali-rolling
 Pin-Priority: 10
+
+Package: linux-image-amd64
+Pin: release a=kali-rolling
+Pin-Priority: 1001
+
+Package: linux-headers-amd64
+Pin: release a=kali-rolling
+Pin-Priority: 1001
