@@ -43,11 +43,7 @@ Unattended-Upgrade::Origins-Pattern {
 //      "o=Debian,a=stable";
 //      "o=Debian,a=stable-updates";
 //      "o=Debian,a=proposed-updates";
-<<<<<<< HEAD
 //      "o=Debian Backports,a=stable-backports,l=Debian Backports";
-=======
-//      "o=Debian Backports,a=${distro_codename}-backports,l=Debian Backports";
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 };
 
 // Python regular expressions, matching packages to exclude from upgrading
@@ -80,11 +76,7 @@ Unattended-Upgrade::Package-Blacklist {
 
 // Split the upgrade into the smallest possible chunks so that
 // they can be interrupted with SIGTERM. This makes the upgrade
-<<<<<<< HEAD
 // a bit slower but it has the benefit that shutdown while an upgrade
-=======
-// a bit slower but it has the benefit that shutdown while a upgrade
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 // is running is possible (with a small delay)
 //Unattended-Upgrade::MinimalSteps "true";
 

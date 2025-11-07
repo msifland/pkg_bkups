@@ -637,11 +637,8 @@ keyboard-configuration
 klibc-utils
 kmod
 krb5-locales
-<<<<<<< HEAD
-=======
 kwayland-data
 kwayland-integration:amd64
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 laptop-detect
 less
 lib32asan5
@@ -680,7 +677,11 @@ libaec0:amd64
 libalglib3.18:amd64
 libalgorithm-c3-perl
 libalgorithm-diff-perl
+<<<<<<< HEAD
+libalgorithm-diff-xs-perl
+=======
 libalgorithm-diff-xs-perl:amd64
+>>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 libalgorithm-merge-perl
 libann0
 libao-common
@@ -1541,10 +1542,6 @@ libinput10:amd64
 libinstpatch-1.0-2:amd64
 libio-compress-brotli-perl
 libio-html-perl
-<<<<<<< HEAD
-libio-pty-perl
-=======
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 libio-socket-ssl-perl
 libio-string-perl
 libio-stringy-perl
@@ -1908,10 +1905,7 @@ libnss3:i386
 libntfs-3g89t64:amd64
 libnuma-dev:amd64
 libnuma1:amd64
-<<<<<<< HEAD
-=======
 libnumber-compare-perl
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 libnumbertext-1.0-0:amd64
 libnumbertext-data
 libnvidia-egl-wayland1:amd64
@@ -2129,7 +2123,10 @@ libproxy1v5:amd64
 libpsl5t64:amd64
 libptexenc1:amd64
 libpthread-stubs0-dev:amd64
+<<<<<<< HEAD
 libpthreadpool0:amd64
+=======
+>>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 libpulse-mainloop-glib0:amd64
 libpulse0:amd64
 libpulsedsp:amd64
@@ -2850,10 +2847,7 @@ libsidplayfp5:amd64
 libsigc++-2.0-0v5:amd64
 libsigc++-3.0-0:amd64
 libsigsegv2:amd64
-<<<<<<< HEAD
 libsimdutf27
-=======
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 libslang2:amd64
 libslang2-dev:amd64
 libsm-dev:amd64
@@ -2899,7 +2893,11 @@ libsratom-0-0:amd64
 libsrt1.4-gnutls:amd64
 libsrt1.5-gnutls:amd64
 libsrtp2-1:amd64
+<<<<<<< HEAD
+libss2:amd64
+=======
 libss2t64:amd64
+>>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 libssh-4:amd64
 libssh-gcrypt-4:amd64
 libssh2-1t64:amd64
@@ -2993,14 +2991,11 @@ libthai-data
 libthai-dev:amd64
 libthai0:amd64
 libtheora0:amd64
-<<<<<<< HEAD
 libtheora1:amd64
 libtheoradec1:amd64
 libtheoradec2:amd64
 libtheoraenc1:amd64
 libtheoraenc2:amd64
-=======
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 libtie-ixhash-perl
 libtiff-dev:amd64
 libtiff5:amd64
@@ -3193,10 +3188,7 @@ libwnck-3-common
 libwoff1:amd64
 libwrap0:amd64
 libwrap0-dev:amd64
-<<<<<<< HEAD
 libwtmpdb0:amd64
-=======
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 libwww-perl
 libwww-robotrules-perl
 libwxbase3.0-0v5:amd64
@@ -3441,38 +3433,28 @@ linux-compiler-gcc-11-x86
 linux-compiler-gcc-12-x86
 linux-headers-6.1.0-5-amd64
 linux-headers-6.1.0-5-common
-<<<<<<< HEAD
 linux-headers-6.7.12-amd64
 linux-headers-6.7.12-common
 linux-headers-6.8.11-amd64
 linux-headers-6.8.11-common
 linux-image-6.1.0-5-amd64
 linux-image-6.7.12-amd64
+<<<<<<< HEAD
 linux-image-6.8.11-amd64
+=======
+linux-image-6.7.9-amd64
+linux-image-6.8.11-amd64
+linux-image-6.8.9-amd64
+>>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 linux-kbuild-6.1
 linux-kbuild-6.7.12
 linux-kbuild-6.8.11
 linux-libc-dev
 linux-sysctl-defaults
+<<<<<<< HEAD
 lld-19
 llvm
 =======
-linux-headers-6.5.8-msi+
-linux-headers-6.5.9-msi+
-linux-headers-6.7.12-amd64
-linux-headers-6.7.12-common
-linux-image-6.1.0-5-amd64
-linux-image-6.10.3-msi+-dbg
-linux-image-6.5.8-msi+
-linux-image-6.5.9-msi+
-linux-image-6.5.9-msi+-dbg
-linux-image-6.7.12-amd64
-linux-image-6.7.9-amd64
-linux-image-6.8.9-amd64
-linux-kbuild-6.1
-linux-kbuild-6.7.12
-linux-libc-dev
-linux-sysctl-defaults
 lld-17
 >>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 llvm-13
@@ -3928,15 +3910,12 @@ python3-oauthlib
 python3-olefile
 python3-openssl
 python3-packaging
-<<<<<<< HEAD
-python3-pexpect
-python3-pil:amd64
-python3-pkg-resources
-=======
 python3-pathspec
 python3-pexpect
 python3-pil:amd64
 python3-pkg-resources
+<<<<<<< HEAD
+=======
 python3-pluggy
 >>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 python3-protobuf
@@ -4142,7 +4121,10 @@ spice-client-glib-usb-acl-helper
 spotify-client
 sqlitebrowser
 squashfs-tools
+<<<<<<< HEAD
 sqv
+=======
+>>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 ssh-askpass
 ssl-cert
 steam-devices

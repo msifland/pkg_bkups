@@ -1,5 +1,0 @@
-Types: deb
-URIs: http://dl.google.com/linux/chrome-remote-desktop/deb/
-Suites: stable
-Components: main
-Signed-By: /etc/apt/trusted.gpg.d/chrome-remote-desktop.gpg

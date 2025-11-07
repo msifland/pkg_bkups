@@ -31,10 +31,7 @@ Unattended-Upgrade::Origins-Pattern {
         "origin=Debian,codename=${distro_codename},label=Debian";
         "origin=Debian,codename=${distro_codename},label=Debian-Security";
         "origin=Debian,codename=${distro_codename}-security,label=Debian-Security";
-<<<<<<< HEAD
 //      "o=Debian Backports,n=${distro_codename}-backports,l=Debian Backports";
-=======
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 
         // Archive or Suite based matching:
         // Note that this will silently match a different release after

@@ -17,10 +17,6 @@ apache2-doc
 apache2-utils
 apparmor
 appmenu-gtk-module-common
-<<<<<<< HEAD
-=======
-appmenu-gtk2-module:amd64
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 appmenu-gtk3-module:amd64
 appmenu-registrar
 appstream
@@ -98,10 +94,6 @@ caja-gtkhash
 caja-image-converter
 caja-open-terminal
 caja-rename
-<<<<<<< HEAD
-=======
-caja-seahorse
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 caja-sendto
 caja-wallpaper
 calendar
@@ -599,22 +591,17 @@ ienglish-common
 ifupdown
 iio-sensor-proxy
 imagemagick
-<<<<<<< HEAD
 imagemagick-6.q16
+<<<<<<< HEAD
 imagemagick-7-common
 imagemagick-7.q16
 =======
-imagemagick-6-common
-imagemagick-6.q16
 >>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 inetutils-telnet
 init
 init-system-helpers
 initramfs-tools
-<<<<<<< HEAD
 initramfs-tools-bin
-=======
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 initramfs-tools-core
 install-info
 installation-report
@@ -693,11 +680,7 @@ libaec0:amd64
 libalglib3.18:amd64
 libalgorithm-c3-perl
 libalgorithm-diff-perl
-<<<<<<< HEAD
-libalgorithm-diff-xs-perl
-=======
 libalgorithm-diff-xs-perl:amd64
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 libalgorithm-merge-perl
 libann0
 libao-common
@@ -742,11 +725,7 @@ libasound2-plugins:amd64
 libasound2t64:amd64
 libaspell15:amd64
 libass9:amd64
-<<<<<<< HEAD
 libassuan9:amd64
-=======
-libassuan0:amd64
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 libasyncns0:amd64
 libatasmart4:amd64
 libatinject-jsr330-api-java
@@ -1102,10 +1081,7 @@ libdrm-intel1:amd64
 libdrm-intel1:i386
 libdrm-nouveau2:amd64
 libdrm-radeon1:amd64
-<<<<<<< HEAD
-=======
 libdrm-radeon1:i386
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 libdrm2:amd64
 libdrm2:i386
 libduktape207:amd64
@@ -1201,10 +1177,7 @@ libfido2-1:amd64
 libfile-basedir-perl
 libfile-desktopentry-perl
 libfile-fcntllock-perl
-<<<<<<< HEAD
-=======
 libfile-find-rule-perl
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 libfile-homedir-perl
 libfile-listing-perl
 libfile-mimeinfo-perl
@@ -2156,10 +2129,7 @@ libproxy1v5:amd64
 libpsl5t64:amd64
 libptexenc1:amd64
 libpthread-stubs0-dev:amd64
-<<<<<<< HEAD
 libpthreadpool0:amd64
-=======
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 libpulse-mainloop-glib0:amd64
 libpulse0:amd64
 libpulsedsp:amd64
@@ -2913,10 +2883,7 @@ libspatialite7:amd64
 libspatialite8t64:amd64
 libspecio-perl
 libspectre1:amd64
-<<<<<<< HEAD
 libspeechd-module0:amd64
-=======
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 libspeechd2:amd64
 libspeex1:amd64
 libspeexdsp1:amd64
@@ -2932,11 +2899,7 @@ libsratom-0-0:amd64
 libsrt1.4-gnutls:amd64
 libsrt1.5-gnutls:amd64
 libsrtp2-1:amd64
-<<<<<<< HEAD
-libss2:amd64
-=======
 libss2t64:amd64
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 libssh-4:amd64
 libssh-gcrypt-4:amd64
 libssh2-1t64:amd64
@@ -3073,10 +3036,7 @@ libtracefs-dev:amd64
 libtracefs1:amd64
 libtracker-sparql-3.0-0:amd64
 libtry-tiny-perl
-<<<<<<< HEAD
 libts0t64:amd64
-=======
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 libtsan0:amd64
 libtsan2:amd64
 libtspi1
@@ -3192,14 +3152,12 @@ libwayland-cursor0:amd64
 libwayland-dev:amd64
 libwayland-egl1:amd64
 libwayland-server0:amd64
-<<<<<<< HEAD
-libwbclient0:amd64
-libwebkit2gtk-4.1-0:amd64
-libwebkitgtk-6.0-4:amd64
-=======
 libwayland-server0:i386
 libwbclient0:amd64
 libwebkit2gtk-4.1-0:amd64
+<<<<<<< HEAD
+libwebkitgtk-6.0-4:amd64
+=======
 >>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 libwebp-dev:amd64
 libwebp6:amd64
@@ -3413,10 +3371,7 @@ libxmu-dev:amd64
 libxmu-headers
 libxmu6:amd64
 libxmuu1:amd64
-<<<<<<< HEAD
 libxnnpack0.20241108:amd64
-=======
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 libxnvctrl0:amd64
 libxpm4:amd64
 libxpp3-java
@@ -3502,13 +3457,11 @@ linux-sysctl-defaults
 lld-19
 llvm
 =======
-linux-headers-6.10.3-msi+
 linux-headers-6.5.8-msi+
 linux-headers-6.5.9-msi+
 linux-headers-6.7.12-amd64
 linux-headers-6.7.12-common
 linux-image-6.1.0-5-amd64
-linux-image-6.10.3-msi+
 linux-image-6.10.3-msi+-dbg
 linux-image-6.5.8-msi+
 linux-image-6.5.9-msi+
@@ -4160,10 +4113,7 @@ sddm
 sddm-theme-debian-maui
 seahorse
 seahorse-daemon
-<<<<<<< HEAD
 seatd
-=======
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 sed
 sensible-utils
 sgml-base
@@ -4192,10 +4142,7 @@ spice-client-glib-usb-acl-helper
 spotify-client
 sqlitebrowser
 squashfs-tools
-<<<<<<< HEAD
 sqv
-=======
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 ssh-askpass
 ssl-cert
 steam-devices

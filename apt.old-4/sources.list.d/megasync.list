@@ -1,1 +1,5 @@
+<<<<<<< HEAD
+deb [signed-by=/usr/share/keyrings/meganz-archive-keyring.gpg] https://mega.nz/linux/repo/Debian_13/ ./
+=======
 deb [signed-by=/usr/share/keyrings/meganz-archive-keyring.gpg] https://mega.nz/linux/repo/Debian_11/ ./
+>>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029

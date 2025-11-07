@@ -791,10 +791,6 @@ libavdevice61:amd64
 libavfilter10:amd64
 libavfilter7:amd64
 libavformat58:amd64
-<<<<<<< HEAD
-=======
-libavformat60:amd64
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 libavformat61:amd64
 libavif-gdk-pixbuf:amd64
 libavif16:amd64
@@ -809,11 +805,8 @@ libb-hooks-endofscope-perl
 libb-hooks-op-check-perl:amd64
 libb2-1:amd64
 libb64-0d:amd64
-<<<<<<< HEAD
 libbabeltrace-dev:amd64
 libbabeltrace1:amd64
-=======
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 libbamf3-2t64:amd64
 libbdplus0:amd64
 libbibtex-parser-perl
@@ -1717,7 +1710,8 @@ libllvm19:i386
 libllvm14:amd64
 libllvm16t64:amd64
 libllvm17t64:amd64
-libllvm17t64:i386
+libllvm18:amd64
+libllvm18:i386
 >>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 liblmdb0:amd64
 liblocale-gettext-perl
@@ -2133,19 +2127,15 @@ libpoppler-glib8t64:amd64
 libpoppler123:amd64
 libpoppler147:amd64
 =======
-libpoppler-cpp0t64:amd64
+libpoppler-cpp1:amd64
 libpoppler-glib8t64:amd64
 libpoppler123:amd64
-libpoppler134:amd64
+libpoppler140:amd64
 >>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 libpopt0:amd64
 libportal-gtk3-1:amd64
 libportal1:amd64
 libpostproc55:amd64
-<<<<<<< HEAD
-=======
-libpostproc57:amd64
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 libpostproc58:amd64
 libpotrace0:amd64
 libpq5:amd64
@@ -2535,6 +2525,7 @@ librust-indexmap-dev:amd64
 librust-is-terminal-dev:amd64
 librust-itertools-dev:amd64
 librust-itoa-dev:amd64
+librust-jobserver-dev:amd64
 librust-jpeg-decoder-dev:amd64
 librust-js-sys-dev:amd64
 librust-kv-log-macro-dev
@@ -2580,8 +2571,6 @@ librust-mio-dev:amd64
 librust-no-panic-dev:amd64
 librust-num-bigint-dev:amd64
 librust-num-cpus-dev:amd64
-librust-num-integer+i128-dev:amd64
-librust-num-integer+std-dev:amd64
 librust-num-integer-dev:amd64
 librust-num-rational-dev:amd64
 >>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
@@ -2691,12 +2680,11 @@ librust-serde-json-dev:amd64
 librust-serde-test-dev:amd64
 librust-sha1-asm-dev:amd64
 librust-sha1-dev:amd64
-<<<<<<< HEAD
 librust-shlex-dev:amd64
 librust-signal-hook-registry-dev:amd64
+<<<<<<< HEAD
 librust-simd-adler32-dev:amd64
 =======
-librust-signal-hook-registry-dev:amd64
 >>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 librust-simdutf8-dev:amd64
 librust-siphasher-dev:amd64
@@ -2795,7 +2783,6 @@ librust-winapi-x86-64-pc-windows-gnu-dev:amd64
 librust-vcpkg-dev:amd64
 librust-version-check-dev:amd64
 librust-version-compare-dev:amd64
-librust-waker-fn-dev:amd64
 librust-walkdir-dev:amd64
 librust-wasm-bindgen+default-dev:amd64
 librust-wasm-bindgen+spans-dev:amd64
@@ -2938,10 +2925,7 @@ libspice-client-glib-2.0-8:amd64
 libspice-client-gtk-3.0-5:amd64
 libspreadsheet-parseexcel-perl
 libspreadsheet-writeexcel-perl
-<<<<<<< HEAD
 libsqlcipher1:amd64
-=======
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 libsqlite3-0:amd64
 libsqlite3-0:i386
 libsratom-0-0:amd64
@@ -3518,11 +3502,14 @@ linux-sysctl-defaults
 lld-19
 llvm
 =======
+linux-headers-6.10.3-msi+
 linux-headers-6.5.8-msi+
 linux-headers-6.5.9-msi+
 linux-headers-6.7.12-amd64
 linux-headers-6.7.12-common
 linux-image-6.1.0-5-amd64
+linux-image-6.10.3-msi+
+linux-image-6.10.3-msi+-dbg
 linux-image-6.5.8-msi+
 linux-image-6.5.9-msi+
 linux-image-6.5.9-msi+-dbg
@@ -3563,10 +3550,7 @@ lm-sensors
 lmodern
 locales
 login
-<<<<<<< HEAD
 login.defs
-=======
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 logrotate
 logsave
 lsb-base
@@ -3662,10 +3646,10 @@ mdadm
 media-types
 <<<<<<< HEAD
 megasync
-mesa-libgallium:amd64
-mesa-libgallium:i386
 =======
 >>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
+mesa-libgallium:amd64
+mesa-libgallium:i386
 mesa-utils
 mesa-utils-bin:amd64
 mesa-va-drivers:amd64
@@ -3772,10 +3756,7 @@ openssh-client
 openssh-server
 openssh-sftp-server
 openssl
-<<<<<<< HEAD
 openssl-provider-legacy
-=======
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 openvpn
 orca
 os-prober
@@ -3785,14 +3766,12 @@ osmium-tool
 p11-kit
 p11-kit-modules:amd64
 <<<<<<< HEAD
+=======
+p7zip
+>>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 packagekit
 packagekit-tools
 pahole
-=======
-p7zip
-packagekit
-packagekit-tools
->>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 papirus-icon-theme
 parted
 passwd
@@ -3902,6 +3881,7 @@ python3-babel
 python3-bcrypt
 =======
 python3-attr
+python3-autocommand
 python3-babel
 >>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 python3-blinker
@@ -3927,6 +3907,7 @@ python3-dateutil
 =======
 python3-cups:amd64
 python3-cupshelpers
+python3-dacite
 >>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 python3-dbus
 python3-debconf
@@ -3958,13 +3939,15 @@ python3-httplib2
 python3-idna
 python3-imagesize
 python3-importlib-metadata
-<<<<<<< HEAD
 python3-inflect
+<<<<<<< HEAD
 python3-isoduration
 python3-jaraco.context
 python3-jaraco.functools
 python3-jaraco.text
 =======
+python3-jaraco.context
+python3-jaraco.functools
 >>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 python3-jinja2
 python3-json-pointer
@@ -4057,6 +4040,7 @@ python3-typeguard
 python3-typeshed
 =======
 python3-trove-classifiers
+python3-typeguard
 >>>>>>> 67dff75d1e9bd66c7cef6260eb5225eec8d55029
 python3-typing-extensions
 python3-tz
