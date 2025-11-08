@@ -578,6 +578,8 @@ john-data
 jq
 jshon
 kali-archive-keyring
+kali-defaults
+kali-tweaks
 kazam
 kbd
 kbuild
@@ -1052,6 +1054,7 @@ libfribidi-dev:amd64
 libfribidi0:amd64
 libfstrm0:amd64
 libftdi1-2:amd64
+libfuse2t64:amd64
 libfuse3-4:amd64
 libfwupd2:amd64
 libfwupd3:amd64
@@ -1611,7 +1614,6 @@ libnvidia-tesla-470-ptxjitcompiler1:i386
 libnvidia-tesla-470-rtcore:amd64
 libnvme1t64
 libobjc-13-dev:amd64
-libobjc-14-dev:amd64
 libobjc-15-dev:amd64
 libobjc4:amd64
 libodbc2:amd64
@@ -2321,7 +2323,6 @@ libstd-rust-1.90:amd64
 libstd-rust-dev:amd64
 libstdc++-11-dev:amd64
 libstdc++-13-dev:amd64
-libstdc++-14-dev:amd64
 libstdc++-15-dev:amd64
 libstdc++6:amd64
 libstdc++6:i386
@@ -3155,6 +3156,7 @@ python3-markupsafe
 python3-minimal
 python3-more-itertools
 python3-natsort
+python3-newt:amd64
 python3-nftables
 python3-numpy
 python3-numpy-dev:amd64
@@ -3491,6 +3493,8 @@ xmlto
 xorg
 xorg-docs-core
 xorg-sgml-doctools
+xorgxrdp
+xrdp
 xscreensaver
 xscreensaver-data
 xscreensaver-data-extra

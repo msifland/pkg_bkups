@@ -1,4 +1,4 @@
-# Modernized from /etc/apt/sources.list
+###Kali linux repos(for hacking tools)
 Types: deb deb-src
 URIs: http://http.kali.org/kali/
 Suites: kali-rolling
