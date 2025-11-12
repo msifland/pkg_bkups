@@ -10,6 +10,7 @@ alsa-utils
 amd64-microcode
 anacron
 analog
+anydesk
 apache2
 apache2-bin
 apache2-data
@@ -101,6 +102,7 @@ caja-wallpaper
 calendar
 cargo
 caribou
+catdoc
 cdrdao
 cheese
 cheese-common
@@ -109,6 +111,7 @@ chromium
 chromium-common
 chromium-sandbox
 cinnamon-desktop-data
+cinnamon-l10n
 clamav
 clamav-base
 clamav-freshclam
@@ -230,6 +233,7 @@ espeak-ng-data:amd64
 ethtool
 evolution-data-server-common
 exfatprogs
+exif
 fakeroot
 fdisk
 ffmpeg
@@ -433,6 +437,7 @@ gir1.2-webkit2-4.1:amd64
 gir1.2-wnck-3.0:amd64
 gir1.2-xapp-1.0
 gir1.2-xfconf-0:amd64
+gir1.2-xmlb-2.0:amd64
 girepository-tools:amd64
 git
 git-man
@@ -452,6 +457,7 @@ gmt-gshhg-high
 gmt-gshhg-low
 gnome-accessibility-themes
 gnome-desktop3-data
+gnome-disk-utility
 gnome-icon-theme
 gnome-keyring
 gnome-keyring-pkcs11:amd64
@@ -530,6 +536,7 @@ heif-thumbnailer
 hicolor-icon-theme
 hostname
 hplip-data
+html2text
 htop
 hugo
 hunspell-en-us
@@ -545,6 +552,7 @@ iamerican
 ibritish
 icoutils
 icu-devtools
+id3
 ieee-data
 ienglish-common
 ifupdown
@@ -934,6 +942,7 @@ libdigest-hmac-perl
 libdigest-perl-md5-perl
 libdiscover2
 libdisplay-info2:amd64
+libdisplay-info3:amd64
 libdist-checkconflicts-perl
 libdjvulibre-text
 libdjvulibre21:amd64
@@ -1044,6 +1053,12 @@ libflashrom1:amd64
 libflite1:amd64
 libfluidsynth2:amd64
 libfluidsynth3:amd64
+libfm-data
+libfm-extra4t64:amd64
+libfm-gtk-data
+libfm-gtk3-4t64:amd64
+libfm-modules:amd64
+libfm4t64:amd64
 libfont-afm-perl
 libfontbox-java
 libfontconfig-dev:amd64
@@ -1099,7 +1114,7 @@ libgcrypt20:amd64
 libgcrypt20:i386
 libgd3:amd64
 libgdal31
-libgdal37:amd64
+libgdal38:amd64
 libgdbm-compat4t64:amd64
 libgdbm5:amd64
 libgdbm6t64:amd64
@@ -1320,13 +1335,11 @@ libinput10:amd64
 libinstpatch-1.0-2:amd64
 libio-compress-brotli-perl
 libio-html-perl
-libio-pty-perl
 libio-socket-ssl-perl
 libio-string-perl
 libio-stringy-perl
 libip4tc2:amd64
 libip6tc2:amd64
-libipc-run-perl
 libipc-shareable-perl
 libipc-system-simple-perl
 libipset13t64:amd64
@@ -1503,6 +1516,8 @@ libmd4c0:amd64
 libmediaart-2.0-0:amd64
 libmediainfo0v5:amd64
 libmemcached11t64:amd64
+libmenu-cache-bin
+libmenu-cache3:amd64
 libmetacity3:amd64
 libmfx1:amd64
 libmhash2:amd64
@@ -1559,6 +1574,7 @@ libncurses5:i386
 libncurses6:amd64
 libncursesw6:amd64
 libndp0:amd64
+libnemo-extension1:amd64
 libneon27-gnutls:amd64
 libneon27t64:amd64
 libnet-dbus-perl
@@ -2823,6 +2839,7 @@ lsof
 lua-lpeg:amd64
 luit
 lutris
+lxmenu-data
 lynx
 lynx-common
 lz4
@@ -2952,6 +2969,9 @@ ncal
 ncurses-base
 ncurses-bin
 ncurses-term
+nemo
+nemo-data
+nemo-fileroller
 net-tools
 netbase
 netcat
@@ -3034,6 +3054,7 @@ patch
 patchutils
 pci.ids
 pciutils
+pcmanfm
 pcscd
 perl
 perl-base
@@ -3080,7 +3101,6 @@ postgresql-client-16
 postgresql-client-18
 postgresql-client-common
 postgresql-common
-postgresql-common-dev
 powermgmt-base
 powertop
 ppp
@@ -3254,6 +3274,7 @@ python3-wxgtk4.0
 python3-xapp
 python3-xdg
 python3-xlib
+python3-xlrd
 python3-yaml
 python3-zipp
 python3-zmq
@@ -3389,7 +3410,6 @@ tar
 task-desktop
 task-english
 task-laptop
-task-ssh-server
 task-web-server
 tasksel
 tasksel-data
@@ -3436,6 +3456,7 @@ unar
 unattended-upgrades
 unixodbc-common
 uno-libs-private
+untex
 unzip
 update-glx
 update-inetd
