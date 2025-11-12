@@ -59,6 +59,8 @@ binfmt-support
 binutils
 binutils-common:amd64
 binutils-dev
+binutils-mingw-w64-i686
+binutils-mingw-w64-x86-64
 binutils-x86-64-linux-gnu
 bison
 blackbird-gtk-theme
@@ -337,6 +339,11 @@ gcc-9
 gcc-9-base:amd64
 gcc-9-base:i386
 gcc-9-multilib
+gcc-mingw-w64-base
+gcc-mingw-w64-i686-win32
+gcc-mingw-w64-i686-win32-runtime
+gcc-mingw-w64-x86-64-win32
+gcc-mingw-w64-x86-64-win32-runtime
 gcc-multilib
 gcc-x86-64-linux-gnu
 gconf-defaults-service
@@ -616,6 +623,7 @@ libacl1:amd64
 libadplug-2.3.3-0
 libadwaita-1-0:amd64
 libaec0:amd64
+libaio1t64:amd64
 libalglib3.18:amd64
 libalgorithm-c3-perl
 libalgorithm-diff-perl
@@ -1349,7 +1357,9 @@ libjpeg-turbo-progs
 libjpeg62-turbo:amd64
 libjpeg62-turbo-dev:amd64
 libjq1:amd64
+libjs-angularjs
 libjs-jquery
+libjs-jquery-ui
 libjs-mathjax
 libjs-sphinxdoc
 libjs-underscore
@@ -1448,6 +1458,7 @@ libmad0:amd64
 libmagic-mgc
 libmagic1t64:amd64
 libmagick++-6.q16-8:amd64
+libmagick++-7.q16-5:amd64
 libmagickcore-6.q16-6:amd64
 libmagickcore-6.q16-7-extra:amd64
 libmagickcore-6.q16-7t64:amd64
@@ -1648,6 +1659,8 @@ libopenjp2-7:amd64
 libopenmpt-modplug1:amd64
 libopenmpt0t64:amd64
 libopenni2-0:amd64
+libopenshot-audio9t64:amd64
+libopenshot25t64:amd64
 libopus0:amd64
 liborc-0.4-0t64:amd64
 liborcus-0.20-0:amd64
@@ -1801,13 +1814,16 @@ libqscintilla2-qt5-l10n
 libqt5concurrent5:amd64
 libqt5core5t64:amd64
 libqt5dbus5t64:amd64
-libqt5gui5-gles:amd64
+libqt5designer5:amd64
+libqt5gui5t64:amd64
+libqt5help5:amd64
 libqt5network5t64:amd64
+libqt5positioning5:amd64
 libqt5printsupport5t64:amd64
 libqt5qml5:amd64
 libqt5qmlmodels5:amd64
 libqt5qmlworkerscript5:amd64
-libqt5quick5-gles:amd64
+libqt5quick5:amd64
 libqt5quickcontrols2-5:amd64
 libqt5quicktemplates2-5:amd64
 libqt5quickwidgets5:amd64
@@ -1815,9 +1831,14 @@ libqt5sql5-mysql:amd64
 libqt5sql5-sqlite:amd64
 libqt5sql5t64:amd64
 libqt5svg5:amd64
+libqt5test5t64:amd64
 libqt5waylandclient5:amd64
 libqt5waylandcompositor5:amd64
+libqt5webchannel5:amd64
 libqt5webengine-data
+libqt5webengine5:amd64
+libqt5webenginecore5:amd64
+libqt5webenginewidgets5:amd64
 libqt5widgets5t64:amd64
 libqt5x11extras5:amd64
 libqt5xml5t64:amd64
@@ -2456,6 +2477,7 @@ libupnp17t64:amd64
 libupower-glib3:amd64
 liburcu8t64:amd64
 liburi-perl
+liburing2:amd64
 liburiparser1:amd64
 libusb-1.0-0:amd64
 libusb-1.0-0:i386
@@ -2897,7 +2919,11 @@ mesa-vulkan-drivers:amd64
 mesa-vulkan-drivers:i386
 metacity
 metacity-common
+metasploit-framework
 mime-support
+mingw-w64-common
+mingw-w64-i686-dev
+mingw-w64-x86-64-dev
 mkgmap
 mkgmap-splitter
 mkgmapgui
@@ -2918,6 +2944,7 @@ mutter-common-bin
 mysql-common
 mythes-en-us
 nano
+nasm
 native-architecture
 nautilus-extension-brasero
 nautilus-sendto
@@ -2981,6 +3008,7 @@ openjdk-21-jre-headless:amd64
 openprinting-ppds
 opensc
 opensc-pkcs11:amd64
+openshot-qt
 opensp
 openssh-client
 openssh-server
@@ -2988,6 +3016,7 @@ openssh-sftp-server
 openssl
 openssl-provider-legacy
 openvpn
+oracle-instantclient-basic
 orca
 os-prober
 osinfo-db
@@ -3039,12 +3068,16 @@ poppler-data
 poppler-utils
 popularity-contest
 postfix
+postgresql
 postgresql-14
 postgresql-15
 postgresql-16
+postgresql-18
+postgresql-18-jit
 postgresql-client-14
 postgresql-client-15
 postgresql-client-16
+postgresql-client-18
 postgresql-client-common
 postgresql-common
 postgresql-common-dev
@@ -3162,6 +3195,7 @@ python3-numpy
 python3-numpy-dev:amd64
 python3-oauthlib
 python3-olefile
+python3-openshot
 python3-openssl
 python3-packaging
 python3-pexpect
@@ -3176,6 +3210,10 @@ python3-pygments
 python3-pyinotify
 python3-pyosmium
 python3-pyparsing
+python3-pyqt5
+python3-pyqt5.qtsvg
+python3-pyqt5.qtwebchannel
+python3-pyqt5.qtwebengine
 python3-pyqt5.sip
 python3-pytz
 python3-pyudev
@@ -3218,6 +3256,7 @@ python3-xdg
 python3-xlib
 python3-yaml
 python3-zipp
+python3-zmq
 python3.10
 python3.10-dev
 python3.10-minimal
