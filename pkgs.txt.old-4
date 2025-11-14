@@ -2339,7 +2339,7 @@ libspice-client-glib-2.0-8:amd64
 libspice-client-gtk-3.0-5:amd64
 libspreadsheet-parseexcel-perl
 libspreadsheet-writeexcel-perl
-libsqlcipher1:amd64
+libsqlcipher2:amd64
 libsqlite3-0:amd64
 libsqlite3-0:i386
 libsratom-0-0:amd64
