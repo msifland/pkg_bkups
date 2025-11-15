@@ -361,6 +361,7 @@ gcr4
 gdal-bin
 gdal-data
 gdal-plugins:amd64
+gdb
 gdbm-l10n
 gedit
 gedit-common
@@ -925,6 +926,7 @@ libde265-0:amd64
 libdebconfclient0:amd64
 libdebhelper-perl
 libdebuginfod-common
+libdebuginfod1t64:amd64
 libdecor-0-0:amd64
 libdecor-0-plugin-1-cairo:amd64
 libdecoration0:amd64
@@ -2322,6 +2324,8 @@ libsoup-2.4-1:amd64
 libsoup-3.0-0:amd64
 libsoup-3.0-common
 libsoup2.4-common
+libsource-highlight-common
+libsource-highlight4t64:amd64
 libsoxr0:amd64
 libspa-0.2-modules:amd64
 libspandsp2t64:amd64
@@ -3347,9 +3351,15 @@ ruby3.3-dev:amd64
 ruby3.3-doc
 rubygems-integration
 runit-helper
+rust-all
+rust-analyzer
+rust-clippy
+rust-gdb
 rust-llvm
+rust-src
 rustc
 rustdesk
+rustfmt
 rygel
 samba-libs:amd64
 screen
