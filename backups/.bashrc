@@ -218,10 +218,6 @@ read num
 echo $((RANDOM % $num+1))
 }
 
-function sort-words(){ ##>Sort words alphabetically on screen or to a file.
-	$HOME/scripts/unused/sort_words
-}
-
 function math(){ ##>Allow normal math functions.
 if [[ ! -z $1 ]]; then
 	math=$(echo "scale=7; (("$1"))" | bc)
@@ -383,6 +379,22 @@ function dirs(){
 		Usage:
 		dirs /etc
 		dirs /home/msifland"
+	fi
+}
+
+function qemu-run(){
+	if [[ ! -z $1 ]]; then
+		cd ~
+		qemu-system-x86_64 -enable-kvm -m 4G -cdrom $1
+		echo "qemu-system-x86_64 -enable-kvm -m 4G -cdrom $1"
+		cd
+	else
+		echo "
+		This command runs qemu virtal box.
+		Usage:
+		qemu-run [full directory]
+		qemu-run ~/live-build/MY_live-debian.iso
+		qemu-run /home/msifland/iso/Debian-14-1.iso"
 	fi
 }
 
