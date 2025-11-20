@@ -21,7 +21,6 @@ appmenu-gtk3-module:amd64
 appmenu-registrar
 appstream
 apt
-apt-transport-https
 apt-utils
 aptitude
 aptitude-common
@@ -85,13 +84,9 @@ coinor-libosi1v5:amd64
 colord
 colord-data
 conky-all
-console-setup
-console-setup-linux
 coreutils
 cpio
 cpp
-cpp-14-for-host:amd64
-cpp-14-x86-64-linux-gnu
 cpp-15
 cpp-15-for-host:amd64
 cpp-15-x86-64-linux-gnu
@@ -201,6 +196,7 @@ firmware-nvidia-tesla-gsp
 firmware-qcom-soc
 firmware-qlogic
 firmware-realtek
+firmware-realtek-rtl8723cs-bt
 firmware-samsung
 firmware-siano
 firmware-sof-signed
@@ -227,9 +223,6 @@ fuse3
 fzf
 gawk
 gcc
-gcc-14-base:amd64
-gcc-14-for-host:amd64
-gcc-14-x86-64-linux-gnu
 gcc-15
 gcc-15-base:amd64
 gcc-15-for-host:amd64
@@ -363,7 +356,6 @@ javascript-common
 jfsutils
 jshon
 kactivitymanagerd
-kbd
 kded6
 keditbookmarks
 keyboard-configuration
@@ -630,7 +622,6 @@ libgail-common:amd64
 libgail18t64:amd64
 libgav1-1:amd64
 libgbm1:amd64
-libgcc-14-dev:amd64
 libgcc-15-dev:amd64
 libgcc-s1:amd64
 libgck-1-0:amd64
@@ -1457,15 +1448,11 @@ lightdm
 lightdm-gtk-greeter
 lightdm-settings
 linux-base
-linux-headers-6.16.12+deb14+1-common
-linux-headers-6.16.12+deb14+1-rt-amd64
 linux-headers-6.17.8+deb14-amd64
 linux-headers-6.17.8+deb14-common
 linux-headers-amd64
-linux-image-6.16.12+deb14+1-rt-amd64
 linux-image-6.17.8+deb14-amd64
 linux-image-amd64
-linux-kbuild-6.16.12+deb14+1
 linux-kbuild-6.17.8+deb14
 linux-libc-dev
 linux-sysctl-defaults
@@ -1711,6 +1698,7 @@ qt6-translations-l10n
 qt6-wayland:amd64
 qttranslations5-l10n
 qtwayland5:amd64
+raspi-firmware
 readline-common
 reiserfsprogs
 rfkill
@@ -1741,7 +1729,6 @@ speech-dispatcher-espeak-ng
 squashfs-tools
 sqv
 ssl-cert
-sublime-text
 sudo
 switcheroo-control
 synaptic
