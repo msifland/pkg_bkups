@@ -3285,7 +3285,6 @@ python-apt-common
 python-babel-localedata
 python-caja-common
 python-natsort-doc
-python2
 python2-minimal
 python2.7
 python2.7-minimal
