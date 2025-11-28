@@ -478,25 +478,25 @@ if ! dpkg --get-selections | awk '{print $1}' | grep -xq "fastfetch"; then
 	echo
 	echo "fastfetch not found, installing now. . . "
 	sleep 1
-	echo "spike" | sudo -S apt install fastfetch
+	echo "spike" | sudo -S apt install -y fastfetch
 fi
 if ! dpkg --get-selections | awk '{print $1}' | grep -xq "pv"; then
 	echo
 	echo "pv not found, installing now. . . "
 	sleep 1
-	echo "spike" | sudo -S apt install pv
+	echo "spike" | sudo -S apt install -y pv
 fi
 if ! dpkg --get-selections | awk '{print $1}' | grep -xq "jshon"; then
 	echo
 	echo "jshon not found, installing now. . . "
 	sleep 1
-	echo "spike" | sudo -S apt install jshon
+	echo "spike" | sudo -S apt install -y jshon
 fi
 if ! dpkg --get-selections | awk '{print $1}' | grep -xq "ncal"; then
 	echo
 	echo "ncal not found, installing now. . . "
 	sleep 1
-	echo "spike" | sudo -S apt install ncal
+	echo "spike" | sudo -S apt install -y ncal
 fi
 ##################Peronal Greeting######################
 $HOME/scripts/now
