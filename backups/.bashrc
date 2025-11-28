@@ -474,11 +474,11 @@ export ILCOLOR3=$ILCOLOR3
 export ILCOLOR4=$ILCOLOR4
 export ILRESTORE=$ILRESTORE
 
-if ! dpkg --get-selections | awk '{print $1}' | grep -xq "screenfetch"; then
+if ! dpkg --get-selections | awk '{print $1}' | grep -xq "fastfetch"; then
 	echo
-	echo "screenfetch not found, installing now. . . "
+	echo "fastfetch not found, installing now. . . "
 	sleep 1
-	echo "spike" | sudo -S apt install screenfetch
+	echo "spike" | sudo -S apt install fastfetch
 fi
 if ! dpkg --get-selections | awk '{print $1}' | grep -xq "pv"; then
 	echo
@@ -502,7 +502,7 @@ fi
 $HOME/scripts/now
 # Color ranmdom number variables are calculated at the top of file -c$num1,$num2
 echo
-screenfetch -A 'Linux' | pv -qL 2000
+fastfetch --config $HOME/pkg_bkups/backups/fastfectch-config.jsonc
 echo
 echo -e ${rand_color} "============================================================================"
 echo "  Welcome to your $(uname -rmno) machine, Michael"
