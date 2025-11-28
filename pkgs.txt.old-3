@@ -32,6 +32,7 @@ apt-utils
 aptitude
 aptitude-common
 arch-test
+arj
 aspell
 aspell-en
 at-spi2-common
@@ -57,6 +58,7 @@ bind9-libs:amd64
 binutils
 binutils-common:amd64
 binutils-x86-64-linux-gnu
+blt
 bluedevil
 blueman
 bluetooth
@@ -1017,6 +1019,7 @@ libimlib2t64:amd64
 libimobiledevice-1.0-6:amd64
 libimobiledevice-glue-1.0-0
 libinih1:amd64
+libiniparser4:amd64
 libinireader0:amd64
 libinput-bin
 libinput10:amd64
@@ -2227,11 +2230,13 @@ modemmanager
 mokutil
 mount
 mozo
+mtd-utils
 mtools
 mupdf-tools
 mythes-en-us
 nano
 ncal
+ncompress
 ncurses-base
 ncurses-bin
 ncurses-term
@@ -2359,6 +2364,7 @@ python3-autocommand
 python3-bcrypt
 python3-blinker
 python3-brlapi:amd64
+python3-brotli
 python3-bs4
 python3-cairo
 python3-caja
@@ -2396,6 +2402,7 @@ python3-oauthlib
 python3-olefile
 python3-packaging
 python3-pil:amd64
+python3-pil.imagetk:amd64
 python3-pkg-resources
 python3-psutil
 python3-pygments
@@ -2413,6 +2420,7 @@ python3-smbc
 python3-software-properties
 python3-soupsieve
 python3-speechd
+python3-tk:amd64
 python3-tornado
 python3-typeguard
 python3-typing-extensions
@@ -2426,6 +2434,7 @@ python3-xlrd
 python3-yaml
 python3.13
 python3.13-minimal
+python3.13-tk
 qdbus-qt6
 qemu-block-extra
 qemu-efi-aarch64
@@ -2587,6 +2596,7 @@ shim-unsigned:amd64
 signon-plugin-oauth2
 slick-greeter
 smartmontools
+snap
 snapd
 socat
 software-properties-common
@@ -2647,6 +2657,7 @@ timgm6mb-soundfont
 tipa
 tk
 tk8.6
+tk8.6-blt2.5
 tpm-udev
 tree
 tzdata
