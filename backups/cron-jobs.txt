@@ -37,6 +37,7 @@
 
 # Scans for viruses once a week. This entry has a corrosponding entry
 # under 'sudo crontab -e' for updating virus definitions.
+10 2 * * 1 ~/scripts/cron_scripts/virus-freshclam-run
 15 2 * * 1 ~/scripts/cron_scripts/virus-clamscan-run
 
 # Restart PC once a week.
@@ -56,3 +57,6 @@
 
 # Purge old kernels once a month
 0 0 15 * * ~/scripts/cron_scripts/kernel-purge-auto-run
+
+# Run system clean up once a month
+0 0 3 * * ~/scripts/cron_scripts/system-clean-run
