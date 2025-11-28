@@ -93,6 +93,7 @@ caja-wallpaper
 calamares
 calamares-settings-debian
 catdoc
+chrome-remote-desktop
 chromium
 chromium-common
 chromium-sandbox
@@ -207,6 +208,7 @@ exfatprogs
 exif
 f2fs-tools
 fakeroot
+fastfetch
 fdisk
 ffmpegthumbnailer
 file
@@ -421,6 +423,7 @@ hdparm
 hicolor-icon-theme
 hostname
 html2text
+htop
 hunspell-en-us
 hwdata
 hwinfo
@@ -2088,6 +2091,7 @@ libyaml-cpp0.8:amd64
 libyaml-tiny-perl
 libyelp-1-0:amd64
 libyuv0:amd64
+libyyjson0:amd64
 libz3-4:amd64
 libzbar0t64:amd64
 libze1:amd64
@@ -2110,12 +2114,10 @@ linux-headers-6.12.57+deb13-amd64
 linux-headers-6.12.57+deb13-common
 linux-headers-6.17.8+deb14-amd64
 linux-headers-6.17.8+deb14-common
-linux-headers-amd64
 linux-image-6.12.57+deb13-amd64
-linux-image-6.12.57+deb13-rt-amd64
 linux-image-6.17.8+deb14-amd64
 linux-image-6.17.8+deb14-rt-amd64
-linux-image-amd64
+linux-image-6.17.9+deb14-amd64-unsigned
 linux-image-rt-amd64
 linux-kbuild-6.12.57+deb13
 linux-kbuild-6.17.8+deb14
@@ -2567,8 +2569,6 @@ samba-libs:amd64
 sane-airscan
 sane-utils
 screen
-screenfetch
-scrot
 sddm
 sddm-theme-breeze
 sddm-theme-debian-breeze
@@ -2708,6 +2708,7 @@ x11proto-xext-dev
 xapp-sn-watcher
 xapps-common
 xauth
+xbase-clients
 xbitmaps
 xbrlapi
 xcvt
@@ -2763,6 +2764,7 @@ xserver-xorg-video-vesa
 xsettingsd
 xsltproc
 xterm
+xvfb
 xwayland
 xwaylandvideobridge
 xz-utils
