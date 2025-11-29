@@ -1,7 +1,13 @@
 #!/bin/sh
-#Command example: "cvt 1920x1000 60" in terminal will dive you the modeline to paste below.
-xrandr --setprovideroutputsource NVIDIA-GO modesetting
-xrandr --auto
-xrandr --newmode "1784x999_60.00"  147.50  1784 1896 2080 2376  999 1002 1012 1037 -hsync +vsync
-xrandr --addmode eDP-1 1784x999_60.00
-xrandr --output eDP-1 --mode 1784x999_60.00
+# Custom resolution – generated Sat Nov 29 05:47:42 PM CST 2025
+# Find the correct X server and authority (this fixes "Can't open display")
+export DISPLAY="$(w -$(id -u) | awk '/\s:\\d+\s/ {print $3; exit}')"
+export XAUTHORITY="$HOME/.Xauthority"
+# Clean old mode if it exists
+xrandr --rmmode "1800x1012_60.00" 2>/dev/null || true
+xrandr --delmode "eDP-1" "1800x1012_60.00" 2>/dev/null || true
+# Add and apply new mode
+xrandr --newmode "1800x1012_60.00"  150.50  1800 1912 2096 2392  1012 1015 1025 1050 -hsync +vsync
+xrandr --addmode "eDP-1" "1800x1012_60.00"
+xrandr --output "eDP-1" --mode "1800x1012_60.00" --primary
+sleep 1 # tiny delay helps on some drivers
