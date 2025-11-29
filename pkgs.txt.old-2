@@ -101,6 +101,9 @@ chromium-common
 chromium-sandbox
 cinnamon-desktop-data
 cinnamon-l10n
+clamav
+clamav-base
+clamav-freshclam
 clinfo
 cmake
 cmake-data
@@ -681,6 +684,7 @@ libcholmod5:amd64
 libchromaprint1:amd64
 libcinnamon-desktop4t64:amd64
 libcjson1:amd64
+libclamav12:amd64
 libclass-c3-perl
 libclass-c3-xs-perl
 libclass-data-inheritable-perl
@@ -1429,6 +1433,7 @@ libmpg123-0t64:amd64
 libmplex2-2.1-0t64:amd64
 libmro-compat-perl
 libmsgraph-1-1:amd64
+libmspack0t64:amd64
 libmspub-0.1-1:amd64
 libmtdev1t64:amd64
 libmtp-common

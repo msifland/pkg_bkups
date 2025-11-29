@@ -182,20 +182,12 @@
       "detectPlugin": false
     },
     {
-      "type": "wmtheme",
-      "keyIcon": "󰓸"
-    },
-    {
       "type": "theme",
       "keyIcon": "󰉼"
     },
     {
       "type": "icons",
       "keyIcon": ""
-    },
-    {
-      "type": "font",
-      "keyIcon": ""
     },
     {
       "type": "terminal",
@@ -262,10 +254,6 @@
     {
       "type": "poweradapter",
       "keyIcon": "󰚥"
-    },
-    {
-      "type": "locale",
-      "keyIcon": ""
     }
   ]
 }
