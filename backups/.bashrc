@@ -382,22 +382,6 @@ function dirs(){
 	fi
 }
 
-function qemu-run(){
-	if [[ ! -z $1 ]]; then
-		cd ~
-		qemu-system-x86_64 -enable-kvm -m 4G -cdrom $1
-		echo "qemu-system-x86_64 -enable-kvm -m 4G -cdrom $1"
-		cd
-	else
-		echo "
-		This command runs qemu virtal box.
-		Usage:
-		qemu-run [full directory]
-		qemu-run ~/live-build/MY_live-debian.iso
-		qemu-run /home/msifland/iso/Debian-14-1.iso"
-	fi
-}
-
 function rec-key(){
 	if [[ ! -z $1 ]] && [[ ! -z $2 ]]; then
 	sudo gpg --no-default-keyring --keyring /etc/apt/keyrings/"$1-archive-keyring.gpg" --keyserver https://pgp.mit.edu/ --recv-keys $2
