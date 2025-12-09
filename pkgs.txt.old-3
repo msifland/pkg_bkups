@@ -542,7 +542,6 @@ libadwaita-1-0:amd64
 libaio1t64:amd64
 libalgorithm-c3-perl
 libamd3:amd64
-libann0
 libao-common
 libao4:amd64
 libaom3:amd64
@@ -647,7 +646,7 @@ libbytesize1:amd64
 libbz2-1.0:amd64
 libc-bin
 libc-dev-bin
-libc-gconv-modules-extra
+libc-gconv-modules-extra:amd64
 libc-l10n
 libc6:amd64
 libc6-dev:amd64
@@ -680,9 +679,9 @@ libcdio-paranoia2t64:amd64
 libcdio19t64:amd64
 libcdparanoia0:amd64
 libcdr-0.1-1:amd64
-libcdt5:amd64
+libcdt6:amd64
 libcfitsio10t64:amd64
-libcgraph6:amd64
+libcgraph8:amd64
 libcholmod5:amd64
 libchromaprint1:amd64
 libcinnamon-desktop4t64:amd64
@@ -966,15 +965,14 @@ libgtksourceview-4-0:amd64
 libgtksourceview-4-common
 libgtop-2.0-11:amd64
 libgtop2-common
-libgts-0.7-5t64:amd64
-libgts-bin
 libgucharmap-2-90-7:amd64
 libgudev-1.0-0:amd64
 libgumbo3:amd64
 libgupnp-1.6-0:amd64
 libgupnp-igd-1.6-0:amd64
 libgusb2:amd64
-libgvc6
+libgvc7:amd64
+libgvplugin-gd8:amd64
 libgvpr2:amd64
 libgxps2t64:amd64
 libhandy-1-0:amd64
@@ -1333,7 +1331,6 @@ libksysguardsystemstats2:amd64
 libkwaylandclient6:amd64
 libkwin6
 libkworkspace6-6
-liblab-gamut1:amd64
 liblangtag-common
 liblangtag1:amd64
 liblapack3:amd64
@@ -1419,7 +1416,7 @@ libmime-types-perl
 libminizip1t64:amd64
 libmjpegutils-2.1-0t64:amd64
 libmm-glib0:amd64
-libmng1:amd64
+libmng2:amd64
 libmnl0:amd64
 libmodplug1:amd64
 libmodule-implementation-perl
@@ -2039,6 +2036,7 @@ libxdgutilsbasedir1.0.1:amd64
 libxdgutilsdesktopentry1.0.1:amd64
 libxdmcp6:amd64
 libxdo3:amd64
+libxdot4:amd64
 libxencall1:amd64
 libxendevicemodel1:amd64
 libxenevtchn1:amd64
