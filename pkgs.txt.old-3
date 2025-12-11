@@ -161,6 +161,7 @@ dconf-cli
 dconf-editor
 dconf-gsettings-backend:amd64
 dconf-service
+ddrescue
 debconf
 debconf-i18n
 debconf-kde-data
@@ -398,7 +399,6 @@ grub-efi-amd64
 grub-efi-amd64-bin
 grub-efi-amd64-signed
 grub-efi-amd64-unsigned
-grub-pc
 grub-pc-bin
 grub2-common
 gsettings-desktop-schemas
@@ -687,6 +687,7 @@ libchromaprint1:amd64
 libcinnamon-desktop4t64:amd64
 libcjson1:amd64
 libclamav12:amd64
+libclang-cpp21
 libclass-c3-perl
 libclass-c3-xs-perl
 libclass-data-inheritable-perl
@@ -831,6 +832,7 @@ libfakeroot:amd64
 libfdisk1:amd64
 libfdt1:amd64
 libffado2:amd64
+libffi-dev:amd64
 libffi8:amd64
 libffmpegthumbnailer4v5:amd64
 libfftw3-double3:amd64
@@ -1350,6 +1352,7 @@ liblilv-0-0:amd64
 liblinear4:amd64
 liblirc-client0t64:amd64
 libllvm19:amd64
+libllvm21:amd64
 liblmdb0:amd64
 liblocale-gettext-perl
 liblog-dispatch-perl
@@ -1372,9 +1375,9 @@ liblvm2cmd2.03:amd64
 liblwp-mediatypes-perl
 liblwp-protocol-https-perl
 liblz4-1:amd64
+liblzma-dev:amd64
 liblzma5:amd64
 liblzo2-2:amd64
-libmad0:amd64
 libmagic-mgc
 libmagic1t64:amd64
 libmagickcore-7.q16-10:amd64
@@ -1449,6 +1452,7 @@ libmythes-1.2-0:amd64
 libnamespace-autoclean-perl
 libnamespace-clean-perl
 libnautilus-extension4:amd64
+libncurses-dev:amd64
 libncurses6:amd64
 libncursesw6:amd64
 libndctl6:amd64
@@ -2067,6 +2071,7 @@ libxml-parser-perl
 libxml-twig-perl
 libxml-xpathengine-perl
 libxml2-16:amd64
+libxml2-dev:amd64
 libxml2-utils
 libxmlb2:amd64
 libxmlsec1-1:amd64
@@ -2102,6 +2107,7 @@ libyelp-1-0:amd64
 libyuv0:amd64
 libyyjson0:amd64
 libz3-4:amd64
+libz3-dev:amd64
 libzbar0t64:amd64
 libze1:amd64
 libzimg2:amd64
@@ -2145,9 +2151,11 @@ live-config-systemd
 live-manual-html
 live-tools
 llvm
-llvm-19
-llvm-19-linker-tools
-llvm-19-runtime
+llvm-21
+llvm-21-dev
+llvm-21-linker-tools
+llvm-21-runtime
+llvm-21-tools
 llvm-runtime:amd64
 lm-sensors
 lmodern
@@ -2553,7 +2561,6 @@ qt6-location-plugins:amd64
 qt6-qpa-plugins:amd64
 qt6-svg-plugins:amd64
 qt6-translations-l10n
-qt6-virtualkeyboard-plugin:amd64
 qt6-wayland:amd64
 qtspeech5-speechd-plugin:amd64
 qttranslations5-l10n
@@ -2587,9 +2594,6 @@ samba-libs:amd64
 sane-airscan
 sane-utils
 screen
-sddm
-sddm-theme-breeze
-sddm-theme-debian-breeze
 seabios
 sed
 sensible-utils
