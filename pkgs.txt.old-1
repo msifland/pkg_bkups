@@ -887,6 +887,7 @@ libgupnp-igd-1.6-0:amd64
 libgusb2:amd64
 libgvc7:amd64
 libgvplugin-gd8:amd64
+libgvplugin-pango8:amd64
 libgvpr2:amd64
 libgxps2t64:amd64
 libhandy-1-0:amd64
@@ -1782,13 +1783,18 @@ lightdm-settings
 linux-base
 linux-headers-6.12.57+deb13-amd64
 linux-headers-6.12.57+deb13-common
+linux-headers-6.17.11+deb14-amd64
+linux-headers-6.17.11+deb14-common
 linux-headers-6.17.9+deb14-common
 linux-headers-6.17.9+deb14-rt-amd64
+linux-headers-amd64
 linux-image-6.12.57+deb13-amd64
-linux-image-6.17.9+deb14-amd64-unsigned
+linux-image-6.17.11+deb14-amd64
 linux-image-6.17.9+deb14-rt-amd64
+linux-image-amd64
 linux-image-rt-amd64
 linux-kbuild-6.12.57+deb13
+linux-kbuild-6.17.11+deb14
 linux-kbuild-6.17.9+deb14
 linux-libc-dev
 linux-sysctl-defaults
