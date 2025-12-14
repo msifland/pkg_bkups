@@ -111,6 +111,7 @@ cpp
 cpp-14
 cpp-14-x86-64-linux-gnu
 cpp-15
+cpp-15-for-host:amd64
 cpp-15-x86-64-linux-gnu
 cpp-x86-64-linux-gnu
 cracklib-runtime
@@ -292,6 +293,7 @@ gcc-14-base:amd64
 gcc-14-x86-64-linux-gnu
 gcc-15
 gcc-15-base:amd64
+gcc-15-for-host:amd64
 gcc-15-x86-64-linux-gnu
 gcc-x86-64-linux-gnu
 gcr
@@ -451,9 +453,6 @@ jfsutils
 jq
 jshon
 kactivitymanagerd
-kali-desktop-base
-kali-themes-common
-kali-wallpapers-2025
 kbd
 kded6
 keditbookmarks
@@ -1783,11 +1782,15 @@ lightdm-settings
 linux-base
 linux-headers-6.12.57+deb13-amd64
 linux-headers-6.12.57+deb13-common
+linux-headers-6.17.9+deb14-amd64
+linux-headers-6.17.9+deb14-common
+linux-headers-amd64
 linux-image-6.12.57+deb13-amd64
-linux-image-6.17.8+deb14-rt-amd64
-linux-image-6.17.9+deb14-amd64-unsigned
+linux-image-6.17.9+deb14-amd64
+linux-image-amd64
 linux-image-rt-amd64
 linux-kbuild-6.12.57+deb13
+linux-kbuild-6.17.9+deb14
 linux-libc-dev
 linux-sysctl-defaults
 live-boot

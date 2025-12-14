@@ -523,12 +523,14 @@ libavahi-core7:amd64
 libavahi-glib1:amd64
 libavc1394-0:amd64
 libavcodec61:amd64
-libavfilter10:amd64
-libavformat61:amd64
+libavcodec62:amd64
+libavfilter11:amd64
+libavformat62:amd64
 libavif-gdk-pixbuf:amd64
 libavif16:amd64
 libavtp0:amd64
 libavutil59:amd64
+libavutil60:amd64
 libayatana-appindicator3-1
 libayatana-ido3-0.4-0:amd64
 libayatana-indicator3-7:amd64
@@ -1314,7 +1316,6 @@ libplist-2.0-4:amd64
 libplymouth5:amd64
 libpmem1:amd64
 libpng16-16t64:amd64
-libpocketsphinx3:amd64
 libpolkit-agent-1-0:amd64
 libpolkit-gobject-1-0:amd64
 libpolkit-qt6-1-1:amd64
@@ -1322,7 +1323,6 @@ libpoppler-cpp2:amd64
 libpoppler-glib8t64:amd64
 libpoppler147:amd64
 libpopt0:amd64
-libpostproc58:amd64
 libpotrace0:amd64
 libproc2-0:amd64
 libprotobuf-c1:amd64
@@ -1507,7 +1507,6 @@ libspeechd-module0:amd64
 libspeechd2:amd64
 libspeex1:amd64
 libspeexdsp1:amd64
-libsphinxbase3t64:amd64
 libspice-server1:amd64
 libspreadsheet-parseexcel-perl
 libspreadsheet-writeexcel-perl
@@ -1534,7 +1533,8 @@ libsub-quote-perl
 libsuitesparseconfig7:amd64
 libsvtav1enc2:amd64
 libswresample5:amd64
-libswscale8:amd64
+libswresample6:amd64
+libswscale9:amd64
 libsynctex2:amd64
 libsys-hostname-long-perl
 libsystemd-shared:amd64
@@ -1782,12 +1782,11 @@ lightdm-settings
 linux-base
 linux-headers-6.12.57+deb13-amd64
 linux-headers-6.12.57+deb13-common
-linux-headers-6.17.9+deb14-amd64
 linux-headers-6.17.9+deb14-common
-linux-headers-amd64
+linux-headers-6.17.9+deb14-rt-amd64
 linux-image-6.12.57+deb13-amd64
-linux-image-6.17.9+deb14-amd64
-linux-image-amd64
+linux-image-6.17.9+deb14-amd64-unsigned
+linux-image-6.17.9+deb14-rt-amd64
 linux-image-rt-amd64
 linux-kbuild-6.12.57+deb13
 linux-kbuild-6.17.9+deb14
@@ -1978,7 +1977,6 @@ pluma-common
 plymouth
 plymouth-label
 pnp.ids
-pocketsphinx-en-us
 polkit-kde-agent-1
 polkitd
 poppler-data
