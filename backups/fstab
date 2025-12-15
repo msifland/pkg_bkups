@@ -1,10 +1,6 @@
-##### msifland custom install #####
-UUID=2536be7a-c765-486f-b6de-3e2163c3eb2f    /		ext4   defaults    0    1
-
-/dev/sr0    /media/cdrom0    udf,iso9660 user,noauto    0    0
-
-UUID=f417d30a-7c2a-4971-bfde-78d9f78e9699    /home	ext4   defaults    0    2
-
-UUID=287b1c7d-bcb9-4f64-96e0-6a5530c42ea7    /boot  ext4   defaults    0    2
-
-UUID=0D35-ADA7	/boot/efi    		 vfat   umask=0077,defaults        0    2
+			###### msifland custom install script ######
+UUID=A1C4-1D35    /boot/efi    vfat    umask=0077				0   2
+UUID=e1e88126-b3b6-4089-8f26-2a744e078402 /boot ext4 defaults			0   2
+UUID=bd8bc9bb-124b-4fcb-947c-5a4bc3b39153 / ext4 defaults,errors=remount-ro	0   1
+UUID=60161cdf-a44c-43d5-857e-ee620f8fb02d /home ext4 defaults			0   2
+UUID=a01d8495-d93e-4b43-8a7b-56ccb2564d64 /misc ext4 defaults			0   2
