@@ -1,6 +1,11 @@
 7zip
 accountsservice
 acl
+acpi
+acpi-fakekey
+acpi-support
+acpi-support-base
+acpid
 adduser
 adwaita-icon-theme
 aircrack-ng
@@ -10,7 +15,6 @@ alsa-utils
 amd64-microcode
 anacron
 analog
-anydesk
 apache2
 apache2-bin
 apache2-data
@@ -40,6 +44,7 @@ autoconf
 autoconf-archive
 automake
 autotools-dev
+avahi-autoipd
 avahi-daemon
 avahi-utils
 bamfdaemon
@@ -83,7 +88,6 @@ caja-wallpaper
 calamares
 calamares-settings-debian
 catdoc
-chrome-remote-desktop
 chromium
 chromium-common
 chromium-sandbox
@@ -103,8 +107,7 @@ coinor-libosi1v5:amd64
 colord
 colord-data
 conky-all
-console-setup
-console-setup-linux
+console-data
 coreutils
 cpio
 cpp
@@ -242,6 +245,7 @@ firmware-realtek
 firmware-samsung
 firmware-siano
 firmware-sof-signed
+firmware-ti-connectivity
 firmware-zd1211
 flatpak
 fontconfig
@@ -360,11 +364,11 @@ gnome-disk-utility
 gnome-icon-theme
 gnome-keyring
 gnome-keyring-pkcs11:amd64
-gnome-themes-extra:amd64
 gnome-themes-extra-data
 gnupg
 gnupg-l10n
 gnupg-utils
+gnupg2
 google-chrome-stable
 gparted
 gparted-common
@@ -397,7 +401,6 @@ gstreamer1.0-plugins-ugly:amd64
 gstreamer1.0-x:amd64
 gtk-doc-tools
 gtk-update-icon-cache
-gtk2-engines-pixbuf:amd64
 gtkhash
 gufw
 gvfs:amd64
@@ -468,7 +471,6 @@ kwalletmanager
 less
 liba52-0.7.4:amd64
 libaa1:amd64
-libaacs0:amd64
 libabsl20240722:amd64
 libabw-0.1-1:amd64
 libaccountsservice0:amd64
@@ -494,6 +496,7 @@ libarchive13t64:amd64
 libargon2-1:amd64
 libasan8:amd64
 libasound2-data
+libasound2-plugins:amd64
 libasound2t64:amd64
 libaspell15:amd64
 libass9:amd64
@@ -540,7 +543,6 @@ libb2-1:amd64
 libbabeltrace1:amd64
 libbabl-0.1-0:amd64
 libbamf3-2t64:amd64
-libbdplus0:amd64
 libbibtex-parser-perl
 libbinutils:amd64
 libbit-vector-perl:amd64
@@ -590,8 +592,6 @@ libcaja-extension1:amd64
 libcamd3:amd64
 libcamel-1.2-64t64:amd64
 libcanberra-gtk3-0:amd64
-libcanberra-gtk3-module:amd64
-libcanberra-pulse:amd64
 libcanberra0:amd64
 libcap-ng0:amd64
 libcap2:amd64
@@ -832,9 +832,7 @@ libglvnd0:amd64
 libglx-mesa0:amd64
 libglx0:amd64
 libgme0:amd64
-libgmp-dev:amd64
 libgmp10:amd64
-libgmpxx4ldbl:amd64
 libgnomekbd-common
 libgnomekbd8:amd64
 libgnutls30t64:amd64
@@ -896,10 +894,8 @@ libharfbuzz-icu0:amd64
 libharfbuzz-subset0:amd64
 libharfbuzz0b:amd64
 libhd21t64:amd64
-libheif-plugin-aomenc:amd64
 libheif-plugin-dav1d:amd64
 libheif-plugin-libde265:amd64
-libheif-plugin-x265:amd64
 libheif1:amd64
 libhfstospell11:amd64
 libhidapi-hidraw0:amd64
@@ -1115,7 +1111,6 @@ liblrdf0:amd64
 liblsan0:amd64
 liblsof0
 libltc11:amd64
-libltdl-dev:amd64
 libltdl7:amd64
 liblua5.3-0:amd64
 liblua5.4-0:amd64
@@ -1362,7 +1357,6 @@ libqt5qmlworkerscript5:amd64
 libqt5quick5:amd64
 libqt5quickcontrols2-5:amd64
 libqt5quicktemplates2-5:amd64
-libqt5quickwidgets5:amd64
 libqt5sql5-sqlite:amd64
 libqt5sql5t64:amd64
 libqt5svg5:amd64
@@ -1370,7 +1364,6 @@ libqt5test5t64:amd64
 libqt5waylandclient5:amd64
 libqt5waylandcompositor5:amd64
 libqt5widgets5t64:amd64
-libqt5x11extras5:amd64
 libqt5xml5t64:amd64
 libqt6core5compat6:amd64
 libqt6core6t64:amd64
@@ -1455,7 +1448,6 @@ libsamplerate0:amd64
 libsane-common
 libsane1:amd64
 libsasl2-2:amd64
-libsasl2-modules:amd64
 libsasl2-modules-db:amd64
 libsbc1:amd64
 libsdl2-2.0-0:amd64
@@ -1663,6 +1655,7 @@ libx11-protocol-perl
 libx11-xcb1:amd64
 libx264-165:amd64
 libx265-215:amd64
+libx86-1:amd64
 libx86emu3:amd64
 libxapian30:amd64
 libxapp-gtk3-module:amd64
@@ -1781,21 +1774,19 @@ lightdm
 lightdm-gtk-greeter
 lightdm-settings
 linux-base
+linux-cpupower
 linux-headers-6.12.57+deb13-amd64
 linux-headers-6.12.57+deb13-common
 linux-headers-6.17.11+deb14-amd64
 linux-headers-6.17.11+deb14-common
-linux-headers-6.17.9+deb14-common
-linux-headers-6.17.9+deb14-rt-amd64
 linux-headers-amd64
 linux-image-6.12.57+deb13-amd64
 linux-image-6.17.11+deb14-amd64
-linux-image-6.17.9+deb14-rt-amd64
+linux-image-6.17.11+deb14-rt-amd64
 linux-image-amd64
 linux-image-rt-amd64
 linux-kbuild-6.12.57+deb13
 linux-kbuild-6.17.11+deb14
-linux-kbuild-6.17.9+deb14
 linux-libc-dev
 linux-sysctl-defaults
 live-boot
@@ -1890,14 +1881,13 @@ matekbd-keyboard-display
 mawk
 media-player-info
 media-types
-megasync
 menu
 mesa-libgallium:amd64
 mesa-utils
 mesa-utils-bin:amd64
 mesa-va-drivers:amd64
 mesa-vdpau-drivers:amd64
-mesa-vulkan-drivers:amd64
+miscfiles
 mobile-broadband-provider-info
 modemmanager
 mokutil
@@ -1961,6 +1951,7 @@ passwd
 patch
 pci.ids
 pciutils
+pcmciautils
 perl
 perl-base
 perl-doc
@@ -1978,10 +1969,12 @@ pipewire-pulse
 pkexec
 pkgconf:amd64
 pkgconf-bin
+plasma-activities-bin
 pluma
 pluma-common
 plymouth
 plymouth-label
+pm-utils
 pnp.ids
 polkit-kde-agent-1
 polkitd
@@ -2041,7 +2034,6 @@ python3-oauthlib
 python3-olefile
 python3-packaging
 python3-pil:amd64
-python3-pil.imagetk:amd64
 python3-pkg-resources
 python3-psutil
 python3-pygments
@@ -2088,16 +2080,12 @@ qemu-system-s390x
 qemu-system-sparc
 qemu-system-x86
 qemu-utils
-qml-module-qt-labs-folderlistmodel:amd64
-qml-module-qt-labs-settings:amd64
 qml-module-qtgraphicaleffects:amd64
 qml-module-qtqml:amd64
 qml-module-qtqml-models2:amd64
 qml-module-qtquick-controls:amd64
 qml-module-qtquick-controls2:amd64
-qml-module-qtquick-dialogs:amd64
 qml-module-qtquick-layouts:amd64
-qml-module-qtquick-privatewidgets:amd64
 qml-module-qtquick-templates2:amd64
 qml-module-qtquick-window2:amd64
 qml-module-qtquick2:amd64
@@ -2122,6 +2110,7 @@ qt6-wayland:amd64
 qttranslations5-l10n
 qtwayland5:amd64
 rake
+raspi-firmware
 readline-common
 reiserfsprogs
 rfkill
@@ -2132,7 +2121,6 @@ ruby
 ruby-asciidoctor
 ruby-bundler
 ruby-csv
-ruby-dev:amd64
 ruby-did-you-mean
 ruby-net-telnet
 ruby-ruby2-keywords
@@ -2141,7 +2129,6 @@ ruby-sdbm:amd64
 ruby-webrick
 ruby-xmlrpc
 ruby3.3
-ruby3.3-dev:amd64
 ruby3.3-doc
 rubygems-integration
 runit-helper
@@ -2248,11 +2235,11 @@ user-setup
 util-linux
 util-linux-extra
 util-linux-locales
-uuid-dev:amd64
 uuid-runtime
 va-driver-all:amd64
 vala-panel-appmenu-common
 variety
+vbetool
 vdpau-driver-all:amd64
 vim-common
 vim-tiny
