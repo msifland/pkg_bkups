@@ -424,6 +424,7 @@ hwinfo
 hwloc
 hyphen-en-us
 i965-va-driver:amd64
+ibus-gtk4:amd64
 ibverbs-providers:amd64
 id3
 ieee-data
@@ -918,6 +919,7 @@ libhwloc-plugins:amd64
 libhwloc15:amd64
 libhwy1t64:amd64
 libhyphen0:amd64
+libibus-1.0-5:amd64
 libibverbs1:amd64
 libical3t64:amd64
 libice6:amd64
