@@ -424,6 +424,7 @@ hwinfo
 hwloc
 hyphen-en-us
 i965-va-driver:amd64
+ibus-gtk3:amd64
 ibus-gtk4:amd64
 ibverbs-providers:amd64
 id3
