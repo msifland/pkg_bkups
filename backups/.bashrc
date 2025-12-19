@@ -483,7 +483,7 @@ if ! dpkg --get-selections | awk '{print $1}' | grep -xq "ncal"; then
 	echo "spike" | sudo -S apt install -y ncal
 fi
 ##################Peronal Greeting######################
-#$HOME/scripts/now
+$HOME/scripts/now
 # Color ranmdom number variables are calculated at the top of file -c$num1,$num2
 echo
 fastfetch --config $HOME/pkg_bkups/backups/fastfectch-config.jsonc
