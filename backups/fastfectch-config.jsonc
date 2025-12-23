@@ -213,35 +213,6 @@
       }
     },
     {
-      "type": "memory",
-      "keyIcon": "",
-      "percent": {
-        "green": 50,
-        "yellow": 80,
-        "type": 0
-      }
-    },
-    {
-      "type": "disk",
-      "keyIcon": "",
-      "showRegular": true,
-      "showExternal": true,
-      "showHidden": true,
-      "showSubvolumes": true,
-      "showReadOnly": true,
-      "showUnknown": true,
-      "folders": "",
-      "hideFolders": "/efi:/boot:/boot/*",
-      "hideFS": "",
-      "useAvailable": true,
-      "percent": {
-        "green": 50,
-        "yellow": 80,
-        "type": 0
-      }
-    },
-
-    {
       "type": "battery",
       "keyIcon": "",
       "temp": false,
