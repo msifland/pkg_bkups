@@ -2625,7 +2625,6 @@ libxkbfile1:amd64
 libxkbregistry0:amd64
 libxklavier16:amd64
 libxm4:amd64
-libxml++2.6-2v5:amd64
 libxml-dom-perl
 libxml-parser-perl
 libxml-perl
@@ -3631,6 +3630,11 @@ python3-pyshodan
 python3-pyside2.qtcore
 python3-pyside2.qtgui
 python3-pyside2.qtwidgets
+python3-pyside6.qtcore
+python3-pyside6.qtgui
+python3-pyside6.qtopengl
+python3-pyside6.qtopenglwidgets
+python3-pyside6.qtwidgets
 python3-pysnmp
 python3-pysnmp4
 python3-pyspnego
