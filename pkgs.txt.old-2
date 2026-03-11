@@ -1801,7 +1801,7 @@ librsvg2-common:amd64
 librtlsdr0:amd64
 librtmp1:amd64
 librttopo1:amd64
-librubberband2:amd64
+librubberband3:amd64
 libruby:amd64
 libruby3.3:amd64
 libsamplerate0:amd64
@@ -2016,6 +2016,7 @@ libvorbisenc2:amd64
 libvorbisfile3:amd64
 libvpl2
 libvpx11:amd64
+libvpx12:amd64
 libvte-2.91-0:amd64
 libvte-2.91-common
 libvulkan1:amd64

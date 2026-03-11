@@ -8,6 +8,7 @@ acpi-support-base
 acpid
 adduser
 adwaita-icon-theme
+afdko-bin
 aircrack-ng
 alsa-topology-conf
 alsa-ucm-conf
@@ -326,6 +327,7 @@ firmware-nvidia-graphics
 firmware-nvidia-gsp
 firmware-nvidia-tesla-535-gsp
 firmware-nvidia-tesla-gsp
+firmware-qcom-dsp
 firmware-qcom-soc
 firmware-qlogic
 firmware-realtek
@@ -375,6 +377,7 @@ fonts-urw-base35
 fortune-mod
 fortunes-min
 fping
+freerdp-x11
 freerdp3-x11
 freetds-common
 fstransform
@@ -468,6 +471,8 @@ git-man
 glib-networking:amd64
 glib-networking-common
 glib-networking-services
+glycin-loaders
+glycin-thumbnailers
 gnome-accessibility-themes
 gnome-disk-utility
 gnome-icon-theme
@@ -640,6 +645,7 @@ libabsl20240722:amd64
 libabw-0.1-1:amd64
 libaccountsservice0:amd64
 libacl1:amd64
+libada-url0-3:amd64
 libadwaita-1-0:amd64
 libaec0:amd64
 libafflib0t64:amd64
@@ -649,6 +655,7 @@ libalgorithm-diff-perl
 libalgorithm-diff-xs-perl
 libalgorithm-merge-perl
 libamd3:amd64
+libantlr4-runtime4.9:amd64
 libao-common
 libao4:amd64
 libaom3:amd64
@@ -739,8 +746,10 @@ libblosc1:amd64
 libbluetooth3:amd64
 libbluray3:amd64
 libboost-iostreams1.83.0:amd64
-libboost-locale1.83.0:amd64
+libboost-iostreams1.90.0:amd64
+libboost-locale1.90.0:amd64
 libboost-thread1.83.0:amd64
+libboost-thread1.90.0:amd64
 libbox2d2:amd64
 libbpf1:amd64
 libbrlapi0.8:amd64
@@ -833,6 +842,7 @@ libcom-err2:amd64
 libcommon-sense-perl:amd64
 libcommons-logging-java
 libcommons-parent-java
+libcomposefs1:amd64
 libcompress-raw-lzma-perl:amd64
 libconfig++11:amd64
 libconfig11:amd64
@@ -1070,6 +1080,7 @@ libglvnd0:amd64
 libglx-dev:amd64
 libglx-mesa0:amd64
 libglx0:amd64
+libglycin-2-0:amd64
 libgme0:amd64
 libgmp-dev:amd64
 libgmp10:amd64
@@ -1147,6 +1158,7 @@ libhd21t64:amd64
 libhdf4-0:amd64
 libhdf5-310:amd64
 libhdf5-hl-310:amd64
+libheif-plugin-aomenc:amd64
 libheif-plugin-dav1d:amd64
 libheif-plugin-libde265:amd64
 libheif1:amd64
@@ -1180,6 +1192,7 @@ libice-dev:amd64
 libice6:amd64
 libicu72:amd64
 libicu76:amd64
+libicu78:amd64
 libid3tag0:amd64
 libidn12:amd64
 libidn2-0:amd64
@@ -1536,11 +1549,12 @@ libnss-mdns:amd64
 libnss-mymachines:amd64
 libnss3:amd64
 libntfs-3g89t64:amd64
+libntlm0:amd64
 libnuma1:amd64
 libnumber-bytes-human-perl
 libnumbertext-1.0-0:amd64
 libnumbertext-data
-libnvme1t64
+libnvme1t64:amd64
 libobjc-15-dev:amd64
 libobjc4:amd64
 libodbc2:amd64
@@ -1568,8 +1582,8 @@ libopenni2-0:amd64
 libopus0:amd64
 libopusfile0:amd64
 liborc-0.4-0t64:amd64
-liborcus-0.20-0:amd64
-liborcus-parser-0.20-0:amd64
+liborcus-0.21-0:amd64
+liborcus-parser-0.21-0:amd64
 libosp5
 libostree-1-1:amd64
 libout123-0t64:amd64
@@ -1612,7 +1626,7 @@ libpcre2-posix3:amd64
 libpcre3:amd64
 libpcsclite1:amd64
 libpdfbox-java
-libpeas-1.0-0:amd64
+libpeas-1.0-1:amd64
 libpeas-common
 libperl4-corelibs-perl
 libperl5.40:amd64
@@ -1625,8 +1639,8 @@ libpipewire-0.3-common
 libpipewire-0.3-modules:amd64
 libpixman-1-0:amd64
 libpkcs11-helper1t64:amd64
-libpkgconf3:amd64
-libplacebo351:amd64
+libpkgconf7:amd64
+libplacebo360:amd64
 libplist-2.0-4:amd64
 libplymouth5:amd64
 libpmem1:amd64
@@ -1662,7 +1676,6 @@ libpulse0:amd64
 libpulsedsp:amd64
 libpwquality-common
 libpwquality1:amd64
-libpyside2-py3-5.15t64
 libpyside6-py3-6.9
 libpython2-stdlib:amd64
 libpython2.7-minimal:amd64
@@ -1830,14 +1843,13 @@ libserf-1-1:amd64
 libsframe3:amd64
 libsgutils2-1.48:amd64
 libsharpyuv0:amd64
-libshiboken2-py3-5.15t64
 libshiboken6-py3-6.9
 libshine3:amd64
 libshout3:amd64
 libsidplay1v5:amd64
 libsigc++-2.0-0v5:amd64
-libsimdjson29:amd64
-libsimdutf29:amd64
+libsimdjson30:amd64
+libsimdutf31:amd64
 libslang2:amd64
 libslirp0:amd64
 libsm-dev:amd64
@@ -1949,7 +1961,7 @@ libtorrent-rasterbar2.0t64:amd64
 libtry-tiny-perl
 libts0t64:amd64
 libtsan2:amd64
-libtsk19t64:amd64
+libtsk23:amd64
 libtss2-esys-3.0.2-0t64:amd64
 libtss2-mu-4.0.1-0t64:amd64
 libtss2-sys1t64:amd64
@@ -2017,6 +2029,7 @@ libvorbisfile3:amd64
 libvpl2
 libvpx11:amd64
 libvpx12:amd64
+libvslvm1t64:amd64
 libvte-2.91-0:amd64
 libvte-2.91-common
 libvulkan1:amd64
@@ -2200,6 +2213,7 @@ libzvbi-common
 libzvbi0t64:amd64
 libzxcvbn0:amd64
 libzxing3:amd64
+libzxing4:amd64
 libzzip-0-13t64:amd64
 lightdm
 lightdm-gtk-greeter
@@ -2208,24 +2222,25 @@ lighttpd
 lighttpd-mod-deflate
 lighttpd-mod-openssl
 linux-base
+linux-base-6.18.15+deb14-amd64
 linux-base-6.18.5+deb14-amd64
 linux-base-amd64
 linux-cpupower
 linux-headers-6.12.48+deb13-amd64
 linux-headers-6.12.48+deb13-common
-linux-headers-6.17.13+deb14-amd64
-linux-headers-6.17.13+deb14-common
+linux-headers-6.18.15+deb14-amd64
+linux-headers-6.18.15+deb14-common
 linux-headers-6.18.5+deb14-amd64
 linux-headers-6.18.5+deb14-common
 linux-headers-amd64
 linux-image-6.12.48+deb13-amd64
 linux-image-6.17.11+deb14-amd64
 linux-image-6.17.11+deb14-rt-amd64-unsigned
-linux-image-6.17.13+deb14-amd64
+linux-image-6.18.15+deb14-amd64
 linux-image-6.18.5+deb14-amd64
 linux-image-amd64
 linux-kbuild-6.12.48+deb13
-linux-kbuild-6.17.13+deb14
+linux-kbuild-6.18.15+deb14
 linux-kbuild-6.18.5+deb14
 linux-libc-dev
 linux-sysctl-defaults
@@ -2715,6 +2730,7 @@ python3-jwcrypto
 python3-jwt
 python3-kaitaistruct
 python3-kiwisolver
+python3-krb5
 python3-lazr.restfulclient
 python3-lazr.uri
 python3-ldap3
@@ -2910,6 +2926,7 @@ python3-tempora
 python3-termcolor
 python3-terminaltables
 python3-tinycss2
+python3-tinyhtml5
 python3-tk
 python3-tls-parser
 python3-tornado
@@ -2925,6 +2942,7 @@ python3-typing-inspection
 python3-tz
 python3-uc-micro
 python3-ufolib2
+python3-uharfbuzz
 python3-unicodedata2
 python3-unicrypto
 python3-uno
@@ -3322,6 +3340,7 @@ x11proto-dev
 x11proto-record-dev
 x11proto-xext-dev
 xapp-sn-watcher
+xapp-symbolic-icons
 xapps-common
 xar
 xauth
