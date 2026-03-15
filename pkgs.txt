@@ -400,6 +400,7 @@ gcc-15
 gcc-15-base:amd64
 gcc-15-for-host:amd64
 gcc-15-x86-64-linux-gnu
+gcc-16-base:amd64
 gcc-mingw-w64-base
 gcc-mingw-w64-i686-win32
 gcc-mingw-w64-i686-win32-runtime
@@ -905,7 +906,6 @@ libdigest-perl-md5-perl
 libdist-checkconflicts-perl
 libdjvulibre-text
 libdjvulibre21:amd64
-libdnnl3.6:amd64
 libdotconf0:amd64
 libdouble-conversion3:amd64
 libdpkg-perl
@@ -969,6 +969,7 @@ libextutils-depends-perl
 libfaad2:amd64
 libfakeroot:amd64
 libfalcosecurity0t64:amd64
+libfarmhash0:amd64
 libfbclient2:amd64
 libfcgi-bin
 libfcgi-perl
@@ -1245,6 +1246,7 @@ libjpeg-turbo-progs
 libjpeg62-turbo:amd64
 libjq1:amd64
 libjs-bootstrap5
+libjs-d3
 libjs-jquery
 libjs-lunr
 libjs-mathjax
@@ -1564,9 +1566,6 @@ libodfgen-0.1-1:amd64
 libogg0:amd64
 libole-storage-lite-perl
 libonig5:amd64
-libonnx1t64:amd64
-libonnxruntime-providers:amd64
-libonnxruntime1.21:amd64
 libopenal-data
 libopenal1:amd64
 libopencore-amrnb0:amd64
@@ -1934,6 +1933,7 @@ libtcl8.6:amd64
 libtdb1:amd64
 libteamdctl0:amd64
 libteckit0:amd64
+libtensorflow-lite2.14.1:amd64
 libterm-readkey-perl
 libterm-readline-gnu-perl
 libtevent0t64:amd64
@@ -2166,7 +2166,6 @@ libxmlsec1-nss1:amd64
 libxmp4:amd64
 libxmu6:amd64
 libxmuu1:amd64
-libxnnpack0.20241108:amd64
 libxnvctrl0:amd64
 libxpm4:amd64
 libxpresent1:amd64
@@ -2212,7 +2211,6 @@ libzstd1:amd64
 libzvbi-common
 libzvbi0t64:amd64
 libzxcvbn0:amd64
-libzxing3:amd64
 libzxing4:amd64
 libzzip-0-13t64:amd64
 lightdm
@@ -2222,27 +2220,29 @@ lighttpd
 lighttpd-mod-deflate
 lighttpd-mod-openssl
 linux-base
-linux-base-6.18.15+deb14-amd64
 linux-base-6.18.5+deb14-amd64
+linux-base-6.19.6+deb14+1-amd64
 linux-base-amd64
+linux-binary-6.19.6+deb14+1-amd64
 linux-cpupower
 linux-headers-6.12.48+deb13-amd64
 linux-headers-6.12.48+deb13-common
-linux-headers-6.18.15+deb14-amd64
-linux-headers-6.18.15+deb14-common
 linux-headers-6.18.5+deb14-amd64
 linux-headers-6.18.5+deb14-common
+linux-headers-6.19.6+deb14+1-amd64
+linux-headers-6.19.6+deb14+1-common
 linux-headers-amd64
 linux-image-6.12.48+deb13-amd64
 linux-image-6.17.11+deb14-amd64
 linux-image-6.17.11+deb14-rt-amd64-unsigned
-linux-image-6.18.15+deb14-amd64
 linux-image-6.18.5+deb14-amd64
+linux-image-6.19.6+deb14+1-amd64
 linux-image-amd64
 linux-kbuild-6.12.48+deb13
-linux-kbuild-6.18.15+deb14
 linux-kbuild-6.18.5+deb14
+linux-kbuild-6.19.6+deb14+1
 linux-libc-dev
+linux-modules-6.19.6+deb14+1-amd64
 linux-sysctl-defaults
 live-boot
 live-boot-doc
@@ -2657,6 +2657,7 @@ python3-defusedxml
 python3-deprecated
 python3-dev
 python3-dicttoxml
+python3-discovery
 python3-distlib
 python3-distro
 python3-django
@@ -2712,6 +2713,7 @@ python3-invoke
 python3-ipwhois
 python3-ipy
 python3-ipython
+python3-ipython-pygments-lexers
 python3-isoduration
 python3-itsdangerous
 python3-jaraco.collections
