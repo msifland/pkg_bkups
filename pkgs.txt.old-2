@@ -263,7 +263,7 @@ easy-rsa
 efibootmgr
 eject
 emacsen-common
-enchant-2
+enchant
 engrampa
 engrampa-common
 enum4linux
@@ -316,7 +316,6 @@ firmware-libertas
 firmware-linux
 firmware-linux-free
 firmware-linux-nonfree
-firmware-marvell-prestera
 firmware-mediatek
 firmware-misc-nonfree
 firmware-myricom
@@ -348,6 +347,7 @@ fonts-dejavu-extra
 fonts-dejavu-mono
 fonts-droid-fallback
 fonts-font-awesome
+fonts-font-awesome-legacy
 fonts-freefont-ttf
 fonts-gfs-baskerville
 fonts-gfs-porson
@@ -433,7 +433,7 @@ gimp-data
 gir1.2-amtk-5:amd64
 gir1.2-atk-1.0:amd64
 gir1.2-atspi-2.0:amd64
-gir1.2-ayatanaappindicator3-0.1
+gir1.2-ayatanaappindicator3-0.1:amd64
 gir1.2-babl-0.1:amd64
 gir1.2-bamf-3
 gir1.2-caja-2.0:amd64
@@ -441,7 +441,7 @@ gir1.2-eom-1.0
 gir1.2-freedesktop:amd64
 gir1.2-gdkpixbuf-2.0:amd64
 gir1.2-gegl-0.4:amd64
-gir1.2-gexiv2-0.10:amd64
+gir1.2-gexiv2-0.16:amd64
 gir1.2-gimp-3.0:amd64
 gir1.2-girepository-3.0:amd64
 gir1.2-glib-2.0:amd64
@@ -721,7 +721,6 @@ libavahi-common-data:amd64
 libavahi-common3:amd64
 libavahi-core7:amd64
 libavahi-glib1:amd64
-libavc1394-0:amd64
 libavcodec61:amd64
 libavcodec62:amd64
 libavfilter11:amd64
@@ -731,13 +730,13 @@ libavif16:amd64
 libavtp0:amd64
 libavutil59:amd64
 libavutil60:amd64
-libayatana-appindicator3-1
+libayatana-appindicator-glib2:amd64
+libayatana-appindicator3-1:amd64
 libayatana-ido3-0.4-0:amd64
 libayatana-indicator3-7:amd64
 libb-hooks-endofscope-perl
 libb-hooks-op-check-perl:amd64
 libb2-1:amd64
-libbabeltrace1:amd64
 libbabl-0.1-0:amd64
 libbamf3-2t64:amd64
 libbcg729-0:amd64
@@ -761,10 +760,8 @@ libblockdev3:amd64
 libblosc1:amd64
 libbluetooth3:amd64
 libbluray3:amd64
-libboost-iostreams1.83.0:amd64
 libboost-iostreams1.90.0:amd64
 libboost-locale1.90.0:amd64
-libboost-thread1.83.0:amd64
 libboost-thread1.90.0:amd64
 libbox2d2:amd64
 libbpf1:amd64
@@ -882,6 +879,7 @@ libctf0:amd64
 libcups2t64:amd64
 libcupsfilters1t64:amd64
 libcurl3t64-gnutls:amd64
+libcurl4-gnutls:amd64
 libcurl4t64:amd64
 libcwidget4:amd64
 libdaemon0:amd64
@@ -982,7 +980,7 @@ libexiv2-data
 libexpat1:amd64
 libexpat1-dev:amd64
 libext2fs2t64:amd64
-libexttextcat-2.0-0:amd64
+libexttextcat-2.0-1:amd64
 libexttextcat-data
 libextutils-depends-perl
 libfaad2:amd64
@@ -1052,7 +1050,7 @@ libgcr-base-3-1:amd64
 libgcr-ui-3-1:amd64
 libgcrypt20:amd64
 libgd3:amd64
-libgdal38:amd64
+libgdal39:amd64
 libgdbm-compat4t64:amd64
 libgdbm6t64:amd64
 libgdk-pixbuf-2.0-0:amd64
@@ -1072,7 +1070,7 @@ libgeoip1t64:amd64
 libgeos-c1t64:amd64
 libgeos3.14.1:amd64
 libgeotiff5:amd64
-libgexiv2-2:amd64
+libgexiv2-0.16-4:amd64
 libgfapi0:amd64
 libgfortran5:amd64
 libgfrpc0:amd64
@@ -1178,6 +1176,7 @@ libhd21t64:amd64
 libhdf4-0:amd64
 libhdf5-310:amd64
 libhdf5-hl-310:amd64
+libhdr-histogram6:amd64
 libheif-plugin-aomenc:amd64
 libheif-plugin-dav1d:amd64
 libheif-plugin-libde265:amd64
@@ -1256,7 +1255,6 @@ libjavascriptcoregtk-6.0-1:amd64
 libjaylink0:amd64
 libjbig0:amd64
 libjbig2dec0:amd64
-libjcat1:amd64
 libjcode-pm-perl
 libjemalloc2:amd64
 libjim0.83:amd64
@@ -1380,7 +1378,7 @@ libkmldom1t64:amd64
 libkmlengine1t64:amd64
 libkmod2:amd64
 libkpathsea6:amd64
-libkpmcore13:amd64
+libkpmcore13
 libkrb5-3:amd64
 libkrb5-dev:amd64
 libkrb5support0:amd64
@@ -1401,7 +1399,7 @@ liblerc4:amd64
 liblightdm-gobject-1-0:amd64
 liblilv-0-0:amd64
 liblinear4:amd64
-libllhttp9.3
+libllhttp9.4:amd64
 libllvm18:amd64
 libllvm19:amd64
 libllvm21:amd64
@@ -1463,7 +1461,6 @@ libmateweather1t64:amd64
 libmath-random-isaac-perl
 libmath-random-isaac-xs-perl
 libmaxminddb0:amd64
-libmbedcrypto16:amd64
 libmbim-glib4:amd64
 libmbim-proxy
 libmbim-utils
@@ -1561,11 +1558,12 @@ libnl-route-3-200:amd64
 libnm0:amd64
 libnma-common
 libnma0:amd64
-libnode127:amd64
+libnode137:amd64
 libnorm1t64:amd64
 libnotify4:amd64
 libnpth0t64:amd64
 libnsl2:amd64
+libnsl3:amd64
 libnspr4:amd64
 libnss-mdns:amd64
 libnss-mymachines:amd64
@@ -1599,7 +1597,7 @@ libopengl-dev:amd64
 libopengl0:amd64
 libopenh264-8:amd64
 libopenjp2-7:amd64
-libopenjph0.27:amd64
+libopenjph0.28:amd64
 libopenmpt0t64:amd64
 libopenni2-0:amd64
 libopus0:amd64
@@ -1657,6 +1655,7 @@ libperl5.40:amd64
 libpfm4:amd64
 libpgm-5.3-0t64:amd64
 libphonenumber8:amd64
+libpicohttpparser1:amd64
 libpipeline1:amd64
 libpipewire-0.3-0t64:amd64
 libpipewire-0.3-common
@@ -1675,9 +1674,9 @@ libpod-parser-perl
 libpolkit-agent-1-0:amd64
 libpolkit-gobject-1-0:amd64
 libpolkit-qt6-1-1:amd64
-libpoppler-cpp2:amd64
+libpoppler-cpp3:amd64
 libpoppler-glib8t64:amd64
-libpoppler147:amd64
+libpoppler156:amd64
 libpopt0:amd64
 libportaudio2:amd64
 libportmidi2:amd64
@@ -1711,6 +1710,9 @@ libpython3.13:amd64
 libpython3.13-dev:amd64
 libpython3.13-minimal:amd64
 libpython3.13-stdlib:amd64
+libpython3.14:amd64
+libpython3.14-minimal:amd64
+libpython3.14-stdlib:amd64
 libqca-qt6-2:amd64
 libqca-qt6-plugins:amd64
 libqhull-r8.0:amd64
@@ -1792,7 +1794,7 @@ libraqm0:amd64
 librasqal3t64:amd64
 librav1e0.8:amd64
 libraw1394-11:amd64
-libraw23t64:amd64
+libraw25:amd64
 librbd1
 librda-common
 librda0:amd64
@@ -1889,7 +1891,7 @@ libsndio7.0:amd64
 libsnmp-base
 libsnmp45:amd64
 libsocket6-perl
-libsodium23:amd64
+libsodium26:amd64
 libsombok3:amd64
 libsonic0:amd64
 libsord-0-0:amd64
@@ -1923,6 +1925,7 @@ libssh-4:amd64
 libssh2-1t64:amd64
 libssl-dev:amd64
 libssl3t64:amd64
+libsso-mib0:amd64
 libstaroffice-0.0-0:amd64
 libstartup-notification0:amd64
 libstdc++-15-dev:amd64
@@ -1958,6 +1961,7 @@ libtbb12:amd64
 libtbbbind-2-5:amd64
 libtbbmalloc2:amd64
 libtcl8.6:amd64
+libtcl9.0:amd64
 libtdb1:amd64
 libteckit0:amd64
 libtensorflow-lite2.14.1:amd64
@@ -1975,7 +1979,7 @@ libthai0:amd64
 libtheora1:amd64
 libtheoradec2:amd64
 libtheoraenc2:amd64
-libthrift-0.22.0:amd64
+libthrift-0.23.0:amd64
 libtie-ixhash-perl
 libtiff6:amd64
 libtimedate-perl
@@ -1992,6 +1996,7 @@ libtsan2:amd64
 libtsk23:amd64
 libtss2-esys-3.0.2-0t64:amd64
 libtss2-mu-4.0.1-0t64:amd64
+libtss2-rc0t64:amd64
 libtss2-sys1t64:amd64
 libtss2-tcti-cmd0t64:amd64
 libtss2-tcti-device0t64:amd64
@@ -2042,7 +2047,7 @@ libvariable-magic-perl
 libvdeplug2t64:amd64
 libvdpau1:amd64
 libvhdi1:amd64
-libvidstab1.1:amd64
+libvidstab1.2:amd64
 libvirglrenderer1:amd64
 libvisio-0.1-1:amd64
 libvisual-0.4-0:amd64
@@ -2094,7 +2099,7 @@ libwpg-0.3-3:amd64
 libwps-0.4-4:amd64
 libwrap0:amd64
 libwsutil17:amd64
-libwtmpdb0:amd64
+libwtmpdb0
 libwww-mechanize-perl
 libwww-perl
 libwww-robotrules-perl
@@ -2199,8 +2204,8 @@ libxml2-16:amd64
 libxml2-dev:amd64
 libxml2-utils
 libxmlb2:amd64
-libxmlsec1-1:amd64
-libxmlsec1-nss1:amd64
+libxmlsec1-10310:amd64
+libxmlsec1-nss10310:amd64
 libxmp4:amd64
 libxmu6:amd64
 libxmuu1:amd64
@@ -2260,30 +2265,30 @@ lighttpd-mod-deflate
 lighttpd-mod-openssl
 linux-base
 linux-base-6.19.10+deb14-amd64
-linux-base-6.19.13+deb14-amd64
+linux-base-7.0.13+deb14-amd64
 linux-base-amd64
 linux-binary-6.19.10+deb14-amd64
-linux-binary-6.19.13+deb14-amd64
+linux-binary-7.0.13+deb14-amd64
 linux-cpupower
 linux-headers-6.12.48+deb13-amd64
 linux-headers-6.12.48+deb13-common
 linux-headers-6.19.10+deb14-amd64
 linux-headers-6.19.10+deb14-common
-linux-headers-6.19.13+deb14-amd64
-linux-headers-6.19.13+deb14-common
+linux-headers-7.0.13+deb14-amd64
+linux-headers-7.0.13+deb14-common
 linux-headers-amd64
 linux-image-6.12.48+deb13-amd64
 linux-image-6.17.11+deb14-amd64
 linux-image-6.17.11+deb14-rt-amd64-unsigned
 linux-image-6.19.10+deb14-amd64
-linux-image-6.19.13+deb14-amd64
+linux-image-7.0.13+deb14-amd64
 linux-image-amd64
 linux-kbuild-6.12.48+deb13
 linux-kbuild-6.19.10+deb14
-linux-kbuild-6.19.13+deb14
+linux-kbuild-7.0.13+deb14
 linux-libc-dev
 linux-modules-6.19.10+deb14-amd64
-linux-modules-6.19.13+deb14-amd64
+linux-modules-7.0.13+deb14-amd64
 linux-sysctl-defaults
 live-boot
 live-boot-doc
@@ -2467,6 +2472,7 @@ network-manager
 network-manager-applet
 network-manager-gnome
 network-manager-l10n
+network-manager-tui
 nfs-common
 nftables
 nginx
@@ -2477,12 +2483,14 @@ nm-connection-editor
 nmap
 nmap-common
 node-acorn
-node-cjs-module-lexer
+node-balanced-match
+node-brace-expansion
 node-clipboard
 node-corepack
 node-debug
 node-llhttp
 node-lru-cache
+node-minimatch
 node-ms
 node-normalize.css
 node-popper2
@@ -2636,6 +2644,7 @@ python3-aiowinreg
 python3-ajpy
 python3-altgraph
 python3-aniso8601
+python3-annotated-doc
 python3-annotated-types
 python3-antlr4
 python3-anyio
@@ -2854,7 +2863,6 @@ python3-pip-whl
 python3-pkg-resources
 python3-platformdirs
 python3-pluggy
-python3-pluginbase
 python3-ply
 python3-pooch
 python3-portend
@@ -3038,7 +3046,6 @@ qbittorrent
 qdirstat
 qemu-block-extra
 qemu-efi-aarch64
-qemu-efi-arm
 qemu-efi-riscv64
 qemu-system
 qemu-system-arm
@@ -3239,6 +3246,7 @@ sslsplit
 sslyze
 starkiller
 statsprocessor
+stunnel
 stunnel4
 sublime-text
 sudo
@@ -3269,6 +3277,7 @@ tasksel-data
 tcl
 tcl-expect:amd64
 tcl8.6
+tcl9.0
 tcpdump
 tcpick
 tcpreplay
