@@ -2245,7 +2245,7 @@ libxxhash-dev:amd64
 libxxhash0:amd64
 libyajl2:amd64
 libyaml-0-2:amd64
-libyaml-cpp0.8:amd64
+libyaml-cpp0.9:amd64
 libyaml-tiny-perl
 libyara10:amd64
 libyelp-1-0:amd64
