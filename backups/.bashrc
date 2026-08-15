@@ -1,5 +1,5 @@
-export PATH="$HOME/.npm-global/bin:$PATH"
 export PATH="/usr/bin:$PATH"
+export PATH="$HOME/.npm-global/bin:$PATH"
 #
 # ~/.bashrc
 #
@@ -588,3 +588,6 @@ export PS1="
 [[ ${BLE_VERSION-} ]] && ble-attach
 
 #[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+# OpenClaw Completion
+[ -f "/home/msifland/.openclaw/completions/openclaw.bash" ] && source "/home/msifland/.openclaw/completions/openclaw.bash"
