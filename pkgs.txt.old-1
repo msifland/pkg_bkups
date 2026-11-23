@@ -1918,7 +1918,7 @@ libshout3:amd64
 libsidplay1v5:amd64
 libsigc++-2.0-0v5:amd64
 libsimdjson33:amd64
-libsimdutf33:amd64
+libsimdutf35:amd64
 libskia146:amd64
 libslang2:amd64
 libslirp0:amd64
