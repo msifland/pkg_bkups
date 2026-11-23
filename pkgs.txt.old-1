@@ -121,7 +121,6 @@ chntpw
 chromium
 chromium-common
 chromium-driver
-chromium-sandbox
 cifs-utils
 cinnamon-desktop-data
 cinnamon-l10n
@@ -160,6 +159,7 @@ cpp-15
 cpp-15-for-host:amd64
 cpp-15-x86-64-linux-gnu
 cpp-16
+cpp-16-for-host:amd64
 cpp-16-x86-64-linux-gnu
 cpp-x86-64-linux-gnu
 cracklib-runtime
@@ -410,6 +410,7 @@ gcc-15-multilib
 gcc-15-x86-64-linux-gnu
 gcc-16
 gcc-16-base:amd64
+gcc-16-for-host:amd64
 gcc-16-multilib
 gcc-16-x86-64-linux-gnu
 gcc-mingw-w64-base
@@ -436,7 +437,6 @@ gettext
 gettext-base
 gh
 ghostscript
-ghp-import
 gimp
 gimp-data
 gir1.2-amtk-5:amd64
@@ -451,6 +451,7 @@ gir1.2-freedesktop:amd64
 gir1.2-gdkpixbuf-2.0:amd64
 gir1.2-gegl-0.4:amd64
 gir1.2-gexiv2-0.16:amd64
+gir1.2-gfls-1:amd64
 gir1.2-gimp-3.0:amd64
 gir1.2-girepository-3.0:amd64
 gir1.2-glib-2.0:amd64
@@ -673,7 +674,7 @@ libabsl20240722:amd64
 libabsl20260107:amd64
 libabsl20260526:amd64
 libabw-0.1-1:amd64
-libaccountsservice0:amd64
+libaccountsservice1:amd64
 libacl1:amd64
 libada-url0-3:amd64
 libadwaita-1-0:amd64
@@ -738,13 +739,15 @@ libavahi-core7:amd64
 libavahi-glib1:amd64
 libavcodec61:amd64
 libavcodec62:amd64
-libavfilter11:amd64
-libavformat62:amd64
+libavcodec63:amd64
+libavfilter12:amd64
+libavformat63:amd64
 libavif-gdk-pixbuf:amd64
 libavif16:amd64
 libavtp0:amd64
 libavutil59:amd64
 libavutil60:amd64
+libavutil61:amd64
 libayatana-appindicator-glib2:amd64
 libayatana-appindicator3-1:amd64
 libayatana-ido3-0.4-0:amd64
@@ -777,8 +780,10 @@ libblosc1:amd64
 libbluetooth3:amd64
 libbluray4:amd64
 libboost-iostreams1.90.0:amd64
+libboost-iostreams1.92.0:amd64
 libboost-locale1.90.0:amd64
 libboost-thread1.90.0:amd64
+libboost-thread1.92.0:amd64
 libbox2d2:amd64
 libbpf1:amd64
 libbrlapi0.8:amd64
@@ -818,7 +823,6 @@ libcanberra0:amd64
 libcap-ng0:amd64
 libcap2:amd64
 libcap2-bin
-libcapi20-3t64:amd64
 libcapstone-dev:amd64
 libcapstone5:amd64
 libcares2:amd64
@@ -857,6 +861,7 @@ libclang1-21
 libclass-c3-perl
 libclass-c3-xs-perl
 libclass-data-inheritable-perl
+libclass-inspector-perl
 libclass-method-modifiers-perl
 libclass-xsaccessor-perl
 libcli1.10t64:amd64
@@ -928,7 +933,7 @@ libdebuginfod1t64:amd64
 libdecor-0-0:amd64
 libdecor-0-plugin-1-gtk:amd64
 libdeflate0:amd64
-libdevel-callchecker-perl:amd64
+libdevel-callchecker-perl
 libdevel-caller-perl:amd64
 libdevel-globaldestruction-perl
 libdevel-lexalias-perl
@@ -945,6 +950,7 @@ libdjvulibre21:amd64
 libdnnl3.6:amd64
 libdotconf0:amd64
 libdouble-conversion3:amd64
+libdovi3:amd64
 libdpkg-perl
 libdrm-amdgpu1:amd64
 libdrm-common
@@ -1031,11 +1037,11 @@ libfile-fcntllock-perl
 libfile-homedir-perl
 libfile-listing-perl
 libfile-mimeinfo-perl
+libfile-sharedir-perl
 libfile-which-perl
 libfl-dev:amd64
 libfl2:amd64
 libflac14:amd64
-libflashrom1:amd64
 libflite1:amd64
 libfluidsynth3:amd64
 libfont-afm-perl
@@ -1081,9 +1087,9 @@ libgedit-amtk-5-0:amd64
 libgedit-amtk-5-common
 libgedit-gfls-1-0:amd64
 libgedit-gfls-common
-libgedit-gtksourceview-300-3:amd64
+libgedit-gtksourceview-300-6:amd64
 libgedit-gtksourceview-300-common
-libgedit-tepl-6-3:amd64
+libgedit-tepl-6-5:amd64
 libgedit-tepl-common
 libgegl-0.4-0t64:amd64
 libgegl-common
@@ -1176,6 +1182,7 @@ libgts-bin
 libgucharmap-2-90-7:amd64
 libgudev-1.0-0:amd64
 libgumbo3:amd64
+libgumbo4:amd64
 libgupnp-1.6-0:amd64
 libgupnp-igd-1.6-0:amd64
 libgusb2a:amd64
@@ -1189,11 +1196,12 @@ libgxps2t64:amd64
 libhandy-1-0:amd64
 libharfbuzz-gobject0:amd64
 libharfbuzz-icu0:amd64
+libharfbuzz-raster0:amd64
 libharfbuzz-subset0:amd64
 libharfbuzz0b:amd64
 libhashkit2t64:amd64
 libhd21t64:amd64
-libhdf4-0:amd64
+libhdf4-11:amd64
 libhdf5-320:amd64
 libhdf5-hl-320:amd64
 libhdr-histogram6:amd64
@@ -1283,13 +1291,11 @@ libjim0.84:amd64
 libjpeg-turbo-progs
 libjpeg62-turbo:amd64
 libjq1:amd64
-libjs-bootstrap5
 libjs-d3
 libjs-esprima
 libjs-events
 libjs-inherits
 libjs-jquery
-libjs-lunr
 libjs-mathjax
 libjs-prettify
 libjs-regenerate
@@ -1306,6 +1312,7 @@ libjsoncpp26:amd64
 libjte2:amd64
 libjudydebian1
 libjxl0.11:amd64
+libjxl0.13:amd64
 libjxr-tools
 libjxr0t64:amd64
 libk5crypto3:amd64
@@ -1402,7 +1409,6 @@ libkirigamiformsprivatetemplates6:amd64
 libkirigamilayouts6:amd64
 libkirigamilayoutsprivate6:amd64
 libkirigamiplatform6:amd64
-libkirigamipolyfill6:amd64
 libkirigamiprimitives6:amd64
 libkirigamiprivate6:amd64
 libkirigamitemplates6:amd64
@@ -1540,7 +1546,7 @@ libmtp9t64:amd64
 libmujs3:amd64
 libmuparser2v5:amd64
 libmupdf27.0
-libmupdf28.2
+libmupdf28.2:amd64
 libmwaw-0.3-3:amd64
 libmypaint-1.5-1:amd64
 libmypaint-common
@@ -1598,7 +1604,6 @@ libnma0:amd64
 libnode-dev
 libnode137:amd64
 libnorm1t64:amd64
-libnotify-bin
 libnotify4:amd64
 libnpth0t64:amd64
 libnsl2:amd64
@@ -1607,7 +1612,7 @@ libnspr4:amd64
 libnss-mdns:amd64
 libnss-mymachines:amd64
 libnss3:amd64
-libntfs-3g90:amd64
+libntfs-3g91:amd64
 libntlm0:amd64
 libnuma1:amd64
 libnumber-bytes-human-perl
@@ -1615,6 +1620,7 @@ libnumbertext-1.0-0:amd64
 libnumbertext-data
 libnvme1t64:amd64
 libobjc-15-dev:amd64
+libobjc-16-dev:amd64
 libobjc4:amd64
 libodbc2:amd64
 libodbccr2:amd64
@@ -1636,7 +1642,7 @@ libopengl-dev:amd64
 libopengl0:amd64
 libopenh264-8:amd64
 libopenjp2-7:amd64
-libopenjph0.28:amd64
+libopenjph0.33:amd64
 libopenmpt0t64:amd64
 libopenni2-0:amd64
 libopus0:amd64
@@ -1668,7 +1674,7 @@ libpangoxft-1.0-0:amd64
 libpaper-utils
 libpaper2:amd64
 libparams-classify-perl:amd64
-libparams-util-perl
+libparams-someutil-perl
 libparams-validationcompiler-perl
 libparquet2300:amd64
 libparse-recdescent-perl
@@ -1689,7 +1695,7 @@ libpdfbox-java
 libpeas-1.0-1:amd64
 libpeas-common
 libperl4-corelibs-perl
-libperl5.42:amd64
+libperl5.44:amd64
 libpfm4:amd64
 libpgm-5.3-0t64:amd64
 libphonenumber8:amd64
@@ -1702,8 +1708,8 @@ libpipewire-0.3-modules-xrdp:amd64
 libpixman-1-0:amd64
 libpkcs11-helper1t64:amd64
 libpkgconf7:amd64
-libplacebo360:amd64
-libplist-2.0-4:amd64
+libplacebo387:amd64
+libplist-2.0-12:amd64
 libplymouth5:amd64
 libpmem1:amd64
 libpng16-16t64:amd64
@@ -1741,7 +1747,7 @@ libpulse0:amd64
 libpulsedsp:amd64
 libpwquality-common
 libpwquality1:amd64
-libpyside6-py3-6.10
+libpyside6-py3-6.11
 libpython2-stdlib:amd64
 libpython2.7-minimal:amd64
 libpython2.7-stdlib:amd64
@@ -1793,6 +1799,7 @@ libqt5webenginecore5:amd64
 libqt5webenginewidgets5:amd64
 libqt5widgets5t64:amd64
 libqt5xml5t64:amd64
+libqt6concurrent6:amd64
 libqt6core5compat6:amd64
 libqt6core6t64:amd64
 libqt6dbus6:amd64
@@ -1801,7 +1808,6 @@ libqt6keychain1:amd64
 libqt6multimedia6:amd64
 libqt6network6:amd64
 libqt6opengl6:amd64
-libqt6openglwidgets6:amd64
 libqt6printsupport6:amd64
 libqt6qml6:amd64
 libqt6qmlmeta6:amd64
@@ -1815,7 +1821,6 @@ libqt6quickwidgets6:amd64
 libqt6sql6:amd64
 libqt6sql6-sqlite:amd64
 libqt6svg6:amd64
-libqt6test6:amd64
 libqt6texttospeech6:amd64
 libqt6waylandclient6:amd64
 libqt6waylandcompositor6:amd64
@@ -1829,7 +1834,7 @@ libradare2-6.0.0t64:amd64
 libradare2-common
 libradare2-dev
 libradcli4
-librados2
+librados2:amd64
 libraptor2-0:amd64
 libraqm0:amd64
 librasqal3t64:amd64
@@ -1912,7 +1917,7 @@ libserf-1-1:amd64
 libsframe3:amd64
 libsgutils2-1.48:amd64
 libsharpyuv0:amd64
-libshiboken6-py3-6.10
+libshiboken6-py3-6.11
 libshine3:amd64
 libshout3:amd64
 libsidplay1v5:amd64
@@ -1989,7 +1994,8 @@ libsvtav1enc2:amd64
 libsvtav1enc4:amd64
 libswresample5:amd64
 libswresample6:amd64
-libswscale9:amd64
+libswresample7:amd64
+libswscale10:amd64
 libsybdb5:amd64
 libsyn123-0t64:amd64
 libsynctex2:amd64
@@ -2005,6 +2011,7 @@ libtbbbind-2-5:amd64
 libtbbmalloc2:amd64
 libtcl8.6:amd64
 libtcl9.0:amd64
+libtcl9.1:amd64
 libtdb1:amd64
 libteckit0:amd64
 libtensorflow-lite2.14.1:amd64
@@ -2060,7 +2067,7 @@ libudfread3:amd64
 libudisks2-0:amd64
 libumfpack6:amd64
 libunbound8:amd64
-libunibreak7:amd64
+libunibreak8:amd64
 libunicode-linebreak-perl
 libunicode-map-perl
 libunistring5:amd64
@@ -2315,31 +2322,35 @@ lighttpd
 lighttpd-mod-deflate
 lighttpd-mod-openssl
 linux-base
-linux-base-7.1.13+deb14-amd64
-linux-base-7.1.3+deb14-amd64
+linux-base-7.1.5+deb14-amd64
+linux-base-7.2.8+deb14-amd64
+linux-base-7.3.5+deb14-amd64
 linux-base-amd64
-linux-binary-7.1.13+deb14-amd64
-linux-binary-7.1.3+deb14-amd64
+linux-binary-7.1.5+deb14-amd64
+linux-binary-7.2.8+deb14-amd64
+linux-binary-7.3.5+deb14-amd64
 linux-cpupower
-linux-headers-6.12.48+deb13-amd64
-linux-headers-6.12.48+deb13-common
-linux-headers-7.1.13+deb14-amd64
-linux-headers-7.1.13+deb14-common
-linux-headers-7.1.3+deb14-amd64
-linux-headers-7.1.3+deb14-common
+linux-headers-7.1.5+deb14-amd64
+linux-headers-7.1.5+deb14-common
+linux-headers-7.2.8+deb14-amd64
+linux-headers-7.2.8+deb14-common
+linux-headers-7.3.5+deb14-amd64
+linux-headers-7.3.5+deb14-common
 linux-headers-amd64
-linux-image-6.12.48+deb13-amd64
 linux-image-6.17.11+deb14-amd64
 linux-image-6.17.11+deb14-rt-amd64-unsigned
-linux-image-7.1.13+deb14-amd64
-linux-image-7.1.3+deb14-amd64
+linux-image-7.1.5+deb14-amd64
+linux-image-7.2.8+deb14-amd64
+linux-image-7.3.5+deb14-amd64
 linux-image-amd64
-linux-kbuild-6.12.48+deb13
-linux-kbuild-7.1.13+deb14
-linux-kbuild-7.1.3+deb14
+linux-kbuild-7.1.5+deb14
+linux-kbuild-7.2.8+deb14
+linux-kbuild-7.3.5+deb14
 linux-libc-dev
-linux-modules-7.1.13+deb14-amd64
-linux-modules-7.1.3+deb14-amd64
+linux-modules-7.1.5+deb14-amd64
+linux-modules-7.2.8+deb14-amd64
+linux-modules-7.3.5+deb14-amd64
+linux-modules-amd64
 linux-sysctl-defaults
 live-boot
 live-boot-doc
@@ -2475,10 +2486,7 @@ minicom
 miredo
 miscfiles
 mitmproxy
-mkdocs
-mkdocs-get-deps
 mobile-broadband-provider-info
-mocha
 modemmanager
 mokutil
 mount
@@ -2540,7 +2548,6 @@ node-agent-base
 node-ajv
 node-ajv-keywords
 node-ampproject-remapping
-node-ansi-colors
 node-ansi-escapes
 node-ansi-regex
 node-ansi-styles
@@ -2555,11 +2562,8 @@ node-arrify
 node-assert
 node-async
 node-babel-helper-define-polyfill-provider
-node-babel-plugin-add-module-exports
 node-babel-plugin-lodash
-node-babel-plugin-polyfill-corejs2
 node-babel-plugin-polyfill-corejs3
-node-babel-plugin-polyfill-regenerator
 node-babel7
 node-babel7-runtime
 node-balanced-match
@@ -2568,7 +2572,6 @@ node-binary-extensions
 node-bl
 node-brace-expansion
 node-braces
-node-browser-stdout
 node-browserslist
 node-buffer
 node-builtins
@@ -2604,6 +2607,7 @@ node-core-js
 node-core-js-compat
 node-core-js-pure
 node-corepack
+node-cspotcode-source-map-support
 node-css-loader
 node-css-selector-tokenizer
 node-d
@@ -2623,6 +2627,7 @@ node-delegates
 node-diff
 node-doctrine
 node-electron-to-chromium
+node-empathic
 node-encoding
 node-enhanced-resolve
 node-env-paths
@@ -2666,7 +2671,6 @@ node-flatted
 node-for-in
 node-for-own
 node-foreground-child
-node-fs-readdir-recursive
 node-fs-write-stream-atomic
 node-function-bind
 node-functional-red-black-tree
@@ -2679,11 +2683,9 @@ node-globals
 node-globby
 node-got
 node-graceful-fs
-node-growl
 node-gyp
 node-has-flag
 node-has-unicode
-node-he
 node-hosted-git-info
 node-http-proxy-agent
 node-https-proxy-agent
@@ -2693,6 +2695,7 @@ node-ieee754
 node-iferr
 node-ignore
 node-import-local
+node-import-meta-resolve
 node-imurmurhash
 node-indent-string
 node-inherits
@@ -2777,6 +2780,7 @@ node-npm-run-path
 node-npmlog
 node-object-assign
 node-object-inspect
+node-obug
 node-once
 node-opener
 node-optimist
@@ -2798,7 +2802,6 @@ node-picocolors
 node-pify
 node-pkg-dir
 node-polite-json
-node-popper2
 node-postcss
 node-postcss-modules-extract-imports
 node-postcss-modules-values
@@ -2825,7 +2828,6 @@ node-rechoir
 node-regenerate
 node-regenerate-unicode-properties
 node-regenerator-runtime
-node-regenerator-transform
 node-regexpp
 node-regexpu-core
 node-regjsgen
@@ -2883,7 +2885,6 @@ node-text-table
 node-through
 node-time-stamp
 node-tmp
-node-to-fast-properties
 node-to-regex-range
 node-tslib
 node-type-check
@@ -2904,6 +2905,7 @@ node-v8-compile-cache
 node-v8flags
 node-validate-npm-package-license
 node-validate-npm-package-name
+node-verkit
 node-watchpack
 node-wcwidth.js
 node-webassemblyjs
@@ -2977,7 +2979,7 @@ pdfid
 perl
 perl-base
 perl-doc
-perl-modules-5.42
+perl-modules-5.44
 perl-openssl-defaults:amd64
 perl-tk
 photorec
@@ -3046,7 +3048,7 @@ pwgen
 pwnat
 pyinstaller
 pyinstaller-hooks-contrib
-pyqt6-dev-tools
+pyqt5-dev-tools
 python-apt-common
 python-babel-localedata
 python-caja-common
@@ -3136,9 +3138,9 @@ python3-deprecated
 python3-dev
 python3-dicttoxml
 python3-discovery
+python3-diskcache
 python3-distlib
 python3-distro
-python3-django
 python3-dnslib
 python3-dnspython
 python3-docopt
@@ -3203,7 +3205,6 @@ python3-jaraco.text
 python3-jedi
 python3-jinja2
 python3-jmespath
-python3-joblib
 python3-jq
 python3-json-pointer
 python3-jsonschema
@@ -3224,11 +3225,9 @@ python3-levenshtein
 python3-libnmap
 python3-limits
 python3-linkify-it
-python3-livereload
 python3-loguru
 python3-louis
 python3-lsassy
-python3-lunr
 python3-lxml:amd64
 python3-lz4
 python3-macholib
@@ -3245,8 +3244,6 @@ python3-md2pdf
 python3-mdurl
 python3-mdx-math
 python3-mechanize
-python3-memcache
-python3-mergedeep
 python3-minidump
 python3-minikerberos
 python3-minimal
@@ -3264,7 +3261,6 @@ python3-neotime
 python3-netaddr
 python3-netifaces:amd64
 python3-networkx
-python3-nltk
 python3-numpy
 python3-numpy-dev:amd64
 python3-oauthlib
@@ -3273,6 +3269,7 @@ python3-olefile
 python3-opengl
 python3-openpyxl
 python3-openssl
+python3-opentelemetry-api
 python3-oscrypto
 python3-outcome
 python3-packaging
@@ -3283,7 +3280,6 @@ python3-paste
 python3-pastedeploy
 python3-pastedeploy-tpl
 python3-pastescript
-python3-pathspec
 python3-pcapy
 python3-pexpect
 python3-phonenumbers
@@ -3337,8 +3333,6 @@ python3-pypykatz
 python3-pyqt5
 python3-pyqt5.qtopengl
 python3-pyqt5.sip
-python3-pyqt6
-python3-pyqt6.sip
 python3-pyqtgraph
 python3-pysnmp
 python3-pyspnego
@@ -3347,7 +3341,6 @@ python3-python-multipart
 python3-pytz
 python3-pyvirtualdisplay
 python3-pyvnc
-python3-pyyaml-env-tag
 python3-pyzipper
 python3-rapidfuzz
 python3-redis
@@ -3393,7 +3386,6 @@ python3-speechd
 python3-sqlalchemy
 python3-sqlalchemy-ext:amd64
 python3-sqlalchemy-utc
-python3-sqlparse
 python3-stack-data
 python3-stamina
 python3-standard-imghdr
@@ -3509,7 +3501,6 @@ qml-module-qtquick-templates2:amd64
 qml-module-qtquick-window2:amd64
 qml-module-qtquick2:amd64
 qml6-module-org-kde-kirigami:amd64
-qml6-module-qt-labs-qmlmodels:amd64
 qml6-module-qtqml:amd64
 qml6-module-qtqml-models:amd64
 qml6-module-qtqml-workerscript:amd64
@@ -3667,7 +3658,6 @@ sox
 speech-dispatcher
 speech-dispatcher-audio-plugins:amd64
 speech-dispatcher-espeak-ng
-sphinx-rtd-theme-common
 spiderfoot
 spike
 spooftooph
@@ -3717,6 +3707,7 @@ tcl
 tcl-expect:amd64
 tcl8.6
 tcl9.0
+tcl9.1
 tcpdump
 tcpick
 tcpreplay
@@ -3860,6 +3851,7 @@ xfonts-scalable
 xfonts-utils
 xfsprogs
 xinit
+xinput
 xkb-data
 xkbset
 xml-core
